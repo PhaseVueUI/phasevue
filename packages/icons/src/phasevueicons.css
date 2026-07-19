@@ -1,0 +1,6 @@
+/*
+ * The published @phasevueui/icons package owns the icon font stylesheet.
+ * Keep the workspace alias usable during local development while the package
+ * is linked from packages/icons.
+ */
+@import url('https://unpkg.com/@phasevueui/icons@0.0.1-alpha.1/phasevueicons.css');
