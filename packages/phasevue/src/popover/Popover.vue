@@ -15,8 +15,8 @@
 
 <script>
 import { $dt } from '@primeuix/styled';
-import { absolutePosition, addClass, addStyle, focus, getOffset, isClient, isTouchDevice, setAttribute } from '@primeuix/utils/dom';
-import { ZIndex } from '@primeuix/utils/zindex';
+import { absolutePosition, addClass, addStyle, focus, getOffset, isClient, isTouchDevice, setAttribute } from '@phasevueui/utils/dom';
+import { ZIndex } from '@phasevueui/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@phasevueui/core/utils';
 import FocusTrap from 'phasevue/focustrap';
 import OverlayEventBus from 'phasevue/overlayeventbus';

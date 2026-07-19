@@ -153,8 +153,8 @@
 </template>
 
 <script>
-import { absolutePosition, addStyle, focus, getAttribute, isTouchDevice } from '@primeuix/utils/dom';
-import { ZIndex } from '@primeuix/utils/zindex';
+import { absolutePosition, addStyle, focus, getAttribute, isTouchDevice } from '@phasevueui/utils/dom';
+import { ZIndex } from '@phasevueui/utils/zindex';
 import { FilterOperator } from '@phasevueui/core/api';
 import BaseComponent from '@phasevueui/core/basecomponent';
 import { ConnectedOverlayScrollHandler } from '@phasevueui/core/utils';

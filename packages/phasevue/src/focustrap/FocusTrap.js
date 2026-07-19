@@ -1,5 +1,5 @@
-import { createElement, focus, getFirstFocusableElement, getLastFocusableElement, isFocusableElement } from '@primeuix/utils/dom';
-import { isNotEmpty } from '@primeuix/utils/object';
+import { createElement, focus, getFirstFocusableElement, getLastFocusableElement, isFocusableElement } from '@phasevueui/utils/dom';
+import { isNotEmpty } from '@phasevueui/utils/object';
 import BaseFocusTrap from './BaseFocusTrap';
 
 const FocusTrap = BaseFocusTrap.extend('focustrap', {

@@ -20,8 +20,8 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
-import { resolveFieldData } from '@primeuix/utils/object';
+import { cn } from '@phasevueui/utils';
+import { resolveFieldData } from '@phasevueui/utils/object';
 import BaseTimeline from './BaseTimeline.vue';
 
 export default {

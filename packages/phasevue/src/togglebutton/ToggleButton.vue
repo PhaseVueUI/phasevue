@@ -27,8 +27,8 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
-import { isNotEmpty } from '@primeuix/utils/object';
+import { cn } from '@phasevueui/utils';
+import { isNotEmpty } from '@phasevueui/utils/object';
 import Ripple from 'phasevue/ripple';
 import BaseToggleButton from './BaseToggleButton.vue';
 

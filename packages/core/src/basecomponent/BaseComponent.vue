@@ -1,7 +1,7 @@
 <script>
 import { Theme, ThemeService } from '@primeuix/styled';
-import { findSingle, isElement } from '@primeuix/utils/dom';
-import { getKeyValue, isArray, isFunction, isNotEmpty, isString, resolve, toFlatCase } from '@primeuix/utils/object';
+import { findSingle, isElement } from '@phasevueui/utils/dom';
+import { getKeyValue, isArray, isFunction, isNotEmpty, isString, resolve, toFlatCase } from '@phasevueui/utils/object';
 import Base from '@phasevueui/core/base';
 import BaseStyle from '@phasevueui/core/base/style';
 import { useAttrSelector } from '@phasevueui/core/useattrselector';

@@ -61,7 +61,7 @@
     },
     "dependencies": {
         "@primeuix/styled": "catalog:",
-        "@primeuix/utils": "catalog:"
+        "@phasevueui/utils": "workspace:*"
     },
     "peerDependencies": {
         "vue": "^3.5.0"

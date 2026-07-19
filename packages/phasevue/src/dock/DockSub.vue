@@ -55,8 +55,8 @@
 </template>
 
 <script>
-import { find, findSingle } from '@primeuix/utils/dom';
-import { resolve } from '@primeuix/utils/object';
+import { find, findSingle } from '@phasevueui/utils/dom';
+import { resolve } from '@phasevueui/utils/object';
 import BaseComponent from '@phasevueui/core/basecomponent';
 import Ripple from 'phasevue/ripple';
 import Tooltip from 'phasevue/tooltip';

@@ -1,5 +1,5 @@
-import { createStyleAsString } from '@primeuix/utils/dom';
-import { isFunction } from '@primeuix/utils/object';
+import { createStyleAsString } from '@phasevueui/utils/dom';
+import { isFunction } from '@phasevueui/utils/object';
 import type { MetaType } from '@phasevueui/metadata';
 import type { ConstructsType, ResolvePathOptions } from './types';
 

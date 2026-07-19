@@ -65,9 +65,9 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
-import { absolutePosition, addStyle, find, findSingle, focus, getOuterWidth, isTouchDevice } from '@primeuix/utils/dom';
-import { ZIndex } from '@primeuix/utils/zindex';
+import { cn } from '@phasevueui/utils';
+import { absolutePosition, addStyle, find, findSingle, focus, getOuterWidth, isTouchDevice } from '@phasevueui/utils/dom';
+import { ZIndex } from '@phasevueui/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@phasevueui/core/utils';
 import OverlayEventBus from 'phasevue/overlayeventbus';
 import Portal from 'phasevue/portal';

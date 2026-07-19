@@ -68,8 +68,8 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
-import { getAttribute, getWindowScrollLeft, getWindowScrollTop, isRTL } from '@primeuix/utils/dom';
+import { cn } from '@phasevueui/utils';
+import { getAttribute, getWindowScrollLeft, getWindowScrollTop, isRTL } from '@phasevueui/utils/dom';
 import BaseSlider from './BaseSlider.vue';
 
 export default {

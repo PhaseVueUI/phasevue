@@ -90,9 +90,9 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
-import { clearSelection, getSelection } from '@primeuix/utils/dom';
-import { isEmpty, isNotEmpty } from '@primeuix/utils/object';
+import { cn } from '@phasevueui/utils';
+import { clearSelection, getSelection } from '@phasevueui/utils/dom';
+import { isEmpty, isNotEmpty } from '@phasevueui/utils/object';
 import AngleDownIcon from '@phasevueui/icons/angledown';
 import AngleUpIcon from '@phasevueui/icons/angleup';
 import TimesIcon from '@phasevueui/icons/times';

@@ -1,9 +1,9 @@
-import { addClass } from '@primeuix/utils/dom';
+import { addClass } from '@phasevueui/utils/dom';
 import { mount } from '@vue/test-utils';
 import PhaseVue from 'phasevue/config';
 import { describe, expect, it, vi } from 'vitest';
 import Drawer from './Drawer.vue';
-vi.mock('@primeuix/utils/dom', async (getModule) => {
+vi.mock('@phasevueui/utils/dom', async (getModule) => {
     const original = await getModule();
 
     return {

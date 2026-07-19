@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
+import { cn } from '@phasevueui/utils';
 import BaseProgressBar from './BaseProgressBar.vue';
 
 export default {

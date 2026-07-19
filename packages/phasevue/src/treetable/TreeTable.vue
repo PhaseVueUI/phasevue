@@ -209,9 +209,9 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
-import { addStyle, clearSelection, find, getAttribute, getIndex, getOffset, getOuterWidth, isRTL, setAttribute } from '@primeuix/utils/dom';
-import { localeComparator, resolveFieldData, sort } from '@primeuix/utils/object';
+import { cn } from '@phasevueui/utils';
+import { addStyle, clearSelection, find, getAttribute, getIndex, getOffset, getOuterWidth, isRTL, setAttribute } from '@phasevueui/utils/dom';
+import { localeComparator, resolveFieldData, sort } from '@phasevueui/utils/object';
 import { FilterService } from '@phasevueui/core/api';
 import { getVNodeProp, HelperSet } from '@phasevueui/core/utils';
 import SpinnerIcon from '@phasevueui/icons/spinner';

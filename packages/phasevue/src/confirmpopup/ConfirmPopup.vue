@@ -59,8 +59,8 @@
 
 <script>
 import { $dt } from '@primeuix/styled';
-import { absolutePosition, addClass, focus, getOffset, isTouchDevice } from '@primeuix/utils/dom';
-import { ZIndex } from '@primeuix/utils/zindex';
+import { absolutePosition, addClass, focus, getOffset, isTouchDevice } from '@phasevueui/utils/dom';
+import { ZIndex } from '@phasevueui/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@phasevueui/core/utils';
 import Button from 'phasevue/button';
 import ConfirmationEventBus from 'phasevue/confirmationeventbus';

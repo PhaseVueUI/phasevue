@@ -101,7 +101,7 @@
 </template>
 
 <script>
-import { localeComparator, resolveFieldData, sort } from '@primeuix/utils/object';
+import { localeComparator, resolveFieldData, sort } from '@phasevueui/utils/object';
 import Paginator from 'phasevue/paginator';
 import BaseDataView from './BaseDataView.vue';
 

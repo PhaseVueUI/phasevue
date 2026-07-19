@@ -29,8 +29,8 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
-import { focus, getFirstFocusableElement } from '@primeuix/utils/dom';
+import { cn } from '@phasevueui/utils';
+import { focus, getFirstFocusableElement } from '@phasevueui/utils/dom';
 import BanIcon from '@phasevueui/icons/ban';
 import StarIcon from '@phasevueui/icons/star';
 import StarFillIcon from '@phasevueui/icons/starfill';

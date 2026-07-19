@@ -1,5 +1,5 @@
 import { addComponent, addImports } from '@nuxt/kit';
-import { isNotEmpty, isString, resolve } from '@primeuix/utils/object';
+import { isNotEmpty, isString, resolve } from '@phasevueui/utils/object';
 import type { MetaType } from '@phasevueui/metadata';
 import { components, composables, directives } from '@phasevueui/metadata';
 import type { PhaseVueConfiguration } from 'phasevue/config';

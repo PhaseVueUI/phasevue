@@ -1,5 +1,5 @@
 import { style } from '@primeuix/styles/badge';
-import { isEmpty, isNotEmpty } from '@primeuix/utils/object';
+import { isEmpty, isNotEmpty } from '@phasevueui/utils/object';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

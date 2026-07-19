@@ -60,8 +60,8 @@
 </template>
 
 <script>
-import { addClass, focus, isAttributeEquals } from '@primeuix/utils/dom';
-import { ZIndex } from '@primeuix/utils/zindex';
+import { addClass, focus, isAttributeEquals } from '@phasevueui/utils/dom';
+import { ZIndex } from '@phasevueui/utils/zindex';
 import EyeIcon from '@phasevueui/icons/eye';
 import RefreshIcon from '@phasevueui/icons/refresh';
 import SearchMinusIcon from '@phasevueui/icons/searchminus';

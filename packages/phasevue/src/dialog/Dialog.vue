@@ -64,9 +64,9 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
-import { addClass, addStyle, focus, getOuterHeight, getOuterWidth, getViewport, setAttribute } from '@primeuix/utils/dom';
-import { ZIndex } from '@primeuix/utils/zindex';
+import { cn } from '@phasevueui/utils';
+import { addClass, addStyle, focus, getOuterHeight, getOuterWidth, getViewport, setAttribute } from '@phasevueui/utils/dom';
+import { ZIndex } from '@phasevueui/utils/zindex';
 import TimesIcon from '@phasevueui/icons/times';
 import WindowMaximizeIcon from '@phasevueui/icons/windowmaximize';
 import WindowMinimizeIcon from '@phasevueui/icons/windowminimize';

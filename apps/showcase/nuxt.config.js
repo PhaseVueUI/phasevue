@@ -73,7 +73,7 @@ export default defineNuxtConfig({
             include: ['quill', 'yup']
         },
         resolve: {
-            dedupe: ['vue', '@primeuix/styles', '@primeuix/themes', '@primeuix/utils'],
+            dedupe: ['vue', '@primeuix/styles', '@primeuix/themes', '@phasevueui/utils'],
             alias
         }
     },

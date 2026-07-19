@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import { addClass, focus } from '@primeuix/utils/dom';
-import { ZIndex } from '@primeuix/utils/zindex';
+import { addClass, focus } from '@phasevueui/utils/dom';
+import { ZIndex } from '@phasevueui/utils/zindex';
 import FocusTrap from 'phasevue/focustrap';
 import Portal from 'phasevue/portal';
 import { blockBodyScroll, unblockBodyScroll } from 'phasevue/utils';

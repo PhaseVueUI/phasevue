@@ -1,5 +1,5 @@
 import { addPlugin, addPluginTemplate, addTemplate, createResolver, defineNuxtModule } from '@nuxt/kit';
-import { isNotEmpty } from '@primeuix/utils';
+import { isNotEmpty } from '@phasevueui/utils';
 import { PhaseVueResolver } from '@phasevueui/auto-import-resolver';
 import type { MetaType } from '@phasevueui/metadata';
 import { normalize } from 'pathe';

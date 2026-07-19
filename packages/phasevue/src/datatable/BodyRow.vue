@@ -93,7 +93,7 @@
 </template>
 
 <script>
-import { equals, isNotEmpty, resolveFieldData } from '@primeuix/utils/object';
+import { equals, isNotEmpty, resolveFieldData } from '@phasevueui/utils/object';
 import BaseComponent from '@phasevueui/core/basecomponent';
 import { getVNodeProp } from '@phasevueui/core/utils';
 import ChevronDownIcon from '@phasevueui/icons/chevrondown';

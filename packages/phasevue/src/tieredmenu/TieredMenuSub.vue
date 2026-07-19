@@ -76,8 +76,8 @@
 </template>
 
 <script>
-import { nestedPosition } from '@primeuix/utils/dom';
-import { isNotEmpty, resolve } from '@primeuix/utils/object';
+import { nestedPosition } from '@phasevueui/utils/dom';
+import { isNotEmpty, resolve } from '@phasevueui/utils/object';
 import BaseComponent from '@phasevueui/core/basecomponent';
 import AngleRightIcon from '@phasevueui/icons/angleright';
 import Ripple from 'phasevue/ripple';

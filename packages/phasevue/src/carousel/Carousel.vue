@@ -101,8 +101,8 @@
 </template>
 
 <script>
-import { addClass, find, findSingle, getAttribute, removeClass, setAttribute } from '@primeuix/utils/dom';
-import { localeComparator, sort } from '@primeuix/utils/object';
+import { addClass, find, findSingle, getAttribute, removeClass, setAttribute } from '@phasevueui/utils/dom';
+import { localeComparator, sort } from '@phasevueui/utils/object';
 import ChevronDownIcon from '@phasevueui/icons/chevrondown';
 import ChevronLeftIcon from '@phasevueui/icons/chevronleft';
 import ChevronRightIcon from '@phasevueui/icons/chevronright';

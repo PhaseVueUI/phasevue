@@ -75,9 +75,9 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
-import { absolutePosition, addStyle, getOuterWidth, isTouchDevice, relativePosition } from '@primeuix/utils/dom';
-import { ZIndex } from '@primeuix/utils/zindex';
+import { cn } from '@phasevueui/utils';
+import { absolutePosition, addStyle, getOuterWidth, isTouchDevice, relativePosition } from '@phasevueui/utils/dom';
+import { ZIndex } from '@phasevueui/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@phasevueui/core/utils';
 import EyeIcon from '@phasevueui/icons/eye';
 import EyeSlashIcon from '@phasevueui/icons/eyeslash';

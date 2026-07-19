@@ -37,9 +37,9 @@
             "@phasevueui/metadata",
             "@phasevueui/auto-import-resolver",
             "unplugin-vue-components",
-            "@primeuix/utils",
-            "@primeuix/utils/object",
-            "@primeuix/utils/dom"
+            "@phasevueui/utils",
+            "@phasevueui/utils/object",
+            "@phasevueui/utils/dom"
         ]
     },
     "publishConfig": {
@@ -70,7 +70,7 @@
     "dependencies": {
         "@nuxt/kit": "^3",
         "@primeuix/styled": "catalog:",
-        "@primeuix/utils": "catalog:",
+        "@phasevueui/utils": "workspace:*",
         "phasevue": "workspace:*",
         "@phasevueui/auto-import-resolver": "workspace:*",
         "@phasevueui/metadata": "workspace:*",

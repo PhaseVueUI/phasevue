@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
+import { cn } from '@phasevueui/utils';
 import TimesIcon from '@phasevueui/icons/times';
 import Ripple from 'phasevue/ripple';
 import BaseMessage from './BaseMessage.vue';

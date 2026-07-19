@@ -52,7 +52,7 @@
 </template>
 
 <script>
-import { isAttributeEquals } from '@primeuix/utils/dom';
+import { isAttributeEquals } from '@phasevueui/utils/dom';
 import BaseComponent from '@phasevueui/core/basecomponent';
 import ChevronDownIcon from '@phasevueui/icons/chevrondown';
 import ChevronUpIcon from '@phasevueui/icons/chevronup';

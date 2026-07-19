@@ -26,10 +26,10 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
-import { setAttribute } from '@primeuix/utils/dom';
-import { isEmpty } from '@primeuix/utils/object';
-import { ZIndex } from '@primeuix/utils/zindex';
+import { cn } from '@phasevueui/utils';
+import { setAttribute } from '@phasevueui/utils/dom';
+import { isEmpty } from '@phasevueui/utils/object';
+import { ZIndex } from '@phasevueui/utils/zindex';
 import Portal from 'phasevue/portal';
 import ToastEventBus from 'phasevue/toasteventbus';
 import BaseToast from './BaseToast.vue';

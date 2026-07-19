@@ -8,7 +8,7 @@
 
 <script>
 import { $dt } from '@primeuix/styled';
-import { setCSSProperty } from '@primeuix/utils/dom';
+import { setCSSProperty } from '@phasevueui/utils/dom';
 import BaseImageCompare from './BaseImageCompare.vue';
 
 export default {

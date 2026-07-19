@@ -16,8 +16,8 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
-import { isEmpty } from '@primeuix/utils/object';
+import { cn } from '@phasevueui/utils';
+import { isEmpty } from '@phasevueui/utils/object';
 import SpinnerIcon from '@phasevueui/icons/spinner';
 import Badge from 'phasevue/badge';
 import Ripple from 'phasevue/ripple';

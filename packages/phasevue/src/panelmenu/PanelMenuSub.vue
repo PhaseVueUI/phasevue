@@ -74,7 +74,7 @@
 </template>
 
 <script>
-import { isNotEmpty, resolve } from '@primeuix/utils/object';
+import { isNotEmpty, resolve } from '@phasevueui/utils/object';
 import BaseComponent from '@phasevueui/core/basecomponent';
 import ChevronDownIcon from '@phasevueui/icons/chevrondown';
 import ChevronRightIcon from '@phasevueui/icons/chevronright';

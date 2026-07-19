@@ -87,7 +87,7 @@
 </template>
 
 <script>
-import { addClass, removeClass } from '@primeuix/utils/dom';
+import { addClass, removeClass } from '@phasevueui/utils/dom';
 import PlusIcon from '@phasevueui/icons/plus';
 import TimesIcon from '@phasevueui/icons/times';
 import UploadIcon from '@phasevueui/icons/upload';

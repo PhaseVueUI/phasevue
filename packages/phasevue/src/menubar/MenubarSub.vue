@@ -71,7 +71,7 @@
 </template>
 
 <script>
-import { isNotEmpty, resolve } from '@primeuix/utils/object';
+import { isNotEmpty, resolve } from '@phasevueui/utils/object';
 import BaseComponent from '@phasevueui/core/basecomponent';
 import AngleDownIcon from '@phasevueui/icons/angledown';
 import AngleRightIcon from '@phasevueui/icons/angleright';

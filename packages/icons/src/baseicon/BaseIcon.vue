@@ -1,5 +1,5 @@
 <script>
-import { isEmpty } from '@primeuix/utils/object';
+import { isEmpty } from '@phasevueui/utils/object';
 import BaseComponent from '@phasevueui/core/basecomponent';
 import BaseIconStyle from '@phasevueui/icons/baseicon/style';
 

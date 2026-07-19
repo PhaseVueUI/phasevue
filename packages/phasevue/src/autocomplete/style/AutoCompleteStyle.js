@@ -1,5 +1,5 @@
 import { style } from '@primeuix/styles/autocomplete';
-import { isNotEmpty } from '@primeuix/utils/object';
+import { isNotEmpty } from '@phasevueui/utils/object';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const inlineStyles = {

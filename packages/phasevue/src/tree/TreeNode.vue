@@ -100,7 +100,7 @@
 </template>
 
 <script>
-import { find, findSingle, getAttribute, getOuterHeight, getOuterWidth } from '@primeuix/utils';
+import { find, findSingle, getAttribute, getOuterHeight, getOuterWidth } from '@phasevueui/utils';
 import BaseComponent from '@phasevueui/core/basecomponent';
 import CheckIcon from '@phasevueui/icons/check';
 import ChevronDownIcon from '@phasevueui/icons/chevrondown';

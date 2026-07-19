@@ -133,8 +133,8 @@
 </template>
 
 <script>
-import { getAttribute, getFirstFocusableElement, getNextElementSibling, getOuterWidth, getPreviousElementSibling, invokeElementMethod } from '@primeuix/utils/dom';
-import { resolveFieldData } from '@primeuix/utils/object';
+import { getAttribute, getFirstFocusableElement, getNextElementSibling, getOuterWidth, getPreviousElementSibling, invokeElementMethod } from '@phasevueui/utils/dom';
+import { resolveFieldData } from '@phasevueui/utils/object';
 import BaseComponent from '@phasevueui/core/basecomponent';
 import { getVNodeProp } from '@phasevueui/core/utils';
 import BarsIcon from '@phasevueui/icons/bars';

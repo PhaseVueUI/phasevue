@@ -1,4 +1,4 @@
-import { isNotEmpty } from '@primeuix/utils/object';
+import { isNotEmpty } from '@phasevueui/utils/object';
 
 export default class {
     helpers;

@@ -68,7 +68,7 @@
 
 <script>
 import { $dt } from '@primeuix/styled';
-import { find, findSingle, focus } from '@primeuix/utils/dom';
+import { find, findSingle, focus } from '@phasevueui/utils/dom';
 import PlusIcon from '@phasevueui/icons/plus';
 import Button from 'phasevue/button';
 import Ripple from 'phasevue/ripple';

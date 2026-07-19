@@ -1,5 +1,5 @@
-import { addClass, createElement, hasClass, removeClass } from '@primeuix/utils/dom';
-import { uuid } from '@primeuix/utils/uuid';
+import { addClass, createElement, hasClass, removeClass } from '@phasevueui/utils/dom';
+import { uuid } from '@phasevueui/utils/uuid';
 import BaseBadgeDirective from './BaseBadgeDirective';
 
 const BadgeDirective = BaseBadgeDirective.extend('badge', {

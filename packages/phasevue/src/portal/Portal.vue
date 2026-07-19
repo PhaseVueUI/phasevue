@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import { isClient } from '@primeuix/utils/dom';
+import { isClient } from '@phasevueui/utils/dom';
 
 export default {
     name: 'Portal',

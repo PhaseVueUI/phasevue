@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import { find, findSingle, getAttribute } from '@primeuix/utils/dom';
+import { find, findSingle, getAttribute } from '@phasevueui/utils/dom';
 import BaseComponent from '@phasevueui/core/basecomponent';
 import ChevronLeftIcon from '@phasevueui/icons/chevronleft';
 import ChevronRightIcon from '@phasevueui/icons/chevronright';

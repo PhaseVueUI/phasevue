@@ -84,7 +84,7 @@
 </template>
 
 <script>
-import { getAttribute, getIndex, getNextElementSibling, getOuterWidth, getPreviousElementSibling } from '@primeuix/utils/dom';
+import { getAttribute, getIndex, getNextElementSibling, getOuterWidth, getPreviousElementSibling } from '@phasevueui/utils/dom';
 import BaseComponent from '@phasevueui/core/basecomponent';
 import { getVNodeProp } from '@phasevueui/core/utils';
 import SortAltIcon from '@phasevueui/icons/sortalt';

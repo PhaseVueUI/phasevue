@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
+import { cn } from '@phasevueui/utils';
 import BaseComponent from '@phasevueui/core/basecomponent';
 import CheckIcon from '@phasevueui/icons/check';
 import ExclamationTriangleIcon from '@phasevueui/icons/exclamationtriangle';

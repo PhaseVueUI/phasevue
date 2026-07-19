@@ -1,5 +1,5 @@
 <script>
-import { isNotEmpty } from '@primeuix/utils';
+import { isNotEmpty } from '@phasevueui/utils';
 import BaseComponent from '@phasevueui/core/basecomponent';
 
 export default {
@@ -97,7 +97,6 @@ export default {
 
             this.formField.onChange?.({ originalEvent: event, value });
         },
-        // @todo move to @primeuix/utils
         findNonEmpty(...values) {
             return values.find(isNotEmpty);
         }

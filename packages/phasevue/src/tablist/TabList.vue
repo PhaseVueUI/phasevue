@@ -38,8 +38,8 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
-import { findSingle, getHeight, getOffset, getOuterHeight, getOuterWidth, getWidth, isRTL } from '@primeuix/utils/dom';
+import { cn } from '@phasevueui/utils';
+import { findSingle, getHeight, getOffset, getOuterHeight, getOuterWidth, getWidth, isRTL } from '@phasevueui/utils/dom';
 import ChevronLeftIcon from '@phasevueui/icons/chevronleft';
 import ChevronRightIcon from '@phasevueui/icons/chevronright';
 import Ripple from 'phasevue/ripple';

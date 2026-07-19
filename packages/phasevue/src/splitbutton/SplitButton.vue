@@ -63,7 +63,7 @@
 </template>
 
 <script>
-import { isEmpty } from '@primeuix/utils/object';
+import { isEmpty } from '@phasevueui/utils/object';
 import ChevronDownIcon from '@phasevueui/icons/chevrondown';
 import Button from 'phasevue/button';
 import TieredMenu from 'phasevue/tieredmenu';

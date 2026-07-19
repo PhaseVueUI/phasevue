@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import { addClass, find, removeClass } from '@primeuix/utils/dom';
+import { addClass, find, removeClass } from '@phasevueui/utils/dom';
 import { defaultOptions } from '@phasevueui/core/config';
 
 export default {

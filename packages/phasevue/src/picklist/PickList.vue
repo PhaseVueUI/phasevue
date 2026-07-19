@@ -166,8 +166,8 @@
 </template>
 
 <script>
-import { find, scrollInView, setAttribute } from '@primeuix/utils/dom';
-import { findIndexInList, isEmpty } from '@primeuix/utils/object';
+import { find, scrollInView, setAttribute } from '@phasevueui/utils/dom';
+import { findIndexInList, isEmpty } from '@phasevueui/utils/object';
 import AngleDoubleDownIcon from '@phasevueui/icons/angledoubledown';
 import AngleDoubleLeftIcon from '@phasevueui/icons/angledoubleleft';
 import AngleDoubleRightIcon from '@phasevueui/icons/angledoubleright';

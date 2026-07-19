@@ -91,7 +91,7 @@
 </template>
 
 <script>
-import { findSingle, focus, getAttribute, getOffset, getWidth } from '@primeuix/utils/dom';
+import { findSingle, focus, getAttribute, getOffset, getWidth } from '@phasevueui/utils/dom';
 import ChevronLeftIcon from '@phasevueui/icons/chevronleft';
 import ChevronRightIcon from '@phasevueui/icons/chevronright';
 import Ripple from 'phasevue/ripple';

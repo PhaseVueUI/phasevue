@@ -58,8 +58,8 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
-import { isFunction, resolveFieldData } from '@primeuix/utils/object';
+import { cn } from '@phasevueui/utils';
+import { isFunction, resolveFieldData } from '@phasevueui/utils/object';
 import SearchIcon from '@phasevueui/icons/search';
 import SpinnerIcon from '@phasevueui/icons/spinner';
 import IconField from 'phasevue/iconfield';

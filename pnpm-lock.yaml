@@ -43,9 +43,6 @@ catalogs:
     '@primeuix/themes':
       specifier: ^2.0.3
       version: 2.0.3
-    '@primeuix/utils':
-      specifier: ^0.6.2
-      version: 0.6.4
     tailwindcss-primeui:
       specifier: ^0.6.1
       version: 0.6.1
@@ -192,12 +189,12 @@ importers:
 
   packages/core:
     dependencies:
+      '@phasevueui/utils':
+        specifier: workspace:*
+        version: link:../utils
       '@primeuix/styled':
         specifier: 'catalog:'
         version: 0.7.4
-      '@primeuix/utils':
-        specifier: 'catalog:'
-        version: 0.6.4
       vue:
         specifier: ^3.5.0
         version: 3.5.32(typescript@5.7.3)
@@ -208,12 +205,12 @@ importers:
       '@phasevueui/core':
         specifier: workspace:*
         version: link:../core
+      '@phasevueui/utils':
+        specifier: workspace:*
+        version: link:../utils
       '@primeuix/forms':
         specifier: 'catalog:'
         version: 0.1.0
-      '@primeuix/utils':
-        specifier: 'catalog:'
-        version: 0.6.4
     publishDirectory: dist
 
   packages/icons:
@@ -221,9 +218,9 @@ importers:
       '@phasevueui/core':
         specifier: workspace:*
         version: link:../core
-      '@primeuix/utils':
-        specifier: 'catalog:'
-        version: 0.6.4
+      '@phasevueui/utils':
+        specifier: workspace:*
+        version: link:../utils
     publishDirectory: dist
 
   packages/mcp:
@@ -257,12 +254,12 @@ importers:
       '@phasevueui/metadata':
         specifier: workspace:*
         version: link:../metadata
+      '@phasevueui/utils':
+        specifier: workspace:*
+        version: link:../utils
       '@primeuix/styled':
         specifier: 'catalog:'
         version: 0.7.4
-      '@primeuix/utils':
-        specifier: 'catalog:'
-        version: 0.6.4
       pathe:
         specifier: ^1.1.2
         version: 1.1.2
@@ -315,15 +312,15 @@ importers:
       '@phasevueui/icons':
         specifier: workspace:*
         version: link:../icons
+      '@phasevueui/utils':
+        specifier: workspace:*
+        version: link:../utils
       '@primeuix/styled':
         specifier: 'catalog:'
         version: 0.7.4
       '@primeuix/styles':
         specifier: 'catalog:'
         version: 2.0.3
-      '@primeuix/utils':
-        specifier: 'catalog:'
-        version: 0.6.4
     devDependencies:
       '@vue/test-utils':
         specifier: ^2.0.0
@@ -341,6 +338,13 @@ importers:
       '@primeuix/themes':
         specifier: 'catalog:'
         version: 2.0.3
+    publishDirectory: dist
+
+  packages/utils:
+    devDependencies:
+      tsup:
+        specifier: ^8.1.0
+        version: 8.5.1(jiti@2.6.1)(postcss@8.5.9)(typescript@5.7.3)(yaml@2.8.3)
     publishDirectory: dist
 
 packages:

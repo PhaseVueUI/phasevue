@@ -131,9 +131,9 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
-import { findSingle, focus, getFirstFocusableElement, isElement } from '@primeuix/utils/dom';
-import { equals, findLastIndex, isNotEmpty, isPrintableCharacter, resolveFieldData } from '@primeuix/utils/object';
+import { cn } from '@phasevueui/utils';
+import { findSingle, focus, getFirstFocusableElement, isElement } from '@phasevueui/utils/dom';
+import { equals, findLastIndex, isNotEmpty, isPrintableCharacter, resolveFieldData } from '@phasevueui/utils/object';
 import { FilterService } from '@phasevueui/core/api';
 import BlankIcon from '@phasevueui/icons/blank';
 import CheckIcon from '@phasevueui/icons/check';

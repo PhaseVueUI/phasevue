@@ -22,8 +22,8 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
-import { findSingle, focus, getAttribute } from '@primeuix/utils/dom';
+import { cn } from '@phasevueui/utils';
+import { findSingle, focus, getAttribute } from '@phasevueui/utils/dom';
 import ChevronDownIcon from '@phasevueui/icons/chevrondown';
 import ChevronUpIcon from '@phasevueui/icons/chevronup';
 import Ripple from 'phasevue/ripple';

@@ -70,8 +70,8 @@
 </template>
 
 <script>
-import { find, findSingle, focus, getAttribute, isClickable } from '@primeuix/utils/dom';
-import { equals, resolveFieldData } from '@primeuix/utils/object';
+import { find, findSingle, focus, getAttribute, isClickable } from '@phasevueui/utils/dom';
+import { equals, resolveFieldData } from '@phasevueui/utils/object';
 import BaseComponent from '@phasevueui/core/basecomponent';
 import { getVNodeProp } from '@phasevueui/core/utils';
 import BodyCell from './BodyCell.vue';

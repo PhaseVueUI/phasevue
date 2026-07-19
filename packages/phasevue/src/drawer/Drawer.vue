@@ -35,9 +35,9 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
-import { addClass, focus } from '@primeuix/utils/dom';
-import { ZIndex } from '@primeuix/utils/zindex';
+import { cn } from '@phasevueui/utils';
+import { addClass, focus } from '@phasevueui/utils/dom';
+import { ZIndex } from '@phasevueui/utils/zindex';
 import TimesIcon from '@phasevueui/icons/times';
 import Button from 'phasevue/button';
 import FocusTrap from 'phasevue/focustrap';

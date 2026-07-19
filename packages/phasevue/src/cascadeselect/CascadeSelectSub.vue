@@ -64,7 +64,7 @@
 </template>
 
 <script>
-import { equals, isNotEmpty, resolveFieldData } from '@primeuix/utils/object';
+import { equals, isNotEmpty, resolveFieldData } from '@phasevueui/utils/object';
 import BaseComponent from '@phasevueui/core/basecomponent';
 import AngleRightIcon from '@phasevueui/icons/angleright';
 import Ripple from 'phasevue/ripple';

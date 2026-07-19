@@ -566,10 +566,10 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
-import { absolutePosition, addStyle, find, findSingle, getAttribute, getFocusableElements, getIndex, getOuterWidth, isTouchDevice, relativePosition, setAttribute } from '@primeuix/utils/dom';
-import { isDate, isEmpty, isNotEmpty, localeComparator } from '@primeuix/utils/object';
-import { ZIndex } from '@primeuix/utils/zindex';
+import { cn } from '@phasevueui/utils';
+import { absolutePosition, addStyle, find, findSingle, getAttribute, getFocusableElements, getIndex, getOuterWidth, isTouchDevice, relativePosition, setAttribute } from '@phasevueui/utils/dom';
+import { isDate, isEmpty, isNotEmpty, localeComparator } from '@phasevueui/utils/object';
+import { ZIndex } from '@phasevueui/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@phasevueui/core/utils';
 import CalendarIcon from '@phasevueui/icons/calendar';
 import ChevronDownIcon from '@phasevueui/icons/chevrondown';

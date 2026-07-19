@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
+import { cn } from '@phasevueui/utils';
 import TimesCircleIcon from '@phasevueui/icons/timescircle';
 import BaseChip from './BaseChip.vue';
 

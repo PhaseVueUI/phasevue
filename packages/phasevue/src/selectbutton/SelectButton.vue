@@ -23,8 +23,8 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
-import { equals, resolveFieldData } from '@primeuix/utils/object';
+import { cn } from '@phasevueui/utils';
+import { equals, resolveFieldData } from '@phasevueui/utils/object';
 import Ripple from 'phasevue/ripple';
 import ToggleButton from 'phasevue/togglebutton';
 import BaseSelectButton from './BaseSelectButton.vue';

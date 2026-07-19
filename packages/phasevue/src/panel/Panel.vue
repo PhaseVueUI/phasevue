@@ -35,7 +35,7 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
+import { cn } from '@phasevueui/utils';
 import MinusIcon from '@phasevueui/icons/minus';
 import PlusIcon from '@phasevueui/icons/plus';
 import Button from 'phasevue/button';

@@ -52,7 +52,7 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/utils": "catalog:",
+        "@phasevueui/utils": "workspace:*",
         "@primeuix/forms": "catalog:",
         "@phasevueui/core": "workspace:*"
     },

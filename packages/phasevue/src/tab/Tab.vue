@@ -6,9 +6,9 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
-import { findSingle, focus, getAttribute } from '@primeuix/utils/dom';
-import { equals } from '@primeuix/utils/object';
+import { cn } from '@phasevueui/utils';
+import { findSingle, focus, getAttribute } from '@phasevueui/utils/dom';
+import { equals } from '@phasevueui/utils/object';
 import Ripple from 'phasevue/ripple';
 import { mergeProps } from 'vue';
 import BaseTab from './BaseTab.vue';

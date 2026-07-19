@@ -57,9 +57,9 @@
 </template>
 
 <script>
-import { findSingle, focus, isTouchDevice } from '@primeuix/utils/dom';
-import { findLastIndex, isEmpty, isNotEmpty, isPrintableCharacter, resolve } from '@primeuix/utils/object';
-import { ZIndex } from '@primeuix/utils/zindex';
+import { findSingle, focus, isTouchDevice } from '@phasevueui/utils/dom';
+import { findLastIndex, isEmpty, isNotEmpty, isPrintableCharacter, resolve } from '@phasevueui/utils/object';
+import { ZIndex } from '@phasevueui/utils/zindex';
 import BarsIcon from '@phasevueui/icons/bars';
 import BaseMenubar from './BaseMenubar.vue';
 import MenubarSub from './MenubarSub.vue';

@@ -1,6 +1,6 @@
 import { css as Css, Theme, dt } from '@primeuix/styled';
 import { style } from '@primeuix/styles/base';
-import { isNotEmpty, minifyCSS, resolve } from '@primeuix/utils/object';
+import { isNotEmpty, minifyCSS, resolve } from '@phasevueui/utils/object';
 import { useStyle } from '@phasevueui/core/usestyle';
 
 const css = ({ dt }) => `

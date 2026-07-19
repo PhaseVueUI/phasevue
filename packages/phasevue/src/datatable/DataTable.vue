@@ -323,7 +323,7 @@
 </template>
 
 <script>
-import { cn } from '@primeuix/utils';
+import { cn } from '@phasevueui/utils';
 import {
     addClass,
     addStyle,
@@ -343,8 +343,8 @@ import {
     isRTL,
     removeClass,
     setAttribute
-} from '@primeuix/utils/dom';
-import { equals, findIndexInList, isEmpty, isNotEmpty, localeComparator, reorderArray, resolveFieldData, sort } from '@primeuix/utils/object';
+} from '@phasevueui/utils/dom';
+import { equals, findIndexInList, isEmpty, isNotEmpty, localeComparator, reorderArray, resolveFieldData, sort } from '@phasevueui/utils/object';
 import { FilterMatchMode, FilterOperator, FilterService } from '@phasevueui/core/api';
 import { HelperSet, getVNodeProp } from '@phasevueui/core/utils';
 import ArrowDownIcon from '@phasevueui/icons/arrowdown';
