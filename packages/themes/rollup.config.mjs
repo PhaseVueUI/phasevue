@@ -188,6 +188,10 @@ function addCore() {
     ENTRY.format.es({ input: process.env.INPUT_DIR + 'index.js', output: process.env.OUTPUT_DIR + 'index' });
 }
 
+function addTokens() {
+    ENTRY.format.es({ input: process.env.INPUT_DIR + 'tokens/index.js', output: process.env.OUTPUT_DIR + 'tokens/index' });
+}
+
 function addLibrary() {
     fs.readdirSync(path.resolve(__dirname, process.env.INPUT_DIR + 'presets'), { withFileTypes: true })
         .filter((dir) => dir.isDirectory())
@@ -197,6 +201,7 @@ function addLibrary() {
 }
 
 addCore();
+addTokens();
 addThemes();
 addLibrary();
 

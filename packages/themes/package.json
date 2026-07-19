@@ -7,11 +7,11 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/phasevueui/phasevue.git",
+        "url": "https://github.com/PhaseVueUI/phasevue.git",
         "directory": "packages/themes"
     },
     "bugs": {
-        "url": "https://github.com/phasevueui/phasevue/issues"
+        "url": "https://github.com/PhaseVueUI/phasevue/issues"
     },
     "main": "./src/index.js",
     "module": "./src/index.js",
@@ -22,6 +22,11 @@
         "./lara": "./src/presets/lara/index.js",
         "./material": "./src/presets/material/index.js",
         "./nora": "./src/presets/nora/index.js",
+        "./tokens": {
+            "types": "./src/tokens/index.d.ts",
+            "import": "./src/tokens/index.js",
+            "default": "./src/tokens/index.js"
+        },
         "./aura/*": {
             "types": "./types/*/index.d.ts",
             "import": "./src/presets/aura/*/index.js"
