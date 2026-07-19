@@ -1,35 +1,35 @@
 {
 	"publishedPackages": [
 		{
-			"name": "@primevue/core",
+			"name": "@phasevueui/core",
 			"version": "4.5.5"
 		},
 		{
-			"name": "@primevue/mcp",
+			"name": "@phasevueui/mcp",
 			"version": "4.5.5"
 		},
 		{
-			"name": "@primevue/metadata",
+			"name": "@phasevueui/metadata",
 			"version": "4.5.5"
 		},
 		{
-			"name": "@primevue/auto-import-resolver",
+			"name": "@phasevueui/auto-import-resolver",
 			"version": "4.5.5"
 		},
 		{
-			"name": "@primevue/forms",
+			"name": "@phasevueui/forms",
 			"version": "4.5.5"
 		},
 		{
-			"name": "@primevue/icons",
+			"name": "@phasevueui/icons",
 			"version": "4.5.5"
 		},
 		{
-			"name": "primevue",
+			"name": "phasevue",
 			"version": "4.5.5"
 		},
 		{
-			"name": "@primevue/nuxt-module",
+			"name": "@phasevueui/nuxt-module",
 			"version": "4.5.5"
 		}
 	]

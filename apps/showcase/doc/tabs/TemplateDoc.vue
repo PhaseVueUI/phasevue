@@ -9,16 +9,16 @@
         <Tabs value="0">
             <TabList>
                 <Tab value="0" as="div" class="flex items-center gap-2">
-                    <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
+                    <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
                     <span class="font-bold whitespace-nowrap">Amy Elsner</span>
                 </Tab>
                 <Tab value="1" as="div" class="flex items-center gap-2">
-                    <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/onyamalimba.png" shape="circle" />
+                    <Avatar image="/images/avatar/onyamalimba.png" shape="circle" />
                     <span class="font-bold whitespace-nowrap">Onyama Limba</span>
                 </Tab>
                 <Tab v-slot="slotProps" value="2" asChild>
                     <div :class="['flex items-center gap-2', slotProps.class]" @click="slotProps.onClick" v-bind="slotProps.a11yAttrs">
-                        <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/ionibowcher.png" shape="circle" />
+                        <Avatar image="/images/avatar/ionibowcher.png" shape="circle" />
                         <span class="font-bold whitespace-nowrap">Ioni Bowcher</span>
                         <Badge value="2" />
                     </div>
@@ -56,16 +56,16 @@ export default {
 <Tabs value="0">
     <TabList>
         <Tab value="0" as="div" class="flex items-center gap-2">
-            <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
+            <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
             <span class="font-bold whitespace-nowrap">Amy Elsner</span>
         </Tab>
         <Tab value="1" as="div" class="flex items-center gap-2">
-            <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/onyamalimba.png" shape="circle" />
+            <Avatar image="/images/avatar/onyamalimba.png" shape="circle" />
             <span class="font-bold whitespace-nowrap">Onyama Limba</span>
         </Tab>
         <Tab v-slot="slotProps" value="2" asChild>
             <div :class="['flex items-center gap-2', slotProps.class]" @click="slotProps.onClick" v-bind="slotProps.a11yAttrs">
-                <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/ionibowcher.png" shape="circle" />
+                <Avatar image="/images/avatar/ionibowcher.png" shape="circle" />
                 <span class="font-bold whitespace-nowrap">Ioni Bowcher</span>
                 <Badge value="2" />
             </div>
@@ -97,16 +97,16 @@ export default {
         <Tabs value="0">
             <TabList>
                 <Tab value="0" as="div" class="flex items-center gap-2">
-                    <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
+                    <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
                     <span class="font-bold whitespace-nowrap">Amy Elsner</span>
                 </Tab>
                 <Tab value="1" as="div" class="flex items-center gap-2">
-                    <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/onyamalimba.png" shape="circle" />
+                    <Avatar image="/images/avatar/onyamalimba.png" shape="circle" />
                     <span class="font-bold whitespace-nowrap">Onyama Limba</span>
                 </Tab>
                 <Tab v-slot="slotProps" value="2" asChild>
                     <div :class="['flex items-center gap-2', slotProps.class]" @click="slotProps.onClick" v-bind="slotProps.a11yAttrs">
-                        <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/ionibowcher.png" shape="circle" />
+                        <Avatar image="/images/avatar/ionibowcher.png" shape="circle" />
                         <span class="font-bold whitespace-nowrap">Ioni Bowcher</span>
                         <Badge value="2" />
                     </div>
@@ -143,16 +143,16 @@ export default {
         <Tabs value="0">
             <TabList>
                 <Tab value="0" as="div" class="flex items-center gap-2">
-                    <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
+                    <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
                     <span class="font-bold whitespace-nowrap">Amy Elsner</span>
                 </Tab>
                 <Tab value="1" as="div" class="flex items-center gap-2">
-                    <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/onyamalimba.png" shape="circle" />
+                    <Avatar image="/images/avatar/onyamalimba.png" shape="circle" />
                     <span class="font-bold whitespace-nowrap">Onyama Limba</span>
                 </Tab>
                 <Tab v-slot="slotProps" value="2" asChild>
                     <div :class="['flex items-center gap-2', slotProps.class]" @click="slotProps.onClick" v-bind="slotProps.a11yAttrs">
-                        <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/ionibowcher.png" shape="circle" />
+                        <Avatar image="/images/avatar/ionibowcher.png" shape="circle" />
                         <span class="font-bold whitespace-nowrap">Ioni Bowcher</span>
                         <Badge value="2" />
                     </div>

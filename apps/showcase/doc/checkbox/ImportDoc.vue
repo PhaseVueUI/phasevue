@@ -9,8 +9,8 @@ export default {
         return {
             code: {
                 basic: `
-import Checkbox from 'primevue/checkbox';
-import CheckboxGroup from 'primevue/checkboxgroup';
+import Checkbox from 'phasevue/checkbox';
+import CheckboxGroup from 'phasevue/checkboxgroup';
 `
             }
         };

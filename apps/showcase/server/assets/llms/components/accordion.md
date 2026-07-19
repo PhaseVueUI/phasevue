@@ -5,10 +5,10 @@ Accordion groups a collection of contents in panels.
 ## Import
 
 ```javascript
-import Accordion from 'primevue/accordion';
-import AccordionPanel from 'primevue/accordionpanel';
-import AccordionHeader from 'primevue/accordionheader';
-import AccordionContent from 'primevue/accordioncontent';
+import Accordion from 'phasevue/accordion';
+import AccordionPanel from 'phasevue/accordionpanel';
+import AccordionHeader from 'phasevue/accordionheader';
+import AccordionContent from 'phasevue/accordioncontent';
 ```
 
 ## Accessibility
@@ -366,7 +366,7 @@ Custom content for a header is defined with the default slot. The optional as pr
     <AccordionPanel value="0">
         <AccordionHeader>
             <span class="flex items-center gap-2 w-full">
-                <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
+                <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
                 <span class="font-bold whitespace-nowrap">Amy Elsner</span>
                 <Badge value="3" class="ml-auto mr-2" />
             </span>
@@ -381,7 +381,7 @@ Custom content for a header is defined with the default slot. The optional as pr
     <AccordionPanel value="1">
         <AccordionHeader>
             <span class="flex items-center gap-2 w-full">
-                <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/onyamalimba.png" shape="circle" />
+                <Avatar image="/images/avatar/onyamalimba.png" shape="circle" />
                 <span class="font-bold whitespace-nowrap">Onyama Limba</span>
                 <Badge value="4" class="ml-auto mr-2" />
             </span>
@@ -396,7 +396,7 @@ Custom content for a header is defined with the default slot. The optional as pr
     <AccordionPanel value="2">
         <AccordionHeader>
             <span class="flex items-center gap-2 w-full">
-                <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/ionibowcher.png" shape="circle" />
+                <Avatar image="/images/avatar/ionibowcher.png" shape="circle" />
                 <span class="font-bold whitespace-nowrap">Ioni Bowcher</span>
                 <Badge value="2" class="ml-auto mr-2" />
             </span>
@@ -421,7 +421,7 @@ Custom content for a header is defined with the default slot. The optional as pr
             <AccordionPanel value="0">
                 <AccordionHeader>
                     <span class="flex items-center gap-2 w-full">
-                        <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
+                        <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
                         <span class="font-bold whitespace-nowrap">Amy Elsner</span>
                         <Badge value="3" class="ml-auto mr-2" />
                     </span>
@@ -436,7 +436,7 @@ Custom content for a header is defined with the default slot. The optional as pr
             <AccordionPanel value="1">
                 <AccordionHeader>
                     <span class="flex items-center gap-2 w-full">
-                        <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/onyamalimba.png" shape="circle" />
+                        <Avatar image="/images/avatar/onyamalimba.png" shape="circle" />
                         <span class="font-bold whitespace-nowrap">Onyama Limba</span>
                         <Badge value="4" class="ml-auto mr-2" />
                     </span>
@@ -451,7 +451,7 @@ Custom content for a header is defined with the default slot. The optional as pr
             <AccordionPanel value="2">
                 <AccordionHeader>
                     <span class="flex items-center gap-2 w-full">
-                        <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/ionibowcher.png" shape="circle" />
+                        <Avatar image="/images/avatar/ionibowcher.png" shape="circle" />
                         <span class="font-bold whitespace-nowrap">Ioni Bowcher</span>
                         <Badge value="2" class="ml-auto mr-2" />
                     </span>

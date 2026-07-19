@@ -1,8 +1,8 @@
 import { addComponent, addImports } from '@nuxt/kit';
 import { isNotEmpty, isString, resolve } from '@primeuix/utils/object';
-import type { MetaType } from '@primevue/metadata';
-import { components, composables, directives } from '@primevue/metadata';
-import type { PrimeVueConfiguration } from 'primevue/config';
+import type { MetaType } from '@phasevueui/metadata';
+import { components, composables, directives } from '@phasevueui/metadata';
+import type { PhaseVueConfiguration } from 'phasevue/config';
 import type { ConstructsType, ModuleOptions, ResolvePathOptions } from './types';
 import { Utils } from './utils';
 
@@ -23,9 +23,9 @@ function registerItems(items: any[] = [], options: ConstructsType = {}, params: 
 function registerConfig(resolvePath: any) {
     return [
         {
-            name: 'PrimeVue',
-            as: 'PrimeVue',
-            from: resolvePath({ name: 'PrimeVue', as: 'PrimeVue', from: `primevue/config`, type: 'config' })
+            name: 'PhaseVue',
+            as: 'PhaseVue',
+            from: resolvePath({ name: 'PhaseVue', as: 'PhaseVue', from: `phasevue/config`, type: 'config' })
         }
     ];
 }
@@ -97,18 +97,18 @@ function registerServices(resolvePath: any, registered: any) {
     return [...services].map((service) => ({
         name: service,
         as: service,
-        from: resolvePath({ name: service, as: service, from: `primevue/${service.toLowerCase()}`, type: 'service' })
+        from: resolvePath({ name: service, as: service, from: `phasevue/${service.toLowerCase()}`, type: 'service' })
     }));
 }
 
 function registerStyles(resolvePath: any, registered: any, moduleOptions: ModuleOptions) {
-    const options: PrimeVueConfiguration = moduleOptions.options || {};
+    const options: PhaseVueConfiguration = moduleOptions.options || {};
 
     const styles: MetaType[] = [
         {
             name: 'BaseStyle',
             as: 'BaseStyle',
-            from: resolvePath({ name: 'BaseStyle', as: 'BaseStyle', from: '@primevue/core/base/style', type: 'style' })
+            from: resolvePath({ name: 'BaseStyle', as: 'BaseStyle', from: '@phasevueui/core/base/style', type: 'style' })
         }
     ];
 
@@ -118,7 +118,7 @@ function registerStyles(resolvePath: any, registered: any, moduleOptions: Module
             styles.push({
                 name: 'BaseComponentStyle',
                 as: 'BaseComponentStyle',
-                from: resolvePath({ name: 'BaseComponentStyle', as: 'BaseComponentStyle', from: '@primevue/core/basecomponent/style', type: 'style' })
+                from: resolvePath({ name: 'BaseComponentStyle', as: 'BaseComponentStyle', from: '@phasevueui/core/basecomponent/style', type: 'style' })
             });
         }
 

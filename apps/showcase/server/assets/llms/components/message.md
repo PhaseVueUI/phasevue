@@ -5,7 +5,7 @@ Message component is used to display inline messages.
 ## Import
 
 ```javascript
-import Message from 'primevue/message';
+import Message from 'phasevue/message';
 ```
 
 ## Accessibility
@@ -125,7 +125,7 @@ Icon property and the icon slots are available to customize the icon of the mess
         <Message severity="info" icon="pi pi-send">Info Message</Message>
         <Message severity="success">
             <template #icon>
-                <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
+                <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
             </template>
             <span class="ml-2">How may I help you?</span>
         </Message>

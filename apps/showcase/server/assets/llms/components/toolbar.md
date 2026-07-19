@@ -5,7 +5,7 @@ Toolbar is a grouping component for buttons and other content.
 ## Import
 
 ```javascript
-import Toolbar from 'primevue/toolbar';
+import Toolbar from 'phasevue/toolbar';
 ```
 
 ## Accessibility
@@ -58,7 +58,7 @@ A customized toolbar with navigation bar functionality.
     <template #end>
         <div class="flex items-center gap-2">
             <Button label="Share" severity="contrast" size="small" />
-            <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" style="width: 32px; height: 32px" />
+            <Avatar image="/images/avatar/amyelsner.png" style="width: 32px; height: 32px" />
         </div>
     </template>
 </Toolbar>
@@ -92,7 +92,7 @@ A customized toolbar with navigation bar functionality.
             <template #end>
                 <div class="flex items-center gap-2">
                     <Button label="Share" severity="contrast" size="small" />
-                    <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" style="width: 32px; height: 32px" />
+                    <Avatar image="/images/avatar/amyelsner.png" style="width: 32px; height: 32px" />
                 </div>
             </template>
         </Toolbar>

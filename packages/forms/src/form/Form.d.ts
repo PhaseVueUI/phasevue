@@ -2,13 +2,13 @@
  *
  * Form provides validation functionality and manages form state.
  *
- * [Live Demo](https://www.primevue.org/forms/)
+ * [Live Demo](https://www.phasevue.org/forms/)
  *
  * @module form
  *
  */
-import type { DefineComponent, DesignToken, EmitFn, PassThrough } from '@primevue/core';
-import type { ComponentHooks } from '@primevue/core/basecomponent';
+import type { DefineComponent, DesignToken, EmitFn, PassThrough } from '@phasevueui/core';
+import type { ComponentHooks } from '@phasevueui/core/basecomponent';
 import { VNode } from 'vue';
 import type { PassThroughOptions } from '../types';
 import { useFormFieldState } from '../useform';
@@ -317,13 +317,13 @@ export interface FormInstance {
 }
 
 /**
- * **PrimeVue - Form**
+ * **PhaseVue - Form**
  *
  * _Form provides validation functionality and manages form state._
  *
- * [Live Demo](https://www.primevue.org/forms/)
+ * [Live Demo](https://www.phasevue.org/forms/)
  * --- ---
- * ![PrimeVue](https://primefaces.org/cdn/primevue/images/logo-100.png)
+ * ![PhaseVue](/images/logo-100.png)
  *
  * @group Component
  *

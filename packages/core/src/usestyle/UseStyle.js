@@ -43,7 +43,7 @@ export function useStyle(css, options = {}) {
         const _styleProps = { ...props, ..._props };
         const [_name, _id, _nonce] = [_styleProps.name || name, _styleProps.id || id, _styleProps.nonce || nonce];
 
-        styleRef.value = document.querySelector(`style[data-primevue-style-id="${_name}"]`) || document.getElementById(_id) || document.createElement('style');
+        styleRef.value = document.querySelector(`style[data-phasevue-style-id="${_name}"]`) || document.getElementById(_id) || document.createElement('style');
 
         if (!styleRef.value.isConnected) {
             cssRef.value = _css || css;
@@ -55,7 +55,7 @@ export function useStyle(css, options = {}) {
                 nonce: _nonce
             });
             first ? document.head.prepend(styleRef.value) : document.head.appendChild(styleRef.value);
-            setAttribute(styleRef.value, 'data-primevue-style-id', _name);
+            setAttribute(styleRef.value, 'data-phasevue-style-id', _name);
             setAttributes(styleRef.value, _styleProps);
             styleRef.value.onload = (event) => onStyleLoaded?.(event, { name: _name });
             onStyleMounted?.(_name);

@@ -15,9 +15,9 @@ import Aura from '@primeuix/themes/aura';
 
 export default defineNuxtConfig({
     modules: [
-        '@primevue/nuxt-module'
+        '@phasevueui/nuxt-module'
     ],
-    primevue: {
+    phasevue: {
         options: {
             theme: {
                 preset: Aura

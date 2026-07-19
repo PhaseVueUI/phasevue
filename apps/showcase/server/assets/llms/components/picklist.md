@@ -5,7 +5,7 @@ PickList is used to reorder items between different lists.
 ## Import
 
 ```javascript
-import PickList from 'primevue/picklist';
+import PickList from 'phasevue/picklist';
 ```
 
 ## Accessibility
@@ -39,7 +39,7 @@ For custom content support define an option template that gets the item instance
 <PickList v-model="products" dataKey="id" breakpoint="1400px" scrollHeight="20rem">
     <template #option="{ option , selected }">
         <div class="flex flex-wrap p-1 items-center gap-4 w-full">
-            <img class="w-12 shrink-0 rounded" :src="'https://primefaces.org/cdn/primevue/images/product/' + option.image" :alt="option.name" />
+            <img class="w-12 shrink-0 rounded" :src="'/images/product/' + option.image" :alt="option.name" />
             <div class="flex-1 flex flex-col">
                 <span class="font-medium text-sm">{{ option.name }}</span>
                 <span :class="['text-sm', { 'text-surface-500 dark:text-surface-400': !selected, 'text-inherit': selected }]">{{ option.category }}</span>
@@ -59,7 +59,7 @@ For custom content support define an option template that gets the item instance
         <PickList v-model="products" dataKey="id" breakpoint="1400px">
             <template #option="{ option , selected }">
                 <div class="flex flex-wrap p-1 items-center gap-4 w-full">
-                    <img class="w-12 shrink-0 rounded" :src="'https://primefaces.org/cdn/primevue/images/product/' + option.image" :alt="option.name" />
+                    <img class="w-12 shrink-0 rounded" :src="'/images/product/' + option.image" :alt="option.name" />
                     <div class="flex-1 flex flex-col">
                         <span class="font-medium text-sm">{{ option.name }}</span>
                         <span :class="['text-sm', { 'text-surface-500 dark:text-surface-400': !selected, 'text-inherit': selected }]">{{ option.category }}</span>

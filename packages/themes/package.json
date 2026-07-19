@@ -1,17 +1,17 @@
 {
-    "name": "@primevue/themes",
-    "version": "4.5.5",
-    "author": "PrimeTek Informatics",
+    "name": "@phasevueui/themes",
+    "version": "0.0.1-alpha.1",
+    "author": "PhaseVue UI",
     "description": "",
-    "homepage": "https://primevue.org/",
+    "homepage": "https://phasevue.org/",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/primefaces/primevue.git",
+        "url": "https://github.com/phasevueui/phasevue.git",
         "directory": "packages/themes"
     },
     "bugs": {
-        "url": "https://github.com/primefaces/primevue/issues"
+        "url": "https://github.com/phasevueui/phasevue/issues"
     },
     "private": true,
     "main": "./src/index.js",

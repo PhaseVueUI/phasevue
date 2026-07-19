@@ -5,7 +5,7 @@ MultiSelect is used to select multiple items from a collection.
 ## Import
 
 ```javascript
-import MultiSelect from 'primevue/multiselect';
+import MultiSelect from 'phasevue/multiselect';
 ```
 
 ## Accessibility
@@ -283,8 +283,8 @@ const cities = ref([
 
 <script setup>
 import { ref } from 'vue';
-import { zodResolver } from '@primevue/forms/resolvers/zod';
-import { useToast } from "primevue/usetoast";
+import { zodResolver } from '@phasevueui/forms/resolvers/zod';
+import { useToast } from "phasevue/usetoast";
 import { z } from 'zod';
 
 const toast = useToast();
@@ -328,7 +328,7 @@ Options can be grouped when a nested data structures is provided. To define the 
 <MultiSelect v-model="selectedCities" :options="groupedCities" optionLabel="label" filter optionGroupLabel="label" optionGroupChildren="items" display="chip" placeholder="Select Cities" class="w-full md:w-80">
     <template #optiongroup="slotProps">
         <div class="flex items-center">
-            <img :alt="slotProps.option.label" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`flag flag-\${slotProps.option.code.toLowerCase()} mr-2\`" style="width: 18px" />
+            <img :alt="slotProps.option.label" src="/images/flag/flag_placeholder.png" :class="\`flag flag-\${slotProps.option.code.toLowerCase()} mr-2\`" style="width: 18px" />
             <div>{{ slotProps.option.label }}</div>
         </div>
     </template>
@@ -344,7 +344,7 @@ Options can be grouped when a nested data structures is provided. To define the 
         <MultiSelect v-model="selectedCities" :options="groupedCities" optionLabel="label" filter optionGroupLabel="label" optionGroupChildren="items" display="chip" placeholder="Select Cities" class="w-full md:w-80">
             <template #optiongroup="slotProps">
                 <div class="flex items-center">
-                    <img :alt="slotProps.option.label" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`flag flag-\${slotProps.option.code.toLowerCase()} mr-2\`" style="width: 18px" />
+                    <img :alt="slotProps.option.label" src="/images/flag/flag_placeholder.png" :class="\`flag flag-\${slotProps.option.code.toLowerCase()} mr-2\`" style="width: 18px" />
                     <div>{{ slotProps.option.label }}</div>
                 </div>
             </template>
@@ -544,7 +544,7 @@ MultiSelect offers multiple slots for customization through templating.
 <MultiSelect v-model="selectedCountries" :options="countries" optionLabel="name" filter placeholder="Select Countries" display="chip" class="w-full md:w-80">
     <template #option="slotProps">
         <div class="flex items-center">
-            <img :alt="slotProps.option.name" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`flag flag-\${slotProps.option.code.toLowerCase()} mr-2\`" style="width: 18px" />
+            <img :alt="slotProps.option.name" src="/images/flag/flag_placeholder.png" :class="\`flag flag-\${slotProps.option.code.toLowerCase()} mr-2\`" style="width: 18px" />
             <div>{{ slotProps.option.name }}</div>
         </div>
     </template>
@@ -575,7 +575,7 @@ MultiSelect offers multiple slots for customization through templating.
         <MultiSelect v-model="selectedCountries" :options="countries" optionLabel="name" filter placeholder="Select Countries" display="chip" class="w-full md:w-80">
             <template #option="slotProps">
                 <div class="flex items-center">
-                    <img :alt="slotProps.option.name" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`flag flag-\${slotProps.option.code.toLowerCase()} mr-2\`" style="width: 18px" />
+                    <img :alt="slotProps.option.name" src="/images/flag/flag_placeholder.png" :class="\`flag flag-\${slotProps.option.code.toLowerCase()} mr-2\`" style="width: 18px" />
                     <div>{{ slotProps.option.name }}</div>
                 </div>
             </template>
@@ -728,11 +728,11 @@ const onChange = (event) => {
 | autoFilterFocus        | boolean                                                | false                       | Whether to focus on the filter element when the overlay panel is shown.                                                                                               |
 | focusOnHover           | boolean                                                | true                        | When enabled, the focus is placed on the hovered option.                                                                                                              |
 | highlightOnSelect      | boolean                                                | false                       | Highlights automatically the first item.                                                                                                                              |
-| filterMessage          | string                                                 | '{0} results are available' | Text to be displayed in hidden accessible field when filtering returns any results. Defaults to value from PrimeVue locale configuration.                             |
-| selectionMessage       | string                                                 | null                        | Text to be displayed in hidden accessible field when options are selected. Defaults to value from PrimeVue locale configuration.                                      |
-| emptySelectionMessage  | string                                                 | No selected item            | Text to be displayed in hidden accessible field when any option is not selected. Defaults to value from PrimeVue locale configuration.                                |
-| emptyFilterMessage     | string                                                 | No results found            | Text to display when filtering does not return any results. Defaults to value from PrimeVue locale configuration.                                                     |
-| emptyMessage           | string                                                 | No available options'       | Text to display when there are no options available. Defaults to value from PrimeVue locale configuration.                                                            |
+| filterMessage          | string                                                 | '{0} results are available' | Text to be displayed in hidden accessible field when filtering returns any results. Defaults to value from PhaseVue locale configuration.                             |
+| selectionMessage       | string                                                 | null                        | Text to be displayed in hidden accessible field when options are selected. Defaults to value from PhaseVue locale configuration.                                      |
+| emptySelectionMessage  | string                                                 | No selected item            | Text to be displayed in hidden accessible field when any option is not selected. Defaults to value from PhaseVue locale configuration.                                |
+| emptyFilterMessage     | string                                                 | No results found            | Text to display when filtering does not return any results. Defaults to value from PhaseVue locale configuration.                                                     |
+| emptyMessage           | string                                                 | No available options'       | Text to display when there are no options available. Defaults to value from PhaseVue locale configuration.                                                            |
 | tabindex               | string \| number                                       | -                           | Index of the element in tabbing order.                                                                                                                                |
 | ariaLabel              | string                                                 | -                           | Defines a string value that labels an interactive element.                                                                                                            |
 | ariaLabelledby         | string                                                 | -                           | Identifier of the underlying input element.                                                                                                                           |

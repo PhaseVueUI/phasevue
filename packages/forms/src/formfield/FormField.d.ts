@@ -2,12 +2,12 @@
  *
  * FormField is a helper component that provides validation and tracking for form fields.
  *
- * [Live Demo](https://www.primevue.org/forms/)
+ * [Live Demo](https://www.phasevue.org/forms/)
  *
  * @module formfield
  */
-import type { DefineComponent, DesignToken, EmitFn, PassThrough } from '@primevue/core';
-import type { ComponentHooks } from '@primevue/core/basecomponent';
+import type { DefineComponent, DesignToken, EmitFn, PassThrough } from '@phasevueui/core';
+import type { ComponentHooks } from '@phasevueui/core/basecomponent';
 import { Component, VNode } from 'vue';
 import type { PassThroughOptions } from '../types';
 
@@ -202,13 +202,13 @@ export interface FormFieldEmitsOptions {}
 export declare type FormFieldEmits = EmitFn<FormFieldEmitsOptions>;
 
 /**
- * **PrimeVue - FormField**
+ * **PhaseVue - FormField**
  *
  * _FormField is a helper component that provides validation and tracking for form fields._
  *
- * [Live Demo](https://www.primevue.org/forms/)
+ * [Live Demo](https://www.phasevue.org/forms/)
  * --- ---
- * ![PrimeVue](https://primefaces.org/cdn/primevue/images/logo-100.png)
+ * ![PhaseVue](/images/logo-100.png)
  *
  * @group Component
  *

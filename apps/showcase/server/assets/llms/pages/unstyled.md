@@ -1,6 +1,6 @@
 # Unstyled Mode
 
-Theming PrimeVue with alternative styling approaches.
+Theming PhaseVue with alternative styling approaches.
 
 ## Architecture
 
@@ -19,15 +19,15 @@ Here is a sample that styles a button component with Tailwind CSS using pass thr
 A global configuration can be created at application level to avoid repetition via the global pt option so that the styles can be shared from a single location. A particular component can still override a global configuration with its own pt property.
 
 ```vue
-import { createApp } from "vue"; import PrimeVue from "primevue/config"; const app = createApp(App); app.use(PrimeVue, { unstyled: true, pt: { button: { root: 'bg-teal-500 hover:bg-teal-700 active:bg-teal-900 cursor-pointer py-2 px-4 rounded-full
+import { createApp } from "vue"; import PhaseVue from "phasevue/config"; const app = createApp(App); app.use(PhaseVue, { unstyled: true, pt: { button: { root: 'bg-teal-500 hover:bg-teal-700 active:bg-teal-900 cursor-pointer py-2 px-4 rounded-full
 border-0 flex gap-2', label: 'text-white font-bold text-lg', icon: 'text-white text-xl' }, panel: { header: 'bg-primary text-primary-contrast border-primary', content: 'border-primary text-lg text-primary-700', title: 'bg-primary
 text-primary-contrast text-xl', pcToggleButton: { root: 'bg-primary text-primary-contrast hover:text-primary hover:bg-primary-contrast' } } } });
 ```
 
 ## Setup
 
-Unstyled mode is enabled for the whole suite by enabling unstyled option during PrimeVue installation. Alternatively even in the default styled mode, a particular component can still be used as unstyled by adding the unstyled prop of the component.
+Unstyled mode is enabled for the whole suite by enabling unstyled option during PhaseVue installation. Alternatively even in the default styled mode, a particular component can still be used as unstyled by adding the unstyled prop of the component.
 
 ## Volt
 
-Tailwind CSS is perfect fit for the unstyled mode, PrimeTek has initiated a new UI library called Volt based on the unstyled PrimeVue and Tailwind CSS v4. Volt follows the code ownership model where the components are located in the application codebase rather than node_modules. All components within Volt are essentially wrapped versions of the unstyled PrimeVue equivalents, with an added layer of theming through Tailwind CSS v4. This approach, along with the templating features, offers complete control over the theming and presentation.
+Tailwind CSS is perfect fit for the unstyled mode, PrimeTek has initiated a new UI library called Volt based on the unstyled PhaseVue and Tailwind CSS v4. Volt follows the code ownership model where the components are located in the application codebase rather than node_modules. All components within Volt are essentially wrapped versions of the unstyled PhaseVue equivalents, with an added layer of theming through Tailwind CSS v4. This approach, along with the templating features, offers complete control over the theming and presentation.

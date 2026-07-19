@@ -1,6 +1,6 @@
 /**
  *
- * [Live Demo](https://primevue.org/)
+ * [Live Demo](https://phasevue.org/)
  *
  * @module baseeditableholder
  *

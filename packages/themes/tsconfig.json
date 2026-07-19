@@ -16,7 +16,7 @@
         "incremental": true,
         "baseUrl": ".",
         "paths": {
-            "@primevue/themes/*": ["./src/*"]
+            "@phasevueui/themes/*": ["./src/*"]
         }
     },
     "include": ["**/*.ts", "src/*"],

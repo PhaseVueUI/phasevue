@@ -1,11 +1,11 @@
 <template>
     <DocSectionText v-bind="$attrs">
         <p>
-            The <a href="https://github.com/unplugin/unplugin-vue-components" target="_blank" rel="noopener noreferrer">unplugin-vue-components</a> library can automatically import and register PrimeVue components with the help of
-            <i>@primevue/auto-import-resolver</i>. Begin with installing the packages as dev dependencies.
+            The <a href="https://github.com/unplugin/unplugin-vue-components" target="_blank" rel="noopener noreferrer">unplugin-vue-components</a> library can automatically import and register PhaseVue components with the help of
+            <i>@phasevueui/auto-import-resolver</i>. Begin with installing the packages as dev dependencies.
         </p>
         <DocSectionCode :code="code1" hideToggleCode importCode hideStackBlitz />
-        <p>Next step would be adding the <i>PrimeVueResolver</i> at vite.config using the <i>Components</i> plugin.</p>
+        <p>Next step would be adding the <i>PhaseVueResolver</i> at vite.config using the <i>Components</i> plugin.</p>
         <DocSectionCode :code="code2" hideToggleCode importCode hideStackBlitz />
         <p>
             That's it, now the initialization code can be refactored as the following. For configuration like namespacing, visit the
@@ -22,7 +22,7 @@ export default {
             code1: {
                 basic: `
 npm i unplugin-vue-components -D
-npm i @primevue/auto-import-resolver -D
+npm i @phasevueui/auto-import-resolver -D
 `
             },
             code2: {
@@ -30,7 +30,7 @@ npm i @primevue/auto-import-resolver -D
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import Components from 'unplugin-vue-components/vite';
-import {PrimeVueResolver} from '@primevue/auto-import-resolver';
+import {PhaseVueResolver} from '@phasevueui/auto-import-resolver';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -38,7 +38,7 @@ export default defineConfig({
     vue(),
     Components({
       resolvers: [
-        PrimeVueResolver()
+        PhaseVueResolver()
       ]
     })
   ]
@@ -48,11 +48,11 @@ export default defineConfig({
             code3: {
                 basic: `
 import { createApp } from "vue";
-import PrimeVue from "primevue/config";
+import PhaseVue from "phasevue/config";
 import App from './App.vue'
 const app = createApp(App);
 
-app.use(PrimeVue);
+app.use(PhaseVue);
 `
             }
         };

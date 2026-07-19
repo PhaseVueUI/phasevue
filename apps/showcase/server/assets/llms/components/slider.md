@@ -5,7 +5,7 @@ Slider is a component to provide input with a drag handle.
 ## Import
 
 ```javascript
-import Slider from 'primevue/slider';
+import Slider from 'phasevue/slider';
 ```
 
 ## Accessibility
@@ -32,7 +32,7 @@ Slider is used with the v-model property for two-way value binding.
 Image filter implementation using multiple sliders.
 
 ```vue
-<img alt="user header" class="w-full md:w-80 rounded mb-6" src="https://primefaces.org/cdn/primevue/images/card-vue.jpg" :style="filterStyle" />
+<img alt="user header" class="w-full md:w-80 rounded mb-6" src="/images/card-vue.jpg" :style="filterStyle" />
 <SelectButton v-model="filter" :options="filterOptions" optionLabel="label" optionValue="value" class="mb-4" />
 <Slider v-model="filterValues[filter]" class="w-56" :min="0" :max="200" />
 ```
@@ -43,7 +43,7 @@ Image filter implementation using multiple sliders.
 ```vue
 <template>
     <div class="card flex flex-col items-center justify-center">
-        <img alt="user header" class="w-full md:w-80 rounded mb-6" src="https://primefaces.org/cdn/primevue/images/card-vue.jpg" :style="filterStyle" />
+        <img alt="user header" class="w-full md:w-80 rounded mb-6" src="/images/card-vue.jpg" :style="filterStyle" />
         <SelectButton v-model="filter" :options="filterOptions" optionLabel="label" optionValue="value" class="mb-4" />
         <Slider v-model="filterValues[filter]" class="w-56" :min="0" :max="200" />
     </div>
@@ -71,7 +71,7 @@ const filterStyle = computed(() => {
 
 ## Forms
 
-Slider integrates seamlessly with the PrimeVue Forms library.
+Slider integrates seamlessly with the PhaseVue Forms library.
 
 ```vue
 <Form v-slot="$form" :resolver="resolver" :initialValues="initialValues" @submit="onFormSubmit" class="flex flex-col gap-4 w-full sm:w-56">
@@ -101,8 +101,8 @@ Slider integrates seamlessly with the PrimeVue Forms library.
 
 <script setup>
 import { ref } from 'vue';
-import { zodResolver } from '@primevue/forms/resolvers/zod';
-import { useToast } from "primevue/usetoast";
+import { zodResolver } from '@phasevueui/forms/resolvers/zod';
+import { useToast } from "phasevue/usetoast";
 import { z } from 'zod';
 
 const toast = useToast();

@@ -25,15 +25,15 @@ export default {
                         props: {
                             templateHeroData: {
                                 logo: markRaw(VeronaLogo),
-                                description: 'Prepare to be amazed by the remastered Verona for PrimeVue featuring a new gorgeous dark mode for the entire layout, 4 menu modes, reusable css widgets, utilities, modern icons and many more.',
-                                dashboard1: 'https://primefaces.org/cdn/primevue/images/templates/verona/verona-hero-dashboard1.png',
-                                dashboard2: 'https://primefaces.org/cdn/primevue/images/templates/verona/verona-hero-dashboard2.png',
-                                liveHref: 'https://verona.primevue.org/',
-                                docHref: 'https://verona.primevue.org/documentation',
+                                description: 'Prepare to be amazed by the remastered Verona for PhaseVue featuring a new gorgeous dark mode for the entire layout, 4 menu modes, reusable css widgets, utilities, modern icons and many more.',
+                                dashboard1: '/images/templates/verona/verona-hero-dashboard1.png',
+                                dashboard2: '/images/templates/verona/verona-hero-dashboard2.png',
+                                liveHref: 'https://verona.phasevue.org/',
+                                docHref: 'https://verona.phasevue.org/documentation',
                                 storeHref: 'https://primeui.store/templates/vue/verona',
                                 pattern: {
                                     className: 'select-none absolute z-[6] opacity-90 w-[110rem] h-auto bottom-80 left-0 md:-bottom-8 md:-left-4',
-                                    src: 'https://primefaces.org/cdn/primevue/images/templates/verona/verona-hero-pattern.png'
+                                    src: '/images/templates/verona/verona-hero-pattern.png'
                                 }
                             }
                         }
@@ -42,7 +42,7 @@ export default {
                         name: markRaw(TemplateLicense),
                         props: {
                             license: {
-                                documentLink: 'https://verona.primevue.org/documentation',
+                                documentLink: 'https://verona.phasevue.org/documentation',
                                 description: 'The download package is a Vite-based project containing all application source codes deployed at the live demo. The project code is written in JavaScript.',
                                 showDiscount: false,
                                 licenseDetails: [
@@ -71,40 +71,40 @@ export default {
                                     id: 1,
                                     title: 'Light and Dark Modes',
                                     description: 'The stunning dark and light modes will impress your users.',
-                                    src: 'https://primefaces.org/cdn/primevue/images/templates/verona/features-animation-darkmode.png'
+                                    src: '/images/templates/verona/features-animation-darkmode.png'
                                 },
                                 {
                                     id: 2,
                                     title: 'Component Themes',
                                     description: '17 built-in theme colors with the power of 3 presets: Aura, Lara and Nora.',
-                                    src: 'https://primefaces.org/cdn/primevue/images/templates/verona/features-animation-component-themes.png'
+                                    src: '/images/templates/verona/features-animation-component-themes.png'
                                 },
                                 {
                                     id: 3,
                                     title: '4 Menu Orientations',
                                     description: 'Choose from Static, Overlay, Slim and Slim+ menu orientations.',
-                                    src: 'https://primefaces.org/cdn/primevue/images/templates/verona/features-animation-orientations.png',
+                                    src: '/images/templates/verona/features-animation-orientations.png',
                                     type: 'inline-animation',
                                     inlineFeaturesData: [
                                         {
                                             id: 1,
                                             title: 'Static',
-                                            src: 'https://primefaces.org/cdn/primevue/images/templates/verona/Static.png'
+                                            src: '/images/templates/verona/Static.png'
                                         },
                                         {
                                             id: 2,
                                             title: 'Slim',
-                                            src: 'https://primefaces.org/cdn/primevue/images/templates/verona/Slim.png'
+                                            src: '/images/templates/verona/Slim.png'
                                         },
                                         {
                                             id: 3,
                                             title: 'Slim+',
-                                            src: 'https://primefaces.org/cdn/primevue/images/templates/verona/Slim+.png'
+                                            src: '/images/templates/verona/Slim+.png'
                                         },
                                         {
                                             id: 4,
                                             title: 'Overlay',
-                                            src: 'https://primefaces.org/cdn/primevue/images/templates/verona/Overlay.png'
+                                            src: '/images/templates/verona/Overlay.png'
                                         }
                                     ]
                                 },
@@ -112,7 +112,7 @@ export default {
                                     id: 4,
                                     title: 'Menu Themes',
                                     description: 'Verona offers 17 special layout themes featuring gorgeous gradients.',
-                                    src: 'https://primefaces.org/cdn/primevue/images/templates/verona/features-animation-orientations.png'
+                                    src: '/images/templates/verona/features-animation-orientations.png'
                                 }
                             ]
                         }
@@ -134,25 +134,25 @@ export default {
                                     id: 1,
                                     title: 'Tailwind CSS',
                                     description: 'The demo content is built with TailwindCSS, while the application shell uses custom CSS, offering flexibility and efficiency for responsive design.',
-                                    src: 'https://primefaces.org/cdn/primevue/images/templates/common/tailwind.png'
+                                    src: '/images/templates/common/tailwind.png'
                                 },
                                 {
                                     id: 2,
                                     title: 'PrimeBlocks',
                                     slotType: 'description2',
-                                    src: 'https://primefaces.org/cdn/primevue/images/templates/apollo/features-animation-blocks.png'
+                                    src: '/images/templates/apollo/features-animation-blocks.png'
                                 },
                                 {
                                     id: 3,
                                     title: 'PrimeIcons',
                                     description: 'Verona ships with PrimeIcons, PrimeTek’s modern icon library including a wide range of icons for your applications.',
-                                    src: 'https://primefaces.org/cdn/primevue/images/templates/apollo/features-animation-icons.png'
+                                    src: '/images/templates/apollo/features-animation-icons.png'
                                 },
                                 {
                                     id: 4,
                                     title: 'Figma File',
                                     slotType: 'description4',
-                                    src: 'https://primefaces.org/cdn/primevue/images/templates/verona/features-animation-figma.png'
+                                    src: '/images/templates/verona/features-animation-figma.png'
                                 }
                             ]
                         },
@@ -161,8 +161,8 @@ export default {
                     Fully compatible with <a href="https://primeblocks.org/">PrimeBlocks</a>, choose from the wide range of blocks and customize the way you like. Note that PrimeBlocks is not included in the
                 template and requires a separate purchase.`,
                             description4: `Verona uses Figma as the design tool. It will be possible to download the Figma file after your purchase. You can
-                <a href="https://www.figma.com/design/9V43wXgKud8vXF9ZkbF83s/Preview-%7C-Verona-%7C%C2%A02.0.0?node-id=1303-749&t=0tlndOYlFeA9OaVc-1" target="_blank" rel="noopener noreferrer">preview the Figma file</a> before the purchase. Note that PrimeVue UI components are excluded from the Verona Figma file as they
-                are available in <PrimeVueNuxtLink to="/uikit">PrimeOne for Figma</PrimeVueNuxtLink> only.`
+                <a href="https://www.figma.com/design/9V43wXgKud8vXF9ZkbF83s/Preview-%7C-Verona-%7C%C2%A02.0.0?node-id=1303-749&t=0tlndOYlFeA9OaVc-1" target="_blank" rel="noopener noreferrer">preview the Figma file</a> before the purchase. Note that PhaseVue UI components are excluded from the Verona Figma file as they
+                are available in <PhaseVueNuxtLink to="/uikit">PrimeOne for Figma</PhaseVueNuxtLink> only.`
                         }
                     },
                     {
@@ -172,36 +172,36 @@ export default {
                                 {
                                     title: 'Fully Responsive',
                                     description: 'Verona is crafted to provide optimal viewing and interaction experience for a wide range of devices.',
-                                    src: 'https://primefaces.org/cdn/primevue/images/templates/verona/verona-features2-responsive.png'
+                                    src: '/images/templates/verona/verona-features2-responsive.png'
                                 },
                                 {
                                     title: 'Cross Browser Compatible',
                                     description: 'First class support for Firefox, Safari, Chrome and Edge.',
-                                    src: 'https://primefaces.org/cdn/primevue/images/templates/apollo/apollo-features2-compatible.png',
-                                    darkSrc: 'https://primefaces.org/cdn/primevue/images/templates/apollo/apollo-features2-compatible-dark.png'
+                                    src: '/images/templates/apollo/apollo-features2-compatible.png',
+                                    darkSrc: '/images/templates/apollo/apollo-features2-compatible-dark.png'
                                 },
                                 {
                                     title: 'Support',
                                     description: `PrimeTek offers assistance with account management and licensing issues, with the expectation that users have the necessary technical knowledge to use our products, as we do not offer technical support or consulting. Users
                                         can seek assistance in our community via our public <a href="https://discord.com/invite/gzKFYnpmCY">Discord</a> and
-                                        <a href="https://github.com/orgs/primefaces/discussions/categories/primevue-templates" class="doc-link">Forum</a>.`,
-                                    src: 'https://primefaces.org/cdn/primevue/images/templates/apollo/apollo-features2-lifetime.png'
+                                        <a href="https://github.com/orgs/phasevue/discussions/categories/phasevue-templates" class="doc-link">Forum</a>.`,
+                                    src: '/images/templates/apollo/apollo-features2-lifetime.png'
                                 },
                                 {
                                     title: 'Customizable Design',
                                     description: 'Fully customizable with a mixture of Sass and CSS variables.',
-                                    src: 'https://primefaces.org/cdn/primevue/images/templates/apollo/apollo-features2-customizable.png',
-                                    darkSrc: 'https://primefaces.org/cdn/primevue/images/templates/apollo/apollo-features2-customizable-dark.png'
+                                    src: '/images/templates/apollo/apollo-features2-customizable.png',
+                                    darkSrc: '/images/templates/apollo/apollo-features2-customizable-dark.png'
                                 },
                                 {
                                     title: 'Ready to Use Pages',
                                     description: 'Landing, login, invoice, help, user management and error pages are provided as template pages to get started with building your app.',
-                                    src: 'https://primefaces.org/cdn/primevue/images/templates/verona/verona-features2-ready.png'
+                                    src: '/images/templates/verona/verona-features2-ready.png'
                                 },
                                 {
                                     title: 'Mobile Experience',
                                     description: 'Touch optimized enhanced mobile experience with responsive design.',
-                                    src: 'https://primefaces.org/cdn/primevue/images/templates/verona/verona-features2-mobile.png'
+                                    src: '/images/templates/verona/verona-features2-mobile.png'
                                 }
                             ],
                             displayType: 'vertical'

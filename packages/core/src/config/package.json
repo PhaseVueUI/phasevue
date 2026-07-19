@@ -1,5 +1,5 @@
 {
-    "main": "./PrimeVue.js",
-    "module": "./PrimeVue.js",
-    "types": "./PrimeVue.d.ts"
+    "main": "./PhaseVue.js",
+    "module": "./PhaseVue.js",
+    "types": "./PhaseVue.d.ts"
 }

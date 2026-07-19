@@ -1,5 +1,5 @@
-import type { DefineComponent } from '@primevue/core';
-import type { Icon } from '@primevue/icons/baseicon';
+import type { DefineComponent } from '@phasevueui/core';
+import type { Icon } from '@phasevueui/icons/baseicon';
 
 declare class BlankIcon extends Icon {}
 

@@ -14,7 +14,7 @@
                                 <p class="text-muted-color m-0">{{ txt }}</p>
                             </template>
                         </div>
-                        <a href="https://www.primefaces.org/layouts/licenses" target="_blank">
+                        <a href="https://phasevue.org/layouts/licenses" target="_blank">
                             <Button label="License Details" severity="contrast" class="w-full" />
                         </a>
                     </div>

@@ -1,11 +1,11 @@
 /**
  *
- * [Live Demo](https://primevue.org/)
+ * [Live Demo](https://phasevue.org/)
  *
  * @module basestyle
  *
  */
-import type { Style, StyleOptions } from '@primevue/core/usestyle';
+import type { Style, StyleOptions } from '@phasevueui/core/usestyle';
 
 export enum BaseClasses {}
 

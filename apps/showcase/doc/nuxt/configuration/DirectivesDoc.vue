@@ -15,7 +15,7 @@ export default {
         return {
             code1: {
                 basic: `
-primevue: {
+phasevue: {
     directives: {
         include: ['Ripple', 'Tooltip']
     }
@@ -24,7 +24,7 @@ primevue: {
             },
             code2: {
                 basic: `
-primevue: {
+phasevue: {
     directives: {
         include: '*',
         exclude: ['Ripple']
@@ -34,7 +34,7 @@ primevue: {
             },
             code3: {
                 basic: `
-primevue: {
+phasevue: {
     directives: {
         prefix: 'p'
         include: ['Ripple', 'Tooltip']    /* Used as v-pripple and v-ptooltip */

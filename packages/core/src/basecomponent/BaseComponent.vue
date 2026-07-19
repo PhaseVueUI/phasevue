@@ -2,9 +2,9 @@
 import { Theme, ThemeService } from '@primeuix/styled';
 import { findSingle, isElement } from '@primeuix/utils/dom';
 import { getKeyValue, isArray, isFunction, isNotEmpty, isString, resolve, toFlatCase } from '@primeuix/utils/object';
-import Base from '@primevue/core/base';
-import BaseStyle from '@primevue/core/base/style';
-import { useAttrSelector } from '@primevue/core/useattrselector';
+import Base from '@phasevueui/core/base';
+import BaseStyle from '@phasevueui/core/base/style';
+import { useAttrSelector } from '@phasevueui/core/useattrselector';
 import { mergeProps } from 'vue';
 import BaseComponentStyle from './style/BaseComponentStyle';
 
@@ -71,9 +71,9 @@ export default {
 
         (value || originalValue)?.hooks?.['onBeforeCreate']?.();
 
-        const _useptInConfig = this.$primevueConfig?.pt?.['_usept'];
-        const originalValueInConfig = _useptInConfig ? this.$primevue?.config?.pt?.originalValue : undefined;
-        const valueInConfig = _useptInConfig ? this.$primevue?.config?.pt?.value : this.$primevue?.config?.pt;
+        const _useptInConfig = this.$phasevueConfig?.pt?.['_usept'];
+        const originalValueInConfig = _useptInConfig ? this.$phasevue?.config?.pt?.originalValue : undefined;
+        const valueInConfig = _useptInConfig ? this.$phasevue?.config?.pt?.value : this.$phasevue?.config?.pt;
 
         (valueInConfig || originalValueInConfig)?.[this.$.type.name]?.hooks?.['onBeforeCreate']?.();
 
@@ -225,7 +225,7 @@ export default {
         },
         _getPTValue(obj = {}, key = '', params = {}, searchInDefaultPT = true) {
             const searchOut = /./g.test(key) && !!params[key.split('.')[0]];
-            const { mergeSections = true, mergeProps: useMergeProps = false } = this._getPropValue('ptOptions') || this.$primevueConfig?.ptOptions || {};
+            const { mergeSections = true, mergeProps: useMergeProps = false } = this._getPropValue('ptOptions') || this.$phasevueConfig?.ptOptions || {};
             const global = searchInDefaultPT ? (searchOut ? this._useGlobalPT(this._getPTClassValue, key, params) : this._useDefaultPT(this._getPTClassValue, key, params)) : undefined;
             const self = searchOut ? undefined : this._getPTSelf(obj, this._getPTClassValue, key, { ...params, global: global || {} });
             const datasets = this._getPTDatasets(key);
@@ -279,7 +279,7 @@ export default {
             const fn = (value) => callback(value, key, params);
 
             if (pt?.hasOwnProperty('_usept')) {
-                const { mergeSections = true, mergeProps: useMergeProps = false } = pt['_usept'] || this.$primevueConfig?.ptOptions || {};
+                const { mergeSections = true, mergeProps: useMergeProps = false } = pt['_usept'] || this.$phasevueConfig?.ptOptions || {};
                 const originalValue = fn(pt.originalValue);
                 const value = fn(pt.value);
 
@@ -328,13 +328,13 @@ export default {
     },
     computed: {
         globalPT() {
-            return this._getPT(this.$primevueConfig?.pt, undefined, (value) => resolve(value, { instance: this }));
+            return this._getPT(this.$phasevueConfig?.pt, undefined, (value) => resolve(value, { instance: this }));
         },
         defaultPT() {
-            return this._getPT(this.$primevueConfig?.pt, undefined, (value) => this._getOptionValue(value, this.$name, { ...this.$params }) || resolve(value, { ...this.$params }));
+            return this._getPT(this.$phasevueConfig?.pt, undefined, (value) => this._getOptionValue(value, this.$name, { ...this.$params }) || resolve(value, { ...this.$params }));
         },
         isUnstyled() {
-            return this.unstyled !== undefined ? this.unstyled : this.$primevueConfig?.unstyled;
+            return this.unstyled !== undefined ? this.unstyled : this.$phasevueConfig?.unstyled;
         },
         $id() {
             return this.$attrs.id || this.uid;
@@ -345,16 +345,16 @@ export default {
             return Object.fromEntries(Object.entries(this.$props).filter(([k]) => nodePropKeys?.includes(k)));
         },
         $theme() {
-            return this.$primevueConfig?.theme;
+            return this.$phasevueConfig?.theme;
         },
         $style() {
             return { classes: undefined, inlineStyles: undefined, load: () => {}, loadCSS: () => {}, loadStyle: () => {}, ...(this._getHostInstance(this) || {}).$style, ...this.$options.style };
         },
         $styleOptions() {
-            return { nonce: this.$primevueConfig?.csp?.nonce };
+            return { nonce: this.$phasevueConfig?.csp?.nonce };
         },
-        $primevueConfig() {
-            return this.$primevue?.config;
+        $phasevueConfig() {
+            return this.$phasevue?.config;
         },
         $name() {
             return this.$options.hostName || this.$.type.name;

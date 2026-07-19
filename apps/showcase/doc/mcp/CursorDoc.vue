@@ -15,9 +15,9 @@ export default {
                 basic: `
 {
     "mcpServers": {
-        "primevue": {
+        "phasevue": {
             "command": "npx",
-            "args": ["-y", "@primevue/mcp"]
+            "args": ["-y", "@phasevueui/mcp"]
         }
     }
 }

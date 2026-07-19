@@ -6,7 +6,7 @@
         <Panel toggleable>
             <template #header>
                 <div class="flex items-center gap-2">
-                    <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
+                    <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
                     <span class="font-bold">Amy Elsner</span>
                 </div>
             </template>
@@ -58,7 +58,7 @@ export default {
 <Panel toggleable>
     <template #header>
         <div class="flex items-center gap-2">
-            <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
+            <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
             <span class="font-bold">Amy Elsner</span>
         </div>
     </template>
@@ -88,7 +88,7 @@ export default {
         <Panel toggleable>
             <template #header>
                 <div class="flex items-center gap-2">
-                    <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
+                    <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
                     <span class="font-bold">Amy Elsner</span>
                 </div>
             </template>
@@ -154,7 +154,7 @@ export default {
         <Panel toggleable>
             <template #header>
                 <div class="flex items-center gap-2">
-                    <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
+                    <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
                     <span class="font-bold">Amy Elsner</span>
                 </div>
             </template>
@@ -181,9 +181,9 @@ export default {
 
 <script setup>
 import { ref } from 'vue';
-import { useToast } from "primevue/usetoast";
+import { useToast } from "phasevue/usetoast";
 import { useRouter } from 'vue-router';
-import Menu from 'primevue/menu';
+import Menu from 'phasevue/menu';
 
 const menu = ref(null);
 const toast = useToast();

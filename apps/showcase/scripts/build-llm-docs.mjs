@@ -339,29 +339,7 @@ function getAllComponents() {
     const components = [];
 
     // Directories to exclude (non-component documentation)
-    const excludeDirs = [
-        'common',
-        'guides',
-        'theming',
-        'clt',
-        'forms',
-        'autoimport',
-        'cdn',
-        'configuration',
-        'contribution',
-        'customicons',
-        'designer',
-        'icons',
-        'introduction',
-        'laravel',
-        'llms',
-        'nuxt',
-        'passthrough',
-        'setup',
-        'tailwind',
-        'uikit',
-        'vite'
-    ];
+    const excludeDirs = ['common', 'guides', 'theming', 'clt', 'forms', 'autoimport', 'cdn', 'configuration', 'contribution', 'customicons', 'icons', 'introduction', 'laravel', 'llms', 'nuxt', 'passthrough', 'setup', 'tailwind', 'uikit', 'vite'];
 
     for (const entry of entries) {
         const componentDir = path.join(DOCS_DIR, entry);
@@ -751,7 +729,7 @@ function generateJsonOutput(components, apiDocs, guidePages = []) {
  * Generate Markdown output for AI context
  */
 function generateMarkdownOutput(components, apiDocs, guidePages = []) {
-    let markdown = '# PrimeVue Documentation\n\n';
+    let markdown = '# PhaseVue Documentation\n\n';
 
     markdown += `Generated: ${new Date().toISOString().split('T')[0]}\n\n`;
     markdown += '---\n\n';
@@ -931,7 +909,6 @@ const GUIDE_PAGES = [
     'laravel',
     'nuxt',
     'vite',
-    'designer',
     'tailwind',
     'uikit',
     'contribution',
@@ -1009,7 +986,7 @@ function getPageMetadata(pageName) {
     } else if (headerPropMatch) {
         title = headerPropMatch[1];
     } else if (titleTagMatch) {
-        title = (titleTagMatch[1] || '').replace(' - PrimeVue', '').trim();
+        title = (titleTagMatch[1] || '').replace(' - PhaseVue', '').trim();
     }
 
     // Prefer intro paragraph, then meta description, then description prop
@@ -1183,7 +1160,7 @@ function generateGuideMarkdownFiles(pages) {
  * Update llms.txt to include guide pages
  */
 function generateLlmsTxtWithGuides(components, guidePages) {
-    let content = '# PrimeVue\n\n';
+    let content = '# PhaseVue\n\n';
 
     // Guides section
     content += '## Guides\n\n';
@@ -1193,9 +1170,9 @@ function generateLlmsTxtWithGuides(components, guidePages) {
         const urlPath = page.fullPath || page.name;
 
         if (page.description) {
-            content += `- [${page.title}](https://primevue.org/${urlPath}): ${page.description}\n`;
+            content += `- [${page.title}](https://phasevue.org/${urlPath}): ${page.description}\n`;
         } else {
-            content += `- [${page.title}](https://primevue.org/${urlPath})\n`;
+            content += `- [${page.title}](https://phasevue.org/${urlPath})\n`;
         }
     }
 
@@ -1206,7 +1183,7 @@ function generateLlmsTxtWithGuides(components, guidePages) {
     const sorted = [...components].sort((a, b) => a.title.localeCompare(b.title));
 
     for (const comp of sorted) {
-        content += `- [${comp.title}](https://primevue.org/${comp.name}): ${comp.description}\n`;
+        content += `- [${comp.title}](https://phasevue.org/${comp.name}): ${comp.description}\n`;
     }
 
     const outputPath = path.join(OUTPUT_DIR, 'llms.txt');
@@ -1219,7 +1196,7 @@ function generateLlmsTxtWithGuides(components, guidePages) {
  * Main execution
  */
 function main() {
-    console.log('🚀 Building PrimeVue LLM Documentation (Enhanced)...\n');
+    console.log('🚀 Building PhaseVue LLM Documentation (Enhanced)...\n');
 
     console.log('📖 Parsing component documentation...');
     const components = getAllComponents();

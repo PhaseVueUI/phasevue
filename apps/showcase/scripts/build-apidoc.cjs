@@ -689,8 +689,8 @@ const getTypeDoc = (typeDocOptions) => {
 };
 
 const inlineDocs = getTypeDoc({
-    name: 'PrimeVue',
-    entryPoints: ['../../packages/primevue', '../../packages/forms']
+    name: 'PhaseVue',
+    entryPoints: ['../../packages/phasevue', '../../packages/forms']
 });
 
 !fs.existsSync(outputPath) && fs.mkdirSync(outputPath);

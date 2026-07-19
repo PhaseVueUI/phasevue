@@ -5,7 +5,7 @@ Tooltip directive provides advisory information for a component.
 ## Import
 
 ```javascript
-import Tooltip from 'primevue/tooltip';
+import Tooltip from 'phasevue/tooltip';
 
 app.directive('tooltip', Tooltip);
 ```
@@ -44,7 +44,7 @@ A tooltip sample with a custom style and content.
 ```vue
 <Button
     v-tooltip.bottom="{
-        value: 'PrimeVue Rocks',
+        value: 'PhaseVue Rocks',
         pt: {
             arrow: {
                 style: {
@@ -66,7 +66,7 @@ A tooltip sample with a custom style and content.
     <div class="card flex flex-wrap justify-center">
         <Button
             v-tooltip.bottom="{
-                value: 'PrimeVue Rocks',
+                value: 'PhaseVue Rocks',
                 pt: {
                     arrow: {
                         style: {

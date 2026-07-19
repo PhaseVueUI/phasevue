@@ -5,7 +5,7 @@ SelectButton is used to choose single or multiple items from a list using button
 ## Import
 
 ```javascript
-import SelectButton from 'primevue/selectbutton';
+import SelectButton from 'phasevue/selectbutton';
 ```
 
 ## Accessibility
@@ -92,7 +92,7 @@ const options = ref(['One-Way', 'Return']);
 
 ## Forms
 
-SelectButton integrates seamlessly with the PrimeVue Forms library.
+SelectButton integrates seamlessly with the PhaseVue Forms library.
 
 ```vue
 <Form v-slot="$form" :resolver="resolver" :initialValues="initialValues" @submit="onFormSubmit" class="flex flex-col gap-4">
@@ -122,8 +122,8 @@ SelectButton integrates seamlessly with the PrimeVue Forms library.
 
 <script setup>
 import { ref } from 'vue';
-import { zodResolver } from '@primevue/forms/resolvers/zod';
-import { useToast } from "primevue/usetoast";
+import { zodResolver } from '@phasevueui/forms/resolvers/zod';
+import { useToast } from "phasevue/usetoast";
 import { z } from 'zod';
 
 const toast = useToast();

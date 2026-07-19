@@ -5,7 +5,7 @@ AutoComplete is an input component that provides real-time suggestions when bein
 ## Import
 
 ```javascript
-import AutoComplete from 'primevue/autocomplete';
+import AutoComplete from 'phasevue/autocomplete';
 ```
 
 ## Accessibility
@@ -294,7 +294,7 @@ const search = (event) => {
 
 ## Forms
 
-AutoComplete integrates seamlessly with the PrimeVue Forms library.
+AutoComplete integrates seamlessly with the PhaseVue Forms library.
 
 ```vue
 <Form v-slot="$form" :resolver="resolver" :initialValues="initialValues" @submit="onFormSubmit" class="flex justify-center flex-col gap-4 w-full md:w-56">
@@ -325,8 +325,8 @@ AutoComplete integrates seamlessly with the PrimeVue Forms library.
 
 <script setup>
 import { ref, onMounted } from "vue";
-import { zodResolver } from '@primevue/forms/resolvers/zod';
-import { useToast } from "primevue/usetoast";
+import { zodResolver } from '@phasevueui/forms/resolvers/zod';
+import { useToast } from "phasevue/usetoast";
 import { z } from 'zod';
 import { CountryService } from "@/service/CountryService";
 
@@ -382,7 +382,7 @@ Option groups are specified with the optionGroupLabel and optionGroupChildren pr
 <AutoComplete v-model="selectedCity" :suggestions="filteredCities" @complete="search" optionLabel="label" optionGroupLabel="label" optionGroupChildren="items" placeholder="Hint: type 'a'">
     <template #optiongroup="slotProps">
         <div class="flex items-center country-item">
-            <img :alt="slotProps.option.label" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`flag flag-\${slotProps.option.code.toLowerCase()} mr-2\`" style="width: 18px" />
+            <img :alt="slotProps.option.label" src="/images/flag/flag_placeholder.png" :class="\`flag flag-\${slotProps.option.code.toLowerCase()} mr-2\`" style="width: 18px" />
             <div>{{ slotProps.option.label }}</div>
         </div>
     </template>
@@ -398,7 +398,7 @@ Option groups are specified with the optionGroupLabel and optionGroupChildren pr
         <AutoComplete v-model="selectedCity" :suggestions="filteredCities" @complete="search" optionLabel="label" optionGroupLabel="label" optionGroupChildren="items" placeholder="Hint: type 'a'">
             <template #optiongroup="slotProps">
                 <div class="flex items-center country-item">
-                    <img :alt="slotProps.option.label" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`flag flag-\${slotProps.option.code.toLowerCase()} mr-2\`" style="width: 18px" />
+                    <img :alt="slotProps.option.label" src="/images/flag/flag_placeholder.png" :class="\`flag flag-\${slotProps.option.code.toLowerCase()} mr-2\`" style="width: 18px" />
                     <div>{{ slotProps.option.label }}</div>
                 </div>
             </template>
@@ -408,7 +408,7 @@ Option groups are specified with the optionGroupLabel and optionGroupChildren pr
 
 <script setup>
 import { ref } from "vue";
-import { FilterMatchMode, FilterService } from '@primevue/core/api';
+import { FilterMatchMode, FilterService } from '@phasevueui/core/api';
 
 const selectedCity = ref();
 const filteredCities = ref();
@@ -671,7 +671,7 @@ AutoComplete offers multiple slots for customization through templating.
 <AutoComplete v-model="selectedCountry" optionLabel="name" :suggestions="filteredCountries" @complete="search">
     <template #option="slotProps">
         <div class="flex items-center">
-            <img :alt="slotProps.option.name" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`flag flag-\${slotProps.option.code.toLowerCase()} mr-2\`" style="width: 18px" />
+            <img :alt="slotProps.option.name" src="/images/flag/flag_placeholder.png" :class="\`flag flag-\${slotProps.option.code.toLowerCase()} mr-2\`" style="width: 18px" />
             <div>{{ slotProps.option.name }}</div>
         </div>
     </template>
@@ -695,7 +695,7 @@ AutoComplete offers multiple slots for customization through templating.
         <AutoComplete v-model="selectedCountry" optionLabel="name" :suggestions="filteredCountries" @complete="search">
             <template #option="slotProps">
                 <div class="flex items-center">
-                    <img :alt="slotProps.option.name" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`flag flag-\${slotProps.option.code.toLowerCase()} mr-2\`" style="width: 18px" />
+                    <img :alt="slotProps.option.name" src="/images/flag/flag_placeholder.png" :class="\`flag flag-\${slotProps.option.code.toLowerCase()} mr-2\`" style="width: 18px" />
                     <div>{{ slotProps.option.name }}</div>
                 </div>
             </template>
@@ -834,10 +834,10 @@ const searchItems = (event) => {
 | selectOnFocus          | boolean                                       | false                       | When enabled, the focused option is selected.                                                                                                                         |
 | focusOnHover           | boolean                                       | true                        | When enabled, the focus is placed on the hovered option.                                                                                                              |
 | searchLocale           | string                                        | -                           | Locale to use in searching. The default locale is the host environment's current locale.                                                                              |
-| searchMessage          | string                                        | '{0} results are available' | Text to be displayed in hidden accessible field when filtering returns any results. Defaults to value from PrimeVue locale configuration.                             |
-| selectionMessage       | string                                        | '{0} items selected'        | Text to be displayed in hidden accessible field when options are selected. Defaults to value from PrimeVue locale configuration.                                      |
-| emptySelectionMessage  | string                                        | No selected item            | Text to be displayed in hidden accessible field when any option is not selected. Defaults to value from PrimeVue locale configuration.                                |
-| emptySearchMessage     | string                                        | No results found            | Text to display when filtering does not return any results. Defaults to value from PrimeVue locale configuration.                                                     |
+| searchMessage          | string                                        | '{0} results are available' | Text to be displayed in hidden accessible field when filtering returns any results. Defaults to value from PhaseVue locale configuration.                             |
+| selectionMessage       | string                                        | '{0} items selected'        | Text to be displayed in hidden accessible field when options are selected. Defaults to value from PhaseVue locale configuration.                                      |
+| emptySelectionMessage  | string                                        | No selected item            | Text to be displayed in hidden accessible field when any option is not selected. Defaults to value from PhaseVue locale configuration.                                |
+| emptySearchMessage     | string                                        | No results found            | Text to display when filtering does not return any results. Defaults to value from PhaseVue locale configuration.                                                     |
 | showEmptyMessage       | boolean                                       | true                        | When enabled, empty search message will be visible.                                                                                                                   |
 | tabindex               | string \| number                              | -                           | Index of the element in tabbing order.                                                                                                                                |
 | fluid                  | boolean                                       | null                        | Spans 100% width of the container when enabled.                                                                                                                       |

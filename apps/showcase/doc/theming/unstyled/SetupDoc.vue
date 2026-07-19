@@ -1,6 +1,6 @@
 <template>
     <DocSectionText v-bind="$attrs">
-        <p>Unstyled mode is enabled for the whole suite by enabling <i>unstyled</i> option during PrimeVue installation.</p>
+        <p>Unstyled mode is enabled for the whole suite by enabling <i>unstyled</i> option during PhaseVue installation.</p>
         <DocSectionCode :code="code1" hideToggleCode importCode hideStackBlitz />
         <p>Alternatively even in the default styled mode, a particular component can still be used as unstyled by adding the <i>unstyled</i> prop of the component.</p>
         <div class="card flex justify-center">
@@ -17,10 +17,10 @@ export default {
             code1: {
                 basic: `
 import { createApp } from "vue";
-import PrimeVue from "primevue/config";
+import PhaseVue from "phasevue/config";
 const app = createApp(App);
 
-app.use(PrimeVue, { unstyled: true });
+app.use(PhaseVue, { unstyled: true });
 `
             },
             code2: {

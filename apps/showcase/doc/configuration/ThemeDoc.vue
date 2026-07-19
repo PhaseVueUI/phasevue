@@ -12,12 +12,12 @@ export default {
         return {
             code: {
                 basic: `
-import PrimeVue from 'primevue/config';
+import PhaseVue from 'phasevue/config';
 import Aura from '@primeuix/themes/aura';
 
 const app = createApp(App);
 
-app.use(PrimeVue, {
+app.use(PhaseVue, {
     theme: {
         preset: Aura,
         options: {

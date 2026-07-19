@@ -1,19 +1,24 @@
 <template>
     <div>
         <Head>
-            <Title>UI Kit - PrimeVue</Title>
-            <Meta name="description" content="Design files for PrimeVue Components." />
+            <Title>UI Kit - PhaseVue</Title>
+            <Meta name="description" content="Design files for PhaseVue Components." />
         </Head>
 
         <div>
             <div style="border-radius: 50px" class="overflow-hidden mb-8 flex items-center">
-                <img alt="PrimeVue Figma UI Kit" :src="coverImage" class="w-full" />
+                <img alt="PhaseVue Figma UI Kit" :src="coverImage" class="w-full" />
             </div>
 
             <div class="card !mb-8" style="border-radius: 50px">
                 <div class="flex flex-col md:flex-row items-center gap-6 md:gap-20 mb-20">
                     <div class="w-full md:w-6/12">
-                        <img v-animateonscroll.once="{ enterClass: 'animate-enter fade-in-10 slide-in-from-l-4 animate-duration-1000' }" alt="PrimeVue UI Kit" src="https://fqjltiegiezfetthbags.supabase.co/storage/v1/object/public/common.images/uikit/uikit-figma.png" class="w-full" />
+                        <img
+                            v-animateonscroll.once="{ enterClass: 'animate-enter fade-in-10 slide-in-from-l-4 animate-duration-1000' }"
+                            alt="PhaseVue UI Kit"
+                            src="/images/uikit/uikit-figma.png"
+                            class="w-full"
+                        />
                     </div>
                     <div v-animateonscroll.once="{ enterClass: 'animate-enter fade-in-10 slide-in-from-r-4 animate-duration-1000' }" class="w-full md:w-6/12">
                         <div class="text-primary font-bold mb-2">UP-TO-DATE</div>
@@ -74,12 +79,22 @@
                         </ul>
                     </div>
                     <div class="w-full md:w-6/12">
-                        <img v-animateonscroll.once="{ enterClass: 'animate-enter fade-in-10 slide-in-from-r-4 animate-duration-1000' }" alt="PrimeVue Designer" src="https://fqjltiegiezfetthbags.supabase.co/storage/v1/object/public/common.images/uikit/uikit-system.png" class="w-full" />
+                        <img
+                            v-animateonscroll.once="{ enterClass: 'animate-enter fade-in-10 slide-in-from-r-4 animate-duration-1000' }"
+                            alt="PhaseVue UI Kit"
+                            src="/images/uikit/uikit-system.png"
+                            class="w-full"
+                        />
                     </div>
                 </div>
                 <div class="flex flex-col md:flex-row items-center gap-6 md:gap-20 mb-20">
                     <div class="w-full md:w-6/12">
-                        <img v-animateonscroll.once="{ enterClass: 'animate-enter fade-in-10 slide-in-from-l-4 animate-duration-1000' }" alt="PrimeVue Designer" src="https://fqjltiegiezfetthbags.supabase.co/storage/v1/object/public/common.images/uikit/uikit-themes.png" class="w-full" />
+                        <img
+                            v-animateonscroll.once="{ enterClass: 'animate-enter fade-in-10 slide-in-from-l-4 animate-duration-1000' }"
+                            alt="PhaseVue UI Kit"
+                            src="/images/uikit/uikit-themes.png"
+                            class="w-full"
+                        />
                     </div>
                     <div v-animateonscroll.once="{ enterClass: 'animate-enter fade-in-10 slide-in-from-r-4 animate-duration-1000' }" class="w-full md:w-6/12">
                         <div class="text-primary font-bold mb-2">DARK MODE</div>
@@ -102,7 +117,10 @@
                     <div v-animateonscroll.once="{ enterClass: 'animate-enter fade-in-10 slide-in-from-l-4 animate-duration-1000' }" class="w-full md:w-6/12">
                         <div class="text-primary font-bold mb-2">VARIABLE MANAGEMENT</div>
                         <div class="text-5xl font-bold mb-4">Variables Support</div>
-                        <p class="mb-4 text-lg">Empower yourself with unprecedented control over your designs. Native Figma Variables unlock a whole new level of flexibility, allowing you to create, manage, and apply design tokens seamlessly—without relying on external plugins.</p>
+                        <p class="mb-4 text-lg">
+                            Empower yourself with unprecedented control over your designs. Native Figma Variables unlock a whole new level of flexibility, allowing you to create, manage, and apply design tokens seamlessly—without relying on external
+                            plugins.
+                        </p>
 
                         <ul class="flex flex-wrap m-0 p-0 text-lg">
                             <li class="flex items-center w-6/12 p-4">
@@ -124,49 +142,12 @@
                         </ul>
                     </div>
                     <div class="w-full md:w-6/12">
-                        <img v-animateonscroll.once="{ enterClass: 'animate-enter fade-in-10 slide-in-from-r-4 animate-duration-1000' }" alt="Tokens Support" src="https://fqjltiegiezfetthbags.supabase.co/storage/v1/object/public/common.images/uikit/uikit-tokens.png" class="w-full" />
-                    </div>
-                </div>
-                <div class="flex flex-col md:flex-row items-center gap-6 md:gap-20 mb-20">
-                    <div class="w-full md:w-6/12">
-                        <img v-animateonscroll.once="{ enterClass: 'animate-enter fade-in-10 slide-in-from-l-4 animate-duration-1000' }" alt="PrimeVue Designer" src="https://fqjltiegiezfetthbags.supabase.co/storage/v1/object/public/common.images/designer/feature-2.png" class="w-full" />
-                    </div>
-                    <div v-animateonscroll.once="{ enterClass: 'animate-enter fade-in-10 slide-in-from-r-4 animate-duration-1000' }" class="w-full md:w-6/12">
-                        <div class="text-primary font-bold mb-2">AUTOMATED</div>
-                        <div class="text-5xl font-bold mb-4">Figma to Theme Code</div>
-                        <p class="mb-4 text-lg">
-                            <i>This feature requires a <NuxtLink to="/designer" class="doc-link">Theme Designer</NuxtLink> subscription.</i>
-                        </p>
-                        <p class="mb-4 text-lg">
-                            Sync design tokens from Figma to theme code with ease. Export token.json to the Visual Editor or generate and sync themes directly to your repository via the Figma plugin, eliminating manual steps and speeding up your workflow.
-                        </p>
-
-                        <ul class="flex flex-wrap m-0 p-0 text-lg">
-                            <li class="flex items-center w-6/12 p-4">
-                                <i class="pi pi-check-circle text-green-600 mr-2"></i>
-                                <span class="font-bold">Automatic Mapping</span>
-                            </li>
-                            <li class="flex items-center w-6/12 p-4">
-                                <i class="pi pi-check-circle text-green-600 mr-2"></i>
-                                <span class="font-bold">Eliminate Handoff</span>
-                            </li>
-                            <li class="flex items-center w-6/12 p-4">
-                                <i class="pi pi-check-circle text-green-600 mr-2"></i>
-                                <span class="font-bold">CI Pipeline</span>
-                            </li>
-                            <li class="flex items-center w-6/12 p-4">
-                                <i class="pi pi-check-circle text-green-600 mr-2"></i>
-                                <span class="font-bold">Live Preview</span>
-                            </li>
-                            <li class="flex items-center w-6/12 p-4">
-                                <i class="pi pi-check-circle text-green-600 mr-2"></i>
-                                <span class="font-bold">Maintain Perfect Fidelity</span>
-                            </li>
-                            <li class="flex items-center w-6/12 p-4">
-                                <i class="pi pi-check-circle text-green-600 mr-2"></i>
-                                <span class="font-bold">Verify Synchorization</span>
-                            </li>
-                        </ul>
+                        <img
+                            v-animateonscroll.once="{ enterClass: 'animate-enter fade-in-10 slide-in-from-r-4 animate-duration-1000' }"
+                            alt="Tokens Support"
+                            src="/images/uikit/uikit-tokens.png"
+                            class="w-full"
+                        />
                     </div>
                 </div>
             </div>
@@ -185,11 +166,11 @@
                 </div>
                 <div class="flex items-center justify-center">
                     <svg width="80" height="80" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M50 300c27.6 0 50-22.4 50-50v-50H50c-27.6 0-50 22.4-50 50s22.4 50 50 50z" fill="#0acf83"/>
-                        <path d="M0 150c0-27.6 22.4-50 50-50h50v100H50c-27.6 0-50-22.4-50-50z" fill="#a259ff"/>
-                        <path d="M0 50C0 22.4 22.4 0 50 0h50v100H50C22.4 100 0 77.6 0 50z" fill="#f24e1e"/>
-                        <path d="M100 0h50c27.6 0 50 22.4 50 50s-22.4 50-50 50h-50V0z" fill="#ff7262"/>
-                        <path d="M200 150c0 27.6-22.4 50-50 50s-50-22.4-50-50 22.4-50 50-50 50 22.4 50 50z" fill="#1abcfe"/>
+                        <path d="M50 300c27.6 0 50-22.4 50-50v-50H50c-27.6 0-50 22.4-50 50s22.4 50 50 50z" fill="#0acf83" />
+                        <path d="M0 150c0-27.6 22.4-50 50-50h50v100H50c-27.6 0-50-22.4-50-50z" fill="#a259ff" />
+                        <path d="M0 50C0 22.4 22.4 0 50 0h50v100H50C22.4 100 0 77.6 0 50z" fill="#f24e1e" />
+                        <path d="M100 0h50c27.6 0 50 22.4 50 50s-22.4 50-50 50h-50V0z" fill="#ff7262" />
+                        <path d="M200 150c0 27.6-22.4 50-50 50s-50-22.4-50-50 22.4-50 50-50 50 22.4 50 50z" fill="#1abcfe" />
                     </svg>
                 </div>
             </a>
@@ -198,7 +179,7 @@
                 <div class="font-bold text-5xl mb-6 text-center">Pricing</div>
                 <div class="mb-2 text-center leading-normal text-lg">Choose the right plan for your business. Whether you are an individual or a member of a team, UI Kit is available for affordable prices.</div>
                 <div class="text-center mb-8">
-                    <a href="https://www.primefaces.org/uikit/licenses" class="doc-link">View License Details</a>
+                    <a href="https://phasevue.org/uikit/licenses" class="doc-link">View License Details</a>
                 </div>
 
                 <div class="grid grid-cols-12 gap-4">
@@ -360,7 +341,7 @@
                         <p class="mt-0 mb-12 p-0 leading-normal">
                             PrimeTek offers assistance with account management and licensing issues, with the expectation that users have the necessary technical knowledge to use our products, as we do not offer technical support or consulting. Users
                             can seek assistance in our community via our public <a href="https://discord.com/invite/gzKFYnpmCY" class="doc-link">Discord</a> and
-                            <a href="https://github.com/orgs/primefaces/discussions/categories/figma-ui-kit" class="doc-link">Forum</a>.
+                            <a href="https://github.com/orgs/phasevue/discussions/categories/figma-ui-kit" class="doc-link">Forum</a>.
                         </p>
                     </div>
                     <div class="col-span-12 lg:col-span-4 px-2 lg:px-8">
@@ -386,7 +367,9 @@
 export default {
     computed: {
         coverImage() {
-            return this.$appState.darkTheme ? 'https://fqjltiegiezfetthbags.supabase.co/storage/v1/object/public/common.images/uikit/primeone-cover-dark.jpg' : 'https://fqjltiegiezfetthbags.supabase.co/storage/v1/object/public/common.images/uikit/primeone-cover-light.jpg';
+            return this.$appState.darkTheme
+                ? '/images/uikit/primeone-cover-dark.jpg'
+                : '/images/uikit/primeone-cover-light.jpg';
         }
     }
 };

@@ -5,7 +5,7 @@ Displays a single image with preview and tranformation options.
 ## Import
 
 ```javascript
-import Image from 'primevue/image';
+import Image from 'phasevue/image';
 ```
 
 ## Accessibility
@@ -34,7 +34,7 @@ Enabling preview mode displays a modal layer when the image is clicked to provid
 ```vue
 <template>
     <div class="card flex justify-center">
-        <Image src="https://primefaces.org/cdn/primevue/images/galleria/galleria10.jpg" alt="Image" width="250" preview />
+        <Image src="/images/galleria/galleria10.jpg" alt="Image" width="250" preview />
     </div>
 </template>
 ```
@@ -70,10 +70,10 @@ An eye icon is displayed by default when the image is hovered in preview mode, u
                 <i class="pi pi-search"></i>
             </template>
             <template #image>
-                <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria11.jpg" alt="image" width="250" />
+                <img src="/images/galleria/galleria11.jpg" alt="image" width="250" />
             </template>
             <template #preview="slotProps">
-                <img src="https://primefaces.org/cdn/primevue/images/galleria/galleria11.jpg" alt="preview" :style="slotProps.style" @click="slotProps.onClick" />
+                <img src="/images/galleria/galleria11.jpg" alt="preview" :style="slotProps.style" @click="slotProps.onClick" />
             </template>
         </Image>
     </div>

@@ -1,38 +1,38 @@
 // Api
-export * from '@primevue/core/api';
+export * from '@phasevueui/core/api';
 
 // Base
-export { default as Base } from '@primevue/core/base';
-export { default as BaseStyle } from '@primevue/core/base/style';
+export { default as Base } from '@phasevueui/core/base';
+export { default as BaseStyle } from '@phasevueui/core/base/style';
 
 // BaseComponent
-export { default as BaseComponent } from '@primevue/core/basecomponent';
-export { default as BaseComponentStyle } from '@primevue/core/basecomponent/style';
+export { default as BaseComponent } from '@phasevueui/core/basecomponent';
+export { default as BaseComponentStyle } from '@phasevueui/core/basecomponent/style';
 
 // BaseDirective
-export { default as BaseDirective } from '@primevue/core/basedirective';
+export { default as BaseDirective } from '@phasevueui/core/basedirective';
 
 // BaseEditableHolder
-export { default as BaseEditableHolder } from '@primevue/core/baseeditableholder';
+export { default as BaseEditableHolder } from '@phasevueui/core/baseeditableholder';
 
 // BaseInput
-export { default as BaseInput } from '@primevue/core/baseinput';
+export { default as BaseInput } from '@phasevueui/core/baseinput';
 
-// PrimeVue
-export * from '@primevue/core/config';
-export { default as PrimeVue } from '@primevue/core/config';
+// PhaseVue
+export * from '@phasevueui/core/config';
+export { default as PhaseVue } from '@phasevueui/core/config';
 
-// PrimeVueService
-export { default as PrimeVueService } from '@primevue/core/service';
+// PhaseVueService
+export { default as PhaseVueService } from '@phasevueui/core/service';
 
 // UseAttrSelector
-export * from '@primevue/core/useattrselector';
+export * from '@phasevueui/core/useattrselector';
 
 // UseId
-export * from '@primevue/core/useid';
+export * from '@phasevueui/core/useid';
 
 // UseStyle
-export * from '@primevue/core/usestyle';
+export * from '@phasevueui/core/usestyle';
 
 // Utils
-export * from '@primevue/core/utils';
+export * from '@phasevueui/core/utils';

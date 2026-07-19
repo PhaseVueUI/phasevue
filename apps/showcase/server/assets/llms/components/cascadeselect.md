@@ -5,7 +5,7 @@ CascadeSelect is a form component to select a value from a nested structure of o
 ## Import
 
 ```javascript
-import CascadeSelect from 'primevue/cascadeselect';
+import CascadeSelect from 'phasevue/cascadeselect';
 ```
 
 ## Accessibility
@@ -489,7 +489,7 @@ const countries = ref([
 
 ## Forms
 
-CascadeSelect integrates seamlessly with the PrimeVue Forms library.
+CascadeSelect integrates seamlessly with the PhaseVue Forms library.
 
 ```vue
 <Form v-slot="$form" :resolver="resolver" :initialValues="initialValues" @submit="onFormSubmit" class="flex justify-center flex-col gap-4">
@@ -520,8 +520,8 @@ CascadeSelect integrates seamlessly with the PrimeVue Forms library.
 
 <script setup>
 import { ref } from "vue";
-import { zodResolver } from '@primevue/forms/resolvers/zod';
-import { useToast } from "primevue/usetoast";
+import { zodResolver } from '@phasevueui/forms/resolvers/zod';
+import { useToast } from "phasevue/usetoast";
 import { z } from 'zod';
 
 const toast = useToast();
@@ -738,9 +738,9 @@ Invalid state is displayed using the invalid prop to indicate a failed validatio
 
 ```vue
 <div class="card flex flex-wrap justify-center gap-4">
-    <CascadeSelect v-model="selectedCity1" :invalid="!selectedCity1" :options="countries" optionLabel="cname" optionGroupLabel="name" 
+    <CascadeSelect v-model="selectedCity1" :invalid="!selectedCity1" :options="countries" optionLabel="cname" optionGroupLabel="name"
         :optionGroupChildren="['states', 'cities']" class="w-full sm:w-56" placeholder="Select a City" />
-    <CascadeSelect v-model="selectedCity2" :invalid="!selectedCity2" :options="countries" optionLabel="cname" optionGroupLabel="name" 
+    <CascadeSelect v-model="selectedCity2" :invalid="!selectedCity2" :options="countries" optionLabel="cname" optionGroupLabel="name"
         :optionGroupChildren="['states', 'cities']" class="w-full sm:w-56" placeholder="Select a City" variant="filled" />
 </div>
 ```
@@ -985,7 +985,7 @@ CascadeSelect offers multiple slots for customization through templating.
 <CascadeSelect v-model="selectedCity" :options="countries" optionLabel="cname" optionGroupLabel="name" :optionGroupChildren="['states', 'cities']" class="w-56" placeholder="Select a City">
     <template #option="slotProps">
         <div class="flex items-center">
-            <img v-if="slotProps.option.states" :alt="slotProps.option.name" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`flag flag-\${slotProps.option.code.toLowerCase()} mr-2\`" style="width: 18px"  />
+            <img v-if="slotProps.option.states" :alt="slotProps.option.name" src="/images/flag/flag_placeholder.png" :class="\`flag flag-\${slotProps.option.code.toLowerCase()} mr-2\`" style="width: 18px"  />
             <i v-if="slotProps.option.cities" class="pi pi-compass mr-2"></i>
             <i v-if="slotProps.option.cname" class="pi pi-map-marker mr-2"></i>
             <span>{{ slotProps.option.cname || slotProps.option.name }}</span>
@@ -1015,7 +1015,7 @@ CascadeSelect offers multiple slots for customization through templating.
             :optionGroupChildren="['states', 'cities']" class="w-56" placeholder="Select a City">
             <template #option="slotProps">
                 <div class="flex items-center">
-                    <img v-if="slotProps.option.states" :alt="slotProps.option.name" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`flag flag-\${slotProps.option.code.toLowerCase()} mr-2\`" style="width: 18px"  />
+                    <img v-if="slotProps.option.states" :alt="slotProps.option.name" src="/images/flag/flag_placeholder.png" :class="\`flag flag-\${slotProps.option.code.toLowerCase()} mr-2\`" style="width: 18px"  />
                     <i v-if="slotProps.option.cities" class="pi pi-compass mr-2"></i>
                     <i v-if="slotProps.option.cname" class="pi pi-map-marker mr-2"></i>
                     <span>{{ slotProps.option.cname || slotProps.option.name }}</span>
@@ -1162,11 +1162,11 @@ const countries = ref([
 | selectOnFocus         | boolean                                       | false                       | When enabled, the focused option is selected/opened.                                                                                                                  |
 | focusOnHover          | boolean                                       | true                        | When enabled, the focus is placed on the hovered option.                                                                                                              |
 | searchLocale          | string                                        | -                           | Locale to use in searching. The default locale is the host environment's current locale.                                                                              |
-| searchMessage         | string                                        | '{0} results are available' | Text to be displayed in hidden accessible field when filtering returns any results. Defaults to value from PrimeVue locale configuration.                             |
-| selectionMessage      | string                                        | '{0} items selected'        | Text to be displayed in hidden accessible field when options are selected. Defaults to value from PrimeVue locale configuration.                                      |
-| emptySelectionMessage | string                                        | No selected item            | Text to be displayed in hidden accessible field when any option is not selected. Defaults to value from PrimeVue locale configuration.                                |
-| emptySearchMessage    | string                                        | No results found            | Text to display when filtering does not return any results. Defaults to value from PrimeVue locale configuration.                                                     |
-| emptyMessage          | string                                        | No available options        | Text to be displayed when there are no options available. Defaults to value from PrimeVue locale configuration.                                                       |
+| searchMessage         | string                                        | '{0} results are available' | Text to be displayed in hidden accessible field when filtering returns any results. Defaults to value from PhaseVue locale configuration.                             |
+| selectionMessage      | string                                        | '{0} items selected'        | Text to be displayed in hidden accessible field when options are selected. Defaults to value from PhaseVue locale configuration.                                      |
+| emptySelectionMessage | string                                        | No selected item            | Text to be displayed in hidden accessible field when any option is not selected. Defaults to value from PhaseVue locale configuration.                                |
+| emptySearchMessage    | string                                        | No results found            | Text to display when filtering does not return any results. Defaults to value from PhaseVue locale configuration.                                                     |
+| emptyMessage          | string                                        | No available options        | Text to be displayed when there are no options available. Defaults to value from PhaseVue locale configuration.                                                       |
 | tabindex              | string \| number                              | -                           | Index of the element in tabbing order.                                                                                                                                |
 | fluid                 | boolean                                       | null                        | Spans 100% width of the container when enabled.                                                                                                                       |
 | ariaLabelledby        | string                                        | -                           | Establishes relationships between the component and label(s) where its value should be one or more element IDs.                                                       |

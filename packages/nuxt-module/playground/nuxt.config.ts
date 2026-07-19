@@ -5,8 +5,8 @@ export default defineNuxtConfig({
     compatibilityDate: '2025-02-27',
     devtools: { enabled: true },
     modules: ['../src/module'],
-    primevue: {
-        usePrimeVue: true,
+    phasevue: {
+        usePhaseVue: true,
         options: {
             // ripple, inputStyle etc.
             ripple: true,

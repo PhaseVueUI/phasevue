@@ -1,37 +1,37 @@
-# @primevue/mcp
+# @phasevueui/mcp
 
-Model Context Protocol (MCP) server for PrimeVue component library. Provides AI assistants with comprehensive access to PrimeVue component documentation, props, events, slots, theming, and code examples.
+Model Context Protocol (MCP) server for PhaseVue component library. Provides AI assistants with comprehensive access to PhaseVue component documentation, props, events, slots, theming, and code examples.
 
 ## What is MCP?
 
-[Model Context Protocol (MCP)](https://modelcontextprotocol.io/) is an open standard that enables AI models to connect with external tools and data sources. By installing this MCP server, your AI assistant gains deep knowledge of PrimeVue components and can provide accurate, up-to-date information while helping you build Vue.js applications.
+[Model Context Protocol (MCP)](https://modelcontextprotocol.io/) is an open standard that enables AI models to connect with external tools and data sources. By installing this MCP server, your AI assistant gains deep knowledge of PhaseVue components and can provide accurate, up-to-date information while helping you build Vue.js applications.
 
 ## Installation
 
 ### Claude Code
 
-Add the PrimeVue MCP server using the CLI:
+Add the PhaseVue MCP server using the CLI:
 
 ```bash
 # Add to your user config (available in all projects)
-claude mcp add primevue -s user -- npx -y @primevue/mcp
+claude mcp add phasevue -s user -- npx -y @phasevueui/mcp
 
 # Or add to current project only
-claude mcp add primevue -- npx -y @primevue/mcp
+claude mcp add phasevue -- npx -y @phasevueui/mcp
 ```
 
 Alternatively, use the JSON format for more control:
 
 ```bash
-claude mcp add-json primevue '{"command":"npx","args":["-y","@primevue/mcp"]}' -s user
+claude mcp add-json phasevue '{"command":"npx","args":["-y","@phasevueui/mcp"]}' -s user
 ```
 
 **Useful commands:**
 
 ```bash
 claude mcp list           # List all MCP servers
-claude mcp get primevue   # Get server details
-claude mcp remove primevue # Remove the server
+claude mcp get phasevue   # Get server details
+claude mcp remove phasevue # Remove the server
 ```
 
 After adding, start a new Claude Code session and use `/mcp` to verify the connection.
@@ -49,9 +49,9 @@ Create `.cursor/mcp.json` in your project:
 ```json
 {
     "mcpServers": {
-        "primevue": {
+        "phasevue": {
             "command": "npx",
-            "args": ["-y", "@primevue/mcp"]
+            "args": ["-y", "@phasevueui/mcp"]
         }
     }
 }
@@ -64,9 +64,9 @@ Create or edit `~/.cursor/mcp.json` in your home directory:
 ```json
 {
     "mcpServers": {
-        "primevue": {
+        "phasevue": {
             "command": "npx",
-            "args": ["-y", "@primevue/mcp"]
+            "args": ["-y", "@phasevueui/mcp"]
         }
     }
 }
@@ -78,7 +78,7 @@ Create or edit `~/.cursor/mcp.json` in your home directory:
 2. Click **New MCP Server**
 3. Add the configuration above
 
-After adding, go to **Settings > MCP** and click the refresh button. The Composer Agent will automatically use PrimeVue tools when relevant.
+After adding, go to **Settings > MCP** and click the refresh button. The Composer Agent will automatically use PhaseVue tools when relevant.
 
 > **Reference:** [Cursor MCP Documentation](https://docs.cursor.com/context/model-context-protocol)
 
@@ -93,9 +93,9 @@ Create `.vscode/mcp.json` in your project:
 ```json
 {
     "servers": {
-        "primevue": {
+        "phasevue": {
             "command": "npx",
-            "args": ["-y", "@primevue/mcp"]
+            "args": ["-y", "@phasevueui/mcp"]
         }
     }
 }
@@ -112,9 +112,9 @@ Create or edit the MCP configuration file in your VS Code user data directory:
 ```json
 {
     "servers": {
-        "primevue": {
+        "phasevue": {
             "command": "npx",
-            "args": ["-y", "@primevue/mcp"]
+            "args": ["-y", "@phasevueui/mcp"]
         }
     }
 }
@@ -125,11 +125,11 @@ Create or edit the MCP configuration file in your VS Code user data directory:
 1. Open Command Palette (`Cmd+Shift+P` / `Ctrl+Shift+P`)
 2. Type "MCP: Add Server"
 3. Select "Command (stdio)"
-4. Enter `primevue` as the server ID
+4. Enter `phasevue` as the server ID
 5. Enter `npx` as the command
-6. Enter `-y,@primevue/mcp` as the arguments
+6. Enter `-y,@phasevueui/mcp` as the arguments
 
-After adding, use Copilot in **Agent mode** to access PrimeVue tools. The MCP server will be available in GitHub Copilot Chat.
+After adding, use Copilot in **Agent mode** to access PhaseVue tools. The MCP server will be available in GitHub Copilot Chat.
 
 > **Reference:** [VS Code MCP Documentation](https://code.visualstudio.com/docs/copilot/chat/mcp-servers)
 
@@ -140,7 +140,7 @@ After adding, use Copilot in **Agent mode** to access PrimeVue tools. The MCP se
 **Option 1: Using the CLI**
 
 ```bash
-codex mcp add primevue -- npx -y @primevue/mcp
+codex mcp add phasevue -- npx -y @phasevueui/mcp
 ```
 
 **Option 2: Direct Configuration**
@@ -148,9 +148,9 @@ codex mcp add primevue -- npx -y @primevue/mcp
 Edit `~/.codex/config.toml`:
 
 ```toml
-[mcp_servers.primevue]
+[mcp_servers.phasevue]
 command = "npx"
-args = ["-y", "@primevue/mcp"]
+args = ["-y", "@phasevueui/mcp"]
 ```
 
 After adding, the MCP server will be available in both the Codex CLI and VS Code extension.
@@ -175,9 +175,9 @@ Edit `~/.codeium/windsurf/mcp_config.json`:
 ```json
 {
     "mcpServers": {
-        "primevue": {
+        "phasevue": {
             "command": "npx",
-            "args": ["-y", "@primevue/mcp"]
+            "args": ["-y", "@phasevueui/mcp"]
         }
     }
 }
@@ -196,17 +196,17 @@ Add to your Zed settings (`~/.config/zed/settings.json` on Linux, `~/Library/App
 ```json
 {
     "context_servers": {
-        "primevue": {
+        "phasevue": {
             "command": {
                 "path": "npx",
-                "args": ["-y", "@primevue/mcp"]
+                "args": ["-y", "@phasevueui/mcp"]
             }
         }
     }
 }
 ```
 
-After adding, restart Zed. Check the Agent Panel's settings view - a green indicator dot next to "primevue" confirms the server is active.
+After adding, restart Zed. Check the Agent Panel's settings view - a green indicator dot next to "phasevue" confirms the server is active.
 
 > **Reference:** [Zed MCP Documentation](https://zed.dev/docs/ai/mcp)
 
@@ -218,7 +218,7 @@ After adding, restart Zed. Check the Agent Panel's settings view - a green indic
 
 | Tool                    | Description                                  |
 | ----------------------- | -------------------------------------------- |
-| `list_components`       | List all PrimeVue components with categories |
+| `list_components`       | List all PhaseVue components with categories |
 | `get_component`         | Get detailed info about a specific component |
 | `search_components`     | Search components by name or description     |
 | `get_component_props`   | Get all props for a component                |
@@ -255,7 +255,7 @@ After adding, restart Zed. Check the Agent Panel's settings view - a green indic
 | ------------------------- | --------------------------------------- |
 | `list_guides`             | List all guides and documentation pages |
 | `get_guide`               | Get a specific guide by name            |
-| `get_configuration`       | Get PrimeVue configuration options      |
+| `get_configuration`       | Get PhaseVue configuration options      |
 | `get_installation`        | Get installation instructions           |
 | `get_icons_guide`         | Get icons usage guide                   |
 | `get_accessibility_guide` | Get accessibility guide                 |
@@ -291,7 +291,7 @@ After adding, restart Zed. Check the Agent Panel's settings view - a green indic
 
 | Tool               | Description                             |
 | ------------------ | --------------------------------------- |
-| `list_composables` | List all PrimeVue composables           |
+| `list_composables` | List all PhaseVue composables           |
 | `get_composable`   | Get details about a specific composable |
 
 ## Example Prompts
@@ -312,10 +312,10 @@ Once installed, try asking your AI assistant:
 
 ## Links
 
-- [PrimeVue Documentation](https://primevue.org/)
+- [PhaseVue Documentation](https://phasevue.org/)
 - [Model Context Protocol](https://modelcontextprotocol.io/)
-- [GitHub Repository](https://github.com/primefaces/primevue)
-- [Report Issues](https://github.com/primefaces/primevue/issues)
+- [GitHub Repository](https://github.com/PhaseVueUI/phasevue)
+- [Report Issues](https://github.com/PhaseVueUI/phasevue/issues)
 
 ## License
 

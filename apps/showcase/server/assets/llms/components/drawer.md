@@ -5,7 +5,7 @@ Drawer is a container component displayed as an overlay.
 ## Import
 
 ```javascript
-import Drawer from 'primevue/drawer';
+import Drawer from 'phasevue/drawer';
 ```
 
 ## Accessibility
@@ -437,7 +437,7 @@ Headless mode is enabled by defining a container slot that lets you implement en
                     <div class="mt-auto">
                         <hr class="mb-4 mx-4 border-t border-0 border-surface-200 dark:border-surface-700" />
                         <a v-ripple class="m-4 flex items-center cursor-pointer p-4 gap-2 rounded text-surface-700 hover:bg-surface-100 dark:text-surface-0 dark:hover:bg-surface-800 duration-150 transition-colors p-ripple">
-                            <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
+                            <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
                             <span class="font-bold">Amy Elsner</span>
                         </a>
                     </div>
@@ -596,7 +596,7 @@ Custom content at the header and footer sections is displayed with templating.
         <Drawer v-model:visible="visible">
             <template #header>
                 <div class="flex items-center gap-2">
-                    <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
+                    <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
                     <span class="font-bold">Amy Elsner</span>
                 </div>
             </template>

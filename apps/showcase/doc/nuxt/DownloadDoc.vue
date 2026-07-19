@@ -1,8 +1,8 @@
 <template>
     <DocSectionText v-bind="$attrs">
         <p>
-            PrimeVue is available for download on <a href="https://www.npmjs.com/package/primevue">npm registry</a> along with the official
-            <a href="https://www.npmjs.com/package/@primevue/nuxt-module" target="_blank" rel="noopener noreferrer">@primevue/nuxt-module</a>.
+            PhaseVue is available for download on <a href="https://www.npmjs.com/package/phasevue">npm registry</a> along with the official
+            <a href="https://www.npmjs.com/package/@phasevueui/nuxt-module" target="_blank" rel="noopener noreferrer">@phasevueui/nuxt-module</a>.
         </p>
     </DocSectionText>
     <DocSectionCode :code="code" hideToggleCode hideStackBlitz />
@@ -15,16 +15,16 @@ export default {
             code: {
                 basic: `
 # Using npm
-npm install primevue @primeuix/themes
-npm install --save-dev @primevue/nuxt-module
+npm install phasevue @primeuix/themes
+npm install --save-dev @phasevueui/nuxt-module
 
 # Using yarn
-yarn add primevue @primeuix/themes
-yarn add --dev @primevue/nuxt-module
+yarn add phasevue @primeuix/themes
+yarn add --dev @phasevueui/nuxt-module
 
 # Using pnpm
-pnpm add primevue @primeuix/themes
-pnpm add -D @primevue/nuxt-module
+pnpm add phasevue @primeuix/themes
+pnpm add -D @phasevueui/nuxt-module
 `
             }
         };

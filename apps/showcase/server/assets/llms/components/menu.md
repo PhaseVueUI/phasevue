@@ -5,7 +5,7 @@ Menu displays a list of items in vertical orientation.
 ## Import
 
 ```javascript
-import Menu from 'primevue/menu';
+import Menu from 'phasevue/menu';
 ```
 
 ## Accessibility
@@ -42,7 +42,7 @@ The command property defines the callback to run when an item is activated by cl
 
 <script setup>
 import { ref } from "vue";
-import { useToast } from "primevue/usetoast";
+import { useToast } from "phasevue/usetoast";
 
 const toast = useToast();
 
@@ -271,7 +271,7 @@ Menu offers item customization with the item template that receives the menuitem
     </template>
     <template #end>
         <button v-ripple class="relative overflow-hidden w-full border-0 bg-transparent flex items-start p-2 pl-4 hover:bg-surface-100 dark:hover:bg-surface-800 rounded-none cursor-pointer transition-colors duration-200">
-            <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" class="mr-2" shape="circle" />
+            <Avatar image="/images/avatar/amyelsner.png" class="mr-2" shape="circle" />
             <span class="inline-flex flex-col items-start">
                 <span class="font-bold">Amy Elsner</span>
                 <span class="text-sm">Admin</span>
@@ -316,7 +316,7 @@ Menu offers item customization with the item template that receives the menuitem
             </template>
             <template #end>
                 <button v-ripple class="relative overflow-hidden w-full border-0 bg-transparent flex items-start p-2 pl-4 hover:bg-surface-100 dark:hover:bg-surface-800 rounded-none cursor-pointer transition-colors duration-200">
-                    <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" class="mr-2" shape="circle" />
+                    <Avatar image="/images/avatar/amyelsner.png" class="mr-2" shape="circle" />
                     <span class="inline-flex flex-col items-start">
                         <span class="font-bold">Amy Elsner</span>
                         <span class="text-sm">Admin</span>

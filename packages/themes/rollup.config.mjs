@@ -22,7 +22,7 @@ const EXTERNALS = [];
 // alias
 const ALIAS_ENTRIES = [
     {
-        find: /^@primevue\/themes\/(.*)$/,
+        find: /^@phasevueui\/themes\/(.*)$/,
         replacement: path.resolve(__dirname, './src/presets/$1/index.js')
     }
 ];
@@ -120,7 +120,7 @@ const ENTRY = {
                 output: [
                     {
                         format: 'umd',
-                        name: name ?? 'PrimeVue',
+                        name: name ?? 'PhaseVue',
                         file: `${output}${minify ? '.min' : ''}.js`,
                         globals: GLOBALS,
                         exports: 'auto'
@@ -192,7 +192,7 @@ function addLibrary() {
     fs.readdirSync(path.resolve(__dirname, process.env.INPUT_DIR + 'presets'), { withFileTypes: true })
         .filter((dir) => dir.isDirectory())
         .forEach(({ name: folderName }) => {
-            ENTRY.format.umd({ name: `PrimeVue.Themes.${folderName[0].toUpperCase() + folderName.slice(1)}`, input: process.env.INPUT_DIR + `presets/${folderName}/index.js`, output: process.env.OUTPUT_DIR + `umd/${folderName}`, minify: true });
+            ENTRY.format.umd({ name: `PhaseVue.Themes.${folderName[0].toUpperCase() + folderName.slice(1)}`, input: process.env.INPUT_DIR + `presets/${folderName}/index.js`, output: process.env.OUTPUT_DIR + `umd/${folderName}`, minify: true });
         });
 }
 

@@ -1,11 +1,11 @@
 /**
  *
- * [Live Demo](https://primevue.org/)
+ * [Live Demo](https://phasevue.org/)
  *
  * @module baseinput
  *
  */
-import { BaseEditableHolderEmitsOptions, BaseEditableHolderProps } from '@primevue/core/baseeditableholder';
+import { BaseEditableHolderEmitsOptions, BaseEditableHolderProps } from '@phasevueui/core/baseeditableholder';
 
 export interface BaseInputProps extends BaseEditableHolderProps {
     /**

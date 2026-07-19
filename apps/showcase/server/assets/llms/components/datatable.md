@@ -5,10 +5,10 @@ DataTable displays data in tabular format.
 ## Import
 
 ```javascript
-import DataTable from 'primevue/datatable';
-import Column from 'primevue/column';
-import ColumnGroup from 'primevue/columngroup'; // optional
-import Row from 'primevue/row'; // optional
+import DataTable from 'phasevue/datatable';
+import Column from 'phasevue/column';
+import ColumnGroup from 'phasevue/columngroup'; // optional
+import Row from 'phasevue/row'; // optional
 ```
 
 ## AccessibilityDoc
@@ -340,7 +340,7 @@ DataTable has exclusive integration with ContextMenu using the contextMenu event
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from 'phasevue/usetoast';
 import { ProductService } from '@/service/ProductService';
 
 onMounted(() => {
@@ -554,7 +554,7 @@ Lazy mode is handy to deal with large datasets, instead of loading the entire da
     <Column field="country.name" header="Country" filterField="country.name" filterMatchMode="contains" sortable>
         <template #body="{ data }">
             <div class="flex items-center gap-2">
-                <img alt="flag" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`flag flag-\${data.country.code}\`" style="width: 24px" />
+                <img alt="flag" src="/images/flag/flag_placeholder.png" :class="\`flag flag-\${data.country.code}\`" style="width: 24px" />
                 <span>{{ data.country.name }}</span>
             </div>
         </template>
@@ -570,7 +570,7 @@ Lazy mode is handy to deal with large datasets, instead of loading the entire da
     <Column field="representative.name" header="Representative" filterField="representative.name" sortable>
         <template #body="{ data }">
             <div class="flex items-center gap-2">
-                <img :alt="data.representative.name" :src="\`https://primefaces.org/cdn/primevue/images/avatar/\${data.representative.image}\`" style="width: 32px" />
+                <img :alt="data.representative.name" :src="\`/images/avatar/\${data.representative.image}\`" style="width: 32px" />
                 <span>{{ data.representative.name }}</span>
             </div>
         </template>
@@ -600,7 +600,7 @@ Lazy mode is handy to deal with large datasets, instead of loading the entire da
             <Column field="country.name" header="Country" filterField="country.name" filterMatchMode="contains" sortable>
                 <template #body="{ data }">
                     <div class="flex items-center gap-2">
-                        <img alt="flag" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`flag flag-\${data.country.code}\`" style="width: 24px" />
+                        <img alt="flag" src="/images/flag/flag_placeholder.png" :class="\`flag flag-\${data.country.code}\`" style="width: 24px" />
                         <span>{{ data.country.name }}</span>
                     </div>
                 </template>
@@ -616,7 +616,7 @@ Lazy mode is handy to deal with large datasets, instead of loading the entire da
             <Column field="representative.name" header="Representative" filterField="representative.name" sortable>
                 <template #body="{ data }">
                     <div class="flex items-center gap-2">
-                        <img :alt="data.representative.name" :src="\`https://primefaces.org/cdn/primevue/images/avatar/\${data.representative.image}\`" style="width: 32px" />
+                        <img :alt="data.representative.name" :src="\`/images/avatar/\${data.representative.image}\`" style="width: 32px" />
                         <span>{{ data.representative.name }}</span>
                     </div>
                 </template>
@@ -744,7 +744,7 @@ Order of the columns and rows can be changed using drag and drop. Column reorder
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from 'phasevue/usetoast';
 import { ProductService } from '@/service/ProductService';
 
 onMounted(() => {
@@ -790,7 +790,7 @@ Row expansion is controlled with expandedRows property. The column that has the 
     <Column field="name" header="Name"></Column>
     <Column header="Image">
         <template #body="slotProps">
-            <img :src="\`https://primefaces.org/cdn/primevue/images/product/\${slotProps.data.image}\`" :alt="slotProps.data.image" class="shadow-lg" width="64" />
+            <img :src="\`/images/product/\${slotProps.data.image}\`" :alt="slotProps.data.image" class="shadow-lg" width="64" />
         </template>
     </Column>
     <Column field="price" header="Price">
@@ -855,7 +855,7 @@ Row expansion is controlled with expandedRows property. The column that has the 
             <Column field="name" header="Name"></Column>
             <Column header="Image">
                 <template #body="slotProps">
-                    <img :src="\`https://primefaces.org/cdn/primevue/images/product/\${slotProps.data.image}\`" :alt="slotProps.data.image" class="shadow-lg" width="64" />
+                    <img :src="\`/images/product/\${slotProps.data.image}\`" :alt="slotProps.data.image" class="shadow-lg" width="64" />
                 </template>
             </Column>
             <Column field="price" header="Price">
@@ -906,7 +906,7 @@ Row expansion is controlled with expandedRows property. The column that has the 
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import { useToast } from 'primevue/usetoast';
+import { useToast } from 'phasevue/usetoast';
 import { ProductService } from '@/service/ProductService';
 
 const products = ref();
@@ -1059,7 +1059,7 @@ Stateful table allows keeping the state such as page, sort and filtering either 
     <Column header="Country" sortable sortField="country.name" filterField="country.name" filterMatchMode="contains" style="width: 25%">
         <template #body="{ data }">
             <div class="flex items-center gap-2">
-                <img alt="flag" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`flag flag-\${data.country.code}\`" style="width: 24px" />
+                <img alt="flag" src="/images/flag/flag_placeholder.png" :class="\`flag flag-\${data.country.code}\`" style="width: 24px" />
                 <span>{{ data.country.name }}</span>
             </div>
         </template>
@@ -1070,7 +1070,7 @@ Stateful table allows keeping the state such as page, sort and filtering either 
     <Column header="Representative" sortable sortField="representative.name" filterField="representative" :showFilterMatchModes="false" :filterMenuStyle="{ width: '14rem' }" style="width: 25%">
         <template #body="{ data }">
             <div class="flex items-center gap-2">
-                <img :alt="data.representative.name" :src="\`https://primefaces.org/cdn/primevue/images/avatar/\${data.representative.image}\`" style="width: 32px" />
+                <img :alt="data.representative.name" :src="\`/images/avatar/\${data.representative.image}\`" style="width: 32px" />
                 <span>{{ data.representative.name }}</span>
             </div>
         </template>
@@ -1078,7 +1078,7 @@ Stateful table allows keeping the state such as page, sort and filtering either 
             <MultiSelect v-model="filterModel.value" :options="representatives" optionLabel="name" placeholder="Any">
                 <template #option="slotProps">
                     <div class="flex items-center gap-2">
-                        <img :alt="slotProps.option.name" :src="\`https://primefaces.org/cdn/primevue/images/avatar/\${slotProps.option.image}\`" style="width: 32px" />
+                        <img :alt="slotProps.option.name" :src="\`/images/avatar/\${slotProps.option.image}\`" style="width: 32px" />
                         <span>{{ slotProps.option.name }}</span>
                     </div>
                 </template>
@@ -1126,7 +1126,7 @@ Stateful table allows keeping the state such as page, sort and filtering either 
             <Column header="Country" sortable sortField="country.name" filterField="country.name" filterMatchMode="contains" style="width: 25%">
                 <template #body="{ data }">
                     <div class="flex items-center gap-2">
-                        <img alt="flag" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`flag flag-\${data.country.code}\`" style="width: 24px" />
+                        <img alt="flag" src="/images/flag/flag_placeholder.png" :class="\`flag flag-\${data.country.code}\`" style="width: 24px" />
                         <span>{{ data.country.name }}</span>
                     </div>
                 </template>
@@ -1137,7 +1137,7 @@ Stateful table allows keeping the state such as page, sort and filtering either 
             <Column header="Representative" sortable sortField="representative.name" filterField="representative" :showFilterMatchModes="false" :filterMenuStyle="{ width: '14rem' }" style="width: 25%">
                 <template #body="{ data }">
                     <div class="flex items-center gap-2">
-                        <img :alt="data.representative.name" :src="\`https://primefaces.org/cdn/primevue/images/avatar/\${data.representative.image}\`" style="width: 32px" />
+                        <img :alt="data.representative.name" :src="\`/images/avatar/\${data.representative.image}\`" style="width: 32px" />
                         <span>{{ data.representative.name }}</span>
                     </div>
                 </template>
@@ -1145,7 +1145,7 @@ Stateful table allows keeping the state such as page, sort and filtering either 
                     <MultiSelect v-model="filterModel.value" :options="representatives" optionLabel="name" placeholder="Any">
                         <template #option="slotProps">
                             <div class="flex items-center gap-2">
-                                <img :alt="slotProps.option.name" :src="\`https://primefaces.org/cdn/primevue/images/avatar/\${slotProps.option.image}\`" style="width: 32px" />
+                                <img :alt="slotProps.option.name" :src="\`/images/avatar/\${slotProps.option.image}\`" style="width: 32px" />
                                 <span>{{ slotProps.option.name }}</span>
                             </div>
                         </template>
@@ -1172,7 +1172,7 @@ Stateful table allows keeping the state such as page, sort and filtering either 
 <script setup>
 import { ref, onMounted } from 'vue';
 import { CustomerService } from '@/service/CustomerService';
-import { FilterMatchMode, FilterOperator } from '@primevue/core/api';
+import { FilterMatchMode, FilterOperator } from '@phasevueui/core/api';
 
 const customers = ref();
 const selectedCustomer = ref();
@@ -1285,7 +1285,7 @@ Custom content at header and footer sections are supported via templating.
     <Column field="name" header="Name"></Column>
     <Column header="Image">
         <template #body="slotProps">
-            <img :src="\`https://primefaces.org/cdn/primevue/images/product/\${slotProps.data.image}\`" :alt="slotProps.data.image" class="w-24 rounded" />
+            <img :src="\`/images/product/\${slotProps.data.image}\`" :alt="slotProps.data.image" class="w-24 rounded" />
         </template>
     </Column>
     <Column field="price" header="Price">
@@ -1324,7 +1324,7 @@ Custom content at header and footer sections are supported via templating.
             <Column field="name" header="Name"></Column>
             <Column header="Image">
                 <template #body="slotProps">
-                    <img :src="\`https://primefaces.org/cdn/primevue/images/product/\${slotProps.data.image}\`" :alt="slotProps.data.image" class="w-24 rounded" />
+                    <img :src="\`/images/product/\${slotProps.data.image}\`" :alt="slotProps.data.image" class="w-24 rounded" />
                 </template>
             </Column>
             <Column field="price" header="Price">

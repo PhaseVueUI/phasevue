@@ -10,7 +10,6 @@ catalog:
     '@primeuix/themes': ^2.0.3
     '@primeuix/mcp': ^1.0.0
     'tailwindcss-primeui': ^0.6.1
-    'primeicons': ^7.0.0
 
 catalogs:
     app:

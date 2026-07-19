@@ -1,6 +1,6 @@
-# Install PrimeVue with Nuxt
+# Install PhaseVue with Nuxt
 
-Setting up PrimeVue in a Nuxt project.
+Setting up PhaseVue in a Nuxt project.
 
 ## autoImport
 
@@ -8,44 +8,44 @@ The auto import feature registers components automatically with tree shaking sup
 
 ## Download
 
-PrimeVue is available for download on npm registry along with the official @primevue/nuxt-module .
+PhaseVue is available for download on npm registry along with the official @phasevueui/nuxt-module .
 
 ```vue
-# Using npm npm install primevue @primeuix/themes npm install --save-dev @primevue/nuxt-module # Using yarn yarn add primevue @primeuix/themes yarn add --dev @primevue/nuxt-module # Using pnpm pnpm add primevue @primeuix/themes pnpm add -D
-@primevue/nuxt-module
+# Using npm npm install phasevue @primeuix/themes npm install --save-dev @phasevueui/nuxt-module # Using yarn yarn add phasevue @primeuix/themes yarn add --dev @phasevueui/nuxt-module # Using pnpm pnpm add phasevue @primeuix/themes pnpm add -D
+@phasevueui/nuxt-module
 ```
 
 ## Examples
 
-Nuxt based samples with different options are available at PrimeVue examples repository.
+Nuxt based samples with different options are available at PhaseVue examples repository.
 
 ## Module
 
-In nuxt.config file, add the @primevue/nuxt-module to the modules section and define primevue object for the configuration of the module.
+In nuxt.config file, add the @phasevueui/nuxt-module to the modules section and define phasevue object for the configuration of the module.
 
 ## Next Steps
 
-Welcome to the Prime UI Ecosystem! Once you have PrimeVue up and running, we recommend exploring the following resources to gain a deeper understanding of the library. Global configuration Customization of styles Pass through attributes Getting support
+Welcome to the Prime UI Ecosystem! Once you have PhaseVue up and running, we recommend exploring the following resources to gain a deeper understanding of the library. Global configuration Customization of styles Pass through attributes Getting support
 
 ## Styled Mode
 
-Styled mode provides pre-skinned components, default theme is Aura with emerald as the primary color. See the styled mode documentation for details. Install the @primeuix/themes add-on package as the themes are not included in PrimeVue by default. Configure the module to use a theme like Aura.
+Styled mode provides pre-skinned components, default theme is Aura with emerald as the primary color. See the styled mode documentation for details. Install the @primeuix/themes add-on package as the themes are not included in PhaseVue by default. Configure the module to use a theme like Aura.
 
 ## Theme
 
 Configure the module to use a theme like Aura.
 
 ```vue
-import Aura from '@primeuix/themes/aura'; export default defineNuxtConfig({ modules: [ '@primevue/nuxt-module' ], primevue: { options: { theme: { preset: Aura } } } })
+import Aura from '@primeuix/themes/aura'; export default defineNuxtConfig({ modules: [ '@phasevueui/nuxt-module' ], phasevue: { options: { theme: { preset: Aura } } } })
 ```
 
 ## Unstyled Mode
 
-In unstyled mode, the components do not include any CSS so you'd need to style the components on your end, this is especially useful when building your own UI library on top of PrimeVue. Visit the Unstyled mode documentation for more information and examples.
+In unstyled mode, the components do not include any CSS so you'd need to style the components on your end, this is especially useful when building your own UI library on top of PhaseVue. Visit the Unstyled mode documentation for more information and examples.
 
 ## Verify
 
-The nuxt-primevue module registers the components automatically with tree-shaking support so you may start using them instantly.
+The nuxt-phasevue module registers the components automatically with tree-shaking support so you may start using them instantly.
 
 ```vue
 <Button label="Verify" />
@@ -53,7 +53,7 @@ The nuxt-primevue module registers the components automatically with tree-shakin
 
 ## Video
 
-A video tutorial that goes through steps of setting up PrimeVue with the nuxt-primevue module.
+A video tutorial that goes through steps of setting up PhaseVue with the nuxt-phasevue module.
 
 ## components
 
@@ -77,17 +77,17 @@ Configures the theme configuration path for the customizations of a theme in sty
 
 ## options
 
-Main configuration settings of PrimeVue, refer to the configuration documentation for details.
+Main configuration settings of PhaseVue, refer to the configuration documentation for details.
 
 ```vue
-import Aura from '@primeuix/themes/aura'; export default defineNuxtConfig({ modules: [ '@primevue/nuxt-module' ], primevue: { options: { ripple: true, inputVariant: 'filled', theme: { preset: Aura, options: { prefix: 'p', darkModeSelector: 'system',
+import Aura from '@primeuix/themes/aura'; export default defineNuxtConfig({ modules: [ '@phasevueui/nuxt-module' ], phasevue: { options: { ripple: true, inputVariant: 'filled', theme: { preset: Aura, options: { prefix: 'p', darkModeSelector: 'system',
 cssLayer: false } } } } })
 ```
 
-## usePrimeVue
+## usePhaseVue
 
-The module installs the PrimeVue plugin by default. Disable this option if you prefer to configure PrimeVue manually e.g. with a Nuxt plugin.
+The module installs the PhaseVue plugin by default. Disable this option if you prefer to configure PhaseVue manually e.g. with a Nuxt plugin.
 
 ```vue
-primevue: { usePrimeVue: true | false }
+phasevue: { usePhaseVue: true | false }
 ```

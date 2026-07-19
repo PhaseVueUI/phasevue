@@ -15,10 +15,10 @@ export default {
                 basic: `
 {
     "context_servers": {
-        "primevue": {
+        "phasevue": {
             "command": {
                 "path": "npx",
-                "args": ["-y", "@primevue/mcp"]
+                "args": ["-y", "@phasevueui/mcp"]
             }
         }
     }

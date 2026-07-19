@@ -1,4 +1,4 @@
-import BaseStyle from '@primevue/core/base/style';
+import BaseStyle from '@phasevueui/core/base/style';
 
 const css = `
 .p-icon {

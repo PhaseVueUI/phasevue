@@ -5,8 +5,8 @@ Text, icon, buttons and other content can be grouped next to an input.
 ## Import
 
 ```javascript
-import InputGroup from 'primevue/inputgroup';
-import InputGroupAddon from 'primevue/inputgroupaddon';
+import InputGroup from 'phasevue/inputgroup';
+import InputGroupAddon from 'phasevue/inputgroupaddon';
 ```
 
 ## Accessibility

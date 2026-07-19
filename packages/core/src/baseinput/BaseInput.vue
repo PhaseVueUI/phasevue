@@ -1,5 +1,5 @@
 <script>
-import BaseEditableHolder from '@primevue/core/baseeditableholder';
+import BaseEditableHolder from '@phasevueui/core/baseeditableholder';
 
 export default {
     name: 'BaseInput',
@@ -28,7 +28,7 @@ export default {
     },
     computed: {
         $variant() {
-            return this.variant ?? (this.$primevue.config.inputStyle || this.$primevue.config.inputVariant);
+            return this.variant ?? (this.$phasevue.config.inputStyle || this.$phasevue.config.inputVariant);
         },
         $fluid() {
             return this.fluid ?? !!this.$pcFluid;

@@ -5,7 +5,7 @@ Paginator displays data in paged format and provides navigation between pages.
 ## Import
 
 ```javascript
-import Paginator from 'primevue/paginator';
+import Paginator from 'phasevue/paginator';
 ```
 
 ## Accessibility
@@ -187,7 +187,7 @@ Paginator elements can be customized using the template property using the prede
 <Paginator v-model:first="first" :rows="1" :totalRecords="12" template="FirstPageLink PrevPageLink CurrentPageReport NextPageLink LastPageLink" />
 
 <div class="p-4 text-center">
-    <img :src="\`https://primefaces.org/cdn/primevue/images/nature/nature\${first + 1}.jpg\`" :alt="first" class="rounded w-full sm:w-[30rem]" />
+    <img :src="\`/images/nature/nature\${first + 1}.jpg\`" :alt="first" class="rounded w-full sm:w-[30rem]" />
 </div>
 ```
 
@@ -200,7 +200,7 @@ Paginator elements can be customized using the template property using the prede
         <Paginator v-model:first="first" :rows="1" :totalRecords="12" template="FirstPageLink PrevPageLink CurrentPageReport NextPageLink LastPageLink" />
 
         <div class="p-4 text-center">
-            <img :src="\`https://primefaces.org/cdn/primevue/images/nature/nature\${first + 1}.jpg\`" :alt="first" class="rounded w-full sm:w-[30rem]" />
+            <img :src="\`/images/nature/nature\${first + 1}.jpg\`" :alt="first" class="rounded w-full sm:w-[30rem]" />
         </div>
     </div>
 </template>

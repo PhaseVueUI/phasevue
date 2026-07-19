@@ -5,7 +5,7 @@ ContextMenu displays an overlay menu to display actions related to an element.
 ## Import
 
 ```javascript
-import ContextMenu from 'primevue/contextmenu';
+import ContextMenu from 'phasevue/contextmenu';
 ```
 
 ## Accessibility
@@ -34,7 +34,7 @@ The command property defines the callback to run when an item is activated by cl
         @contextmenu="onRightClick($event, user)"
     >
         <div class="flex flex-1 items-center gap-2">
-            <img :alt="user.name" :src="\`https://primefaces.org/cdn/primevue/images/avatar/\${user.image}\`" class="w-8 h-8" />
+            <img :alt="user.name" :src="\`/images/avatar/\${user.image}\`" class="w-8 h-8" />
             <span class="font-bold">{{ user.name }}</span>
         </div>
         <Tag :value="user.role" :severity="getBadge(user)" />
@@ -58,7 +58,7 @@ The command property defines the callback to run when an item is activated by cl
                 @contextmenu="onRightClick($event, user)"
             >
                 <div class="flex flex-1 items-center gap-2">
-                    <img :alt="user.name" :src="\`https://primefaces.org/cdn/primevue/images/avatar/\${user.image}\`" class="w-8 h-8" />
+                    <img :alt="user.name" :src="\`/images/avatar/\${user.image}\`" class="w-8 h-8" />
                     <span class="font-bold">{{ user.name }}</span>
                 </div>
                 <Tag :value="user.role" :severity="getBadge(user)" />
@@ -71,7 +71,7 @@ The command property defines the callback to run when an item is activated by cl
 
 <script setup>
 import { ref } from 'vue';
-import { useToast } from "primevue/usetoast";
+import { useToast } from "phasevue/usetoast";
 
 const toast = useToast();
 const selectedUser = ref();
@@ -339,7 +339,7 @@ ContextMenu offers item customization with the item template that receives the m
                 @contextmenu="onRightClick($event, product.id)"
             >
                 <div class="flex flex-wrap p-2 items-center gap-4">
-                    <img class="w-16 shrink-0 rounded" :src="'https://primefaces.org/cdn/primevue/images/product/' + product.image" :alt="product.name" />
+                    <img class="w-16 shrink-0 rounded" :src="'/images/product/' + product.image" :alt="product.name" />
                     <div class="flex-1 flex flex-col gap-1">
                         <span class="font-bold">{{ product.name }}</span>
                         <div class="flex items-center gap-2">

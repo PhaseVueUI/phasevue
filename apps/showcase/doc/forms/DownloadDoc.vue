@@ -12,13 +12,13 @@ export default {
             code: {
                 basic: `
 # Using npm
-npm install @primevue/forms
+npm install @phasevueui/forms
 
 # Using yarn
-yarn add @primevue/forms
+yarn add @phasevueui/forms
 
 # Using pnpm
-pnpm add @primevue/forms
+pnpm add @phasevueui/forms
 `
             }
         };

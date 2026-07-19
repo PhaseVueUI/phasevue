@@ -75,7 +75,7 @@ Each component has a special pt property to define an object with keys correspon
 The global property has a css option to define custom css that belongs to a global pt configuration. Common use case of this feature is defining global styles and animations related to the pass through configuration.
 
 ```vue
-import { createApp } from "vue"; import PrimeVue from "primevue/config"; const app = createApp(App); app.use(PrimeVue, { pt: { global: { css: \` .my-button { border-width: 2px; } \` }, button: { root: 'my-button' } } });
+import { createApp } from "vue"; import PhaseVue from "phasevue/config"; const app = createApp(App); app.use(PhaseVue, { pt: { global: { css: \` .my-button { border-width: 2px; } \` }, button: { root: 'my-button' } } });
 ```
 
 ## Declarative
@@ -87,7 +87,7 @@ The declarative syntax provides an alternative to the programmatic syntax. The a
 Defines the shared pass through properties per component type. For example, with the configuration below all panel headers have the bg-primary style class and all autocomplete components have a fixed width. These settings can be overridden by a particular component as components pt property has higher precedence over global pt .
 
 ```vue
-import { createApp } from "vue"; import PrimeVue from "primevue/config"; const app = createApp(App); app.use(PrimeVue, { pt: { panel: { header: { class: 'bg-primary text-primary-contrast' } }, autocomplete: { input: { root: 'w-64' // OR { class:
+import { createApp } from "vue"; import PhaseVue from "phasevue/config"; const app = createApp(App); app.use(PhaseVue, { pt: { panel: { header: { class: 'bg-primary text-primary-contrast' } }, autocomplete: { input: { root: 'w-64' // OR { class:
 'w-64' } } } } });
 ```
 
@@ -135,7 +135,7 @@ const panelPt = ref({
 
 ## PC Prefix
 
-Section names prefixed with pc denote PrimeVue components, distinguishing them from standard DOM elements and indicating the necessity for a nested structure. For example, the "badge" section is identified as pcBadge because the button component incorporates the badge component internally.
+Section names prefixed with pc denote PhaseVue components, distinguishing them from standard DOM elements and indicating the necessity for a nested structure. For example, the "badge" section is identified as pcBadge because the button component incorporates the badge component internally.
 
 ```vue
 <Button

@@ -5,7 +5,7 @@ Rating component is a star based selection input.
 ## Import
 
 ```javascript
-import Rating from 'primevue/rating';
+import Rating from 'phasevue/rating';
 ```
 
 ## Accessibility
@@ -49,7 +49,7 @@ const value = ref(5);
 
 ## Forms
 
-Rating integrates seamlessly with the PrimeVue Forms library.
+Rating integrates seamlessly with the PhaseVue Forms library.
 
 ```vue
 <Form v-slot="$form" :resolver="resolver" :initialValues="initialValues" @submit="onFormSubmit" class="flex flex-col gap-4 w-40">
@@ -79,8 +79,8 @@ Rating integrates seamlessly with the PrimeVue Forms library.
 
 <script setup>
 import { ref } from 'vue';
-import { zodResolver } from '@primevue/forms/resolvers/zod';
-import { useToast } from "primevue/usetoast";
+import { zodResolver } from '@phasevueui/forms/resolvers/zod';
+import { useToast } from "phasevue/usetoast";
 import { z } from 'zod';
 
 const toast = useToast();
@@ -180,10 +180,10 @@ Custom icons are used to override the default icons with onicon , officon and ca
     <div class="card flex justify-center">
         <Rating v-model="value">
             <template #onicon>
-                <img src="https://primefaces.org/cdn/primevue/images/rating/custom-onicon.png" height="24" width="24" />
+                <img src="/images/rating/custom-onicon.png" height="24" width="24" />
             </template>
             <template #officon>
-                <img src="https://primefaces.org/cdn/primevue/images/rating/custom-officon.png" height="24" width="24" />
+                <img src="/images/rating/custom-officon.png" height="24" width="24" />
             </template>
         </Rating>
     </div>

@@ -5,7 +5,7 @@ Popover is a container component that can overlay other components on page.
 ## Import
 
 ```javascript
-import Popover from 'primevue/popover';
+import Popover from 'phasevue/popover';
 ```
 
 ## Accessibility
@@ -24,7 +24,7 @@ Popover is accessed via its ref and visibility is controlled using toggle , show
         <div>
             <span class="font-medium block mb-2">Share this document</span>
             <InputGroup>
-                <InputText value="https://primevue.org/12323ff26t2g243g423g234gg52hy25XADXAG3" readonly class="w-[25rem]"></InputText>
+                <InputText value="https://phasevue.org/12323ff26t2g243g423g234gg52hy25XADXAG3" readonly class="w-[25rem]"></InputText>
                 <InputGroupAddon>
                     <i class="pi pi-copy"></i>
                 </InputGroupAddon>
@@ -41,7 +41,7 @@ Popover is accessed via its ref and visibility is controlled using toggle , show
             <span class="font-medium block mb-2">Team Members</span>
             <ul class="list-none p-0 m-0 flex flex-col gap-4">
                 <li v-for="member in members" :key="member.name" class="flex items-center gap-2">
-                    <img :src="\`https://primefaces.org/cdn/primevue/images/avatar/\${member.image}\`" style="width: 32px" />
+                    <img :src="\`/images/avatar/\${member.image}\`" style="width: 32px" />
                     <div>
                         <span class="font-medium">{{ member.name }}</span>
                         <div class="text-sm text-surface-500 dark:text-surface-400">{{ member.email }}</div>
@@ -71,7 +71,7 @@ Place the Popover outside of the data iteration components to avoid rendering it
     </Column>
     <Column header="Image" class="w-1/6">
         <template #body="slotProps">
-            <img :src="\`https://primefaces.org/cdn/primevue/images/product/\${slotProps.data.image}\`" :alt="slotProps.data.image" class="w-16 shadow-sm" />
+            <img :src="\`/images/product/\${slotProps.data.image}\`" :alt="slotProps.data.image" class="w-16 shadow-sm" />
         </template>
     </Column>
     <Column header="Details" class="w-1/6">
@@ -85,7 +85,7 @@ Place the Popover outside of the data iteration components to avoid rendering it
     <div v-if="selectedProduct" class="rounded flex flex-col">
         <div class="flex justify-center rounded">
             <div class="relative mx-auto">
-                <img class="rounded w-44 sm:w-64" :src="\`https://primefaces.org/cdn/primevue/images/product/\${selectedProduct.image}\`" :alt="selectedProduct.name" />
+                <img class="rounded w-44 sm:w-64" :src="\`/images/product/\${selectedProduct.image}\`" :alt="selectedProduct.name" />
                 <Tag :value="selectedProduct.inventoryStatus" :severity="getSeverity(selectedProduct)" class="absolute dark:!bg-surface-900" style="left: 4px; top: 4px"></Tag>
             </div>
         </div>
@@ -126,7 +126,7 @@ Place the Popover outside of the data iteration components to avoid rendering it
             </Column>
             <Column header="Image" class="w-1/6">
                 <template #body="slotProps">
-                    <img :src="\`https://primefaces.org/cdn/primevue/images/product/\${slotProps.data.image}\`" :alt="slotProps.data.image" class="w-16 shadow-sm" />
+                    <img :src="\`/images/product/\${slotProps.data.image}\`" :alt="slotProps.data.image" class="w-16 shadow-sm" />
                 </template>
             </Column>
             <Column header="Details" class="w-1/6">
@@ -140,7 +140,7 @@ Place the Popover outside of the data iteration components to avoid rendering it
             <div v-if="selectedProduct" class="rounded flex flex-col">
                 <div class="flex justify-center rounded">
                     <div class="relative mx-auto">
-                        <img class="rounded w-44 sm:w-64" :src="\`https://primefaces.org/cdn/primevue/images/product/\${selectedProduct.image}\`" :alt="selectedProduct.name" />
+                        <img class="rounded w-44 sm:w-64" :src="\`/images/product/\${selectedProduct.image}\`" :alt="selectedProduct.name" />
                         <Tag :value="selectedProduct.inventoryStatus" :severity="getSeverity(selectedProduct)" class="absolute dark:!bg-surface-900" style="left: 4px; top: 4px"></Tag>
                     </div>
                 </div>
@@ -169,7 +169,7 @@ Place the Popover outside of the data iteration components to avoid rendering it
 
 <script setup>
 import { ref, onMounted, nextTick } from "vue";
-import { useToast } from "primevue/usetoast";
+import { useToast } from "phasevue/usetoast";
 import { ProductService } from '@/service/ProductService';
 
 onMounted(() => {
@@ -231,7 +231,7 @@ In this sample, data is retrieved from the content inside the popover.
             <span class="font-medium block mb-2">Team Members</span>
             <ul class="list-none p-0 m-0 flex flex-col">
                 <li v-for="member in members" :key="member.name" class="flex items-center gap-2 px-2 py-3 hover:bg-emphasis cursor-pointer rounded-border" @click="selectMember(member)">
-                    <img :src="\`https://primefaces.org/cdn/primevue/images/avatar/\${member.image}\`" style="width: 32px" />
+                    <img :src="\`/images/avatar/\${member.image}\`" style="width: 32px" />
                     <div>
                         <span class="font-medium">{{ member.name }}</span>
                         <div class="text-sm text-surface-500 dark:text-surface-400">{{ member.email }}</div>
@@ -257,7 +257,7 @@ In this sample, data is retrieved from the content inside the popover.
                     <span class="font-medium block mb-2">Team Members</span>
                     <ul class="list-none p-0 m-0 flex flex-col">
                         <li v-for="member in members" :key="member.name" class="flex items-center gap-2 px-2 py-3 hover:bg-emphasis cursor-pointer rounded-border" @click="selectMember(member)">
-                            <img :src="\`https://primefaces.org/cdn/primevue/images/avatar/\${member.image}\`" style="width: 32px" />
+                            <img :src="\`/images/avatar/\${member.image}\`" style="width: 32px" />
                             <div>
                                 <span class="font-medium">{{ member.name }}</span>
                                 <div class="text-sm text-surface-500 dark:text-surface-400">{{ member.email }}</div>

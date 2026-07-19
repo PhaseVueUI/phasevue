@@ -5,7 +5,7 @@
     --primary-hover-color: var(--p-primary-hover-color);
     --text-color: var(--p-surface-700);
     --text-secondary-color: var(--p-surface-500);
-    --glow-image: url(https://www.primefaces.org/cdn/primevue/images/layout/pattern.png);
+    --glow-image: url(/images/layout/pattern.png);
     --glow-blend: hard-light, multiply;
     --topbar-sticky-background:rgba(255,255,255,.7);
     --mobile-menu-background: #ffffff;
@@ -25,8 +25,4 @@
     --code-button-text-color: var(--p-surface-300);
     --docsearch-mask-background: var(--p-mask-background);
     --logo-color: var(--text-secondary-color);
-    --designer-primary-color: #09090b;
-    --designer-primary-emphasis-color: #27272a;
-    --designer-primary-contrast-color: #ffffff;
-    --designer-focus-outline-color: #09090b;
 }

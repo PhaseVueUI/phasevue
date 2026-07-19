@@ -1,17 +1,17 @@
 {
-    "name": "@primevue/nuxt-module",
-    "version": "4.5.5",
-    "author": "PrimeTek Informatics",
-    "description": "Nuxt module for PrimeVue",
-    "homepage": "https://primevue.org/",
+    "name": "@phasevueui/nuxt-module",
+    "version": "0.0.1-alpha.1",
+    "author": "PhaseVue UI",
+    "description": "Nuxt module for PhaseVue",
+    "homepage": "https://phasevue.org/",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/primefaces/primevue.git",
+        "url": "https://github.com/PhaseVueUI/phasevue.git",
         "directory": "packages/nuxt-module"
     },
     "bugs": {
-        "url": "https://github.com/primefaces/primevue/issues"
+        "url": "https://github.com/PhaseVueUI/phasevue/issues"
     },
     "keywords": [
         "vue",
@@ -19,10 +19,10 @@
         "vue3",
         "nuxt",
         "nuxt3",
-        "primevue",
-        "primevue nuxt module",
-        "primevue nuxt3",
-        "primevue 4"
+        "phasevue",
+        "phasevue nuxt module",
+        "phasevue nuxt3",
+        "phasevue 4"
     ],
     "type": "module",
     "sideEffects": false,
@@ -33,9 +33,9 @@
     ],
     "build": {
         "externals": [
-            "primevue",
-            "@primevue/metadata",
-            "@primevue/auto-import-resolver",
+            "phasevue",
+            "@phasevueui/metadata",
+            "@phasevueui/auto-import-resolver",
             "unplugin-vue-components",
             "@primeuix/utils",
             "@primeuix/utils/object",
@@ -71,10 +71,10 @@
         "@nuxt/kit": "^3",
         "@primeuix/styled": "catalog:",
         "@primeuix/utils": "catalog:",
-        "primevue": "workspace:*",
-        "@primevue/auto-import-resolver": "workspace:*",
-        "@primevue/metadata": "workspace:*",
-        "@primevue/forms": "workspace:*",
+        "phasevue": "workspace:*",
+        "@phasevueui/auto-import-resolver": "workspace:*",
+        "@phasevueui/metadata": "workspace:*",
+        "@phasevueui/forms": "workspace:*",
         "unplugin-vue-components": "28.4.1",
         "pathe": "^1.1.2"
     },

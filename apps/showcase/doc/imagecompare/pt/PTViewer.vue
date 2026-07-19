@@ -2,10 +2,10 @@
     <DocPTViewer :docs="docs">
         <ImageCompare style="width: 728px; height: 410px">
             <template #left>
-                <img src="https://primefaces.org/cdn/primevue/images/compare/island1.jpg" />
+                <img src="/images/compare/island1.jpg" />
             </template>
             <template #right>
-                <img src="https://primefaces.org/cdn/primevue/images/compare/island2.jpg" />
+                <img src="/images/compare/island2.jpg" />
             </template>
         </ImageCompare>
     </DocPTViewer>

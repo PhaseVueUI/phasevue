@@ -5,7 +5,7 @@ Inplace provides an easy to do editing and display at the same time where clicki
 ## Import
 
 ```javascript
-import Inplace from 'primevue/inplace';
+import Inplace from 'phasevue/inplace';
 ```
 
 ## Accessibility
@@ -41,7 +41,7 @@ Any content such as an image can be placed inside an Inplace.
         </span>
     </template>
     <template #content>
-        <img class="w-full sm:w-80 shadow-md" alt="Nature" src="https://primefaces.org/cdn/primevue/images/nature/nature8.jpg" />
+        <img class="w-full sm:w-80 shadow-md" alt="Nature" src="/images/nature/nature8.jpg" />
     </template>
 </Inplace>
 ```
@@ -60,7 +60,7 @@ Any content such as an image can be placed inside an Inplace.
                 </span>
             </template>
             <template #content>
-                <img class="w-full sm:w-80 shadow-md" alt="Nature" src="https://primefaces.org/cdn/primevue/images/nature/nature8.jpg" />
+                <img class="w-full sm:w-80 shadow-md" alt="Nature" src="/images/nature/nature8.jpg" />
             </template>
         </Inplace>
     </div>

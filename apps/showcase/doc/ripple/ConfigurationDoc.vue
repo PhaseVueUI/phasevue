@@ -12,20 +12,20 @@ export default {
             code: {
                 basic: `
 mounted() {
-    this.$primevue.config.ripple = true;
+    this.$phasevue.config.ripple = true;
 }
 `,
                 options: `
 mounted() {
-    this.$primevue.config.ripple = true;
+    this.$phasevue.config.ripple = true;
 }
 `,
                 composition: `
-import { usePrimeVue } from 'primevue/config';
+import { usePhaseVue } from 'phasevue/config';
 
-const PrimeVue = usePrimeVue();
+const PhaseVue = usePhaseVue();
 
-PrimeVue.config.ripple = true;
+PhaseVue.config.ripple = true;
 `
             }
         };

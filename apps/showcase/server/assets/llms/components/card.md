@@ -5,7 +5,7 @@ Card is a flexible container component.
 ## Import
 
 ```javascript
-import Card from 'primevue/card';
+import Card from 'phasevue/card';
 ```
 
 ## Accessibility
@@ -51,7 +51,7 @@ Card provides header , title , subtitle , content and footer as the named templa
 <template>
     <Card style="width: 25rem; overflow: hidden">
         <template #header>
-            <img alt="user header" src="https://primefaces.org/cdn/primevue/images/usercard.png" />
+            <img alt="user header" src="/images/usercard.png" />
         </template>
         <template #title>Advanced Card</template>
         <template #subtitle>Card subtitle</template>

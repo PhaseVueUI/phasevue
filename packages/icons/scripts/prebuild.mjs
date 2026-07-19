@@ -15,7 +15,7 @@ let exports = {};
 let modules = {
     ignoredFolders: [],
     esm: [
-        `/***************** PrimeVue Icons (Auto-Generated) *****************/
+        `/***************** PhaseVue Icons (Auto-Generated) *****************/
 `
     ]
 };
@@ -38,8 +38,8 @@ fs.readdirSync(path.resolve(__root, INPUT_DIR), { withFileTypes: true })
                     modules.esm.push(
                         `
 // ${fileName}
-export * from '@primevue/icons/${folderName}';
-export { default as ${fileName} } from '@primevue/icons/${folderName}';
+export * from '@phasevueui/icons/${folderName}';
+export { default as ${fileName} } from '@phasevueui/icons/${folderName}';
 `
                     );
                 }
@@ -54,8 +54,8 @@ export { default as ${fileName} } from '@primevue/icons/${folderName}';
 
                             if (validModuleFolder) {
                                 modules.esm.push(
-                                    `export * from '@primevue/icons/${folderName}/style';
-export { default as ${subFileName} } from '@primevue/icons/${folderName}/style';
+                                    `export * from '@phasevueui/icons/${folderName}/style';
+export { default as ${subFileName} } from '@phasevueui/icons/${folderName}/style';
 `
                                 );
                             }

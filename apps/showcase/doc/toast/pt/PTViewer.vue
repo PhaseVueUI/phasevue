@@ -23,8 +23,8 @@
 
 <script>
 import { getPTOptions } from '@/components/doc/helpers';
-import InfoCircleIcon from '@primevue/icons/infocircle';
-import TimesIcon from '@primevue/icons/times';
+import InfoCircleIcon from '@phasevueui/icons/infocircle';
+import TimesIcon from '@phasevueui/icons/times';
 import { markRaw } from 'vue';
 
 export default {

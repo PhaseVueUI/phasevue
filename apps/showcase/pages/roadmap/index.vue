@@ -1,15 +1,15 @@
 <template>
     <div>
         <Head>
-            <Title>PrimeVue Roadmap</Title>
-            <Meta name="description" content="PrimeVue Roadmap" />
+            <Title>PhaseVue Roadmap</Title>
+            <Meta name="description" content="PhaseVue Roadmap" />
         </Head>
 
         <div class="doc-intro">
             <h1>Roadmap</h1>
             <p>
-                At <a href="https://www.primetek.com.tr/">PrimeTek</a>, we are passionate about improving PrimeVue and would like to share our ideas for 2026 (Year 8) with the community. These are planned to be implemented in parallel to the regular
-                maintenance work of the library involving review of issue tickets, PRs and PrimeVue PRO support. Based on semantic versioning guidelines, PrimeVue updates will be backward compatible with a clear migration path when necessary.
+                At <a href="https://www.primetek.com.tr/">PrimeTek</a>, we are passionate about improving PhaseVue and would like to share our ideas for 2026 (Year 8) with the community. These are planned to be implemented in parallel to the regular
+                maintenance work of the library involving review of issue tickets, PRs and PhaseVue PRO support. Based on semantic versioning guidelines, PhaseVue updates will be backward compatible with a clear migration path when necessary.
             </p>
         </div>
 

@@ -5,7 +5,7 @@ Carousel is a content slider featuring various customization options.
 ## Import
 
 ```javascript
-import Carousel from 'primevue/carousel';
+import Carousel from 'phasevue/carousel';
 ```
 
 ## Accessibility
@@ -22,7 +22,7 @@ Carousel requires a collection of items as its value along with a template to re
         <div class="border border-surface-200 dark:border-surface-700 rounded m-2  p-4">
             <div class="mb-4">
                 <div class="relative mx-auto">
-                    <img :src="'https://primefaces.org/cdn/primevue/images/product/' + slotProps.data.image" :alt="slotProps.data.name" class="w-full rounded" />
+                    <img :src="'/images/product/' + slotProps.data.image" :alt="slotProps.data.name" class="w-full rounded" />
                     <Tag :value="slotProps.data.inventoryStatus" :severity="getSeverity(slotProps.data.inventoryStatus)" class="absolute" style="left:5px; top: 5px"/>
                 </div>
             </div>
@@ -49,7 +49,7 @@ When autoplayInterval is defined in milliseconds, items are scrolled automatical
         <div class="border border-surface-200 dark:border-surface-700 rounded m-2  p-4">
             <div class="mb-4">
                 <div class="relative mx-auto">
-                    <img :src="'https://primefaces.org/cdn/primevue/images/product/' + slotProps.data.image" :alt="slotProps.data.name" class="w-full rounded" />
+                    <img :src="'/images/product/' + slotProps.data.image" :alt="slotProps.data.name" class="w-full rounded" />
                     <Tag :value="slotProps.data.inventoryStatus" :severity="getSeverity(slotProps.data.inventoryStatus)" class="absolute" style="left:5px; top: 5px"/>
                 </div>
             </div>
@@ -77,7 +77,7 @@ When autoplayInterval is defined in milliseconds, items are scrolled automatical
                 <div class="border border-surface-200 dark:border-surface-700 rounded m-2  p-4">
                     <div class="mb-4">
                         <div class="relative mx-auto">
-                            <img :src="'https://primefaces.org/cdn/primevue/images/product/' + slotProps.data.image" :alt="slotProps.data.name" class="w-full rounded" />
+                            <img :src="'/images/product/' + slotProps.data.image" :alt="slotProps.data.name" class="w-full rounded" />
                             <Tag :value="slotProps.data.inventoryStatus" :severity="getSeverity(slotProps.data.inventoryStatus)" class="absolute" style="left:5px; top: 5px"/>
                         </div>
                     </div>
@@ -158,7 +158,7 @@ Carousel supports specific configuration per screen size with the responsiveOpti
         <div class="border border-surface-200 dark:border-surface-700 rounded m-2  p-4">
             <div class="mb-4">
                 <div class="relative mx-auto">
-                    <img :src="'https://primefaces.org/cdn/primevue/images/product/' + slotProps.data.image" :alt="slotProps.data.name" class="w-full rounded" />
+                    <img :src="'/images/product/' + slotProps.data.image" :alt="slotProps.data.name" class="w-full rounded" />
                     <Tag :value="slotProps.data.inventoryStatus" :severity="getSeverity(slotProps.data.inventoryStatus)" class="absolute" style="left:5px; top: 5px"/>
                 </div>
             </div>
@@ -186,7 +186,7 @@ Carousel supports specific configuration per screen size with the responsiveOpti
                 <div class="border border-surface-200 dark:border-surface-700 rounded m-2  p-4">
                     <div class="mb-4">
                         <div class="relative mx-auto">
-                            <img :src="'https://primefaces.org/cdn/primevue/images/product/' + slotProps.data.image" :alt="slotProps.data.name" class="w-full rounded" />
+                            <img :src="'/images/product/' + slotProps.data.image" :alt="slotProps.data.name" class="w-full rounded" />
                             <Tag :value="slotProps.data.inventoryStatus" :severity="getSeverity(slotProps.data.inventoryStatus)" class="absolute" style="left:5px; top: 5px"/>
                         </div>
                     </div>
@@ -266,7 +266,7 @@ To create a vertical Carousel, orientation needs to be set to vertical along wit
         <div class="border border-surface-200 dark:border-surface-700 rounded m-2  p-4">
             <div class="mb-4">
                 <div class="relative mx-auto">
-                    <img :src="'https://primefaces.org/cdn/primevue/images/product/' + slotProps.data.image" :alt="slotProps.data.name" class="w-full rounded" />
+                    <img :src="'/images/product/' + slotProps.data.image" :alt="slotProps.data.name" class="w-full rounded" />
                     <Tag :value="slotProps.data.inventoryStatus" :severity="getSeverity(slotProps.data.inventoryStatus)" class="absolute" style="left:5px; top: 5px"/>
                 </div>
             </div>
@@ -294,7 +294,7 @@ To create a vertical Carousel, orientation needs to be set to vertical along wit
                 <div class="border border-surface-200 dark:border-surface-700 rounded m-2  p-4">
                     <div class="mb-4">
                         <div class="relative mx-auto">
-                            <img :src="'https://primefaces.org/cdn/primevue/images/product/' + slotProps.data.image" :alt="slotProps.data.name" class="w-full rounded" />
+                            <img :src="'/images/product/' + slotProps.data.image" :alt="slotProps.data.name" class="w-full rounded" />
                             <Tag :value="slotProps.data.inventoryStatus" :severity="getSeverity(slotProps.data.inventoryStatus)" class="absolute" style="left:5px; top: 5px"/>
                         </div>
                     </div>

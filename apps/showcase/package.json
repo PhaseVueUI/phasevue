@@ -1,21 +1,21 @@
 {
     "name": "showcase",
-    "version": "4.5.5",
-    "author": "PrimeTek Informatics",
+    "version": "0.0.1-alpha.1",
+    "author": "PhaseVueUI",
     "description": "",
-    "homepage": "https://primevue.org/",
+    "homepage": "https://phasevue.org/",
     "type": "module",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/primefaces/primevue.git",
+        "url": "https://github.com/PhaseVueUI/phasevue.git",
         "directory": "packages/showcase"
     },
     "bugs": {
-        "url": "https://github.com/primefaces/primevue/issues"
+        "url": "https://github.com/PhaseVueUI/phasevue/issues"
     },
     "keywords": [
-        "primevue",
+        "phasevue",
         "vue",
         "vue.js",
         "vue2",
@@ -42,11 +42,11 @@
     "dependencies": {
         "@docsearch/js": "catalog:app",
         "@primeuix/themes": "catalog:",
-        "@primevue/core": "workspace:*",
-        "@primevue/forms": "workspace:*",
-        "@primevue/nuxt-module": "workspace:*",
-        "primeicons": "catalog:",
-        "primevue": "workspace:*",
+        "@phasevueui/core": "workspace:*",
+        "@phasevueui/forms": "workspace:*",
+        "@phasevueui/nuxt-module": "workspace:*",
+        "@phasevueui/icons": "workspace:*",
+        "phasevue": "workspace:*",
         "chart.js": "catalog:app",
         "quill": "catalog:app",
         "superstruct": "^2.0.2",

@@ -4,13 +4,13 @@ Dynamic imports enable the loading of multiple items as needed, streamlining the
 
 ## Overview
 
-With @primevue/icons for icons and primevue for components (except Editor and Chart), multiple items can be imported together.
+With @phasevueui/icons for icons and phasevue for components (except Editor and Chart), multiple items can be imported together.
 
 ```vue
-import { Button, InputText } from 'primevue'; import { SearchIcon, BellIcon } from '@primevue/icons';
+import { Button, InputText } from 'phasevue'; import { SearchIcon, BellIcon } from '@phasevueui/icons';
 
 <script setup>
-import * as PrimeVue from 'primevue';
+import * as PhaseVue from 'phasevue';
 
 const items = [
     { as: 'Button', class: 'my-button-class' },
@@ -19,6 +19,6 @@ const items = [
 </script>
 
 <template>
-    <component v-for="item of items" :is="PrimeVue[item.as]" :class="item.class" />
+    <component v-for="item of items" :is="PhaseVue[item.as]" :class="item.class" />
 </template>
 ```

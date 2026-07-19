@@ -4,8 +4,8 @@ on:
     push:
         branches: [master]
         paths:
-            - 'packages/primevue/src/**/*.d.ts'
-            - 'packages/primevue/src/**/style/*.js'
+            - 'packages/phasevue/src/**/*.d.ts'
+            - 'packages/phasevue/src/**/style/*.js'
             - 'packages/themes/src/presets/**/**/index.js'
 
 permissions:
@@ -13,7 +13,7 @@ permissions:
 
 jobs:
     build:
-        if: github.repository == 'primefaces/primevue' && github.ref == 'refs/heads/master'
+        if: github.repository == 'phaseVueUI/phasevue' && github.ref == 'refs/heads/master'
         runs-on: ubuntu-latest
 
         strategy:

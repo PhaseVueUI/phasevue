@@ -1,7 +1,7 @@
 <template>
     <DocPTViewer :docs="docs">
         <DeferredContent>
-            <img src="https://primefaces.org/cdn/primevue/images/nature/nature4.jpg" alt="Nature" />
+            <img src="/images/nature/nature4.jpg" alt="Nature" />
         </DeferredContent>
     </DocPTViewer>
 </template>

@@ -5,7 +5,7 @@ DatePicker is a form component for date inputs.
 ## Import
 
 ```javascript
-import DatePicker from 'primevue/datepicker';
+import DatePicker from 'phasevue/datepicker';
 ```
 
 ## Accessibility
@@ -319,7 +319,7 @@ const date = ref();
 
 ## Forms
 
-DatePicker integrates seamlessly with the PrimeVue Forms library.
+DatePicker integrates seamlessly with the PhaseVue Forms library.
 
 ```vue
 <Form v-slot="$form" :resolver="resolver" :initialValues="initialValues" @submit="onFormSubmit" class="flex flex-col gap-4">
@@ -349,8 +349,8 @@ DatePicker integrates seamlessly with the PrimeVue Forms library.
 
 <script setup>
 import { ref } from 'vue';
-import { zodResolver } from '@primevue/forms/resolvers/zod';
-import { useToast } from "primevue/usetoast";
+import { zodResolver } from '@phasevueui/forms/resolvers/zod';
+import { useToast } from "phasevue/usetoast";
 import { z } from 'zod';
 
 const toast = useToast();
@@ -521,7 +521,7 @@ const date2 = ref(null);
 
 ## Locale
 
-Locale for different languages and formats is defined globally, refer to the PrimeVue Locale configuration for more information.
+Locale for different languages and formats is defined globally, refer to the PhaseVue Locale configuration for more information.
 
 ## Min / Max
 
@@ -821,7 +821,7 @@ const date = ref();
 | defaultValue          | null \| Date \| Date[] \| (null \| Date)[]      | -        | The default value for the input when not controlled by `modelValue` .                                                                                               |
 | name                  | string                                          | -        | The name attribute for the element, typically used in form submissions.                                                                                             |
 | selectionMode         | HintedString<"single" \| "multiple" \| "range"> | single   | Defines the quantity of the selection.                                                                                                                              |
-| dateFormat            | string                                          | -        | Format of the date. Defaults to PrimeVue Locale configuration.                                                                                                      |
+| dateFormat            | string                                          | -        | Format of the date. Defaults to PhaseVue Locale configuration.                                                                                                      |
 | updateModelType       | HintedString<"string" \| "date">                | date     | Type of the value to write back to modelValue.                                                                                                                      |
 | inline                | boolean                                         | false    | When enabled, displays the datepicker as inline instead of an overlay.                                                                                              |
 | showOtherMonths       | boolean                                         | true     | Whether to display dates in other months (non-selectable) at the start or end of the current month. To make these days selectable use the selectOtherMonths option. |

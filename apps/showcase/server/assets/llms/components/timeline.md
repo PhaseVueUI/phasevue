@@ -5,7 +5,7 @@ Timeline visualizes a series of chained events.
 ## Import
 
 ```javascript
-import Timeline from 'primevue/timeline';
+import Timeline from 'phasevue/timeline';
 ```
 
 ## Accessibility
@@ -250,7 +250,7 @@ Sample implementation with custom content and styled markers.
                         {{ slotProps.item.date }}
                     </template>
                     <template #content>
-                        <img v-if="slotProps.item.image" :src="\`https://primefaces.org/cdn/primevue/images/product/\${slotProps.item.image}\`" :alt="slotProps.item.name" width="200" class="shadow-sm" />
+                        <img v-if="slotProps.item.image" :src="\`/images/product/\${slotProps.item.image}\`" :alt="slotProps.item.name" width="200" class="shadow-sm" />
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate
                             neque quas!

@@ -5,7 +5,7 @@ Toast is used to display messages in an overlay.
 ## Import
 
 ```javascript
-import Toast from 'primevue/toast';
+import Toast from 'phasevue/toast';
 ```
 
 ## Accessibility
@@ -76,7 +76,7 @@ Headless mode is enabled by defining a container slot that lets you implement en
 </template>
 
 <script setup>
-import { useToast } from "primevue/usetoast";
+import { useToast } from "phasevue/usetoast";
 import { ref, onUnmounted } from 'vue';
 const toast = useToast();
 const visible = ref(false);
@@ -137,7 +137,7 @@ Multiple messages are displayed by passing an array to the show method.
 </template>
 
 <script setup>
-import { useToast } from "primevue/usetoast";
+import { useToast } from "phasevue/usetoast";
 const toast = useToast();
 
 const showMultiple = () => {
@@ -184,7 +184,7 @@ A message can be targeted to a certain Toast component by matching the group key
 </template>
 
 <script setup>
-import { useToast } from "primevue/usetoast";
+import { useToast } from "phasevue/usetoast";
 const toast = useToast();
 
 const showTopLeft = () => {
@@ -236,7 +236,7 @@ The severity option specifies the type of the message.
 </template>
 
 <script setup>
-import { useToast } from "primevue/usetoast";
+import { useToast } from "phasevue/usetoast";
 const toast = useToast();
 
 const showSuccess = () => {
@@ -292,7 +292,7 @@ A message disappears after the number of milliseconds defined in the life option
 </template>
 
 <script setup>
-import { useToast } from "primevue/usetoast";
+import { useToast } from "phasevue/usetoast";
 const toast = useToast();
 
 const showSticky = () => {
@@ -316,7 +316,7 @@ Custom content inside a message is defined with the message template.
     <template #message="slotProps">
         <div class="flex flex-col items-start flex-auto">
             <div class="flex items-center gap-2">
-                <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
+                <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
                 <span class="font-bold">Amy Elsner</span>
             </div>
             <div class="font-medium text-lg my-4">{{ slotProps.message.summary }}</div>
@@ -337,7 +337,7 @@ Custom content inside a message is defined with the message template.
             <template #message="slotProps">
                 <div class="flex flex-col items-start flex-auto">
                     <div class="flex items-center gap-2">
-                        <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
+                        <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
                         <span class="font-bold">Amy Elsner</span>
                     </div>
                     <div class="font-medium text-lg my-4">{{ slotProps.message.summary }}</div>
@@ -350,7 +350,7 @@ Custom content inside a message is defined with the message template.
 </template>
 
 <script setup>
-import { useToast } from "primevue/usetoast";
+import { useToast } from "phasevue/usetoast";
 import { ref } from 'vue';
 const toast = useToast();
 const visible = ref(false);

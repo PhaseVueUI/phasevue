@@ -11,14 +11,14 @@ Screen Reader Ripple element has the aria-hidden attribute as true so that it ge
 To start with, Ripple needs to be enabled globally. See the Configuration API for details.
 
 ```vue
-mounted() { this.$primevue.config.ripple = true; }
+mounted() { this.$phasevue.config.ripple = true; }
 ```
 
 <details>
 <summary>Composition API Example</summary>
 
 ```vue
-import { usePrimeVue } from 'primevue/config'; const PrimeVue = usePrimeVue(); PrimeVue.config.ripple = true;
+import { usePhaseVue } from 'phasevue/config'; const PhaseVue = usePhaseVue(); PhaseVue.config.ripple = true;
 ```
 
 </details>

@@ -5,8 +5,8 @@ Splitter is utilized to separate and resize panels.
 ## Import
 
 ```javascript
-import Splitter from 'primevue/splitter';
-import SplitterPanel from 'primevue/splitterpanel';
+import Splitter from 'phasevue/splitter';
+import SplitterPanel from 'phasevue/splitterpanel';
 ```
 
 ## Accessibility

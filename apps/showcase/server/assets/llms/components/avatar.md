@@ -5,8 +5,8 @@ Avatar represents people using icons, labels and images.
 ## Import
 
 ```javascript
-import Avatar from 'primevue/avatar';
-import AvatarGroup from 'primevue/avatargroup'; //Optional for grouping
+import Avatar from 'phasevue/avatar';
+import AvatarGroup from 'phasevue/avatargroup'; //Optional for grouping
 ```
 
 ## Accessibility
@@ -35,11 +35,11 @@ Grouping is available by wrapping multiple Avatar components inside an AvatarGro
 <template>
     <div class="card flex justify-center">
         <AvatarGroup>
-            <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
-            <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/asiyajavayant.png" shape="circle" />
-            <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/onyamalimba.png" shape="circle" />
-            <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/ionibowcher.png" shape="circle" />
-            <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/xuxuefeng.png" shape="circle" />
+            <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
+            <Avatar image="/images/avatar/asiyajavayant.png" shape="circle" />
+            <Avatar image="/images/avatar/onyamalimba.png" shape="circle" />
+            <Avatar image="/images/avatar/ionibowcher.png" shape="circle" />
+            <Avatar image="/images/avatar/xuxuefeng.png" shape="circle" />
             <Avatar label="+2" shape="circle" />
         </AvatarGroup>
     </div>
@@ -118,10 +118,10 @@ Use the image property to display an image as an Avatar.
 <Avatar image="/images/avatar/onyamalimba.png" shape="circle" />
 
 <OverlayBadge value="4" severity="danger" class="inline-flex">
-    <Avatar class="p-overlay-badge" image="https://primefaces.org/cdn/primevue/images/organization/walter.jpg" size="xlarge" />
+    <Avatar class="p-overlay-badge" image="/images/organization/walter.jpg" size="xlarge" />
 </OverlayBadge>
 
-<Avatar image="https://www.gravatar.com/avatar/05dfd4b41340d09cae045235eb0893c3?d=mp" class="flex items-center justify-center mr-2" size="xlarge" />
+<Avatar image="/images/avatar/gravatar.png" class="flex items-center justify-center mr-2" size="xlarge" />
 ```
 
 <details>
@@ -133,21 +133,21 @@ Use the image property to display an image as an Avatar.
         <div class="flex flex-wrap gap-8">
             <div class="flex-auto">
                 <h5>Image</h5>
-                <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" class="mr-2" size="xlarge" shape="circle" />
-                <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/asiyajavayant.png" class="mr-2" size="large" shape="circle" />
-                <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/onyamalimba.png" shape="circle" />
+                <Avatar image="/images/avatar/amyelsner.png" class="mr-2" size="xlarge" shape="circle" />
+                <Avatar image="/images/avatar/asiyajavayant.png" class="mr-2" size="large" shape="circle" />
+                <Avatar image="/images/avatar/onyamalimba.png" shape="circle" />
             </div>
 
             <div class="flex-auto">
                 <h5>Badge</h5>
                 <OverlayBadge value="4" severity="danger" class="inline-flex">
-                    <Avatar class="p-overlay-badge" image="https://primefaces.org/cdn/primevue/images/organization/walter.jpg" size="xlarge" />
+                    <Avatar class="p-overlay-badge" image="/images/organization/walter.jpg" size="xlarge" />
                 </OverlayBadge>
             </div>
 
             <div class="flex-auto">
                 <h5>Gravatar</h5>
-                <Avatar image="https://www.gravatar.com/avatar/05dfd4b41340d09cae045235eb0893c3?d=mp" class="flex items-center justify-center mr-2" size="xlarge" />
+                <Avatar image="/images/avatar/gravatar.png" class="flex items-center justify-center mr-2" size="xlarge" />
             </div>
         </div>
     </div>

@@ -1,15 +1,15 @@
 <template>
     <Head>
-        <Title>Install PrimeVue with Vite</Title>
-        <Meta name="description" content="Setting up PrimeVue in a Vite project" />
+        <Title>Install PhaseVue with Vite</Title>
+        <Meta name="description" content="Setting up PhaseVue in a Vite project" />
     </Head>
     <div class="doc">
         <div class="doc-main">
             <div class="doc-intro">
                 <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-4">
                     <div class="flex-1">
-                        <h1>Install PrimeVue with Vite</h1>
-                        <p>Setting up PrimeVue in a Vite project.</p>
+                        <h1>Install PhaseVue with Vite</h1>
+                        <p>Setting up PhaseVue in a Vite project.</p>
                     </div>
                     <DocCopyMarkdown docType="page" class="flex-shrink-0" />
                 </div>

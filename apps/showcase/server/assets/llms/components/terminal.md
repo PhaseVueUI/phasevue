@@ -5,8 +5,8 @@ Terminal is a text based user interface.
 ## Import
 
 ```javascript
-import Terminal from 'primevue/terminal';
-import TerminalService from 'primevue/terminalservice';
+import Terminal from 'phasevue/terminal';
+import TerminalService from 'phasevue/terminalservice';
 ```
 
 ## Accessibility
@@ -18,7 +18,7 @@ Screen Reader Terminal component has an input element that can be described with
 Commands are processed using an EventBus implementation called TerminalService . Import this service into your component and subscribe to the command event to process the commands by sending replies with the response event.
 
 ```vue
-<Terminal welcomeMessage="Welcome to PrimeVue" prompt="primevue $" aria-label="PrimeVue Terminal Service" />
+<Terminal welcomeMessage="Welcome to PhaseVue" prompt="phasevue $" aria-label="PhaseVue Terminal Service" />
 ```
 
 ## Terminal

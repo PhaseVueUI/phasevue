@@ -2,7 +2,7 @@
     <div :ref="containerRef" class="layout-topbar">
         <div class="layout-topbar-inner">
             <div class="layout-topbar-logo-container">
-                <PrimeVueNuxtLink to="/" class="layout-topbar-logo" aria-label="PrimeVue logo">
+                <PhaseVueNuxtLink to="/" class="layout-topbar-logo" aria-label="PhaseVue logo">
                     <svg width="165" height="40" viewBox="0 0 165 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             fill-rule="evenodd"
@@ -45,8 +45,8 @@
                         <path d="M12.1 18.2L12.6 17.4L14.3 18.2H20.3L21.6 17.4L22.2 18.2L17.15 26.8L12.1 18.2Z" fill="var(--high-contrast-text-color)" />
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0297 0L17.1214 13.1536L22.5526 0H12.0297Z" fill="var(--logo-color)" />
                     </svg>
-                </PrimeVueNuxtLink>
-                <PrimeVueNuxtLink to="/" class="layout-topbar-icon" aria-label="PrimeVue logo">
+                </PhaseVueNuxtLink>
+                <PhaseVueNuxtLink to="/" class="layout-topbar-icon" aria-label="PhaseVue logo">
                     <svg width="35" height="40" viewBox="0 0 35 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M25.87 18.05L23.16 17.45L25.27 20.46V29.78L32.49 23.76V13.53L29.18 14.73L25.87 18.04V18.05ZM25.27 35.49L29.18 31.58V27.67L25.27 30.98V35.49ZM20.16 17.14H20.03H20.17H20.16ZM30.1 5.19L34.89 4.81L33.08 12.33L24.1 15.67L30.08 5.2L30.1 5.19ZM5.72 14.74L2.41 13.54V23.77L9.63 29.79V20.47L11.74 17.46L9.03 18.06L5.72 14.75V14.74ZM9.63 30.98L5.72 27.67V31.58L9.63 35.49V30.98ZM4.8 5.2L10.78 15.67L1.81 12.33L0 4.81L4.79 5.19L4.8 5.2ZM24.37 21.05V34.59L22.56 37.29L20.46 39.4H14.44L12.34 37.29L10.53 34.59V21.05L12.42 18.23L17.45 26.8L22.48 18.23L24.37 21.05ZM22.85 0L22.57 0.69L17.45 13.08L12.33 0.69L12.05 0H22.85Z"
@@ -57,7 +57,7 @@
                             fill="var(--high-contrast-text-color)"
                         />
                     </svg>
-                </PrimeVueNuxtLink>
+                </PhaseVueNuxtLink>
             </div>
 
             <ul class="topbar-items">
@@ -65,18 +65,8 @@
                     <div id="docsearch"></div>
                 </li>
                 <li>
-                    <a href="https://github.com/primefaces/primevue" target="_blank" rel="noopener noreferrer" class="topbar-item">
+                    <a href="https://github.com/PhaseVueUI/phasevue" target="_blank" rel="noopener noreferrer" class="topbar-item">
                         <i class="pi pi-github"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://discord.gg/gzKFYnpmCY" target="_blank" rel="noopener noreferrer" class="topbar-item">
-                        <i class="pi pi-discord"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/orgs/primefaces/discussions" target="_blank" rel="noopener noreferrer" class="topbar-item">
-                        <i class="pi pi-comments"></i>
                     </a>
                 </li>
                 <li>
@@ -93,37 +83,6 @@
                         <i class="pi pi-palette"></i>
                     </button>
                     <AppConfigurator />
-                </li>
-                <li>
-                    <button type="button" class="topbar-item relative group overflow-hidden !border-transparent" @click="toggleDesigner">
-                        <span
-                            style="animation-duration: 2s; background: conic-gradient(from 90deg, #f97316, #f59e0b, #eab308, #84cc16, #22c55e, #10b981, #14b8a6, #06b6d4, #0ea5e9, #3b82f6, #6366f1, #8b5cf6, #a855f7, #d946ef, #ec4899, #f43f5e)"
-                            class="absolute -top-5 -left-5 w-20 h-20 animate-spin"
-                        ></span>
-                        <span style="inset: 1px; border-radius: 4px" class="absolute z-2 bg-surface-0 dark:bg-surface-900 transition-all"></span>
-                        <i class="pi pi-cog z-10"></i>
-                    </button>
-                </li>
-                <li>
-                    <button
-                        v-styleclass="{ selector: '@next', enterFromClass: 'hidden', enterActiveClass: 'px-overlay-enter-active', leaveToClass: 'hidden', leaveActiveClass: 'px-overlay-leave-active', hideOnOutsideClick: true }"
-                        type="button"
-                        style="max-width: 8rem"
-                        class="topbar-item version-item"
-                    >
-                        <span class="version-text">{{ versions[0].name }}</span>
-                        <span class="version-icon pi pi-angle-down"></span>
-                    </button>
-
-                    <div class="versions-panel hidden">
-                        <ul>
-                            <li v-for="version in versions" :key="version.version" role="none">
-                                <a :href="version.url">
-                                    <span>PrimeVue {{ version.name }}</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
                 </li>
                 <li v-if="showMenuButton" class="menu-button">
                     <button type="button" class="topbar-item menu-button" @click="onMenuButtonClick" aria-haspopup aria-label="Menu">
@@ -148,20 +107,6 @@ export default {
             default: true
         }
     },
-    data() {
-        return {
-            versions: [
-                {
-                    name: 'v4',
-                    url: 'https://primevue.org'
-                },
-                {
-                    name: 'v3',
-                    url: 'https://v3.primevue.org'
-                }
-            ]
-        };
-    },
     scrollListener: null,
     container: null,
     mounted() {
@@ -170,7 +115,7 @@ export default {
         docsearch({
             container: '#docsearch',
             appId: '01CMUF4W4R',
-            indexName: 'primevue',
+            indexName: 'phasevue',
             apiKey: '9bb5939e36897b26ff7de5b7b64d6c43',
             transformItems: (items) => {
                 const isLocalhost = process.env.NODE_ENV !== 'production';
@@ -242,9 +187,6 @@ export default {
         },
         containerRef(el) {
             this.container = el;
-        },
-        toggleDesigner() {
-            this.$appState.designer.active = !this.$appState.designer.active;
         }
     }
 };

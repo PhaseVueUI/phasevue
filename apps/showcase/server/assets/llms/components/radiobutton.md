@@ -5,8 +5,8 @@ RadioButton is an extension to standard radio button element with theming.
 ## Import
 
 ```javascript
-import RadioButton from 'primevue/radiobutton';
-import RadioButtonGroup from 'primevue/radiobuttongroup';
+import RadioButton from 'phasevue/radiobutton';
+import RadioButtonGroup from 'phasevue/radiobuttongroup';
 ```
 
 ## Accessibility
@@ -122,7 +122,7 @@ const value = ref(null);
 
 ## Forms
 
-RadioButton integrates seamlessly with the PrimeVue Forms library.
+RadioButton integrates seamlessly with the PhaseVue Forms library.
 
 ```vue
 <Form v-slot="$form" :resolver="resolver" :initialValues="initialValues" @submit="onFormSubmit" class="flex flex-col gap-4">
@@ -186,8 +186,8 @@ RadioButton integrates seamlessly with the PrimeVue Forms library.
 
 <script setup>
 import { ref } from 'vue';
-import { zodResolver } from '@primevue/forms/resolvers/zod';
-import { useToast } from "primevue/usetoast";
+import { zodResolver } from '@phasevueui/forms/resolvers/zod';
+import { useToast } from "phasevue/usetoast";
 import { z } from 'zod';
 
 const toast = useToast();

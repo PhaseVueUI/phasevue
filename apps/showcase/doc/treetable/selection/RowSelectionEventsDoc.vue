@@ -80,7 +80,7 @@ export default {
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import { useToast } from 'primevue/usetoast'
+import { useToast } from 'phasevue/usetoast'
 import { NodeService } from '@/service/NodeService';
 
 onMounted(() => {

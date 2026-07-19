@@ -1,17 +1,17 @@
 {
-    "name": "@primevue/core",
-    "version": "4.5.5",
-    "author": "PrimeTek Informatics",
+    "name": "@phasevueui/core",
+    "version": "0.0.1-alpha.1",
+    "author": "PhaseVue UI",
     "description": "",
-    "homepage": "https://primevue.org/",
+    "homepage": "https://phasevue.org/",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/primefaces/primevue.git",
+        "url": "https://github.com/PhaseVueUI/phasevue.git",
         "directory": "packages/core"
     },
     "bugs": {
-        "url": "https://github.com/primefaces/primevue/issues"
+        "url": "https://github.com/PhaseVueUI/phasevue/issues"
     },
     "main": "./src/index.js",
     "module": "./src/index.js",
@@ -26,8 +26,8 @@
         "./basedirective": "./src/basedirective/BaseDirective.js",
         "./baseeditableholder": "./src/baseeditableholder/BaseEditableHolder.vue",
         "./baseinput": "./src/baseinput/BaseInput.vue",
-        "./config": "./src/config/PrimeVue.js",
-        "./service": "./src/service/PrimeVueService.js",
+        "./config": "./src/config/PhaseVue.js",
+        "./service": "./src/service/PhaseVueService.js",
         "./useattrselector": "./src/useattrselector/UseAttrSelector.js",
         "./usestyle": "./src/usestyle/UseStyle.js",
         "./utils": "./src/utils/Utils.js"

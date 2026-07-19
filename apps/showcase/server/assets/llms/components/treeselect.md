@@ -5,7 +5,7 @@ TreeSelect is a form component to choose from hierarchical data.
 ## Import
 
 ```javascript
-import TreeSelect from 'primevue/treeselect';
+import TreeSelect from 'phasevue/treeselect';
 ```
 
 ## Accessibility
@@ -321,8 +321,8 @@ TreeSelect is used with the v-model property.
 
 <script setup>
 import { ref } from 'vue';
-import { zodResolver } from '@primevue/forms/resolvers/zod';
-import { useToast } from "primevue/usetoast";
+import { zodResolver } from '@phasevueui/forms/resolvers/zod';
+import { useToast } from "phasevue/usetoast";
 import { z } from 'zod';
 import { NodeService } from '/service/NodeService';
 
@@ -661,7 +661,7 @@ onMounted(() => {
 | filterMode         | HintedString<"lenient" \| "strict">                | lenient              | Mode for filtering.                                                                                                                                                                                                                                               |
 | filterPlaceholder  | string                                             | -                    | Placeholder text to show when filter input is empty.                                                                                                                                                                                                              |
 | filterLocale       | string                                             | -                    | Locale to use in filtering. The default locale is the host environment's current locale.                                                                                                                                                                          |
-| emptyMessage       | string                                             | No available options | Text to display when there are no options available. Defaults to value from PrimeVue locale configuration.                                                                                                                                                        |
+| emptyMessage       | string                                             | No available options | Text to display when there are no options available. Defaults to value from PhaseVue locale configuration.                                                                                                                                                        |
 | placeholder        | string                                             | -                    | Label to display when there are no selections.                                                                                                                                                                                                                    |
 | size               | HintedString<"small" \| "large">                   | -                    | Defines the size of the component.                                                                                                                                                                                                                                |
 | invalid            | boolean                                            | false                | When present, it specifies that the component should have invalid state style.                                                                                                                                                                                    |

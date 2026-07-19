@@ -1,7 +1,7 @@
 import { addPlugin, addPluginTemplate, addTemplate, createResolver, defineNuxtModule } from '@nuxt/kit';
 import { isNotEmpty } from '@primeuix/utils';
-import { PrimeVueResolver } from '@primevue/auto-import-resolver';
-import type { MetaType } from '@primevue/metadata';
+import { PhaseVueResolver } from '@phasevueui/auto-import-resolver';
+import type { MetaType } from '@phasevueui/metadata';
 import { normalize } from 'pathe';
 import Components from 'unplugin-vue-components/nuxt';
 import { register } from './register';
@@ -9,14 +9,14 @@ import type { ModuleOptions } from './types';
 
 export default defineNuxtModule<ModuleOptions>({
     meta: {
-        name: '@primevue/nuxt-module',
-        configKey: 'primevue',
+        name: '@phasevueui/nuxt-module',
+        configKey: 'phasevue',
         compatibility: {
             nuxt: '>=3.0.0'
         }
     },
     defaults: {
-        usePrimeVue: true,
+        usePhaseVue: true,
         autoImport: true,
         resolvePath: undefined,
         //cssLayerOrder: undefined,
@@ -52,14 +52,14 @@ export default defineNuxtModule<ModuleOptions>({
         const { autoImport, importPT, importTheme, options, loadStyles } = moduleOptions;
         const hasTheme = options?.theme !== 'none' && (importTheme || options?.theme) && !options?.unstyled;
 
-        nuxt.options.runtimeConfig.public.primevue = {
+        nuxt.options.runtimeConfig.public.phasevue = {
             ...moduleOptions,
             ...registered
         };
 
         //nuxt.options.build.transpile.push('nuxt');
-        nuxt.options.build.transpile.push('primevue');
-        hasTheme && nuxt.options.build.transpile.push('@primevue/themes');
+        nuxt.options.build.transpile.push('phasevue');
+        hasTheme && nuxt.options.build.transpile.push('@phasevueui/themes');
         hasTheme && nuxt.options.build.transpile.push('@primeuix/themes');
 
         let registeredStyles: MetaType[] = registered.styles;
@@ -71,7 +71,7 @@ export default defineNuxtModule<ModuleOptions>({
                 {
                     dts,
                     resolvers: [
-                        PrimeVueResolver({
+                        PhaseVueResolver({
                             components: moduleOptions.components,
                             directives: moduleOptions.directives
                         })
@@ -97,7 +97,7 @@ ${importTheme ? `import ${importTheme.as} from '${normalize(importTheme.from)}';
 }
 
 const runtimeConfig = useRuntimeConfig();
-const config = runtimeConfig?.public?.primevue ?? {};
+const config = runtimeConfig?.public?.phasevue ?? {};
 const { options = {} } = config;
 
 const stylesToTop = [${registered.injectStylesAsStringToTop.join('')}].join('');
@@ -125,15 +125,15 @@ export { styles, stylesToTop, themes };
 `;
         };
 
-        nuxt.options.alias['#primevue-style'] = addTemplate({
-            filename: 'primevue-style.mjs',
+        nuxt.options.alias['#phasevue-style'] = addTemplate({
+            filename: 'phasevue-style.mjs',
             getContents: styleContent
         }).dst;
 
         addPlugin(resolver.resolve('./runtime/plugin.client'));
 
         addPluginTemplate({
-            filename: 'primevue-plugin.mjs',
+            filename: 'phasevue-plugin.mjs',
             getContents() {
                 return `
 import { defineNuxtPlugin, useRuntimeConfig } from '#imports';
@@ -145,12 +145,12 @@ ${hasTheme && importTheme ? `import ${importTheme.as} from '${normalize(importTh
 
 export default defineNuxtPlugin(({ vueApp }) => {
   const runtimeConfig = useRuntimeConfig();
-  const config = runtimeConfig?.public?.primevue ?? {};
-  const { usePrimeVue = true, options = {} } = config;
+  const config = runtimeConfig?.public?.phasevue ?? {};
+  const { usePhaseVue = true, options = {} } = config;
   const pt = ${importPT ? `{ pt: ${importPT.as} }` : `{}`};
   const theme = ${hasTheme ? `{ theme: ${importTheme?.as} || options?.theme }` : `{}`};
 
-  usePrimeVue && vueApp.use(PrimeVue, { ...options, ...pt, ...theme });
+  usePhaseVue && vueApp.use(PhaseVue, { ...options, ...pt, ...theme });
   ${registered.services.map((service: MetaType) => `vueApp.use(${service.as});`).join('\n')}
   ${!autoImport && registered.directives.map((directive: MetaType) => `vueApp.directive('${directive.name}', ${directive.as});`).join('\n')}
 });
@@ -163,7 +163,7 @@ export default defineNuxtPlugin(({ vueApp }) => {
             config.externals.inline = config.externals.inline || [];
             config.externals.inline.push(resolver.resolve('./runtime/plugin.server'));
             config.virtual = config.virtual || {};
-            config.virtual['#primevue-style'] = styleContent;
+            config.virtual['#phasevue-style'] = styleContent;
             config.plugins = config.plugins || [];
             config.plugins.push(resolver.resolve('./runtime/plugin.server'));
         });

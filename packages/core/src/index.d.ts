@@ -45,17 +45,17 @@ export declare type NoInfer<T> = [T][T extends any ? 0 : never];
 /**
  * Modules
  */
-export * from '@primevue/core/api';
-export * from '@primevue/core/base/style';
-export * from '@primevue/core/basecomponent';
-export * from '@primevue/core/basecomponent/style';
-export * from '@primevue/core/basedirective';
-export * from '@primevue/core/baseeditableholder';
-export * from '@primevue/core/baseinput';
-export * from '@primevue/core/config';
-export { default as PrimeVue } from '@primevue/core/config';
-export * from '@primevue/core/service';
-export * from '@primevue/core/useattrselector';
-export * from '@primevue/core/useid';
-export * from '@primevue/core/usestyle';
-export * from '@primevue/core/utils';
+export * from '@phasevueui/core/api';
+export * from '@phasevueui/core/base/style';
+export * from '@phasevueui/core/basecomponent';
+export * from '@phasevueui/core/basecomponent/style';
+export * from '@phasevueui/core/basedirective';
+export * from '@phasevueui/core/baseeditableholder';
+export * from '@phasevueui/core/baseinput';
+export * from '@phasevueui/core/config';
+export { default as PhaseVue } from '@phasevueui/core/config';
+export * from '@phasevueui/core/service';
+export * from '@phasevueui/core/useattrselector';
+export * from '@phasevueui/core/useid';
+export * from '@phasevueui/core/usestyle';
+export * from '@phasevueui/core/utils';

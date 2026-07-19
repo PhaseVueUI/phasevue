@@ -1,1 +1,1 @@
-# PrimeVue AutoImportResolver
+# PhaseVue AutoImportResolver

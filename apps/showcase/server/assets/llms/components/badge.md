@@ -6,8 +6,8 @@ Badge is a small status indicator for another element.
 
 ```javascript
 // import as component
-import Badge from 'primevue/badge';
-import OverlayBadge from 'primevue/overlaybadge';
+import Badge from 'phasevue/badge';
+import OverlayBadge from 'phasevue/overlaybadge';
 ```
 
 ## Accessibility

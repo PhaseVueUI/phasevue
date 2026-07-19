@@ -1,6 +1,6 @@
 # Icons
 
-PrimeIcons is the default icon library of PrimeVue with over 250 open source icons developed by PrimeTek. PrimeIcons library is optional as PrimeVue components can use any icon with templating.
+PrimeIcons is the default icon library of PhaseVue with over 250 open source icons developed by PrimeTek. PrimeIcons library is optional as PhaseVue components can use any icon with templating.
 
 ## Basic
 
@@ -36,7 +36,7 @@ Constants API is available to reference icons easily when used programmatically.
 </template>
 
 <script>
-import { PrimeIcons } from '@primevue/core/api';
+import { PrimeIcons } from '@phasevueui/core/api';
 
 export default {
     data() {
@@ -61,7 +61,7 @@ export default {
 PrimeIcons is available at npm, run the following command to download it to your project.
 
 ```vue
-npm install primeicons
+npm install @phasevueui/icons
 ```
 
 ## Figma

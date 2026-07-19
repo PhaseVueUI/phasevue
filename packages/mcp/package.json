@@ -1,20 +1,20 @@
 {
-    "name": "@primevue/mcp",
-    "version": "4.5.5",
-    "author": "PrimeTek Informatics",
-    "description": "Model Context Protocol (MCP) server for PrimeVue component library",
-    "homepage": "https://primevue.org/",
+    "name": "@phasevueui/mcp",
+    "version": "0.0.1-alpha.1",
+    "author": "PhaseVue UI",
+    "description": "Model Context Protocol (MCP) server for PhaseVue component library",
+    "homepage": "https://phasevue.org/",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/primefaces/primevue.git",
+        "url": "https://github.com/PhaseVueUI/phasevue.git",
         "directory": "packages/mcp"
     },
     "bugs": {
-        "url": "https://github.com/primefaces/primevue/issues"
+        "url": "https://github.com/PhaseVueUI/phasevue/issues"
     },
     "keywords": [
-        "primevue",
+        "phasevue",
         "mcp",
         "model-context-protocol",
         "ai",
@@ -23,7 +23,7 @@
         "components"
     ],
     "bin": {
-        "primevue-mcp": "./dist/index.js"
+        "phasevue-mcp": "./dist/index.js"
     },
     "type": "module",
     "main": "./dist/index.js",

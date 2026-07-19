@@ -5,7 +5,7 @@ Select is used to choose an item from a collection of options.
 ## Import
 
 ```javascript
-import Select from 'primevue/select';
+import Select from 'phasevue/select';
 ```
 
 ## Accessibility
@@ -196,7 +196,7 @@ Select provides built-in filtering that is enabled by adding the filter property
 <Select v-model="selectedCountry" :options="countries" filter optionLabel="name" placeholder="Select a Country" class="w-full md:w-56">
     <template #value="slotProps">
         <div v-if="slotProps.value" class="flex items-center">
-            <img :alt="slotProps.value.label" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`mr-2 flag flag-\${slotProps.value.code.toLowerCase()}\`" style="width: 18px" />
+            <img :alt="slotProps.value.label" src="/images/flag/flag_placeholder.png" :class="\`mr-2 flag flag-\${slotProps.value.code.toLowerCase()}\`" style="width: 18px" />
             <div>{{ slotProps.value.name }}</div>
         </div>
         <span v-else>
@@ -205,7 +205,7 @@ Select provides built-in filtering that is enabled by adding the filter property
     </template>
     <template #option="slotProps">
         <div class="flex items-center">
-            <img :alt="slotProps.option.label" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`mr-2 flag flag-\${slotProps.option.code.toLowerCase()}\`" style="width: 18px" />
+            <img :alt="slotProps.option.label" src="/images/flag/flag_placeholder.png" :class="\`mr-2 flag flag-\${slotProps.option.code.toLowerCase()}\`" style="width: 18px" />
             <div>{{ slotProps.option.name }}</div>
         </div>
     </template>
@@ -221,7 +221,7 @@ Select provides built-in filtering that is enabled by adding the filter property
         <Select v-model="selectedCountry" :options="countries" filter optionLabel="name" placeholder="Select a Country" class="w-full md:w-56">
             <template #value="slotProps">
                 <div v-if="slotProps.value" class="flex items-center">
-                    <img :alt="slotProps.value.label" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`mr-2 flag flag-\${slotProps.value.code.toLowerCase()}\`" style="width: 18px" />
+                    <img :alt="slotProps.value.label" src="/images/flag/flag_placeholder.png" :class="\`mr-2 flag flag-\${slotProps.value.code.toLowerCase()}\`" style="width: 18px" />
                     <div>{{ slotProps.value.name }}</div>
                 </div>
                 <span v-else>
@@ -230,7 +230,7 @@ Select provides built-in filtering that is enabled by adding the filter property
             </template>
             <template #option="slotProps">
                 <div class="flex items-center">
-                    <img :alt="slotProps.option.label" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`mr-2 flag flag-\${slotProps.option.code.toLowerCase()}\`" style="width: 18px" />
+                    <img :alt="slotProps.option.label" src="/images/flag/flag_placeholder.png" :class="\`mr-2 flag flag-\${slotProps.option.code.toLowerCase()}\`" style="width: 18px" />
                     <div>{{ slotProps.option.name }}</div>
                 </div>
             </template>
@@ -385,8 +385,8 @@ const cities = ref([
 
 <script setup>
 import { ref } from 'vue';
-import { zodResolver } from '@primevue/forms/resolvers/zod';
-import { useToast } from "primevue/usetoast";
+import { zodResolver } from '@phasevueui/forms/resolvers/zod';
+import { useToast } from "phasevue/usetoast";
 import { z } from 'zod';
 
 const toast = useToast();
@@ -429,7 +429,7 @@ Options can be grouped when a nested data structures is provided. To define the 
 <Select v-model="selectedCity" :options="groupedCities" optionLabel="label" optionGroupLabel="label" optionGroupChildren="items" placeholder="Select a City" class="w-full md:w-56">
     <template #optiongroup="slotProps">
         <div class="flex items-center">
-            <img :alt="slotProps.option.label" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`mr-2 flag flag-\${slotProps.option.code.toLowerCase()}\`" style="width: 18px" />
+            <img :alt="slotProps.option.label" src="/images/flag/flag_placeholder.png" :class="\`mr-2 flag flag-\${slotProps.option.code.toLowerCase()}\`" style="width: 18px" />
             <div>{{ slotProps.option.label }}</div>
         </div>
     </template>
@@ -445,7 +445,7 @@ Options can be grouped when a nested data structures is provided. To define the 
         <Select v-model="selectedCity" :options="groupedCities" optionLabel="label" optionGroupLabel="label" optionGroupChildren="items" placeholder="Select a City" class="w-full md:w-56">
             <template #optiongroup="slotProps">
                 <div class="flex items-center">
-                    <img :alt="slotProps.option.label" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`mr-2 flag flag-\${slotProps.option.code.toLowerCase()}\`" style="width: 18px" />
+                    <img :alt="slotProps.option.label" src="/images/flag/flag_placeholder.png" :class="\`mr-2 flag flag-\${slotProps.option.code.toLowerCase()}\`" style="width: 18px" />
                     <div>{{ slotProps.option.label }}</div>
                 </div>
             </template>
@@ -702,7 +702,7 @@ Select offers multiple slots for customization through templating.
 <Select v-model="selectedCountry" :options="countries" optionLabel="name" placeholder="Select a Country" class="w-full md:w-56">
     <template #value="slotProps">
         <div v-if="slotProps.value" class="flex items-center">
-            <img :alt="slotProps.value.label" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`mr-2 flag flag-\${slotProps.value.code.toLowerCase()}\`" style="width: 18px" />
+            <img :alt="slotProps.value.label" src="/images/flag/flag_placeholder.png" :class="\`mr-2 flag flag-\${slotProps.value.code.toLowerCase()}\`" style="width: 18px" />
             <div>{{ slotProps.value.name }}</div>
         </div>
         <span v-else>
@@ -711,7 +711,7 @@ Select offers multiple slots for customization through templating.
     </template>
     <template #option="slotProps">
         <div class="flex items-center">
-            <img :alt="slotProps.option.label" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`mr-2 flag flag-\${slotProps.option.code.toLowerCase()}\`" style="width: 18px" />
+            <img :alt="slotProps.option.label" src="/images/flag/flag_placeholder.png" :class="\`mr-2 flag flag-\${slotProps.option.code.toLowerCase()}\`" style="width: 18px" />
             <div>{{ slotProps.option.name }}</div>
         </div>
     </template>
@@ -738,7 +738,7 @@ Select offers multiple slots for customization through templating.
         <Select v-model="selectedCountry" :options="countries" optionLabel="name" placeholder="Select a Country" class="w-full md:w-56">
             <template #value="slotProps">
                 <div v-if="slotProps.value" class="flex items-center">
-                    <img :alt="slotProps.value.label" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`mr-2 flag flag-\${slotProps.value.code.toLowerCase()}\`" style="width: 18px" />
+                    <img :alt="slotProps.value.label" src="/images/flag/flag_placeholder.png" :class="\`mr-2 flag flag-\${slotProps.value.code.toLowerCase()}\`" style="width: 18px" />
                     <div>{{ slotProps.value.name }}</div>
                 </div>
                 <span v-else>
@@ -747,7 +747,7 @@ Select offers multiple slots for customization through templating.
             </template>
             <template #option="slotProps">
                 <div class="flex items-center">
-                    <img :alt="slotProps.option.label" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`mr-2 flag flag-\${slotProps.option.code.toLowerCase()}\`" style="width: 18px" />
+                    <img :alt="slotProps.option.label" src="/images/flag/flag_placeholder.png" :class="\`mr-2 flag flag-\${slotProps.option.code.toLowerCase()}\`" style="width: 18px" />
                     <div>{{ slotProps.option.name }}</div>
                 </div>
             </template>
@@ -871,11 +871,11 @@ const items = ref(Array.from({ length: 100000 }, (_, i) => ({ label: \`Item #\${
 | focusOnHover           | boolean                                                | true                        | When enabled, the focus is placed on the hovered option.                                                                                  |
 | highlightOnSelect      | boolean                                                | true                        | Whether the selected option will be add highlight class.                                                                                  |
 | checkmark              | boolean                                                | false                       | Whether the selected option will be shown with a check mark.                                                                              |
-| filterMessage          | string                                                 | '{0} results are available' | Text to be displayed in hidden accessible field when filtering returns any results. Defaults to value from PrimeVue locale configuration. |
-| selectionMessage       | string                                                 | '{0} items selected'        | Text to be displayed in hidden accessible field when options are selected. Defaults to value from PrimeVue locale configuration.          |
-| emptySelectionMessage  | string                                                 | No selected item            | Text to be displayed in hidden accessible field when any option is not selected. Defaults to value from PrimeVue locale configuration.    |
-| emptyFilterMessage     | string                                                 | No results found            | Text to display when filtering does not return any results. Defaults to value from PrimeVue locale configuration.                         |
-| emptyMessage           | string                                                 | No available options        | Text to display when there are no options available. Defaults to value from PrimeVue locale configuration.                                |
+| filterMessage          | string                                                 | '{0} results are available' | Text to be displayed in hidden accessible field when filtering returns any results. Defaults to value from PhaseVue locale configuration. |
+| selectionMessage       | string                                                 | '{0} items selected'        | Text to be displayed in hidden accessible field when options are selected. Defaults to value from PhaseVue locale configuration.          |
+| emptySelectionMessage  | string                                                 | No selected item            | Text to be displayed in hidden accessible field when any option is not selected. Defaults to value from PhaseVue locale configuration.    |
+| emptyFilterMessage     | string                                                 | No results found            | Text to display when filtering does not return any results. Defaults to value from PhaseVue locale configuration.                         |
+| emptyMessage           | string                                                 | No available options        | Text to display when there are no options available. Defaults to value from PhaseVue locale configuration.                                |
 | tabindex               | string \| number                                       | -                           | Index of the element in tabbing order.                                                                                                    |
 | ariaLabel              | string                                                 | -                           | Defines a string value that labels an interactive element.                                                                                |
 | ariaLabelledby         | string                                                 | -                           | Identifier of the underlying input element.                                                                                               |

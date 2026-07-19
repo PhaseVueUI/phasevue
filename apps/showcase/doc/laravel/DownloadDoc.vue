@@ -1,6 +1,6 @@
 <template>
     <DocSectionText v-bind="$attrs">
-        <p>PrimeVue is available for download on <a href="https://www.npmjs.com/package/primevue">npm registry</a>.</p>
+        <p>PhaseVue is available for download on <a href="https://www.npmjs.com/package/phasevue">npm registry</a>.</p>
     </DocSectionText>
     <DocSectionCode :code="code" hideToggleCode hideStackBlitz />
 </template>
@@ -12,13 +12,13 @@ export default {
             code: {
                 basic: `
 # Using npm
-npm install primevue @primeuix/themes
+npm install phasevue @primeuix/themes
 
 # Using yarn
-yarn add primevue @primeuix/themes
+yarn add phasevue @primeuix/themes
 
 # Using pnpm
-pnpm add primevue @primeuix/themes
+pnpm add phasevue @primeuix/themes
 `
             }
         };

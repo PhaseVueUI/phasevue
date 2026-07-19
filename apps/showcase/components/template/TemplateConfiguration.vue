@@ -10,7 +10,7 @@
                     <p class="m-0 text-surface-0 text-xs sm:text-sm">&gt; npm run dev <span class="text-gray-500">or yarn dev</span></p>
                     <br />
                     <br />
-                    <img class="w-28 lg:w-32 h-28 lg:h-32 absolute right-6 bottom-4" src="https://primefaces.org/cdn/primevue/images/templates/vue-3d-logo.png" alt="Vue 3D Logo" />
+                    <img class="w-28 lg:w-32 h-28 lg:h-32 absolute right-6 bottom-4" src="/images/templates/vue-3d-logo.png" alt="Vue 3D Logo" />
                 </div>
             </div>
             <h3 class="text-lg lg:text-2xl text-surface-900 dark:text-surface-0 font-bold">{{ configurationData.title }}</h3>

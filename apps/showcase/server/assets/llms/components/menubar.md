@@ -5,7 +5,7 @@ Menubar also known as Navbar, is a horizontal menu component.
 ## Import
 
 ```javascript
-import Menubar from 'primevue/menubar';
+import Menubar from 'phasevue/menubar';
 ```
 
 ## Accessibility
@@ -46,7 +46,7 @@ The command property defines the callback to run when an item is activated by cl
 
 <script setup>
 import { ref } from "vue";
-import { useToast } from "primevue/usetoast";
+import { useToast } from "phasevue/usetoast";
 
 const toast = useToast();
 
@@ -260,7 +260,7 @@ Menubar offers item customization with the item template that receives the menui
             <template #end>
                 <div class="flex items-center gap-2">
                     <InputText placeholder="Search" type="text" class="w-32 sm:w-auto" />
-                    <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
+                    <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
                 </div>
             </template>
         </Menubar>

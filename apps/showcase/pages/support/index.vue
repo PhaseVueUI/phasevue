@@ -5,7 +5,7 @@
                 <i class="pi pi-github absolute opacity-20" style="bottom: -50px; right: -50px; font-size: 200px; transform: rotateX(45deg) rotateY(0deg) rotateZ(-45deg)"></i>
                 <div class="text-2xl font-semibold mb-4 relative">Community Support</div>
                 <p class="m-0 leading-normal relative text-lg">
-                    <a href="https://github.com/orgs/primefaces/discussions" class="doc-link" target="_blank" rel="noopener noreferrer">Forum</a> and
+                    <a href="https://github.com/orgs/phasevue/discussions" class="doc-link" target="_blank" rel="noopener noreferrer">Forum</a> and
                     <a href="https://discord.gg/gzKFYnpmCY" class="doc-link" target="_blank" rel="noopener noreferrer">Discord</a> are where the community users gather to seek support, post topics and discuss the technology. GitHub issue is the
                     channel for the community users to create tickets however PrimeTek does not guarantee a response time although they are monitored and maintained by our staff. If you need to secure a response, you may consider PRO support instead.
                 </p>
@@ -13,7 +13,7 @@
             <div class="card !m-0 flex-1 !bg-primary !text-primary-contrast font-medium">
                 <div class="text-2xl font-semibold mb-4">Professional Support</div>
                 <p class="m-0 leading-normal text-lg">
-                    With PRO support, it's easy to support, tune, and add features to PrimeVue as an in-house library. With the exclusive services of a PRO account, you no longer need to post questions in the community forum and the community issue
+                    With PRO support, it's easy to support, tune, and add features to PhaseVue as an in-house library. With the exclusive services of a PRO account, you no longer need to post questions in the community forum and the community issue
                     tracker at GitHub. Service is delivered via a private issue tracker based on a one-business-day response time.
                 </p>
             </div>
@@ -70,7 +70,7 @@
                     </ul>
                 </div>
                 <a
-                    href="mailto:contact@primetek.com.tr?subject=PrimeVue%20PRO%20Support"
+                    href="mailto:contact@primetek.com.tr?subject=PhaseVue%20PRO%20Support"
                     class="block mt-4 w-full bg-primary rounded-border py-3 px-4 hover:bg-primary-emphasis text-center transition-all duration-300 text-primary-contrast font-semibold text-lg leading-none"
                 >
                     Buy Now
@@ -102,7 +102,7 @@
                     <li>
                         <div class="font-semibold mb-1">6. Delivery</div>
                         <span class="leading-normal"
-                            >If the issue requires an update in the library, it gets published to npm by as part of the public PrimeVue package. A patch update on an older version can also be requested if you are not using the latest version.
+                            >If the issue requires an update in the library, it gets published to npm by as part of the public PhaseVue package. A patch update on an older version can also be requested if you are not using the latest version.
                         </span>
                     </li>
                 </ul>
@@ -184,11 +184,11 @@
                 <div class="flex-1 flex flex-col gap-8">
                     <div>
                         <div class="leading-normal mb-2 font-semibold">Are the changes delivered with a custom build?</div>
-                        <p class="!m-0 leading-normal">No, changes become part of the PrimeVue core and pushed to the public npm package on next update.</p>
+                        <p class="!m-0 leading-normal">No, changes become part of the PhaseVue core and pushed to the public npm package on next update.</p>
                     </div>
                     <div>
                         <div class="leading-normal mb-2 font-semibold">Who provides the support service?</div>
-                        <p class="!m-0 leading-normal">Support service is provided by the PrimeVue team at PrimeTek.</p>
+                        <p class="!m-0 leading-normal">Support service is provided by the PhaseVue team at PrimeTek.</p>
                     </div>
                     <div>
                         <div class="leading-normal mb-2 font-semibold">Is there a minimum hour requirement?</div>

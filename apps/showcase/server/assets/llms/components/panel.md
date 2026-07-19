@@ -5,7 +5,7 @@ Panel is a grouping component providing with content toggle feature.
 ## Import
 
 ```javascript
-import Panel from 'primevue/panel';
+import Panel from 'phasevue/panel';
 ```
 
 ## Accessibility
@@ -33,7 +33,7 @@ Header, icons and footer sections of the panel are customizable via templating.
 <Panel toggleable>
     <template #header>
         <div class="flex items-center gap-2">
-            <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
+            <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
             <span class="font-bold">Amy Elsner</span>
         </div>
     </template>
@@ -67,7 +67,7 @@ Header, icons and footer sections of the panel are customizable via templating.
         <Panel toggleable>
             <template #header>
                 <div class="flex items-center gap-2">
-                    <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
+                    <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
                     <span class="font-bold">Amy Elsner</span>
                 </div>
             </template>
@@ -94,9 +94,9 @@ Header, icons and footer sections of the panel are customizable via templating.
 
 <script setup>
 import { ref } from 'vue';
-import { useToast } from "primevue/usetoast";
+import { useToast } from "phasevue/usetoast";
 import { useRouter } from 'vue-router';
-import Menu from 'primevue/menu';
+import Menu from 'phasevue/menu';
 
 const menu = ref(null);
 const toast = useToast();

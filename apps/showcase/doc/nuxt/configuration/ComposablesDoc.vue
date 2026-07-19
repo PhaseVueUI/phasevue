@@ -11,7 +11,7 @@ export default {
         return {
             code1: {
                 basic: `
-primevue: {
+phasevue: {
     composables: {
         include: ['useStyle']
     }

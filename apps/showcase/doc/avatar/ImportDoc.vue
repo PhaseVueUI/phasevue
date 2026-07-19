@@ -9,8 +9,8 @@ export default {
         return {
             code: {
                 basic: `
-import Avatar from 'primevue/avatar';
-import AvatarGroup from 'primevue/avatargroup';   //Optional for grouping
+import Avatar from 'phasevue/avatar';
+import AvatarGroup from 'phasevue/avatargroup';   //Optional for grouping
 `
             }
         };

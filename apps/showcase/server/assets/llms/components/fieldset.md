@@ -5,7 +5,7 @@ Fieldset is a grouping component with a content toggle feature.
 ## Import
 
 ```javascript
-import Fieldset from 'primevue/fieldset';
+import Fieldset from 'phasevue/fieldset';
 ```
 
 ## Accessibility
@@ -53,7 +53,7 @@ Legend section can be customized with custom content using templating.
         <Fieldset>
             <template #legend>
                 <div class="flex items-center pl-2">
-                    <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
+                    <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
                     <span class="font-bold p-2">Amy Elsner</span>
                 </div>
             </template>

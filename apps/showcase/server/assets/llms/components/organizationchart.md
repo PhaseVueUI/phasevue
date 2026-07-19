@@ -5,7 +5,7 @@ OrganizationChart visualizes hierarchical organization data.
 ## Import
 
 ```javascript
-import OrganizationChart from 'primevue/organizationchart';
+import OrganizationChart from 'phasevue/organizationchart';
 ```
 
 ## Accessibility
@@ -76,7 +76,7 @@ const data = ref({
     type: 'person',
     styleClass: '!bg-indigo-100 text-white rounded-xl',
     data: {
-        image: 'https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png',
+        image: '/images/avatar/amyelsner.png',
         name: 'Amy Elsner',
         title: 'CEO'
     },
@@ -86,7 +86,7 @@ const data = ref({
             type: 'person',
             styleClass: '!bg-purple-100 text-white rounded-xl',
             data: {
-                image: 'https://primefaces.org/cdn/primevue/images/avatar/annafali.png',
+                image: '/images/avatar/annafali.png',
                 name: 'Anna Fali',
                 title: 'CMO'
             },
@@ -106,7 +106,7 @@ const data = ref({
             type: 'person',
             styleClass: '!bg-teal-100 text-white rounded-xl',
             data: {
-                image: 'https://primefaces.org/cdn/primevue/images/avatar/stephenshaw.png',
+                image: '/images/avatar/stephenshaw.png',
                 name: 'Stephen Shaw',
                 title: 'CTO'
             },
@@ -177,7 +177,7 @@ const data = ref({
     key: '0',
     type: 'person',
     data: {
-        image: 'https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png',
+        image: '/images/avatar/amyelsner.png',
         name: 'Amy Elsner',
         title: 'CEO'
     },
@@ -186,7 +186,7 @@ const data = ref({
             key: '0_0',
             type: 'person',
             data: {
-                image: 'https://primefaces.org/cdn/primevue/images/avatar/annafali.png',
+                image: '/images/avatar/annafali.png',
                 name: 'Anna Fali',
                 title: 'CMO'
             },
@@ -205,7 +205,7 @@ const data = ref({
             key: '0_1',
             type: 'person',
             data: {
-                image: 'https://primefaces.org/cdn/primevue/images/avatar/stephenshaw.png',
+                image: '/images/avatar/stephenshaw.png',
                 name: 'Stephen Shaw',
                 title: 'CTO'
             },
@@ -236,7 +236,7 @@ The type property of an OrganizationChartNode is used to map a template to a nod
 <OrganizationChart v-model:selectionKeys="selection" :value="data" collapsible selectionMode="single">
     <template #country="slotProps">
         <div class="flex flex-col items-center">
-            <img :alt="slotProps.node.label" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`w-2rem flag flag-\${slotProps.node.data}\`" />
+            <img :alt="slotProps.node.label" src="/images/flag/flag_placeholder.png" :class="\`w-2rem flag flag-\${slotProps.node.data}\`" />
             <div class="mt-4 font-medium text-lg">{{ slotProps.node.label }}</div>
         </div>
     </template>
@@ -255,7 +255,7 @@ The type property of an OrganizationChartNode is used to map a template to a nod
         <OrganizationChart v-model:selectionKeys="selection" :value="data" collapsible selectionMode="single">
             <template #country="slotProps">
                 <div class="flex flex-col items-center">
-                    <img :alt="slotProps.node.label" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`w-2rem flag flag-\${slotProps.node.data}\`" />
+                    <img :alt="slotProps.node.label" src="/images/flag/flag_placeholder.png" :class="\`w-2rem flag flag-\${slotProps.node.data}\`" />
                     <div class="mt-4 font-medium text-lg">{{ slotProps.node.label }}</div>
                 </div>
             </template>

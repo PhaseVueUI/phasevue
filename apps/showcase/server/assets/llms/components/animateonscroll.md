@@ -5,7 +5,7 @@ AnimateOnScroll is used to apply animations to elements when entering or leaving
 ## Import
 
 ```javascript
-import AnimateOnScroll from 'primevue/animateonscroll';
+import AnimateOnScroll from 'phasevue/animateonscroll';
 
 app.directive('animateonscroll', AnimateOnScroll);
 ```
@@ -54,17 +54,17 @@ Animation classes are defined with the enterClass and leaveClass properties. Thi
 
 <div class="flex flex-wrap justify-center gap-8">
     <div v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-t-20 animate-duration-1000' }" class="flex flex-col border border-primary-200 shadow-lg justify-center items-center max-w-80 rounded-2xl p-8 gap-4">
-        <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" size="xlarge" />
+        <Avatar image="/images/avatar/amyelsner.png" shape="circle" size="xlarge" />
         <span class="text-2xl font-medium">Jenna Thompson</span>
         <span class="text-muted-color text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
     </div>
     <div v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-b-20 animate-duration-1000' }" class="flex flex-col border border-primary-200 shadow-lg justify-center items-center max-w-80 rounded-2xl p-8 gap-4">
-        <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/asiyajavayant.png" shape="circle" size="xlarge" />
+        <Avatar image="/images/avatar/asiyajavayant.png" shape="circle" size="xlarge" />
         <span class="text-2xl font-medium">Isabel Garcia</span>
         <span class="text-muted-color text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
     </div>
     <div v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-t-20 animate-duration-1000' }" class="flex flex-col border border-primary-200 shadow-lg justify-center items-center max-w-80 rounded-2xl p-8 gap-4">
-        <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/onyamalimba.png" shape="circle" size="xlarge" />
+        <Avatar image="/images/avatar/onyamalimba.png" shape="circle" size="xlarge" />
         <span class="text-2xl font-medium">Xavier Mason</span>
         <span class="text-muted-color text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
     </div>

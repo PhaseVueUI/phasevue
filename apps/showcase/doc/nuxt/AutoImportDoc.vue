@@ -16,14 +16,14 @@ export default {
         return {
             code1: {
                 basic: `
-primevue: {
+phasevue: {
     autoImport: true|false
 }
 `
             },
             code2: {
                 basic: `
-primevue: {
+phasevue: {
     autoImport: true|false,
     components: {
         prefix: 'org'

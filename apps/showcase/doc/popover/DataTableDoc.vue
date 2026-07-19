@@ -13,7 +13,7 @@
             </Column>
             <Column header="Image" class="w-1/6">
                 <template #body="slotProps">
-                    <img :src="`https://primefaces.org/cdn/primevue/images/product/${slotProps.data.image}`" :alt="slotProps.data.image" class="w-16 shadow-sm" />
+                    <img :src="`/images/product/${slotProps.data.image}`" :alt="slotProps.data.image" class="w-16 shadow-sm" />
                 </template>
             </Column>
             <Column header="Details" class="w-1/6">
@@ -27,7 +27,7 @@
             <div v-if="selectedProduct" class="rounded flex flex-col">
                 <div class="flex justify-center rounded">
                     <div class="relative mx-auto">
-                        <img class="rounded w-44 sm:w-64" :src="`https://primefaces.org/cdn/primevue/images/product/${selectedProduct.image}`" :alt="selectedProduct.name" />
+                        <img class="rounded w-44 sm:w-64" :src="`/images/product/${selectedProduct.image}`" :alt="selectedProduct.name" />
                         <Tag :value="selectedProduct.inventoryStatus" :severity="getSeverity(selectedProduct)" class="absolute dark:!bg-surface-900" style="left: 4px; top: 4px"></Tag>
                     </div>
                 </div>
@@ -81,7 +81,7 @@ export default {
     </Column>
     <Column header="Image" class="w-1/6">
         <template #body="slotProps">
-            <img :src="\`https://primefaces.org/cdn/primevue/images/product/\${slotProps.data.image}\`" :alt="slotProps.data.image" class="w-16 shadow-sm" />
+            <img :src="\`/images/product/\${slotProps.data.image}\`" :alt="slotProps.data.image" class="w-16 shadow-sm" />
         </template>
     </Column>
     <Column header="Details" class="w-1/6">
@@ -95,7 +95,7 @@ export default {
     <div v-if="selectedProduct" class="rounded flex flex-col">
         <div class="flex justify-center rounded">
             <div class="relative mx-auto">
-                <img class="rounded w-44 sm:w-64" :src="\`https://primefaces.org/cdn/primevue/images/product/\${selectedProduct.image}\`" :alt="selectedProduct.name" />
+                <img class="rounded w-44 sm:w-64" :src="\`/images/product/\${selectedProduct.image}\`" :alt="selectedProduct.name" />
                 <Tag :value="selectedProduct.inventoryStatus" :severity="getSeverity(selectedProduct)" class="absolute dark:!bg-surface-900" style="left: 4px; top: 4px"></Tag>
             </div>
         </div>
@@ -132,7 +132,7 @@ export default {
             </Column>
             <Column header="Image" class="w-1/6">
                 <template #body="slotProps">
-                    <img :src="\`https://primefaces.org/cdn/primevue/images/product/\${slotProps.data.image}\`" :alt="slotProps.data.image" class="w-16 shadow-sm" />
+                    <img :src="\`/images/product/\${slotProps.data.image}\`" :alt="slotProps.data.image" class="w-16 shadow-sm" />
                 </template>
             </Column>
             <Column header="Details" class="w-1/6">
@@ -146,7 +146,7 @@ export default {
             <div v-if="selectedProduct" class="rounded flex flex-col">
                 <div class="flex justify-center rounded">
                     <div class="relative mx-auto">
-                        <img class="rounded w-44 sm:w-64" :src="\`https://primefaces.org/cdn/primevue/images/product/\${selectedProduct.image}\`" :alt="selectedProduct.name" />
+                        <img class="rounded w-44 sm:w-64" :src="\`/images/product/\${selectedProduct.image}\`" :alt="selectedProduct.name" />
                         <Tag :value="selectedProduct.inventoryStatus" :severity="getSeverity(selectedProduct)" class="absolute dark:!bg-surface-900" style="left: 4px; top: 4px"></Tag>
                     </div>
                 </div>
@@ -234,7 +234,7 @@ export default {
             </Column>
             <Column header="Image" class="w-1/6">
                 <template #body="slotProps">
-                    <img :src="\`https://primefaces.org/cdn/primevue/images/product/\${slotProps.data.image}\`" :alt="slotProps.data.image" class="w-16 shadow-sm" />
+                    <img :src="\`/images/product/\${slotProps.data.image}\`" :alt="slotProps.data.image" class="w-16 shadow-sm" />
                 </template>
             </Column>
             <Column header="Details" class="w-1/6">
@@ -248,7 +248,7 @@ export default {
             <div v-if="selectedProduct" class="rounded flex flex-col">
                 <div class="flex justify-center rounded">
                     <div class="relative mx-auto">
-                        <img class="rounded w-44 sm:w-64" :src="\`https://primefaces.org/cdn/primevue/images/product/\${selectedProduct.image}\`" :alt="selectedProduct.name" />
+                        <img class="rounded w-44 sm:w-64" :src="\`/images/product/\${selectedProduct.image}\`" :alt="selectedProduct.name" />
                         <Tag :value="selectedProduct.inventoryStatus" :severity="getSeverity(selectedProduct)" class="absolute dark:!bg-surface-900" style="left: 4px; top: 4px"></Tag>
                     </div>
                 </div>
@@ -277,7 +277,7 @@ export default {
 
 <script setup>
 import { ref, onMounted, nextTick } from "vue";
-import { useToast } from "primevue/usetoast";
+import { useToast } from "phasevue/usetoast";
 import { ProductService } from '@/service/ProductService';
 
 onMounted(() => {

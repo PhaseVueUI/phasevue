@@ -5,7 +5,7 @@ MegaMenu is a navigation component that displays submenus and content in columns
 ## Import
 
 ```javascript
-import MegaMenu from 'primevue/megamenu';
+import MegaMenu from 'phasevue/megamenu';
 ```
 
 ## Accessibility
@@ -204,7 +204,7 @@ MegaMenu offers item customization with the item template that receives the menu
                 </div>
             </template>
             <template #end>
-                <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
+                <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
             </template>
         </MegaMenu>
     </div>
@@ -247,7 +247,7 @@ const items = ref([
             ],
             [
                 {
-                    items: [{ image: 'https://primefaces.org/cdn/primevue/images/uikit/uikit-system.png', label: 'GET STARTED', subtext: 'Build spectacular apps in no time.' }]
+                    items: [{ image: '/images/uikit/uikit-system.png', label: 'GET STARTED', subtext: 'Build spectacular apps in no time.' }]
                 }
             ]
         ]

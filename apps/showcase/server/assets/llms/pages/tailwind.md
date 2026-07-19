@@ -1,6 +1,6 @@
 # Tailwind CSS
 
-Integration between PrimeVue and Tailwind CSS both in styled and unstyled modes.
+Integration between PhaseVue and Tailwind CSS both in styled and unstyled modes.
 
 ## Animations
 
@@ -15,31 +15,31 @@ The plugin also adds extended animation utilities that can be used with the styl
 
 ## Dark Mode
 
-In styled mode, PrimeVue uses the system as the default darkModeSelector in theme configuration. If you have a dark mode switch in your application, ensure that darkModeSelector is aligned with the Tailwind dark variant for seamless integration. Note that, this particular configuration isn't required if you're utilizing the default system color scheme. Suppose that, the darkModeSelector is set as my-app-dark in PrimeVue. Tailwind v4 Add a custom variant for dark with a custom selector. Tailwind v3 Use the plugins option in your Tailwind config file to configure the plugin.
+In styled mode, PhaseVue uses the system as the default darkModeSelector in theme configuration. If you have a dark mode switch in your application, ensure that darkModeSelector is aligned with the Tailwind dark variant for seamless integration. Note that, this particular configuration isn't required if you're utilizing the default system color scheme. Suppose that, the darkModeSelector is set as my-app-dark in PhaseVue. Tailwind v4 Add a custom variant for dark with a custom selector. Tailwind v3 Use the plugins option in your Tailwind config file to configure the plugin.
 
 ## Extensions
 
-The plugin extends the default configuration with a new set of utilities whose values are derived from the PrimeVue theme in use. All variants and breakpoints are supported e.g. dark:sm:hover:bg-primary . Color Palette Class Property primary-[50-950] Primary color palette. surface-[0-950] Surface color palette. primary Default primary color. primary-contrast Default primary contrast color. primary-emphasis Default primary emphasis color. border-surface Content border color. bg-emphasis Emphasis background e.g. hovered element. bg-highlight Highlight background. bg-highlight-emphasis Highlight background with emphasis. rounded-border Border radius. text-color Text color with emphasis. text-color-emphasis Default primary emphasis color. text-muted-color Secondary text color. text-muted-color-emphasis Secondary text color with emphasis.
+The plugin extends the default configuration with a new set of utilities whose values are derived from the PhaseVue theme in use. All variants and breakpoints are supported e.g. dark:sm:hover:bg-primary . Color Palette Class Property primary-[50-950] Primary color palette. surface-[0-950] Surface color palette. primary Default primary color. primary-contrast Default primary contrast color. primary-emphasis Default primary emphasis color. border-surface Content border color. bg-emphasis Emphasis background e.g. hovered element. bg-highlight Highlight background. bg-highlight-emphasis Highlight background with emphasis. rounded-border Border radius. text-color Text color with emphasis. text-color-emphasis Default primary emphasis color. text-muted-color Secondary text color. text-muted-color-emphasis Secondary text color with emphasis.
 
 ## Override
 
-Tailwind utilities may not be able to override the default styling of components due to css specificity, there are two possible solutions; Important and CSS Layer. Important Use the ! as a prefix to enforce the styling. This is not the recommend approach, and should be used as last resort to avoid adding unnecessary style classes to your bundle. Tailwind v4 Tailwind v3 CSS Layer CSS Layer provides control over the css specificity so that Tailwind utilities can safely override components. Tailwind v4 Ensure primevue layer is after theme and base , but before the other Tailwind layers such as utilities . No change in the CSS configuration is required. Tailwind v3 The primevue layer should be between base and utilities. Tailwind v3 does not use native layer so needs to be defined with CSS.
+Tailwind utilities may not be able to override the default styling of components due to css specificity, there are two possible solutions; Important and CSS Layer. Important Use the ! as a prefix to enforce the styling. This is not the recommend approach, and should be used as last resort to avoid adding unnecessary style classes to your bundle. Tailwind v4 Tailwind v3 CSS Layer CSS Layer provides control over the css specificity so that Tailwind utilities can safely override components. Tailwind v4 Ensure phasevue layer is after theme and base , but before the other Tailwind layers such as utilities . No change in the CSS configuration is required. Tailwind v3 The phasevue layer should be between base and utilities. Tailwind v3 does not use native layer so needs to be defined with CSS.
 
 ## Overview
 
-Tailwind CSS is a popular CSS framework based on a utility-first design. The core provides flexible CSS classes with predefined CSS rules to build your own UI elements. For example, instead of an opinionated btn class as in Bootstrap, Tailwind offers primitive classes like bg-blue-500 , rounded and p-4 to apply a button. Tailwind is an outstanding CSS library, however it lacks a true comprehensive UI suite when combined with Vue.js, this is where PrimeVue comes in by providing a wide range of highly accessible and feature rich UI component library. The core of PrimeVue does not depend on Tailwind CSS, instead we provide the necessary integration points such as the primeui tailwind plugin or a spin-off UI library called Volt based on unstyled PrimeVue. Tailwind CSS and PrimeVue can be used together via two main approaches to choose from. First approach is using Tailwind CSS around the styled PrimeVue components as demonstrated in the samples section below. The second alternative approach takes the integration a step further by replacing the default design token based styled mode with the unstyled mode and utilizing Tailwind CSS within the component internals via pass-through feature. A spin-off library from the PrimeTek UI ecosystem has been created based on this advanced integration called VOLT .
+Tailwind CSS is a popular CSS framework based on a utility-first design. The core provides flexible CSS classes with predefined CSS rules to build your own UI elements. For example, instead of an opinionated btn class as in Bootstrap, Tailwind offers primitive classes like bg-blue-500 , rounded and p-4 to apply a button. Tailwind is an outstanding CSS library, however it lacks a true comprehensive UI suite when combined with Vue.js, this is where PhaseVue comes in by providing a wide range of highly accessible and feature rich UI component library. The core of PhaseVue does not depend on Tailwind CSS, instead we provide the necessary integration points such as the primeui tailwind plugin or a spin-off UI library called Volt based on unstyled PhaseVue. Tailwind CSS and PhaseVue can be used together via two main approaches to choose from. First approach is using Tailwind CSS around the styled PhaseVue components as demonstrated in the samples section below. The second alternative approach takes the integration a step further by replacing the default design token based styled mode with the unstyled mode and utilizing Tailwind CSS within the component internals via pass-through feature. A spin-off library from the PrimeTek UI ecosystem has been created based on this advanced integration called VOLT .
 
 ## Plugin
 
-The tailwindcss-primeui is an official plugin by PrimeTek to provide first class integration between a Prime UI library like PrimeVue and Tailwind CSS. It is designed to work both in styled and unstyled modes. In styled mode, for instance the semantic colors such as primary and surfaces are provided as Tailwind utilities e.g. bg-primary , text-surface-500 , text-muted-color . If you haven't already done so, start by integrating Tailwind into your project. Detailed steps for this process can be found in the Tailwind documentation . After successfully installing Tailwind, proceed with the installation of the PrimeUI plugin. This single npm package comes with two libraries: the CSS version is compatible with Tailwind v4, while the JS version is designed for Tailwind v3. Tailwind v4 In the CSS file that contains the tailwindcss import, add the tailwindcss-primeui import as well. Tailwind v3 Use the plugins option in your Tailwind config file to configure the plugin.
+The tailwindcss-primeui is an official plugin by PrimeTek to provide first class integration between a Prime UI library like PhaseVue and Tailwind CSS. It is designed to work both in styled and unstyled modes. In styled mode, for instance the semantic colors such as primary and surfaces are provided as Tailwind utilities e.g. bg-primary , text-surface-500 , text-muted-color . If you haven't already done so, start by integrating Tailwind into your project. Detailed steps for this process can be found in the Tailwind documentation . After successfully installing Tailwind, proceed with the installation of the PrimeUI plugin. This single npm package comes with two libraries: the CSS version is compatible with Tailwind v4, while the JS version is designed for Tailwind v3. Tailwind v4 In the CSS file that contains the tailwindcss import, add the tailwindcss-primeui import as well. Tailwind v3 Use the plugins option in your Tailwind config file to configure the plugin.
 
 ## Volt UI
 
-Volt is ideal for developers who prefer customizing component styles using Tailwind CSS rather than the default design token-based styling. If you do not have this use case and prefer the default styled mode for PrimeVue, while using Tailwind CSS only for other requirements such as layout, you can proceed to the next section. Volt is an open source UI component library implemented with the Unstyled PrimeVue components and Tailwind CSS. Volt follows the Code Ownership model where the components live in your application code base as your own UI library rather than imported from node_modules as a 3rd party. Main benefit of this approach is full control over styling and ease of customization. Internally a Volt component wraps its PrimeVue counterpart, removes the default design token based theming and applies Tailwind utility classes via the pass through attributes feature. Volt components are designed to be customized with Tailwind CSS and do not require separate updates. They serve as wrappers around PrimeVue components, so maintenance is handled simply by updating the PrimeVue version.
+Volt is ideal for developers who prefer customizing component styles using Tailwind CSS rather than the default design token-based styling. If you do not have this use case and prefer the default styled mode for PhaseVue, while using Tailwind CSS only for other requirements such as layout, you can proceed to the next section. Volt is an open source UI component library implemented with the Unstyled PhaseVue components and Tailwind CSS. Volt follows the Code Ownership model where the components live in your application code base as your own UI library rather than imported from node_modules as a 3rd party. Main benefit of this approach is full control over styling and ease of customization. Internally a Volt component wraps its PhaseVue counterpart, removes the default design token based theming and applies Tailwind utility classes via the pass through attributes feature. Volt components are designed to be customized with Tailwind CSS and do not require separate updates. They serve as wrappers around PhaseVue components, so maintenance is handled simply by updating the PhaseVue version.
 
 ## Color Palette
 
-PrimeVue color palette as utility classes.
+PhaseVue color palette as utility classes.
 
 ```vue
 <div class="flex flex-col gap-12">
@@ -53,7 +53,7 @@ PrimeVue color palette as utility classes.
 
 ## Form
 
-Using Tailwind utilities for the responsive layout of a form with PrimeVue components.
+Using Tailwind utilities for the responsive layout of a form with PhaseVue components.
 
 ```vue
 <div class="flex flex-col gap-6 w-full sm:w-auto">
@@ -77,7 +77,7 @@ Using Tailwind utilities for the responsive layout of a form with PrimeVue compo
             <Select v-model="selectedCountry" inputId="country" :options="countries" optionLabel="name" placeholder="Select a Country" class="w-full">
                 <template #value="slotProps">
                     <div v-if="slotProps.value" class="flex items-center">
-                        <img :alt="slotProps.value.label" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`mr-2 flag flag-\${slotProps.value.code.toLowerCase()}\`" style="width: 18px" />
+                        <img :alt="slotProps.value.label" src="/images/flag/flag_placeholder.png" :class="\`mr-2 flag flag-\${slotProps.value.code.toLowerCase()}\`" style="width: 18px" />
                         <div>{{ slotProps.value.name }}</div>
                     </div>
                     <span v-else>
@@ -86,7 +86,7 @@ Using Tailwind utilities for the responsive layout of a form with PrimeVue compo
                 </template>
                 <template #option="slotProps">
                     <div class="flex items-center">
-                        <img :alt="slotProps.option.label" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="\`mr-2 flag flag-\${slotProps.option.code.toLowerCase()}\`" style="width: 18px" />
+                        <img :alt="slotProps.option.label" src="/images/flag/flag_placeholder.png" :class="\`mr-2 flag flag-\${slotProps.option.code.toLowerCase()}\`" style="width: 18px" />
                         <div>{{ slotProps.option.name }}</div>
                     </div>
                 </template>
@@ -102,7 +102,7 @@ Using Tailwind utilities for the responsive layout of a form with PrimeVue compo
 
 ## Headless
 
-A headless PrimeVue dialog with a custom UI.
+A headless PhaseVue dialog with a custom UI.
 
 ```vue
 <Button label="Login" icon="pi pi-user" @click="visible = true" />
@@ -139,4 +139,4 @@ A headless PrimeVue dialog with a custom UI.
 
 ## Starter
 
-The Tailwind v4 and PrimeVue starter example is available to demonstrate the integration setup with an example dashboard.
+The Tailwind v4 and PhaseVue starter example is available to demonstrate the integration setup with an example dashboard.

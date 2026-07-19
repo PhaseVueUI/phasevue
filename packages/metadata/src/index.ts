@@ -12,7 +12,7 @@ export function toMeta(arr?: any[]): MetaType[] | undefined {
         const it = typeof item === 'string' ? { name: item } : item;
 
         it.as ??= it?.name;
-        it.from ??= `primevue/${it?.name?.toLowerCase()}`;
+        it.from ??= `phasevue/${it?.name?.toLowerCase()}`;
 
         return it;
     });

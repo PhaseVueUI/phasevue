@@ -23,7 +23,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: "We're unable to replicate your issue, if you are able to create a reproducer by using [PrimeVue Issue Template](https://stackblitz.com/edit/primevue-4-vite-issue-template) or add details please edit this issue. This issue will be closed if no activities in 20 days."
+              body: "We're unable to replicate your issue, if you are able to create a reproducer by using [PhaseVue Issue Template](https://stackblitz.com/edit/phasevue-4-vite-issue-template) or add details please edit this issue. This issue will be closed if no activities in 20 days."
             });
 
       - name: Needs Upvote
@@ -35,7 +35,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: "Thanks a lot for this issue! PrimeTek's own vision for PrimeVue is demanding, but community feedback is crucial in prioritization. The more upvotes help ensure this fix can be addressed quickly or the related PR can be merged soon."
+              body: "Thanks a lot for this issue! PrimeTek's own vision for PhaseVue is demanding, but community feedback is crucial in prioritization. The more upvotes help ensure this fix can be addressed quickly or the related PR can be merged soon."
             });
 
       - name: Needs More Information
@@ -59,7 +59,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: "Unfortunately, this issue cannot be fixed due to technical limitations. PrimeVue team has decided not to pursue a fix, as addressing it would introduce other complications. Thanks a lot for your understanding!"
+              body: "Unfortunately, this issue cannot be fixed due to technical limitations. PhaseVue team has decided not to pursue a fix, as addressing it would introduce other complications. Thanks a lot for your understanding!"
             });
 
       - name: Help Wanted
@@ -71,7 +71,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: "Due to PrimeTek's demanding roadmap for PrimeVue and the limited bandwidth of the core team, this issue is available for anyone to work on. [**Make sure to reference this issue in your pull request.**](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) :sparkles: Thank you for your contribution! :sparkles:"
+              body: "Due to PrimeTek's demanding roadmap for PhaseVue and the limited bandwidth of the core team, this issue is available for anyone to work on. [**Make sure to reference this issue in your pull request.**](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) :sparkles: Thank you for your contribution! :sparkles:"
             });
 
       - name: Duplicate

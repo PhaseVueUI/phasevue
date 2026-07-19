@@ -1,17 +1,17 @@
 {
-    "name": "@primevue/auto-import-resolver",
-    "version": "4.5.5",
-    "author": "PrimeTek Informatics",
+    "name": "@phasevueui/auto-import-resolver",
+    "version": "0.0.1-alpha.1",
+    "author": "PhaseVue UI",
     "description": "",
-    "homepage": "https://primevue.org/",
+    "homepage": "https://phasevue.org/",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/primefaces/primevue.git",
+        "url": "https://github.com/PhaseVueUI/phasevue.git",
         "directory": "packages/auto-import-resolver"
     },
     "bugs": {
-        "url": "https://github.com/primefaces/primevue/issues"
+        "url": "https://github.com/PhaseVueUI/phasevue/issues"
     },
     "main": "./index.ts",
     "module": "./index.ts",
@@ -39,7 +39,7 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primevue/metadata": "workspace:*"
+        "@phasevueui/metadata": "workspace:*"
     },
     "devDependencies": {
         "tsup": "^8.1.0",

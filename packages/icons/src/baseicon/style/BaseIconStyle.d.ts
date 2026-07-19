@@ -1,11 +1,11 @@
 /**
  *
- * [Live Demo](https://primevue.org/)
+ * [Live Demo](https://phasevue.org/)
  *
  * @module baseiconstyle
  *
  */
-import { BaseStyle } from '@primevue/core/base/style';
+import { BaseStyle } from '@phasevueui/core/base/style';
 
 export enum BaseIconClasses {
     root = 'p-icon'

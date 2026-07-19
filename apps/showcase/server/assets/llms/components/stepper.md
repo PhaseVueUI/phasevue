@@ -5,12 +5,12 @@ The Stepper component displays a wizard-like workflow by guiding users through t
 ## Import
 
 ```javascript
-import Stepper from 'primevue/stepper';
-import StepList from 'primevue/steplist';
-import StepPanels from 'primevue/steppanels';
-import StepItem from 'primevue/stepitem';
-import Step from 'primevue/step';
-import StepPanel from 'primevue/steppanel';
+import Stepper from 'phasevue/stepper';
+import StepList from 'phasevue/steplist';
+import StepPanels from 'phasevue/steppanels';
+import StepItem from 'phasevue/stepitem';
+import Step from 'phasevue/step';
+import StepPanel from 'phasevue/steppanel';
 ```
 
 ## Accessibility
@@ -319,7 +319,7 @@ Custom content for a step is defined with the default slot. The optional as prop
             <div class="flex flex-col gap-2 mx-auto" style="min-height: 16rem; max-width: 24rem">
                 <div class="text-center mt-4 mb-4 text-xl font-semibold">Account created successfully</div>
                 <div class="flex justify-center">
-                    <img alt="logo" src="https://primefaces.org/cdn/primevue/images/stepper/content.svg" />
+                    <img alt="logo" src="/images/stepper/content.svg" />
                 </div>
             </div>
             <div class="flex pt-6 justify-start">
@@ -426,7 +426,7 @@ Custom content for a step is defined with the default slot. The optional as prop
                     <div class="flex flex-col gap-2 mx-auto" style="min-height: 16rem; max-width: 24rem">
                         <div class="text-center mt-4 mb-4 text-xl font-semibold">Account created successfully</div>
                         <div class="flex justify-center">
-                            <img alt="logo" src="https://primefaces.org/cdn/primevue/images/stepper/content.svg" />
+                            <img alt="logo" src="/images/stepper/content.svg" />
                         </div>
                     </div>
                     <div class="flex pt-6 justify-start">

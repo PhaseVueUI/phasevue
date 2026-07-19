@@ -1,6 +1,6 @@
 {
     "form": {
-        "description": "Form provides validation functionality and manages form state.\n\n[Live Demo](https://www.primevue.org/forms/)",
+        "description": "Form provides validation functionality and manages form state.\n\n[Live Demo](https://www.phasevue.org/forms/)",
         "components": {
             "default": {
                 "description": "Form provides validation functionality and manages form state.",
@@ -511,7 +511,7 @@
         }
     },
     "formstyle": {
-        "description": "[Live Demo](https://www.primevue.org/forms/)",
+        "description": "[Live Demo](https://www.phasevue.org/forms/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -551,7 +551,7 @@
         }
     },
     "formfield": {
-        "description": "FormField is a helper component that provides validation and tracking for form fields.\n\n[Live Demo](https://www.primevue.org/forms/)",
+        "description": "FormField is a helper component that provides validation and tracking for form fields.\n\n[Live Demo](https://www.phasevue.org/forms/)",
         "components": {
             "default": {
                 "description": "FormField is a helper component that provides validation and tracking for form fields.",
@@ -851,7 +851,7 @@
         }
     },
     "formfieldstyle": {
-        "description": "[Live Demo](https://www.primevue.org/forms/)",
+        "description": "[Live Demo](https://www.phasevue.org/forms/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -938,7 +938,7 @@
             "values": {
                 "PassThroughMergePropsType": {
                     "values": "(args: any) => undefined | boolean | undefined",
-                    "description": "From primevue/passthrough/index.d.ts"
+                    "description": "From phasevue/passthrough/index.d.ts"
                 }
             }
         }
@@ -1365,7 +1365,7 @@
         }
     },
     "accordion": {
-        "description": "Accordion groups a collection of contents in tabs.\n\n[Live Demo](https://www.primevue.org/accordion/)",
+        "description": "Accordion groups a collection of contents in tabs.\n\n[Live Demo](https://www.phasevue.org/accordion/)",
         "components": {
             "default": {
                 "description": "Accordion groups a collection of contents in tabs.",
@@ -1832,7 +1832,7 @@
         }
     },
     "accordionstyle": {
-        "description": "Accordion groups a collection of contents in tabs.\n\n[Live Demo](https://www.primevue.org/accordion/)",
+        "description": "Accordion groups a collection of contents in tabs.\n\n[Live Demo](https://www.phasevue.org/accordion/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -1872,7 +1872,7 @@
         }
     },
     "accordioncontent": {
-        "description": "AccordionContent is a helper component for Accordion component.\n\n[Live Demo](https://www.primevue.org/accordion/)",
+        "description": "AccordionContent is a helper component for Accordion component.\n\n[Live Demo](https://www.phasevue.org/accordion/)",
         "components": {
             "default": {
                 "description": "AccordionContent is a helper component for Accordion component.",
@@ -2128,7 +2128,7 @@
         }
     },
     "accordioncontentstyle": {
-        "description": "AccordionContent is a helper component for Accordion component.\n\n[Live Demo](https://www.primevue.org/accordion/)",
+        "description": "AccordionContent is a helper component for Accordion component.\n\n[Live Demo](https://www.phasevue.org/accordion/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -2175,7 +2175,7 @@
         }
     },
     "accordionheader": {
-        "description": "AccordionHeader is a helper component for Accordion component.\n\n[Live Demo](https://www.primevue.org/accordion/)",
+        "description": "AccordionHeader is a helper component for Accordion component.\n\n[Live Demo](https://www.phasevue.org/accordion/)",
         "components": {
             "default": {
                 "description": "AccordionHeader is a helper component for Accordion component.",
@@ -2427,7 +2427,7 @@
         }
     },
     "accordionheaderstyle": {
-        "description": "AccordionHeader is a helper component for Accordion component.\n\n[Live Demo](https://www.primevue.org/accordion/)",
+        "description": "AccordionHeader is a helper component for Accordion component.\n\n[Live Demo](https://www.phasevue.org/accordion/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -2474,7 +2474,7 @@
         }
     },
     "accordionpanel": {
-        "description": "AccordionPanel is a helper component for Accordion component.\n\n[Live Demo](https://www.primevue.org/accordion/)",
+        "description": "AccordionPanel is a helper component for Accordion component.\n\n[Live Demo](https://www.phasevue.org/accordion/)",
         "components": {
             "default": {
                 "description": "AccordionPanel is a helper component for Accordion component.",
@@ -2720,7 +2720,7 @@
         }
     },
     "accordionpanelstyle": {
-        "description": "AccordionPanel is a helper component for Accordion component.\n\n[Live Demo](https://www.primevue.org/accordion/)",
+        "description": "AccordionPanel is a helper component for Accordion component.\n\n[Live Demo](https://www.phasevue.org/accordion/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -3186,7 +3186,7 @@
         }
     },
     "animateonscroll": {
-        "description": "AnimateOnScroll manages CSS classes declaratively to during enter/leave animations on scroll or on page load.\n\n[Live Demo](https://primevue.org/animateonscroll)",
+        "description": "AnimateOnScroll manages CSS classes declaratively to during enter/leave animations on scroll or on page load.\n\n[Live Demo](https://phasevue.org/animateonscroll)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -3347,7 +3347,7 @@
         }
     },
     "animateonscrollstyle": {
-        "description": "AnimateOnScroll manages CSS classes declaratively to during enter/leave animations on scroll or on page load.\n\n[Live Demo](https://primevue.org/animateonscroll)",
+        "description": "AnimateOnScroll manages CSS classes declaratively to during enter/leave animations on scroll or on page load.\n\n[Live Demo](https://phasevue.org/animateonscroll)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -3379,7 +3379,7 @@
         }
     },
     "autocomplete": {
-        "description": "AutoComplete is an input component that provides real-time suggestions while being typed.\n\n[Live Demo](https://www.primevue.org/autocomplete/)",
+        "description": "AutoComplete is an input component that provides real-time suggestions while being typed.\n\n[Live Demo](https://www.phasevue.org/autocomplete/)",
         "components": {
             "default": {
                 "description": "AutoComplete is an input component that provides real-time suggestions while being typed.",
@@ -4275,7 +4275,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "'{0} results are available'",
-                            "description": "Text to be displayed in hidden accessible field when filtering returns any results. Defaults to value from PrimeVue locale configuration."
+                            "description": "Text to be displayed in hidden accessible field when filtering returns any results. Defaults to value from PhaseVue locale configuration."
                         },
                         {
                             "name": "selectionMessage",
@@ -4283,7 +4283,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "'{0} items selected'",
-                            "description": "Text to be displayed in hidden accessible field when options are selected. Defaults to value from PrimeVue locale configuration."
+                            "description": "Text to be displayed in hidden accessible field when options are selected. Defaults to value from PhaseVue locale configuration."
                         },
                         {
                             "name": "emptySelectionMessage",
@@ -4291,7 +4291,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "No selected item",
-                            "description": "Text to be displayed in hidden accessible field when any option is not selected. Defaults to value from PrimeVue locale configuration."
+                            "description": "Text to be displayed in hidden accessible field when any option is not selected. Defaults to value from PhaseVue locale configuration."
                         },
                         {
                             "name": "emptySearchMessage",
@@ -4299,7 +4299,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "No results found",
-                            "description": "Text to display when filtering does not return any results. Defaults to value from PrimeVue locale configuration."
+                            "description": "Text to display when filtering does not return any results. Defaults to value from PhaseVue locale configuration."
                         },
                         {
                             "name": "showEmptyMessage",
@@ -4839,7 +4839,7 @@
         }
     },
     "autocompletestyle": {
-        "description": "AutoComplete is an input component that provides real-time suggestions while being typed.\n\n[Live Demo](https://www.primevue.org/autocomplete/)",
+        "description": "AutoComplete is an input component that provides real-time suggestions while being typed.\n\n[Live Demo](https://www.phasevue.org/autocomplete/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -4984,7 +4984,7 @@
         }
     },
     "avatar": {
-        "description": "Avatar represents people using icons, labels and images.\n\n- [Live Demo](https://primevue.org/avatar)",
+        "description": "Avatar represents people using icons, labels and images.\n\n- [Live Demo](https://phasevue.org/avatar)",
         "components": {
             "default": {
                 "description": "Avatar represents people using icons, labels and images.",
@@ -5284,7 +5284,7 @@
         }
     },
     "avatarstyle": {
-        "description": "Avatar represents people using icons, labels and images.\n\n- [Live Demo](https://primevue.org/avatar)",
+        "description": "Avatar represents people using icons, labels and images.\n\n- [Live Demo](https://phasevue.org/avatar)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -5338,7 +5338,7 @@
         }
     },
     "avatargroup": {
-        "description": "A set of Avatars can be displayed together using the AvatarGroup component.\n\n[Live Demo](https://www.primevue.org/avatar/)",
+        "description": "A set of Avatars can be displayed together using the AvatarGroup component.\n\n[Live Demo](https://www.phasevue.org/avatar/)",
         "components": {
             "default": {
                 "description": "A set of Avatars can be displayed together using the AvatarGroup component.",
@@ -5539,7 +5539,7 @@
         }
     },
     "avatargroupstyle": {
-        "description": "A set of Avatars can be displayed together using the AvatarGroup component.\n\n[Live Demo](https://www.primevue.org/avatar/)",
+        "description": "A set of Avatars can be displayed together using the AvatarGroup component.\n\n[Live Demo](https://www.phasevue.org/avatar/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -5578,7 +5578,7 @@
         }
     },
     "badge": {
-        "description": "Badge represents people using icons, labels and images.\n\n[Live Demo](https://www.primevue.org/badge)",
+        "description": "Badge represents people using icons, labels and images.\n\n[Live Demo](https://www.phasevue.org/badge)",
         "components": {
             "default": {
                 "description": "Badge represents people using icons, labels and images.",
@@ -5795,7 +5795,7 @@
         }
     },
     "badgestyle": {
-        "description": "Badge represents people using icons, labels and images.\n\n[Live Demo](https://www.primevue.org/badge)",
+        "description": "Badge represents people using icons, labels and images.\n\n[Live Demo](https://www.phasevue.org/badge)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -5835,7 +5835,7 @@
         }
     },
     "badgedirective": {
-        "description": "Badge directive is a small status indicator for another element.\n\n[Live Demo](https://primevue.org/badge)",
+        "description": "Badge directive is a small status indicator for another element.\n\n[Live Demo](https://phasevue.org/badge)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -6146,7 +6146,7 @@
         }
     },
     "badgedirectivestyle": {
-        "description": "Badge directive is a small status indicator for another element.\n\n[Live Demo](https://primevue.org/badge)",
+        "description": "Badge directive is a small status indicator for another element.\n\n[Live Demo](https://phasevue.org/badge)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -6185,7 +6185,7 @@
         }
     },
     "blockui": {
-        "description": "BlockUI represents people using icons, labels and images.\n\n[Live Demo](https://www.primevue.org/blockui)",
+        "description": "BlockUI represents people using icons, labels and images.\n\n[Live Demo](https://www.phasevue.org/blockui)",
         "components": {
             "default": {
                 "description": "BlockUI represents people using icons, labels and images.",
@@ -6466,7 +6466,7 @@
         }
     },
     "blockuistyle": {
-        "description": "BlockUI represents people using icons, labels and images.\n\n[Live Demo](https://www.primevue.org/blockui)",
+        "description": "BlockUI represents people using icons, labels and images.\n\n[Live Demo](https://www.phasevue.org/blockui)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -6506,7 +6506,7 @@
         }
     },
     "breadcrumb": {
-        "description": "Breadcrumb provides contextual information about page hierarchy.\n\n[Live Demo](https://www.primevue.org/breadcrumb/)",
+        "description": "Breadcrumb provides contextual information about page hierarchy.\n\n[Live Demo](https://www.phasevue.org/breadcrumb/)",
         "components": {
             "default": {
                 "description": "Breadcrumb provides contextual information about page hierarchy.",
@@ -6891,7 +6891,7 @@
         }
     },
     "breadcrumbstyle": {
-        "description": "Breadcrumb provides contextual information about page hierarchy.\n\n[Live Demo](https://www.primevue.org/breadcrumb/)",
+        "description": "Breadcrumb provides contextual information about page hierarchy.\n\n[Live Demo](https://www.phasevue.org/breadcrumb/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -6987,7 +6987,7 @@
         }
     },
     "button": {
-        "description": "Button is an extension to standard button element with icons and theming.\n\n[Live Demo](https://www.primevue.org/button/)",
+        "description": "Button is an extension to standard button element with icons and theming.\n\n[Live Demo](https://www.phasevue.org/button/)",
         "components": {
             "default": {
                 "description": "Button is an extension to standard button element with icons and theming.",
@@ -8885,7 +8885,7 @@
         }
     },
     "buttonstyle": {
-        "description": "Button is an extension to standard button element with icons and theming.\n\n[Live Demo](https://www.primevue.org/button/)",
+        "description": "Button is an extension to standard button element with icons and theming.\n\n[Live Demo](https://www.phasevue.org/button/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -8946,7 +8946,7 @@
         }
     },
     "buttongroup": {
-        "description": "A set of Buttons can be displayed together using the ButtonGroup component.\n\n[Live Demo](https://www.primevue.org/button/)",
+        "description": "A set of Buttons can be displayed together using the ButtonGroup component.\n\n[Live Demo](https://www.phasevue.org/button/)",
         "components": {
             "default": {
                 "description": "A set of Buttons can be displayed together using the ButtonGroup component.",
@@ -9131,7 +9131,7 @@
         }
     },
     "buttongroupstyle": {
-        "description": "A set of Buttons can be displayed together using the ButtonGroup component.\n\n[Live Demo](https://www.primevue.org/button/)",
+        "description": "A set of Buttons can be displayed together using the ButtonGroup component.\n\n[Live Demo](https://www.phasevue.org/button/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -9171,7 +9171,7 @@
         }
     },
     "calendar": {
-        "description": "Calendar also known as DatePicker, is a form component to work with dates.\n\n[Live Demo](https://www.primevue.org/datepicker/)",
+        "description": "Calendar also known as DatePicker, is a form component to work with dates.\n\n[Live Demo](https://www.phasevue.org/datepicker/)",
         "components": {
             "default": {
                 "description": "",
@@ -9390,7 +9390,7 @@
         }
     },
     "calendarstyle": {
-        "description": "Calendar also known as DatePicker, is a form component to work with dates.\n\n[Live Demo](https://www.primevue.org/datepicker/)",
+        "description": "Calendar also known as DatePicker, is a form component to work with dates.\n\n[Live Demo](https://www.phasevue.org/datepicker/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -9422,7 +9422,7 @@
         }
     },
     "card": {
-        "description": "Card is a flexible container component.\n\n[Live Demo](https://www.primevue.org/card/)",
+        "description": "Card is a flexible container component.\n\n[Live Demo](https://www.phasevue.org/card/)",
         "components": {
             "default": {
                 "description": "Card is a flexible container component.",
@@ -9695,7 +9695,7 @@
         }
     },
     "cardstyle": {
-        "description": "Card is a flexible container component.\n\n[Live Demo](https://www.primevue.org/card/)",
+        "description": "Card is a flexible container component.\n\n[Live Demo](https://www.phasevue.org/card/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -9784,7 +9784,7 @@
         }
     },
     "carousel": {
-        "description": "Carousel is a content slider featuring various customization options.\n\n[Live Demo](https://www.primevue.org/carousel/)",
+        "description": "Carousel is a content slider featuring various customization options.\n\n[Live Demo](https://www.phasevue.org/carousel/)",
         "components": {
             "default": {
                 "description": "Carousel is a content slider featuring various customization options.",
@@ -10494,7 +10494,7 @@
         }
     },
     "carouselstyle": {
-        "description": "Carousel is a content slider featuring various customization options.\n\n[Live Demo](https://www.primevue.org/carousel/)",
+        "description": "Carousel is a content slider featuring various customization options.\n\n[Live Demo](https://www.phasevue.org/carousel/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -10625,7 +10625,7 @@
         }
     },
     "cascadeselect": {
-        "description": "CascadeSelect is a form component to select a value from a nested structure of options.\n\n[Live Demo](https://www.primevue.org/cascadeselect/)",
+        "description": "CascadeSelect is a form component to select a value from a nested structure of options.\n\n[Live Demo](https://www.phasevue.org/cascadeselect/)",
         "components": {
             "default": {
                 "description": "CascadeSelect is a form component to select a value from a nested structure of options.",
@@ -11398,7 +11398,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "'{0} results are available'",
-                            "description": "Text to be displayed in hidden accessible field when filtering returns any results. Defaults to value from PrimeVue locale configuration."
+                            "description": "Text to be displayed in hidden accessible field when filtering returns any results. Defaults to value from PhaseVue locale configuration."
                         },
                         {
                             "name": "selectionMessage",
@@ -11406,7 +11406,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "'{0} items selected'",
-                            "description": "Text to be displayed in hidden accessible field when options are selected. Defaults to value from PrimeVue locale configuration."
+                            "description": "Text to be displayed in hidden accessible field when options are selected. Defaults to value from PhaseVue locale configuration."
                         },
                         {
                             "name": "emptySelectionMessage",
@@ -11414,7 +11414,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "No selected item",
-                            "description": "Text to be displayed in hidden accessible field when any option is not selected. Defaults to value from PrimeVue locale configuration."
+                            "description": "Text to be displayed in hidden accessible field when any option is not selected. Defaults to value from PhaseVue locale configuration."
                         },
                         {
                             "name": "emptySearchMessage",
@@ -11422,7 +11422,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "No results found",
-                            "description": "Text to display when filtering does not return any results. Defaults to value from PrimeVue locale configuration."
+                            "description": "Text to display when filtering does not return any results. Defaults to value from PhaseVue locale configuration."
                         },
                         {
                             "name": "emptyMessage",
@@ -11430,7 +11430,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "No available options",
-                            "description": "Text to be displayed when there are no options available. Defaults to value from PrimeVue locale configuration."
+                            "description": "Text to be displayed when there are no options available. Defaults to value from PhaseVue locale configuration."
                         },
                         {
                             "name": "tabindex",
@@ -11790,7 +11790,7 @@
         }
     },
     "cascadeselectstyle": {
-        "description": "CascadeSelect is a form component to select a value from a nested structure of options.\n\n[Live Demo](https://www.primevue.org/cascadeselect/)",
+        "description": "CascadeSelect is a form component to select a value from a nested structure of options.\n\n[Live Demo](https://www.phasevue.org/cascadeselect/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -11921,7 +11921,7 @@
         }
     },
     "chart": {
-        "description": "Chart groups a collection of contents in tabs.\n\n[Live Demo](https://www.primevue.org/chart/)",
+        "description": "Chart groups a collection of contents in tabs.\n\n[Live Demo](https://www.phasevue.org/chart/)",
         "components": {
             "default": {
                 "description": "Chart groups a collection of contents in tabs.",
@@ -12272,7 +12272,7 @@
         }
     },
     "chartstyle": {
-        "description": "Chart groups a collection of contents in tabs.\n\n[Live Demo](https://www.primevue.org/chart/)",
+        "description": "Chart groups a collection of contents in tabs.\n\n[Live Demo](https://www.phasevue.org/chart/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -12312,7 +12312,7 @@
         }
     },
     "checkbox": {
-        "description": "Checkbox is an extension to standard checkbox element with theming.\n\n[Live Demo](https://www.primevue.org/checkbox/)",
+        "description": "Checkbox is an extension to standard checkbox element with theming.\n\n[Live Demo](https://www.phasevue.org/checkbox/)",
         "components": {
             "default": {
                 "description": "Accordion groups a collection of contents in tabs.",
@@ -12859,7 +12859,7 @@
         }
     },
     "checkboxstyle": {
-        "description": "Checkbox is an extension to standard checkbox element with theming.\n\n[Live Demo](https://www.primevue.org/checkbox/)",
+        "description": "Checkbox is an extension to standard checkbox element with theming.\n\n[Live Demo](https://www.phasevue.org/checkbox/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -12920,7 +12920,7 @@
         }
     },
     "checkboxgroup": {
-        "description": "CheckboxGroup is a component that groups multiple checkboxes, allowing users to select one or more options.\n\n[Live Demo](https://www.primevue.org/checkbox/)",
+        "description": "CheckboxGroup is a component that groups multiple checkboxes, allowing users to select one or more options.\n\n[Live Demo](https://www.phasevue.org/checkbox/)",
         "components": {
             "default": {
                 "description": "CheckboxGroup is a component that groups multiple checkboxes, allowing users to select one or more options.",
@@ -13189,7 +13189,7 @@
         }
     },
     "checkboxgroupstyle": {
-        "description": "CheckboxGroup is a component that groups multiple checkboxes, allowing users to select one or more options.\n\n[Live Demo](https://www.primevue.org/checkbox/)",
+        "description": "CheckboxGroup is a component that groups multiple checkboxes, allowing users to select one or more options.\n\n[Live Demo](https://www.phasevue.org/checkbox/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -13229,7 +13229,7 @@
         }
     },
     "chip": {
-        "description": "Chip represents people using icons, labels and images.\n\n[Live Demo](https://www.primevue.org/chip)",
+        "description": "Chip represents people using icons, labels and images.\n\n[Live Demo](https://www.phasevue.org/chip)",
         "components": {
             "default": {
                 "description": "Chip represents people using icons, labels and images.",
@@ -13562,7 +13562,7 @@
         }
     },
     "chipstyle": {
-        "description": "Chip represents people using icons, labels and images.\n\n[Live Demo](https://www.primevue.org/chip)",
+        "description": "Chip represents people using icons, labels and images.\n\n[Live Demo](https://www.phasevue.org/chip)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -13630,7 +13630,7 @@
         }
     },
     "chips": {
-        "description": "Chips groups a collection of contents in tabs.\n\n[Live Demo](https://www.primevue.org/inputchips/)",
+        "description": "Chips groups a collection of contents in tabs.\n\n[Live Demo](https://www.phasevue.org/inputchips/)",
         "components": {
             "default": {
                 "description": "",
@@ -13773,7 +13773,7 @@
         }
     },
     "chipsstyle": {
-        "description": "Chips groups a collection of contents in tabs.\n\n[Live Demo](https://www.primevue.org/inputchips/)",
+        "description": "Chips groups a collection of contents in tabs.\n\n[Live Demo](https://www.phasevue.org/inputchips/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -13805,7 +13805,7 @@
         }
     },
     "colorpicker": {
-        "description": "ColorPicker groups a collection of contents in tabs.\n\n[Live Demo](https://www.primevue.org/colorpicker/)",
+        "description": "ColorPicker groups a collection of contents in tabs.\n\n[Live Demo](https://www.phasevue.org/colorpicker/)",
         "components": {
             "default": {
                 "description": "ColorPicker groups a collection of contents in tabs.",
@@ -14307,7 +14307,7 @@
         }
     },
     "colorpickerstyle": {
-        "description": "ColorPicker groups a collection of contents in tabs.\n\n[Live Demo](https://www.primevue.org/colorpicker/)",
+        "description": "ColorPicker groups a collection of contents in tabs.\n\n[Live Demo](https://www.phasevue.org/colorpicker/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -14396,7 +14396,7 @@
         }
     },
     "column": {
-        "description": "Column component defines various options to specify corresponding features.\nIt is a helper component for DataTable and TreeTable.\n\n[Live Demo](https://www.primevue.org/datatable/)",
+        "description": "Column component defines various options to specify corresponding features.\nIt is a helper component for DataTable and TreeTable.\n\n[Live Demo](https://www.phasevue.org/datatable/)",
         "components": {
             "default": {
                 "description": "Column is a helper component for DataTable and TreeTable.",
@@ -15090,7 +15090,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "",
-                            "description": "Type of data. It's value is related to PrimeVue.filterMatchModeOptions config."
+                            "description": "Type of data. It's value is related to PhaseVue.filterMatchModeOptions config."
                         },
                         {
                             "name": "sortable",
@@ -15902,7 +15902,7 @@
         }
     },
     "columnstyle": {
-        "description": "Column component defines various options to specify corresponding features.\nIt is a helper component for DataTable and TreeTable.\n\n[Live Demo](https://www.primevue.org/datatable/)",
+        "description": "Column component defines various options to specify corresponding features.\nIt is a helper component for DataTable and TreeTable.\n\n[Live Demo](https://www.phasevue.org/datatable/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -15934,7 +15934,7 @@
         }
     },
     "columngroup": {
-        "description": "Columns can be grouped at header and footer sections by defining a ColumnGroup component.\nIt is a helper component for DataTable.\n\n[Live Demo](https://www.primevue.org/datatable/)",
+        "description": "Columns can be grouped at header and footer sections by defining a ColumnGroup component.\nIt is a helper component for DataTable.\n\n[Live Demo](https://www.phasevue.org/datatable/)",
         "components": {
             "default": {
                 "description": "It is a helper component for DataTable.",
@@ -16171,7 +16171,7 @@
         }
     },
     "columngroupstyle": {
-        "description": "Columns can be grouped at header and footer sections by defining a ColumnGroup component.\nIt is a helper component for DataTable.\n\n[Live Demo](https://www.primevue.org/datatable/)",
+        "description": "Columns can be grouped at header and footer sections by defining a ColumnGroup component.\nIt is a helper component for DataTable.\n\n[Live Demo](https://www.phasevue.org/datatable/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -16202,14 +16202,14 @@
             }
         }
     },
-    "primevue/src/config/Config": {
+    "phasevue/src/config/Config": {
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
             "methodDescription": "Defines methods that can be accessed by the component's reference.",
             "typeDescription": "Defines the custom types used by the module.",
             "values": {
-                "PrimeVueConfiguration": {
+                "PhaseVueConfiguration": {
                     "relatedProp": "",
                     "props": [
                         {
@@ -16274,7 +16274,7 @@
                             "name": "pt",
                             "optional": true,
                             "readonly": false,
-                            "type": "PassThrough<PrimeVuePTOptions>",
+                            "type": "PassThrough<PhaseVuePTOptions>",
                             "default": ""
                         },
                         {
@@ -16294,7 +16294,7 @@
                     ],
                     "methods": []
                 },
-                "PrimeVuePTOptions": {
+                "PhaseVuePTOptions": {
                     "relatedProp": "",
                     "props": [
                         {
@@ -17182,17 +17182,17 @@
         "tokens": {
             "description": "Define design tokens used by the component.",
             "values": {
-                "PrimeVueConfiguration": {
+                "PhaseVueConfiguration": {
                     "props": []
                 },
-                "PrimeVuePTOptions": {
+                "PhaseVuePTOptions": {
                     "props": []
                 }
             }
         }
     },
     "confirmationoptions": {
-        "description": "[Live Demo](https://www.primevue.org/confirmdialog/)",
+        "description": "[Live Demo](https://www.phasevue.org/confirmdialog/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -17309,7 +17309,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "",
-                            "description": "Label of the accept button. Defaults to PrimeVue Locale configuration."
+                            "description": "Label of the accept button. Defaults to PhaseVue Locale configuration."
                         },
                         {
                             "name": "rejectLabel",
@@ -17317,7 +17317,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "",
-                            "description": "Label of the reject button. Defaults to PrimeVue Locale configuration."
+                            "description": "Label of the reject button. Defaults to PhaseVue Locale configuration."
                         },
                         {
                             "name": "acceptIcon",
@@ -17391,7 +17391,7 @@
         }
     },
     "confirmationservice-useconfirm": {
-        "description": "[Live Demo](https://www.primevue.org/confirmdialog/)",
+        "description": "[Live Demo](https://www.phasevue.org/confirmdialog/)",
         "model": {
             "ConfirmationServiceMethods": {
                 "description": "Confirmation Service methods.",
@@ -17427,7 +17427,7 @@
         }
     },
     "confirmdialog": {
-        "description": "ConfirmDialog uses a Dialog UI with confirmDialog method or <ConfirmDialog> tag.\n\n[Live Demo](https://www.primevue.org/confirmdialog)",
+        "description": "ConfirmDialog uses a Dialog UI with confirmDialog method or <ConfirmDialog> tag.\n\n[Live Demo](https://www.phasevue.org/confirmdialog)",
         "components": {
             "default": {
                 "description": "ConfirmDialog uses a Dialog UI with confirmDialog method or <ConfirmDialog> tag.",
@@ -17872,7 +17872,7 @@
         }
     },
     "confirmdialogstyle": {
-        "description": "ConfirmDialog uses a Dialog UI with confirmDialog method or <ConfirmDialog> tag.\n\n[Live Demo](https://www.primevue.org/confirmdialog)",
+        "description": "ConfirmDialog uses a Dialog UI with confirmDialog method or <ConfirmDialog> tag.\n\n[Live Demo](https://www.phasevue.org/confirmdialog)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -17940,7 +17940,7 @@
         }
     },
     "confirmpopup": {
-        "description": "ConfirmPopup displays a confirmation overlay displayed relatively to its target.\n\n[Live Demo](https://www.primevue.org/confirmpopup)",
+        "description": "ConfirmPopup displays a confirmation overlay displayed relatively to its target.\n\n[Live Demo](https://www.phasevue.org/confirmpopup)",
         "components": {
             "default": {
                 "description": "ConfirmPopup displays a confirmation overlay displayed relatively to its target.",
@@ -18315,7 +18315,7 @@
         }
     },
     "confirmpopupstyle": {
-        "description": "ConfirmPopup displays a confirmation overlay displayed relatively to its target.\n\n[Live Demo](https://www.primevue.org/confirmpopup)",
+        "description": "ConfirmPopup displays a confirmation overlay displayed relatively to its target.\n\n[Live Demo](https://www.phasevue.org/confirmpopup)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -18397,7 +18397,7 @@
         }
     },
     "contextmenu": {
-        "description": "ContextMenu displays an overlay menu on right click of its target. Note that components like DataTable has special integration with ContextMenu.\nRefer to documentation of the individual documentation of the with context menu support.\n\n[Live Demo](https://www.primevue.org/contextmenu/)",
+        "description": "ContextMenu displays an overlay menu on right click of its target. Note that components like DataTable has special integration with ContextMenu.\nRefer to documentation of the individual documentation of the with context menu support.\n\n[Live Demo](https://www.phasevue.org/contextmenu/)",
         "components": {
             "default": {
                 "description": "ContextMenu displays an overlay menu on right click of its target. Note that components like DataTable has special integration with ContextMenu.\nRefer to documentation of the individual documentation of the with context menu support.",
@@ -19082,7 +19082,7 @@
         }
     },
     "contextmenustyle": {
-        "description": "ContextMenu displays an overlay menu on right click of its target. Note that components like DataTable has special integration with ContextMenu.\nRefer to documentation of the individual documentation of the with context menu support.\n\n[Live Demo](https://www.primevue.org/contextmenu/)",
+        "description": "ContextMenu displays an overlay menu on right click of its target. Note that components like DataTable has special integration with ContextMenu.\nRefer to documentation of the individual documentation of the with context menu support.\n\n[Live Demo](https://www.phasevue.org/contextmenu/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -19185,7 +19185,7 @@
         }
     },
     "datatable": {
-        "description": "DataTable displays data in tabular format.\n\n[Live Demo](https://www.primevue.org/datatable/)",
+        "description": "DataTable displays data in tabular format.\n\n[Live Demo](https://www.phasevue.org/datatable/)",
         "components": {
             "default": {
                 "description": "DataTable displays data in tabular format.",
@@ -22528,7 +22528,7 @@
         }
     },
     "datatablestyle": {
-        "description": "DataTable displays data in tabular format.\n\n[Live Demo](https://www.primevue.org/datatable/)",
+        "description": "DataTable displays data in tabular format.\n\n[Live Demo](https://www.phasevue.org/datatable/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -22897,7 +22897,7 @@
         }
     },
     "dataview": {
-        "description": "DataView displays data in grid or list layout with pagination and sorting features.\n\n[Live Demo](https://www.primevue.org/dataview/)",
+        "description": "DataView displays data in grid or list layout with pagination and sorting features.\n\n[Live Demo](https://www.phasevue.org/dataview/)",
         "components": {
             "default": {
                 "description": "DataView displays data in grid or list layout with pagination and sorting features.",
@@ -23480,7 +23480,7 @@
         }
     },
     "dataviewstyle": {
-        "description": "DataView displays data in grid or list layout with pagination and sorting features.\n\n[Live Demo](https://www.primevue.org/dataview/)",
+        "description": "DataView displays data in grid or list layout with pagination and sorting features.\n\n[Live Demo](https://www.phasevue.org/dataview/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -23555,7 +23555,7 @@
         }
     },
     "datepicker": {
-        "description": "DatePicker is a form component to work with dates.\n\n[Live Demo](https://www.primevue.org/datepicker/)",
+        "description": "DatePicker is a form component to work with dates.\n\n[Live Demo](https://www.phasevue.org/datepicker/)",
         "components": {
             "default": {
                 "description": "DatePicker  is a form component to work with dates.",
@@ -24502,7 +24502,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "",
-                            "description": "Format of the date. Defaults to PrimeVue Locale configuration."
+                            "description": "Format of the date. Defaults to PhaseVue Locale configuration."
                         },
                         {
                             "name": "updateModelType",
@@ -25643,7 +25643,7 @@
         }
     },
     "datepickerstyle": {
-        "description": "DatePicker is a form component to work with dates.\n\n[Live Demo](https://www.primevue.org/datepicker/)",
+        "description": "DatePicker is a form component to work with dates.\n\n[Live Demo](https://www.phasevue.org/datepicker/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -25949,7 +25949,7 @@
         }
     },
     "deferredcontent": {
-        "description": "DeferredContent postpones the loading the content that is initially not in the viewport until it becomes visible on scroll.\n\n[Live Demo](https://www.primevue.org/deferredcontent/)",
+        "description": "DeferredContent postpones the loading the content that is initially not in the viewport until it becomes visible on scroll.\n\n[Live Demo](https://www.phasevue.org/deferredcontent/)",
         "components": {
             "default": {
                 "description": "DeferredContent postpones the loading the content that is initially not in the viewport until it becomes visible on scroll.",
@@ -26184,7 +26184,7 @@
         }
     },
     "deferredcontentstyle": {
-        "description": "DeferredContent postpones the loading the content that is initially not in the viewport until it becomes visible on scroll.\n\n[Live Demo](https://www.primevue.org/deferredcontent/)",
+        "description": "DeferredContent postpones the loading the content that is initially not in the viewport until it becomes visible on scroll.\n\n[Live Demo](https://www.phasevue.org/deferredcontent/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -26216,7 +26216,7 @@
         }
     },
     "dialog": {
-        "description": "Dialog is a container to display content in an overlay window.\n\n[Live Demo](https://www.primevue.org/dialog)",
+        "description": "Dialog is a container to display content in an overlay window.\n\n[Live Demo](https://www.phasevue.org/dialog)",
         "components": {
             "default": {
                 "description": "Dialog is a container to display content in an overlay window.",
@@ -26948,7 +26948,7 @@
         }
     },
     "dialogstyle": {
-        "description": "Dialog is a container to display content in an overlay window.\n\n[Live Demo](https://www.primevue.org/dialog)",
+        "description": "Dialog is a container to display content in an overlay window.\n\n[Live Demo](https://www.phasevue.org/dialog)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -27044,7 +27044,7 @@
         }
     },
     "dialogservice-usedialog": {
-        "description": "[Live Demo](https://www.primevue.org/dynamicdialog/)",
+        "description": "[Live Demo](https://www.phasevue.org/dynamicdialog/)",
         "model": {
             "DialogServiceMethods": {
                 "description": "Dynamic Dialog components methods.",
@@ -27080,7 +27080,7 @@
         }
     },
     "divider": {
-        "description": "Divider is used to separate contents.\n\n[Live Demo](https://primevue.org/divider)",
+        "description": "Divider is used to separate contents.\n\n[Live Demo](https://phasevue.org/divider)",
         "components": {
             "default": {
                 "description": "Divider is used to separate contents.",
@@ -27311,7 +27311,7 @@
         }
     },
     "dividerstyle": {
-        "description": "Divider is used to separate contents.\n\n[Live Demo](https://primevue.org/divider)",
+        "description": "Divider is used to separate contents.\n\n[Live Demo](https://phasevue.org/divider)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -27358,7 +27358,7 @@
         }
     },
     "dock": {
-        "description": "Dock is a navigation component consisting of menuitems.\n\n[Live Demo](https://www.primevue.org/dock/)",
+        "description": "Dock is a navigation component consisting of menuitems.\n\n[Live Demo](https://www.phasevue.org/dock/)",
         "components": {
             "default": {
                 "description": "Dock is a navigation component consisting of menuitems.",
@@ -27902,7 +27902,7 @@
         }
     },
     "dockstyle": {
-        "description": "Dock is a navigation component consisting of menuitems.\n\n[Live Demo](https://www.primevue.org/dock/)",
+        "description": "Dock is a navigation component consisting of menuitems.\n\n[Live Demo](https://www.phasevue.org/dock/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -27984,7 +27984,7 @@
         }
     },
     "drawer": {
-        "description": "Drawer is a panel component displayed as an overlay at the edges of the screen.\n\n[Live Demo](https://primevue.org/drawer)",
+        "description": "Drawer is a panel component displayed as an overlay at the edges of the screen.\n\n[Live Demo](https://phasevue.org/drawer)",
         "components": {
             "default": {
                 "description": "Drawer is a panel component displayed as an overlay.",
@@ -28496,7 +28496,7 @@
         }
     },
     "drawerstyle": {
-        "description": "Drawer is a panel component displayed as an overlay at the edges of the screen.\n\n[Live Demo](https://primevue.org/drawer)",
+        "description": "Drawer is a panel component displayed as an overlay at the edges of the screen.\n\n[Live Demo](https://phasevue.org/drawer)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -28571,7 +28571,7 @@
         }
     },
     "dropdown": {
-        "description": "Dropdown also known as Select, is used to choose an item from a collection of options.\n\n[Live Demo](https://www.primevue.org/select/)",
+        "description": "Dropdown also known as Select, is used to choose an item from a collection of options.\n\n[Live Demo](https://www.phasevue.org/select/)",
         "components": {
             "default": {
                 "description": "",
@@ -28736,7 +28736,7 @@
         }
     },
     "dropdownstyle": {
-        "description": "Dropdown also known as Select, is used to choose an item from a collection of options.\n\n[Live Demo](https://www.primevue.org/select/)",
+        "description": "Dropdown also known as Select, is used to choose an item from a collection of options.\n\n[Live Demo](https://www.phasevue.org/select/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -28768,7 +28768,7 @@
         }
     },
     "dynamicdialog": {
-        "description": "DynamicDialogs can be created dynamically with any component as the content using a DialogService.\n\n[Live Demo](https://primevue.org/dynamicdialog)",
+        "description": "DynamicDialogs can be created dynamically with any component as the content using a DialogService.\n\n[Live Demo](https://phasevue.org/dynamicdialog)",
         "components": {
             "default": {
                 "description": "DynamicDialogs can be created dynamically with any component as the content using a DialogService.",
@@ -28840,7 +28840,7 @@
         }
     },
     "dynamicdialogstyle": {
-        "description": "DynamicDialogs can be created dynamically with any component as the content using a DialogService.\n\n[Live Demo](https://primevue.org/dynamicdialog)",
+        "description": "DynamicDialogs can be created dynamically with any component as the content using a DialogService.\n\n[Live Demo](https://phasevue.org/dynamicdialog)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -28872,7 +28872,7 @@
         }
     },
     "dynamicdialogoptions": {
-        "description": "[Live Demo](https://www.primevue.org/dynamicdialog/)",
+        "description": "[Live Demo](https://www.phasevue.org/dynamicdialog/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -29038,7 +29038,7 @@
         }
     },
     "editor": {
-        "description": "Editor groups a collection of contents in tabs.\n\n[Live Demo](https://www.primevue.org/editor/)",
+        "description": "Editor groups a collection of contents in tabs.\n\n[Live Demo](https://www.phasevue.org/editor/)",
         "components": {
             "default": {
                 "description": "Editor groups a collection of contents in tabs.",
@@ -29643,7 +29643,7 @@
         }
     },
     "editorstyle": {
-        "description": "Editor groups a collection of contents in tabs.\n\n[Live Demo](https://www.primevue.org/editor/)",
+        "description": "Editor groups a collection of contents in tabs.\n\n[Live Demo](https://www.phasevue.org/editor/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -29697,7 +29697,7 @@
         }
     },
     "fieldset": {
-        "description": "Fieldset is a grouping component with the optional content toggle feature.\n\n[Live Demo](https://www.primevue.org/fieldset/)",
+        "description": "Fieldset is a grouping component with the optional content toggle feature.\n\n[Live Demo](https://www.phasevue.org/fieldset/)",
         "components": {
             "default": {
                 "description": "Fieldset is a grouping component with the optional content toggle feature.",
@@ -30120,7 +30120,7 @@
         }
     },
     "fieldsetstyle": {
-        "description": "Fieldset is a grouping component with the optional content toggle feature.\n\n[Live Demo](https://www.primevue.org/fieldset/)",
+        "description": "Fieldset is a grouping component with the optional content toggle feature.\n\n[Live Demo](https://www.phasevue.org/fieldset/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -30195,7 +30195,7 @@
         }
     },
     "fileupload": {
-        "description": "FileUpload is an advanced uploader with dragdrop support, multi file uploads, auto uploading, progress tracking and validations.\n\n[Live Demo](https://www.primevue.org/fileupload/)",
+        "description": "FileUpload is an advanced uploader with dragdrop support, multi file uploads, auto uploading, progress tracking and validations.\n\n[Live Demo](https://www.phasevue.org/fileupload/)",
         "components": {
             "default": {
                 "description": "FileUpload is an advanced uploader with dragdrop support, multi file uploads, auto uploading, progress tracking and validations.",
@@ -30814,7 +30814,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "",
-                            "description": "Label of the choose button. Defaults to PrimeVue Locale configuration."
+                            "description": "Label of the choose button. Defaults to PhaseVue Locale configuration."
                         },
                         {
                             "name": "uploadLabel",
@@ -30822,7 +30822,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "",
-                            "description": "Label of the upload button. Defaults to PrimeVue Locale configuration."
+                            "description": "Label of the upload button. Defaults to PhaseVue Locale configuration."
                         },
                         {
                             "name": "cancelLabel",
@@ -30830,7 +30830,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "Cancel",
-                            "description": "Label of the cancel button. Defaults to PrimeVue Locale configuration."
+                            "description": "Label of the cancel button. Defaults to PhaseVue Locale configuration."
                         },
                         {
                             "name": "customUpload",
@@ -30838,7 +30838,7 @@
                             "readonly": false,
                             "type": "boolean",
                             "default": "",
-                            "description": "Whether to use the default upload or a manual implementation defined in uploadHandler callback. Defaults to PrimeVue Locale configuration."
+                            "description": "Whether to use the default upload or a manual implementation defined in uploadHandler callback. Defaults to PhaseVue Locale configuration."
                         },
                         {
                             "name": "showUploadButton",
@@ -31265,7 +31265,7 @@
         }
     },
     "fileuploadstyle": {
-        "description": "FileUpload is an advanced uploader with dragdrop support, multi file uploads, auto uploading, progress tracking and validations.\n\n[Live Demo](https://www.primevue.org/fileupload/)",
+        "description": "FileUpload is an advanced uploader with dragdrop support, multi file uploads, auto uploading, progress tracking and validations.\n\n[Live Demo](https://www.phasevue.org/fileupload/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -31410,7 +31410,7 @@
         }
     },
     "floatlabel": {
-        "description": "FloatLabel visually integrates a label with its form element.\n\n[Live Demo](https://www.primevue.org/floatlabel/)",
+        "description": "FloatLabel visually integrates a label with its form element.\n\n[Live Demo](https://www.phasevue.org/floatlabel/)",
         "components": {
             "default": {
                 "description": "FloatLabel visually integrates a label with its form element.",
@@ -31623,7 +31623,7 @@
         }
     },
     "floatlabelstyle": {
-        "description": "FloatLabel visually integrates a label with its form element.\n\n[Live Demo](https://www.primevue.org/floatlabel/)",
+        "description": "FloatLabel visually integrates a label with its form element.\n\n[Live Demo](https://www.phasevue.org/floatlabel/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -31663,7 +31663,7 @@
         }
     },
     "fluid": {
-        "description": "Fluid is a layout component to make descendant components span full width of their container.\n\n[Live Demo](https://www.primevue.org/fluid/)",
+        "description": "Fluid is a layout component to make descendant components span full width of their container.\n\n[Live Demo](https://www.phasevue.org/fluid/)",
         "components": {
             "default": {
                 "description": "Fluid is a layout component to make descendant components span full width of their container.",
@@ -31868,7 +31868,7 @@
         }
     },
     "fluidstyle": {
-        "description": "Fluid is a layout component to make descendant components span full width of their container.\n\n[Live Demo](https://www.primevue.org/fluid/)",
+        "description": "Fluid is a layout component to make descendant components span full width of their container.\n\n[Live Demo](https://www.phasevue.org/fluid/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -31908,7 +31908,7 @@
         }
     },
     "focustrap": {
-        "description": "Focus Trap keeps focus within a certain DOM element while tabbing.\n\n[Live Demo](https://primevue.org/focustrap)",
+        "description": "Focus Trap keeps focus within a certain DOM element while tabbing.\n\n[Live Demo](https://phasevue.org/focustrap)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -32091,7 +32091,7 @@
         }
     },
     "focustrapstyle": {
-        "description": "Focus Trap keeps focus within a certain DOM element while tabbing.\n\n[Live Demo](https://primevue.org/focustrap)",
+        "description": "Focus Trap keeps focus within a certain DOM element while tabbing.\n\n[Live Demo](https://phasevue.org/focustrap)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -32123,7 +32123,7 @@
         }
     },
     "galleria": {
-        "description": "Galleria is an advanced content gallery component.\n\n[Live Demo](https://www.primevue.org/galleria/)",
+        "description": "Galleria is an advanced content gallery component.\n\n[Live Demo](https://www.phasevue.org/galleria/)",
         "components": {
             "default": {
                 "description": "Galleria is an advanced content gallery component.",
@@ -33057,7 +33057,7 @@
         }
     },
     "galleriastyle": {
-        "description": "Galleria is an advanced content gallery component.\n\n[Live Demo](https://www.primevue.org/galleria/)",
+        "description": "Galleria is an advanced content gallery component.\n\n[Live Demo](https://www.phasevue.org/galleria/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -33286,7 +33286,7 @@
         }
     },
     "iconfield": {
-        "description": "IconField wraps an input and an icon.\n\n[Live Demo](https://www.primevue.org/iconfield/)",
+        "description": "IconField wraps an input and an icon.\n\n[Live Demo](https://www.phasevue.org/iconfield/)",
         "components": {
             "default": {
                 "description": "IconField is used to select a boolean value.",
@@ -33487,7 +33487,7 @@
         }
     },
     "iconfieldstyle": {
-        "description": "IconField wraps an input and an icon.\n\n[Live Demo](https://www.primevue.org/inputtext/)",
+        "description": "IconField wraps an input and an icon.\n\n[Live Demo](https://www.phasevue.org/inputtext/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -33527,7 +33527,7 @@
         }
     },
     "iftalabel": {
-        "description": "IftaLabel visually integrates a label within its form element.\n\n[Live Demo](https://www.primevue.org/iftalabel/)",
+        "description": "IftaLabel visually integrates a label within its form element.\n\n[Live Demo](https://www.phasevue.org/iftalabel/)",
         "components": {
             "default": {
                 "description": "IftaLabel visually integrates a label within its form element.",
@@ -33732,7 +33732,7 @@
         }
     },
     "iftalabelstyle": {
-        "description": "IftaLabel visually integrates a label within its form element.\n\n[Live Demo](https://www.primevue.org/iftalabel/)",
+        "description": "IftaLabel visually integrates a label within its form element.\n\n[Live Demo](https://www.phasevue.org/iftalabel/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -33772,7 +33772,7 @@
         }
     },
     "image": {
-        "description": "Displays an image with preview and tranformation options. For multiple image, see Galleria.\n\n[Live Demo](https://www.primevue.org/image/)",
+        "description": "Displays an image with preview and tranformation options. For multiple image, see Galleria.\n\n[Live Demo](https://www.phasevue.org/image/)",
         "components": {
             "default": {
                 "description": "Displays an image with preview and tranformation options. For multiple image, see Galleria.",
@@ -34338,7 +34338,7 @@
         }
     },
     "imagestyle": {
-        "description": "Displays an image with preview and tranformation options. For multiple image, see Galleria.\n\n[Live Demo](https://www.primevue.org/image/)",
+        "description": "Displays an image with preview and tranformation options. For multiple image, see Galleria.\n\n[Live Demo](https://www.phasevue.org/image/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -34448,7 +34448,7 @@
         }
     },
     "imagecompare": {
-        "description": "ImageCompare compares two images side by side with a slider.\n\n[Live Demo](https://www.primevue.org/imagecompare)",
+        "description": "ImageCompare compares two images side by side with a slider.\n\n[Live Demo](https://www.phasevue.org/imagecompare)",
         "components": {
             "default": {
                 "description": "ImageCompare compares two images side by side with a slider.",
@@ -34687,7 +34687,7 @@
         }
     },
     "imagecomparestyle": {
-        "description": "ImageCompare compares two images side by side with a slider.\n\n[Live Demo](https://www.primevue.org/imagecompare/)",
+        "description": "ImageCompare compares two images side by side with a slider.\n\n[Live Demo](https://www.phasevue.org/imagecompare/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -34733,9 +34733,9 @@
             }
         }
     },
-    "primevue/src": {},
+    "phasevue/src": {},
     "inlinemessage": {
-        "description": "InlineMessage component is useful in cases where a single message needs to be displayed related to an element such as forms. It has one property, severity of the message.\n\n[Live Demo](https://www.primevue.org/inlinemessage/)",
+        "description": "InlineMessage component is useful in cases where a single message needs to be displayed related to an element such as forms. It has one property, severity of the message.\n\n[Live Demo](https://www.phasevue.org/inlinemessage/)",
         "components": {
             "default": {
                 "description": "",
@@ -34999,7 +34999,7 @@
         }
     },
     "inlinemessagestyle": {
-        "description": "InlineMessage component is useful in cases where a single message needs to be displayed related to an element such as forms. It has one property, severity of the message.\n\n[Live Demo](https://www.primevue.org/inlinemessage/)",
+        "description": "InlineMessage component is useful in cases where a single message needs to be displayed related to an element such as forms. It has one property, severity of the message.\n\n[Live Demo](https://www.phasevue.org/inlinemessage/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -35053,7 +35053,7 @@
         }
     },
     "inplace": {
-        "description": "Inplace provides an easy to do editing and display at the same time where clicking the output displays the actual content.\n\n[Live Demo](https://www.primevue.org/inplace)",
+        "description": "Inplace provides an easy to do editing and display at the same time where clicking the output displays the actual content.\n\n[Live Demo](https://www.phasevue.org/inplace)",
         "components": {
             "default": {
                 "description": "Inplace provides an easy to do editing and display at the same time where clicking the output displays the actual content.",
@@ -35401,7 +35401,7 @@
         }
     },
     "inplacestyle": {
-        "description": "Inplace provides an easy to do editing and display at the same time where clicking the output displays the actual content.\n\n[Live Demo](https://www.primevue.org/inplace)",
+        "description": "Inplace provides an easy to do editing and display at the same time where clicking the output displays the actual content.\n\n[Live Demo](https://www.phasevue.org/inplace)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -35455,7 +35455,7 @@
         }
     },
     "inputchips": {
-        "description": "InputChips groups a collection of contents in tabs.\n\n[Live Demo](https://www.primevue.org/inputchips/)",
+        "description": "InputChips groups a collection of contents in tabs.\n\n[Live Demo](https://www.phasevue.org/inputchips/)",
         "components": {
             "default": {
                 "description": "InputChips is used to enter multiple values on an input field.",
@@ -36048,7 +36048,7 @@
         }
     },
     "inputchipsstyle": {
-        "description": "InputChips groups a collection of contents in tabs.\n\n[Live Demo](https://www.primevue.org/inputchips/)",
+        "description": "InputChips groups a collection of contents in tabs.\n\n[Live Demo](https://www.phasevue.org/inputchips/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -36123,7 +36123,7 @@
         }
     },
     "inputgroup": {
-        "description": "InputGroup displays text, icon, buttons and other content can be grouped next to an input.\n\n[Live Demo](https://www.primevue.org/inputgroup/)",
+        "description": "InputGroup displays text, icon, buttons and other content can be grouped next to an input.\n\n[Live Demo](https://www.phasevue.org/inputgroup/)",
         "components": {
             "default": {
                 "description": "InputGroup displays text, icon, buttons and other content can be grouped next to an input.",
@@ -36331,7 +36331,7 @@
         }
     },
     "inputgroupstyle": {
-        "description": "InputGroup displays text, icon, buttons and other content can be grouped next to an input.\n\n[Live Demo](https://www.primevue.org/inputgroup/)",
+        "description": "InputGroup displays text, icon, buttons and other content can be grouped next to an input.\n\n[Live Demo](https://www.phasevue.org/inputgroup/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -36371,7 +36371,7 @@
         }
     },
     "inputgroupaddon": {
-        "description": "InputGroupAddon displays text, icon, buttons and other content can be grouped next to an input.\n\n[Live Demo](https://www.primevue.org/inputgroup/)",
+        "description": "InputGroupAddon displays text, icon, buttons and other content can be grouped next to an input.\n\n[Live Demo](https://www.phasevue.org/inputgroup/)",
         "components": {
             "default": {
                 "description": "InputGroupAddon displays text, icon, buttons and other content can be grouped next to an input.",
@@ -36571,7 +36571,7 @@
         }
     },
     "inputgroupaddonstyle": {
-        "description": "InputGroupAddon displays text, icon, buttons and other content can be grouped next to an input.\n\n[Live Demo](https://www.primevue.org/inputgroup/)",
+        "description": "InputGroupAddon displays text, icon, buttons and other content can be grouped next to an input.\n\n[Live Demo](https://www.phasevue.org/inputgroup/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -36611,7 +36611,7 @@
         }
     },
     "inputicon": {
-        "description": "InputIcon displays an icon.\n\n[Live Demo](https://www.primevue.org/inputgroup/)",
+        "description": "InputIcon displays an icon.\n\n[Live Demo](https://www.phasevue.org/inputgroup/)",
         "components": {
             "default": {
                 "description": "InputIcon displays text, icon, buttons and other content can be grouped next to an input.",
@@ -36804,7 +36804,7 @@
         }
     },
     "inputiconstyle": {
-        "description": "InputIcon displays an icon.\n\n[Live Demo](https://www.primevue.org/inputgroup/)",
+        "description": "InputIcon displays an icon.\n\n[Live Demo](https://www.phasevue.org/inputgroup/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -36844,7 +36844,7 @@
         }
     },
     "inputmask": {
-        "description": "InputMask component is used to enter input in a certain format such as numeric, date, currency, email and phone.\n\n[Live Demo](https://www.primevue.org/inputmask/)",
+        "description": "InputMask component is used to enter input in a certain format such as numeric, date, currency, email and phone.\n\n[Live Demo](https://www.phasevue.org/inputmask/)",
         "components": {
             "default": {
                 "description": "InputMask component is used to enter input in a certain format such as numeric, date, currency, email and phone.",
@@ -37313,7 +37313,7 @@
         }
     },
     "inputmaskstyle": {
-        "description": "InputMask component is used to enter input in a certain format such as numeric, date, currency, email and phone.\n\n[Live Demo](https://www.primevue.org/inputmask/)",
+        "description": "InputMask component is used to enter input in a certain format such as numeric, date, currency, email and phone.\n\n[Live Demo](https://www.phasevue.org/inputmask/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -37353,7 +37353,7 @@
         }
     },
     "inputnumber": {
-        "description": "InputNumber is an input component to provide numerical input.\n\n[Live Demo](https://www.primevue.org/inputnumber/)",
+        "description": "InputNumber is an input component to provide numerical input.\n\n[Live Demo](https://www.phasevue.org/inputnumber/)",
         "components": {
             "default": {
                 "description": "InputNumber is an input component to provide numerical input.",
@@ -38261,7 +38261,7 @@
         }
     },
     "inputnumberstyle": {
-        "description": "InputNumber is an input component to provide numerical input.\n\n[Live Demo](https://www.primevue.org/inputnumber/)",
+        "description": "InputNumber is an input component to provide numerical input.\n\n[Live Demo](https://www.phasevue.org/inputnumber/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -38329,7 +38329,7 @@
         }
     },
     "inputotp": {
-        "description": "InputOtp is used to enter one time passwords.\n\n[Live Demo](https://www.primevue.org/inputotp/)",
+        "description": "InputOtp is used to enter one time passwords.\n\n[Live Demo](https://www.phasevue.org/inputotp/)",
         "components": {
             "default": {
                 "description": "InputOtp  is used to enter one time passwords.",
@@ -38852,7 +38852,7 @@
         }
     },
     "inputotpstyle": {
-        "description": "InputOtp is used to enter one time passwords.\n\n[Live Demo](https://www.primevue.org/inputotp/)",
+        "description": "InputOtp is used to enter one time passwords.\n\n[Live Demo](https://www.phasevue.org/inputotp/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -38899,7 +38899,7 @@
         }
     },
     "inputswitch": {
-        "description": "InputSwitch is used to select a boolean value.\n\n[Live Demo](https://www.primevue.org/toggleswitch/)",
+        "description": "InputSwitch is used to select a boolean value.\n\n[Live Demo](https://www.phasevue.org/toggleswitch/)",
         "components": {
             "default": {
                 "description": "",
@@ -39006,7 +39006,7 @@
         }
     },
     "inputswitchstyle": {
-        "description": "InputSwitch is used to select a boolean value.\n\n[Live Demo](https://www.primevue.org/toggleswitch/)",
+        "description": "InputSwitch is used to select a boolean value.\n\n[Live Demo](https://www.phasevue.org/toggleswitch/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -39038,7 +39038,7 @@
         }
     },
     "inputtext": {
-        "description": "InputText renders a text field to enter data.\n\n[Live Demo](https://www.primevue.org/inputtext/)",
+        "description": "InputText renders a text field to enter data.\n\n[Live Demo](https://www.phasevue.org/inputtext/)",
         "components": {
             "default": {
                 "description": "InputText renders a text field to enter data.",
@@ -40933,7 +40933,7 @@
         }
     },
     "inputtextstyle": {
-        "description": "InputText renders a text field to enter data.\n\n[Live Demo](https://www.primevue.org/inputtext/)",
+        "description": "InputText renders a text field to enter data.\n\n[Live Demo](https://www.phasevue.org/inputtext/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -40973,7 +40973,7 @@
         }
     },
     "keyfilter": {
-        "description": "A keyfilter is a directive used to block individual keystrokes based on a pattern.\n\n[Live Demo](https://primevue.org/keyfilter)",
+        "description": "A keyfilter is a directive used to block individual keystrokes based on a pattern.\n\n[Live Demo](https://phasevue.org/keyfilter)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -41239,7 +41239,7 @@
         }
     },
     "keyfilterstyle": {
-        "description": "A keyfilter is a directive used to block individual keystrokes based on a pattern.\n\n[Live Demo](https://primevue.org/keyfilter)",
+        "description": "A keyfilter is a directive used to block individual keystrokes based on a pattern.\n\n[Live Demo](https://phasevue.org/keyfilter)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -41271,7 +41271,7 @@
         }
     },
     "knob": {
-        "description": "Knob is a form component to define number inputs with a dial.\n\n[Live Demo](https://www.primevue.org/knob/)",
+        "description": "Knob is a form component to define number inputs with a dial.\n\n[Live Demo](https://www.phasevue.org/knob/)",
         "components": {
             "default": {
                 "description": "Knob groups a collection of contents in tabs.",
@@ -41756,7 +41756,7 @@
         }
     },
     "knobstyle": {
-        "description": "Knob is a form component to define number inputs with a dial.\n\n[Live Demo](https://www.primevue.org/knob/)",
+        "description": "Knob is a form component to define number inputs with a dial.\n\n[Live Demo](https://www.phasevue.org/knob/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -41817,7 +41817,7 @@
         }
     },
     "listbox": {
-        "description": "ListBox is used to select one or more values from a list of items.\n\n[Live Demo](https://www.primevue.org/listbox/)",
+        "description": "ListBox is used to select one or more values from a list of items.\n\n[Live Demo](https://www.phasevue.org/listbox/)",
         "components": {
             "default": {
                 "description": "ListBox is used to select one or more values from a list of items.",
@@ -42472,7 +42472,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "'{0} results are available'",
-                            "description": "Text to be displayed in hidden accessible field when filtering returns any results. Defaults to value from PrimeVue locale configuration."
+                            "description": "Text to be displayed in hidden accessible field when filtering returns any results. Defaults to value from PhaseVue locale configuration."
                         },
                         {
                             "name": "selectionMessage",
@@ -42480,7 +42480,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "'{0} items selected'",
-                            "description": "Text to be displayed in hidden accessible field when options are selected. Defaults to value from PrimeVue locale configuration."
+                            "description": "Text to be displayed in hidden accessible field when options are selected. Defaults to value from PhaseVue locale configuration."
                         },
                         {
                             "name": "emptySelectionMessage",
@@ -42488,7 +42488,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "No selected item",
-                            "description": "Text to be displayed in hidden accessible field when any option is not selected. Defaults to value from PrimeVue locale configuration."
+                            "description": "Text to be displayed in hidden accessible field when any option is not selected. Defaults to value from PhaseVue locale configuration."
                         },
                         {
                             "name": "emptyFilterMessage",
@@ -42496,7 +42496,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "No results found",
-                            "description": "Text to display when filtering does not return any results. Defaults to value from PrimeVue locale configuration."
+                            "description": "Text to display when filtering does not return any results. Defaults to value from PhaseVue locale configuration."
                         },
                         {
                             "name": "emptyMessage",
@@ -42504,7 +42504,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "No available options",
-                            "description": "Text to display when there are no options available. Defaults to value from PrimeVue locale configuration."
+                            "description": "Text to display when there are no options available. Defaults to value from PhaseVue locale configuration."
                         },
                         {
                             "name": "striped",
@@ -42878,7 +42878,7 @@
         }
     },
     "listboxstyle": {
-        "description": "ListBox is used to select one or more values from a list of items.\n\n[Live Demo](https://www.primevue.org/listbox/)",
+        "description": "ListBox is used to select one or more values from a list of items.\n\n[Live Demo](https://www.phasevue.org/listbox/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -42981,7 +42981,7 @@
         }
     },
     "megamenu": {
-        "description": "MegaMenu is navigation component that displays submenus together.\n\n[Live Demo](https://www.primevue.org/megamenu/)",
+        "description": "MegaMenu is navigation component that displays submenus together.\n\n[Live Demo](https://www.phasevue.org/megamenu/)",
         "components": {
             "default": {
                 "description": "MegaMenu is navigation component that displays submenus together.",
@@ -43661,7 +43661,7 @@
         }
     },
     "megamenustyle": {
-        "description": "MegaMenu is navigation component that displays submenus together.\n\n[Live Demo](https://www.primevue.org/megamenu/)",
+        "description": "MegaMenu is navigation component that displays submenus together.\n\n[Live Demo](https://www.phasevue.org/megamenu/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -43813,7 +43813,7 @@
         }
     },
     "menu": {
-        "description": "Menu is a navigation / command component that supports dynamic and static positioning.\n\n[Live Demo](https://www.primevue.org/menu/)",
+        "description": "Menu is a navigation / command component that supports dynamic and static positioning.\n\n[Live Demo](https://www.phasevue.org/menu/)",
         "components": {
             "default": {
                 "description": "Menu is a navigation / command component that supports dynamic and static positioning.",
@@ -44465,7 +44465,7 @@
         }
     },
     "menustyle": {
-        "description": "Menu is a navigation / command component that supports dynamic and static positioning.\n\n[Live Demo](https://www.primevue.org/menu/)",
+        "description": "Menu is a navigation / command component that supports dynamic and static positioning.\n\n[Live Demo](https://www.phasevue.org/menu/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -44575,7 +44575,7 @@
         }
     },
     "menubar": {
-        "description": "Menubar is a horizontal menu component.\n\n[Live Demo](https://www.primevue.org/menubar/)",
+        "description": "Menubar is a horizontal menu component.\n\n[Live Demo](https://www.phasevue.org/menubar/)",
         "components": {
             "default": {
                 "description": "Menubar is a horizontal menu component.",
@@ -45209,7 +45209,7 @@
         }
     },
     "menubarstyle": {
-        "description": "Menubar is a horizontal menu component.\n\n[Live Demo](https://www.primevue.org/menubar/)",
+        "description": "Menubar is a horizontal menu component.\n\n[Live Demo](https://www.phasevue.org/menubar/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -45333,7 +45333,7 @@
         }
     },
     "menuitem": {
-        "description": "PrimeVue menu components share a common api to specify the menuitems and submenus.",
+        "description": "PhaseVue menu components share a common api to specify the menuitems and submenus.",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -45494,7 +45494,7 @@
         }
     },
     "message": {
-        "description": "Message groups a collection of contents in tabs.\n\n[Live Demo](https://www.primevue.org/message/)",
+        "description": "Message groups a collection of contents in tabs.\n\n[Live Demo](https://www.phasevue.org/message/)",
         "components": {
             "default": {
                 "description": "Messages is used to display inline messages with various severities.",
@@ -45905,7 +45905,7 @@
         }
     },
     "messagestyle": {
-        "description": "Message groups a collection of contents in tabs.\n\n[Live Demo](https://www.primevue.org/message/)",
+        "description": "Message groups a collection of contents in tabs.\n\n[Live Demo](https://www.phasevue.org/message/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -45980,7 +45980,7 @@
         }
     },
     "metergroup": {
-        "description": "MeterGroup is a group of process status indicators.\n\n[Live Demo](https://primevue.org/metergroup)",
+        "description": "MeterGroup is a group of process status indicators.\n\n[Live Demo](https://phasevue.org/metergroup)",
         "components": {
             "default": {
                 "description": "MeterGroup is a group of process status indicators.",
@@ -46415,7 +46415,7 @@
         }
     },
     "metergroupstyle": {
-        "description": "MeterGroup is a group of process status indicators.\n\n[Live Demo](https://primevue.org/metergroup)",
+        "description": "MeterGroup is a group of process status indicators.\n\n[Live Demo](https://phasevue.org/metergroup)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -46504,7 +46504,7 @@
         }
     },
     "multiselect": {
-        "description": "MultiSelect is used to select multiple items from a collection.\n\n[Live Demo](https://www.primevue.org/multiselect/)",
+        "description": "MultiSelect is used to select multiple items from a collection.\n\n[Live Demo](https://www.phasevue.org/multiselect/)",
         "components": {
             "default": {
                 "description": "MultiSelect is used to select multiple items from a collection.",
@@ -47441,7 +47441,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "'{0} results are available'",
-                            "description": "Text to be displayed in hidden accessible field when filtering returns any results. Defaults to value from PrimeVue locale configuration."
+                            "description": "Text to be displayed in hidden accessible field when filtering returns any results. Defaults to value from PhaseVue locale configuration."
                         },
                         {
                             "name": "selectionMessage",
@@ -47449,7 +47449,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "null",
-                            "description": "Text to be displayed in hidden accessible field when options are selected. Defaults to value from PrimeVue locale configuration."
+                            "description": "Text to be displayed in hidden accessible field when options are selected. Defaults to value from PhaseVue locale configuration."
                         },
                         {
                             "name": "emptySelectionMessage",
@@ -47457,7 +47457,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "No selected item",
-                            "description": "Text to be displayed in hidden accessible field when any option is not selected. Defaults to value from PrimeVue locale configuration."
+                            "description": "Text to be displayed in hidden accessible field when any option is not selected. Defaults to value from PhaseVue locale configuration."
                         },
                         {
                             "name": "emptyFilterMessage",
@@ -47465,7 +47465,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "No results found",
-                            "description": "Text to display when filtering does not return any results. Defaults to value from PrimeVue locale configuration."
+                            "description": "Text to display when filtering does not return any results. Defaults to value from PhaseVue locale configuration."
                         },
                         {
                             "name": "emptyMessage",
@@ -47473,7 +47473,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "No available options'",
-                            "description": "Text to display when there are no options available. Defaults to value from PrimeVue locale configuration."
+                            "description": "Text to display when there are no options available. Defaults to value from PhaseVue locale configuration."
                         },
                         {
                             "name": "tabindex",
@@ -47998,7 +47998,7 @@
         }
     },
     "multiselectstyle": {
-        "description": "MultiSelect is used to select multiple items from a collection.\n\n[Live Demo](https://www.primevue.org/multiselect/)",
+        "description": "MultiSelect is used to select multiple items from a collection.\n\n[Live Demo](https://www.phasevue.org/multiselect/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -48164,7 +48164,7 @@
         }
     },
     "orderlist": {
-        "description": "OrderList is used to managed the order of a collection.\n\n[Live Demo](https://primevue.org/orderlist)",
+        "description": "OrderList is used to managed the order of a collection.\n\n[Live Demo](https://phasevue.org/orderlist)",
         "components": {
             "default": {
                 "description": "OrderList is used to sort a collection.",
@@ -48816,7 +48816,7 @@
         }
     },
     "orderliststyle": {
-        "description": "OrderList is used to managed the order of a collection.\n\n[Live Demo](https://primevue.org/orderlist)",
+        "description": "OrderList is used to managed the order of a collection.\n\n[Live Demo](https://phasevue.org/orderlist)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -48863,7 +48863,7 @@
         }
     },
     "organizationchart": {
-        "description": "OrganizationChart visualizes hierarchical organization data.\n\n[Live Demo](https://primevue.org/organizationchart)",
+        "description": "OrganizationChart visualizes hierarchical organization data.\n\n[Live Demo](https://phasevue.org/organizationchart)",
         "components": {
             "default": {
                 "description": "OrganizationChart visualizes hierarchical organization data.",
@@ -49532,7 +49532,7 @@
         }
     },
     "organizationchartstyle": {
-        "description": "OrganizationChart visualizes hierarchical organization data.\n\n[Live Demo](https://primevue.org/organizationchart)",
+        "description": "OrganizationChart visualizes hierarchical organization data.\n\n[Live Demo](https://phasevue.org/organizationchart)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -49635,7 +49635,7 @@
         }
     },
     "overlaybadge": {
-        "description": "OverlayBadge represents people using icon, label, image and badge.\n\n[Live Demo](https://www.primevue.org/badge)",
+        "description": "OverlayBadge represents people using icon, label, image and badge.\n\n[Live Demo](https://www.phasevue.org/badge)",
         "components": {
             "default": {
                 "description": "OverlayBadge represents people using icon, label, image and badge.",
@@ -49879,7 +49879,7 @@
         }
     },
     "overlaybadgestyle": {
-        "description": "OverlayBadge wraps an input and an icon.\n\n[Live Demo](https://www.primevue.org/badge/)",
+        "description": "OverlayBadge wraps an input and an icon.\n\n[Live Demo](https://www.phasevue.org/badge/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -49919,7 +49919,7 @@
         }
     },
     "overlaypanel": {
-        "description": "OverlayPanel is a container component positioned as connected to its target.\n\n[Live Demo](https://primevue.org/popover)",
+        "description": "OverlayPanel is a container component positioned as connected to its target.\n\n[Live Demo](https://phasevue.org/popover)",
         "components": {
             "default": {
                 "description": "",
@@ -50105,7 +50105,7 @@
         }
     },
     "overlaypanelstyle": {
-        "description": "OverlayPanel is a container component positioned as connected to its target.\n\n[Live Demo](https://primevue.org/popover)",
+        "description": "OverlayPanel is a container component positioned as connected to its target.\n\n[Live Demo](https://phasevue.org/popover)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -50130,7 +50130,7 @@
         }
     },
     "paginator": {
-        "description": "Paginator is a generic component to display content in paged format.\n\n[Live Demo](https://primevue.org/paginator)",
+        "description": "Paginator is a generic component to display content in paged format.\n\n[Live Demo](https://phasevue.org/paginator)",
         "components": {
             "default": {
                 "description": "Paginator is a generic widget to display content in paged format.",
@@ -50870,7 +50870,7 @@
         }
     },
     "paginatorstyle": {
-        "description": "Paginator is a generic component to display content in paged format.\n\n[Live Demo](https://primevue.org/paginator)",
+        "description": "Paginator is a generic component to display content in paged format.\n\n[Live Demo](https://phasevue.org/paginator)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -51022,7 +51022,7 @@
         }
     },
     "panel": {
-        "description": "Panel is a container with the optional content toggle feature.\n\n[Live Demo](https://www.primevue.org/panel/)",
+        "description": "Panel is a container with the optional content toggle feature.\n\n[Live Demo](https://www.phasevue.org/panel/)",
         "components": {
             "default": {
                 "description": "Panel is a container with the optional content toggle feature.",
@@ -51503,7 +51503,7 @@
         }
     },
     "panelstyle": {
-        "description": "Panel is a container with the optional content toggle feature.\n\n[Live Demo](https://www.primevue.org/panel/)",
+        "description": "Panel is a container with the optional content toggle feature.\n\n[Live Demo](https://www.phasevue.org/panel/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -51592,7 +51592,7 @@
         }
     },
     "panelmenu": {
-        "description": "PanelMenu is a hybrid of Accordion and Tree components.\n\n[Live Demo](https://www.primevue.org/panelmenu/)",
+        "description": "PanelMenu is a hybrid of Accordion and Tree components.\n\n[Live Demo](https://www.phasevue.org/panelmenu/)",
         "components": {
             "default": {
                 "description": "PanelMenu is a hybrid of Accordion and Tree components.",
@@ -52284,7 +52284,7 @@
         }
     },
     "panelmenustyle": {
-        "description": "PanelMenu is a hybrid of Accordion and Tree components.\n\n[Live Demo](https://www.primevue.org/panelmenu/)",
+        "description": "PanelMenu is a hybrid of Accordion and Tree components.\n\n[Live Demo](https://www.phasevue.org/panelmenu/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -52441,7 +52441,7 @@
             }
         }
     },
-    "primevue/src/passthrough": {
+    "phasevue/src/passthrough": {
         "functions": {
             "description": "Defines the custom functions used by the module.",
             "values": {
@@ -52511,7 +52511,7 @@
         }
     },
     "password": {
-        "description": "Password displays strength indicator for password fields.\n\n[Live Demo](https://www.primevue.org/password/)",
+        "description": "Password displays strength indicator for password fields.\n\n[Live Demo](https://www.phasevue.org/password/)",
         "components": {
             "default": {
                 "description": "Password displays strength indicator for password fields.",
@@ -54386,7 +54386,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "",
-                            "description": "Text to prompt password entry. Defaults to PrimeVue Locale configuration."
+                            "description": "Text to prompt password entry. Defaults to PhaseVue Locale configuration."
                         },
                         {
                             "name": "mediumRegex",
@@ -54410,7 +54410,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "",
-                            "description": "Text for a weak password. Defaults to PrimeVue Locale configuration."
+                            "description": "Text for a weak password. Defaults to PhaseVue Locale configuration."
                         },
                         {
                             "name": "mediumLabel",
@@ -54418,7 +54418,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "",
-                            "description": "Text for a medium password. Defaults to PrimeVue Locale configuration."
+                            "description": "Text for a medium password. Defaults to PhaseVue Locale configuration."
                         },
                         {
                             "name": "strongLabel",
@@ -54426,7 +54426,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "",
-                            "description": "Text for a strong password. Defaults to PrimeVue Locale configuration."
+                            "description": "Text for a strong password. Defaults to PhaseVue Locale configuration."
                         },
                         {
                             "name": "feedback",
@@ -54892,7 +54892,7 @@
         }
     },
     "passwordstyle": {
-        "description": "Password displays strength indicator for password fields.\n\n[Live Demo](https://www.primevue.org/password/)",
+        "description": "Password displays strength indicator for password fields.\n\n[Live Demo](https://www.phasevue.org/password/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -54988,7 +54988,7 @@
         }
     },
     "picklist": {
-        "description": "PickList is used to reorder items between different lists.\n\n[Live Demo](https://primevue.org/picklist)",
+        "description": "PickList is used to reorder items between different lists.\n\n[Live Demo](https://phasevue.org/picklist)",
         "components": {
             "default": {
                 "description": "PickList is used to reorder items between different lists.",
@@ -56096,7 +56096,7 @@
         }
     },
     "pickliststyle": {
-        "description": "PickList is used to reorder items between different lists.\n\n[Live Demo](https://primevue.org/picklist)",
+        "description": "PickList is used to reorder items between different lists.\n\n[Live Demo](https://phasevue.org/picklist)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -56171,7 +56171,7 @@
         }
     },
     "popover": {
-        "description": "Popover is a container component positioned as connected to its target.\n\n[Live Demo](https://primevue.org/popover)",
+        "description": "Popover is a container component positioned as connected to its target.\n\n[Live Demo](https://phasevue.org/popover)",
         "components": {
             "default": {
                 "description": "Popover is a container component that can overlay other components on page.",
@@ -56568,7 +56568,7 @@
         }
     },
     "popoverstyle": {
-        "description": "Popover is a container component positioned as connected to its target.\n\n[Live Demo](https://primevue.org/popover)",
+        "description": "Popover is a container component positioned as connected to its target.\n\n[Live Demo](https://phasevue.org/popover)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -56614,7 +56614,7 @@
             }
         }
     },
-    "primevue/src/portal/Portal": {
+    "phasevue/src/portal/Portal": {
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -56679,7 +56679,7 @@
         }
     },
     "portalstyle": {
-        "description": "[Live Demo](https://primevue.org/)",
+        "description": "[Live Demo](https://phasevue.org/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -56711,10 +56711,10 @@
         }
     },
     "progressbar": {
-        "description": "ProgressBar is a process status indicator.\n\n[Live Demo](https://www.primevue.org/progressbar)",
+        "description": "ProgressBar is a process status indicator.\n\n[Live Demo](https://www.phasevue.org/progressbar)",
         "components": {
             "default": {
-                "description": "\n\n[Live Demo](https://www.primevue.org/progressbar/)\n--- ---\n![PrimeVue](https://primefaces.org/cdn/primevue/images/logo-100.png)",
+                "description": "\n\n[Live Demo](https://www.phasevue.org/progressbar/)\n--- ---\n![PhaseVue](/images/logo-100.png)",
                 "methods": {
                     "description": "Defines methods that can be accessed by the component's reference.",
                     "values": []
@@ -56944,7 +56944,7 @@
         }
     },
     "progressbarstyle": {
-        "description": "ProgressBar is a process status indicator.\n\n[Live Demo](https://www.primevue.org/progressbar)",
+        "description": "ProgressBar is a process status indicator.\n\n[Live Demo](https://www.phasevue.org/progressbar)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -56998,7 +56998,7 @@
         }
     },
     "progressspinner": {
-        "description": "ProgressSpinner is a process status indicator.\n\n[Live Demo](https://www.primevue.org/progressspinner)",
+        "description": "ProgressSpinner is a process status indicator.\n\n[Live Demo](https://www.phasevue.org/progressspinner)",
         "components": {
             "default": {
                 "description": "ProgressSpinner is a process status indicator.",
@@ -57232,7 +57232,7 @@
         }
     },
     "progressspinnerstyle": {
-        "description": "ProgressSpinner is a process status indicator.\n\n[Live Demo](https://www.primevue.org/progressspinner)",
+        "description": "ProgressSpinner is a process status indicator.\n\n[Live Demo](https://www.phasevue.org/progressspinner)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -57286,7 +57286,7 @@
         }
     },
     "radiobutton": {
-        "description": "RadioButton is an extension to standard radio button element with theming.\n\n[Live Demo](https://www.primevue.org/radiobutton/)",
+        "description": "RadioButton is an extension to standard radio button element with theming.\n\n[Live Demo](https://www.phasevue.org/radiobutton/)",
         "components": {
             "default": {
                 "description": "RadioButton is an extension to standard radio button element with theming.",
@@ -57764,7 +57764,7 @@
         }
     },
     "radiobuttonstyle": {
-        "description": "RadioButton is an extension to standard radio button element with theming.\n\n[Live Demo](https://www.primevue.org/radiobutton/)",
+        "description": "RadioButton is an extension to standard radio button element with theming.\n\n[Live Demo](https://www.phasevue.org/radiobutton/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -57825,7 +57825,7 @@
         }
     },
     "radiobuttongroup": {
-        "description": "RadioButtonGroup is a component that groups multiple radio buttons, allowing users to select only one option from the group.\n\n[Live Demo](https://www.primevue.org/radiobutton/)",
+        "description": "RadioButtonGroup is a component that groups multiple radio buttons, allowing users to select only one option from the group.\n\n[Live Demo](https://www.phasevue.org/radiobutton/)",
         "components": {
             "default": {
                 "description": "RadioButtonGroup is a component that groups multiple radio buttons, allowing users to select only one option from the group.",
@@ -58094,7 +58094,7 @@
         }
     },
     "radiobuttongroupstyle": {
-        "description": "RadioButtonGroup is a component that groups multiple radio buttons, allowing users to select only one option from the group.\n\n[Live Demo](https://www.primevue.org/radiobuttongroup/)",
+        "description": "RadioButtonGroup is a component that groups multiple radio buttons, allowing users to select only one option from the group.\n\n[Live Demo](https://www.phasevue.org/radiobuttongroup/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -58134,7 +58134,7 @@
         }
     },
     "rating": {
-        "description": "Rating component is a star based selection input.\n\n[Live Demo](https://www.primevue.org/rating/)",
+        "description": "Rating component is a star based selection input.\n\n[Live Demo](https://www.phasevue.org/rating/)",
         "components": {
             "default": {
                 "description": "Rating component is a star based selection input.",
@@ -58638,7 +58638,7 @@
         }
     },
     "ratingstyle": {
-        "description": "Rating component is a star based selection input.\n\n[Live Demo](https://www.primevue.org/rating/)",
+        "description": "Rating component is a star based selection input.\n\n[Live Demo](https://www.phasevue.org/rating/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -58699,7 +58699,7 @@
         }
     },
     "ripple": {
-        "description": "Ripple directive adds ripple effect to the host element.\n\n[Live Demo](https://primevue.org/ripple)",
+        "description": "Ripple directive adds ripple effect to the host element.\n\n[Live Demo](https://phasevue.org/ripple)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -58858,7 +58858,7 @@
         }
     },
     "ripplestyle": {
-        "description": "Ripple directive adds ripple effect to the host element.\n\n[Live Demo](https://primevue.org/ripple)",
+        "description": "Ripple directive adds ripple effect to the host element.\n\n[Live Demo](https://phasevue.org/ripple)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -58898,7 +58898,7 @@
         }
     },
     "row": {
-        "description": "Row component is a helper component used to create grouping structures in DataTable.\n\n[Live Demo](https://www.primevue.org/datatable/)",
+        "description": "Row component is a helper component used to create grouping structures in DataTable.\n\n[Live Demo](https://www.phasevue.org/datatable/)",
         "components": {
             "default": {
                 "description": "Row component is a helper component used to create grouping structures in DataTable.",
@@ -59103,7 +59103,7 @@
         }
     },
     "rowstyle": {
-        "description": "Row component is a helper component used to create grouping structures in DataTable.\n\n[Live Demo](https://www.primevue.org/datatable/)",
+        "description": "Row component is a helper component used to create grouping structures in DataTable.\n\n[Live Demo](https://www.phasevue.org/datatable/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -59135,7 +59135,7 @@
         }
     },
     "scrollpanel": {
-        "description": "ScrollPanel is a cross browser, lightweight and themable alternative to native browser scrollbar.\n\n[Live Demo](https://www.primevue.org/scrollpanel/)",
+        "description": "ScrollPanel is a cross browser, lightweight and themable alternative to native browser scrollbar.\n\n[Live Demo](https://www.phasevue.org/scrollpanel/)",
         "components": {
             "default": {
                 "description": "ScrollPanel is a cross browser, lightweight and themable alternative to native browser scrollbar..",
@@ -59426,7 +59426,7 @@
         }
     },
     "scrollpanelstyle": {
-        "description": "ScrollPanel is a cross browser, lightweight and themable alternative to native browser scrollbar.\n\n[Live Demo](https://www.primevue.org/scrollpanel/)",
+        "description": "ScrollPanel is a cross browser, lightweight and themable alternative to native browser scrollbar.\n\n[Live Demo](https://www.phasevue.org/scrollpanel/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -59494,7 +59494,7 @@
         }
     },
     "scrolltop": {
-        "description": "ScrollTop gets displayed after a certain scroll position and used to navigates to the top of the page quickly.\n\n[Live Demo](https://www.primevue.org/scrolltop/)",
+        "description": "ScrollTop gets displayed after a certain scroll position and used to navigates to the top of the page quickly.\n\n[Live Demo](https://www.phasevue.org/scrolltop/)",
         "components": {
             "default": {
                 "description": "ScrollTop gets displayed after a certain scroll position and used to navigates to the top of the page quickly.",
@@ -59800,7 +59800,7 @@
         }
     },
     "scrolltopstyle": {
-        "description": "ScrollTop gets displayed after a certain scroll position and used to navigates to the top of the page quickly.\n\n[Live Demo](https://www.primevue.org/scrolltop/)",
+        "description": "ScrollTop gets displayed after a certain scroll position and used to navigates to the top of the page quickly.\n\n[Live Demo](https://www.phasevue.org/scrolltop/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -59847,7 +59847,7 @@
         }
     },
     "select": {
-        "description": "Select is used to choose an item from a collection of options.\n\n[Live Demo](https://www.primevue.org/select/)",
+        "description": "Select is used to choose an item from a collection of options.\n\n[Live Demo](https://www.phasevue.org/select/)",
         "components": {
             "default": {
                 "description": "Select is used to choose an item from a collection of options.",
@@ -60740,7 +60740,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "'{0} results are available'",
-                            "description": "Text to be displayed in hidden accessible field when filtering returns any results. Defaults to value from PrimeVue locale configuration."
+                            "description": "Text to be displayed in hidden accessible field when filtering returns any results. Defaults to value from PhaseVue locale configuration."
                         },
                         {
                             "name": "selectionMessage",
@@ -60748,7 +60748,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "'{0} items selected'",
-                            "description": "Text to be displayed in hidden accessible field when options are selected. Defaults to value from PrimeVue locale configuration."
+                            "description": "Text to be displayed in hidden accessible field when options are selected. Defaults to value from PhaseVue locale configuration."
                         },
                         {
                             "name": "emptySelectionMessage",
@@ -60756,7 +60756,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "No selected item",
-                            "description": "Text to be displayed in hidden accessible field when any option is not selected. Defaults to value from PrimeVue locale configuration."
+                            "description": "Text to be displayed in hidden accessible field when any option is not selected. Defaults to value from PhaseVue locale configuration."
                         },
                         {
                             "name": "emptyFilterMessage",
@@ -60764,7 +60764,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "No results found",
-                            "description": "Text to display when filtering does not return any results. Defaults to value from PrimeVue locale configuration."
+                            "description": "Text to display when filtering does not return any results. Defaults to value from PhaseVue locale configuration."
                         },
                         {
                             "name": "emptyMessage",
@@ -60772,7 +60772,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "No available options",
-                            "description": "Text to display when there are no options available. Defaults to value from PrimeVue locale configuration."
+                            "description": "Text to display when there are no options available. Defaults to value from PhaseVue locale configuration."
                         },
                         {
                             "name": "tabindex",
@@ -61202,7 +61202,7 @@
         }
     },
     "selectstyle": {
-        "description": "Select also known as Select, is used to choose an item from a collection of options.\n\n[Live Demo](https://www.primevue.org/select/)",
+        "description": "Select also known as Select, is used to choose an item from a collection of options.\n\n[Live Demo](https://www.phasevue.org/select/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -61361,7 +61361,7 @@
         }
     },
     "selectbutton": {
-        "description": "SelectButton is used to choose single or multiple items from a list using buttons.\n\n[Live Demo](https://www.primevue.org/selectbutton/)",
+        "description": "SelectButton is used to choose single or multiple items from a list using buttons.\n\n[Live Demo](https://www.phasevue.org/selectbutton/)",
         "components": {
             "default": {
                 "description": "SelectButton is used to choose single or multiple items from a list using buttons.",
@@ -61859,7 +61859,7 @@
         }
     },
     "selectbuttonstyle": {
-        "description": "SelectButton is used to choose single or multiple items from a list using buttons.\n\n[Live Demo](https://www.primevue.org/selectbutton/)",
+        "description": "SelectButton is used to choose single or multiple items from a list using buttons.\n\n[Live Demo](https://www.phasevue.org/selectbutton/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -61899,7 +61899,7 @@
         }
     },
     "sidebar": {
-        "description": "Sidebar is a panel component displayed as an overlay at the edges of the screen.\n\n[Live Demo](https://primevue.org/drawer)",
+        "description": "Sidebar is a panel component displayed as an overlay at the edges of the screen.\n\n[Live Demo](https://phasevue.org/drawer)",
         "components": {
             "default": {
                 "description": "",
@@ -62019,7 +62019,7 @@
         }
     },
     "sidebarstyle": {
-        "description": "Sidebar is a panel component displayed as an overlay at the edges of the screen.\n\n[Live Demo](https://primevue.org/drawer)",
+        "description": "Sidebar is a panel component displayed as an overlay at the edges of the screen.\n\n[Live Demo](https://phasevue.org/drawer)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -62051,7 +62051,7 @@
         }
     },
     "skeleton": {
-        "description": "Skeleton is a placeholder to display instead of the actual content.\n\n[Live Demo](https://www.primevue.org/skeleton/)",
+        "description": "Skeleton is a placeholder to display instead of the actual content.\n\n[Live Demo](https://www.phasevue.org/skeleton/)",
         "components": {
             "default": {
                 "description": "Skeleton is a placeholder to display instead of the actual content.",
@@ -62293,7 +62293,7 @@
         }
     },
     "skeletonstyle": {
-        "description": "Skeleton is a placeholder to display instead of the actual content.\n\n[Live Demo](https://www.primevue.org/skeleton/)",
+        "description": "Skeleton is a placeholder to display instead of the actual content.\n\n[Live Demo](https://www.phasevue.org/skeleton/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -62333,7 +62333,7 @@
         }
     },
     "slider": {
-        "description": "Slider is a component to provide input with a drag handle.\n\n[Live Demo](https://www.primevue.org/slider/)",
+        "description": "Slider is a component to provide input with a drag handle.\n\n[Live Demo](https://www.phasevue.org/slider/)",
         "components": {
             "default": {
                 "description": "Slider is a component to provide input with a drag handle.",
@@ -62751,7 +62751,7 @@
         }
     },
     "sliderstyle": {
-        "description": "Slider is a component to provide input with a drag handle.\n\n[Live Demo](https://www.primevue.org/slider/)",
+        "description": "Slider is a component to provide input with a drag handle.\n\n[Live Demo](https://www.phasevue.org/slider/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -62805,7 +62805,7 @@
         }
     },
     "speeddial": {
-        "description": "When pressed, a floating action button can display multiple primary actions that can be performed on a page.\n\n[Live Demo](https://www.primevue.org/speeddial/)",
+        "description": "When pressed, a floating action button can display multiple primary actions that can be performed on a page.\n\n[Live Demo](https://www.phasevue.org/speeddial/)",
         "components": {
             "default": {
                 "description": "When pressed, a floating action button can display multiple primary actions that can be performed on a page.",
@@ -63482,7 +63482,7 @@
         }
     },
     "speeddialstyle": {
-        "description": "When pressed, a floating action button can display multiple primary actions that can be performed on a page.\n\n[Live Demo](https://www.primevue.org/speeddial/)",
+        "description": "When pressed, a floating action button can display multiple primary actions that can be performed on a page.\n\n[Live Demo](https://www.phasevue.org/speeddial/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -63564,7 +63564,7 @@
         }
     },
     "splitbutton": {
-        "description": "SplitButton groups a set of commands in an overlay with a default command.\n\n[Live Demo](https://www.primevue.org/splitbutton/)",
+        "description": "SplitButton groups a set of commands in an overlay with a default command.\n\n[Live Demo](https://www.phasevue.org/splitbutton/)",
         "components": {
             "default": {
                 "description": "SplitButton groups a set of commands in an overlay with a default command.",
@@ -64097,7 +64097,7 @@
         }
     },
     "splitbuttonstyle": {
-        "description": "SplitButton groups a set of commands in an overlay with a default command.\n\n[Live Demo](https://www.primevue.org/splitbutton/)",
+        "description": "SplitButton groups a set of commands in an overlay with a default command.\n\n[Live Demo](https://www.phasevue.org/splitbutton/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -64151,7 +64151,7 @@
         }
     },
     "splitter": {
-        "description": "Splitter is utilized to separate and resize panels.\n\n[Live Demo](https://www.primevue.org/splitter/)",
+        "description": "Splitter is utilized to separate and resize panels.\n\n[Live Demo](https://www.phasevue.org/splitter/)",
         "components": {
             "default": {
                 "description": "Splitter is utilized to separate and resize panels.",
@@ -64598,7 +64598,7 @@
         }
     },
     "splitterstyle": {
-        "description": "Splitter is utilized to separate and resize panels.\n\n[Live Demo](https://www.primevue.org/splitter/)",
+        "description": "Splitter is utilized to separate and resize panels.\n\n[Live Demo](https://www.phasevue.org/splitter/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -64652,7 +64652,7 @@
         }
     },
     "splitterpanel": {
-        "description": "SplitterPanel is a helper component for Splitter component.\n\n[Live Demo](https://www.primevue.org/splitter/)",
+        "description": "SplitterPanel is a helper component for Splitter component.\n\n[Live Demo](https://www.phasevue.org/splitter/)",
         "components": {
             "default": {
                 "description": "SplitterPanel is a helper component for Splitter component.",
@@ -64895,7 +64895,7 @@
         }
     },
     "splitterpanelstyle": {
-        "description": "SplitterPanel is a helper component for Splitter component.\n\n[Live Demo](https://www.primevue.org/splitter/)",
+        "description": "SplitterPanel is a helper component for Splitter component.\n\n[Live Demo](https://www.phasevue.org/splitter/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -64935,7 +64935,7 @@
         }
     },
     "step": {
-        "description": "Step is a helper component for Stepper component.\n\n[Live Demo](https://www.primevue.org/stepper/)",
+        "description": "Step is a helper component for Stepper component.\n\n[Live Demo](https://www.phasevue.org/stepper/)",
         "components": {
             "default": {
                 "description": "Step is a helper component for Stepper component.",
@@ -65221,7 +65221,7 @@
         }
     },
     "stepstyle": {
-        "description": "Step is a helper component for Stepper component.\n\n[Live Demo](https://www.primevue.org/stepper/)",
+        "description": "Step is a helper component for Stepper component.\n\n[Live Demo](https://www.phasevue.org/stepper/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -65282,7 +65282,7 @@
         }
     },
     "stepitem": {
-        "description": "StepItem is a helper component for Stepper component.\n\n[Live Demo](https://www.primevue.org/stepper/)",
+        "description": "StepItem is a helper component for Stepper component.\n\n[Live Demo](https://www.phasevue.org/stepper/)",
         "components": {
             "default": {
                 "description": "StepItem is a helper component for Stepper component.",
@@ -65479,7 +65479,7 @@
         }
     },
     "stepitemstyle": {
-        "description": "StepItem is a helper component for Stepper component.\n\n[Live Demo](https://www.primevue.org/stepper/)",
+        "description": "StepItem is a helper component for Stepper component.\n\n[Live Demo](https://www.phasevue.org/stepper/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -65519,7 +65519,7 @@
         }
     },
     "steplist": {
-        "description": "StepList is a helper component for Stepper component.\n\n[Live Demo](https://www.primevue.org/stepper/)",
+        "description": "StepList is a helper component for Stepper component.\n\n[Live Demo](https://www.phasevue.org/stepper/)",
         "components": {
             "default": {
                 "description": "StepList is a helper component for Stepper component.",
@@ -65708,7 +65708,7 @@
         }
     },
     "stepliststyle": {
-        "description": "StepList is a helper component for Stepper component.\n\n[Live Demo](https://www.primevue.org/stepper/)",
+        "description": "StepList is a helper component for Stepper component.\n\n[Live Demo](https://www.phasevue.org/stepper/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -65748,7 +65748,7 @@
         }
     },
     "steppanel": {
-        "description": "StepPanel is a helper component for Stepper component.\n\n[Live Demo](https://www.primevue.org/stepper/)",
+        "description": "StepPanel is a helper component for Stepper component.\n\n[Live Demo](https://www.phasevue.org/stepper/)",
         "components": {
             "default": {
                 "description": "StepPanel is a helper component for Stepper component.",
@@ -65991,7 +65991,7 @@
         }
     },
     "steppanelstyle": {
-        "description": "StepPanel is a helper component for Stepper component.\n\n[Live Demo](https://www.primevue.org/stepper/)",
+        "description": "StepPanel is a helper component for Stepper component.\n\n[Live Demo](https://www.phasevue.org/stepper/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -66031,7 +66031,7 @@
         }
     },
     "steppanels": {
-        "description": "StepPanels is a helper component for Stepper component.\n\n[Live Demo](https://www.primevue.org/stepper/)",
+        "description": "StepPanels is a helper component for Stepper component.\n\n[Live Demo](https://www.phasevue.org/stepper/)",
         "components": {
             "default": {
                 "description": "StepPanels is a helper component for Stepper component.",
@@ -66220,7 +66220,7 @@
         }
     },
     "steppanelsstyle": {
-        "description": "StepPanels\n\n[Live Demo](https://www.primevue.org/stepper/)",
+        "description": "StepPanels\n\n[Live Demo](https://www.phasevue.org/stepper/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -66260,7 +66260,7 @@
         }
     },
     "stepper": {
-        "description": "Stepper is a component that streamlines a wizard-like workflow, organizing content into coherent steps and visually guiding users through a numbered progression in a multi-step process.\n\n[Live Demo](https://www.primevue.org/stepper/)",
+        "description": "Stepper is a component that streamlines a wizard-like workflow, organizing content into coherent steps and visually guiding users through a numbered progression in a multi-step process.\n\n[Live Demo](https://www.phasevue.org/stepper/)",
         "components": {
             "default": {
                 "description": "Stepper is a component that streamlines a wizard-like workflow, organizing content into coherent steps and visually guiding users through a numbered progression in a multi-step process.",
@@ -66546,7 +66546,7 @@
         }
     },
     "stepperstyle": {
-        "description": "Stepper is a component that streamlines a wizard-like workflow, organizing content into coherent steps and visually guiding users through a numbered progression in a multi-step process.\n\n[Live Demo](https://www.primevue.org/stepper/)",
+        "description": "Stepper is a component that streamlines a wizard-like workflow, organizing content into coherent steps and visually guiding users through a numbered progression in a multi-step process.\n\n[Live Demo](https://www.phasevue.org/stepper/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -66593,7 +66593,7 @@
         }
     },
     "steps": {
-        "description": "Steps components is an indicator for the steps in a wizard workflow. Example below uses nested routes with Steps.\n\n[Live Demo](https://www.primevue.org/steps/)",
+        "description": "Steps components is an indicator for the steps in a wizard workflow. Example below uses nested routes with Steps.\n\n[Live Demo](https://www.phasevue.org/steps/)",
         "components": {
             "default": {
                 "description": "Steps components is an indicator for the steps in a wizard workflow. Example below uses nested routes with Steps.",
@@ -66959,7 +66959,7 @@
         }
     },
     "stepsstyle": {
-        "description": "Steps components is an indicator for the steps in a wizard workflow. Example below uses nested routes with Steps.\n\n[Live Demo](https://www.primevue.org/steps/)",
+        "description": "Steps components is an indicator for the steps in a wizard workflow. Example below uses nested routes with Steps.\n\n[Live Demo](https://www.phasevue.org/steps/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -67034,7 +67034,7 @@
         }
     },
     "styleclass": {
-        "description": "StyleClass manages CSS classes declaratively to during enter/leave animations or just to toggle classes on an element.\n\n[Live Demo](https://primevue.org/styleclass)",
+        "description": "StyleClass manages CSS classes declaratively to during enter/leave animations or just to toggle classes on an element.\n\n[Live Demo](https://phasevue.org/styleclass)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -67248,7 +67248,7 @@
         }
     },
     "styleclassstyle": {
-        "description": "StyleClass manages css classes declaratively to during enter/leave animations or just to toggle classes on an element.\n\n[Live Demo](https://primevue.org/styleclass)",
+        "description": "StyleClass manages css classes declaratively to during enter/leave animations or just to toggle classes on an element.\n\n[Live Demo](https://phasevue.org/styleclass)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -67280,7 +67280,7 @@
         }
     },
     "tab": {
-        "description": "Tab is a helper component for Tabs component.\n\n[Live Demo](https://www.primevue.org/tabs/)",
+        "description": "Tab is a helper component for Tabs component.\n\n[Live Demo](https://www.phasevue.org/tabs/)",
         "components": {
             "default": {
                 "description": "Tab is a helper component for Tabs component.",
@@ -67528,7 +67528,7 @@
         }
     },
     "tabstyle": {
-        "description": "Tab is a helper component for Tabs component.\n\n[Live Demo](https://www.primevue.org/tabs/)",
+        "description": "Tab is a helper component for Tabs component.\n\n[Live Demo](https://www.phasevue.org/tabs/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -67568,7 +67568,7 @@
         }
     },
     "tablist": {
-        "description": "TabList is a helper component for Tabs component.\n\n[Live Demo](https://www.primevue.org/tabs/)",
+        "description": "TabList is a helper component for Tabs component.\n\n[Live Demo](https://www.phasevue.org/tabs/)",
         "components": {
             "default": {
                 "description": "TabList is a helper component for Tabs component.",
@@ -67822,7 +67822,7 @@
         }
     },
     "tabliststyle": {
-        "description": "TabList is a helper component for Tabs component.\n\n[Live Demo](https://www.primevue.org/tabs/)",
+        "description": "TabList is a helper component for Tabs component.\n\n[Live Demo](https://www.phasevue.org/tabs/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -67897,7 +67897,7 @@
         }
     },
     "tabmenu": {
-        "description": "TabMenu is a navigation component that displays items as tab headers. Example below uses nested routes with TabMenu.\n\n[Live Demo](https://www.primevue.org/tabmenu/)",
+        "description": "TabMenu is a navigation component that displays items as tab headers. Example below uses nested routes with TabMenu.\n\n[Live Demo](https://www.phasevue.org/tabmenu/)",
         "components": {
             "default": {
                 "description": "TabMenu is a navigation component that displays items as tab headers. Example below uses nested routes with TabMenu.",
@@ -68336,7 +68336,7 @@
         }
     },
     "tabmenustyle": {
-        "description": "TabMenu is a navigation component that displays items as tab headers. Example below uses nested routes with TabMenu.\n\n[Live Demo](https://www.primevue.org/tabmenu/)",
+        "description": "TabMenu is a navigation component that displays items as tab headers. Example below uses nested routes with TabMenu.\n\n[Live Demo](https://www.phasevue.org/tabmenu/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -68418,7 +68418,7 @@
         }
     },
     "tabpanel": {
-        "description": "TabPanel is a helper component for Tabs component.\n\n[Live Demo](https://www.primevue.org/tabs/)",
+        "description": "TabPanel is a helper component for Tabs component.\n\n[Live Demo](https://www.phasevue.org/tabs/)",
         "components": {
             "default": {
                 "description": "TabPanel is a helper component for Tabs component.",
@@ -68824,7 +68824,7 @@
         }
     },
     "tabpanelstyle": {
-        "description": "TabPanel is a helper component for Tabs component.\n\n[Live Demo](https://www.primevue.org/tabs/)",
+        "description": "TabPanel is a helper component for Tabs component.\n\n[Live Demo](https://www.phasevue.org/tabs/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -68864,7 +68864,7 @@
         }
     },
     "tabpanels": {
-        "description": "TabPanels is a helper component for Tabs component.\n\n[Live Demo](https://www.primevue.org/tabview/)",
+        "description": "TabPanels is a helper component for Tabs component.\n\n[Live Demo](https://www.phasevue.org/tabview/)",
         "components": {
             "default": {
                 "description": "TabPanels is a helper component for Tabs component.",
@@ -69078,7 +69078,7 @@
         }
     },
     "tabpanelsstyle": {
-        "description": "TabPanels is a helper component for Tabs component.\n\n[Live Demo](https://www.primevue.org/tabs/)",
+        "description": "TabPanels is a helper component for Tabs component.\n\n[Live Demo](https://www.phasevue.org/tabs/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -69118,7 +69118,7 @@
         }
     },
     "tabs": {
-        "description": "Tabs facilitates seamless switching between different views.\n\n[Live Demo](https://www.primevue.org/tabs/)",
+        "description": "Tabs facilitates seamless switching between different views.\n\n[Live Demo](https://www.phasevue.org/tabs/)",
         "components": {
             "default": {
                 "description": "Tabs facilitates seamless switching between different views.",
@@ -69428,7 +69428,7 @@
         }
     },
     "tabsstyle": {
-        "description": "Tabs facilitates seamless switching between different views.\n\n[Live Demo](https://www.primevue.org/tabs/)",
+        "description": "Tabs facilitates seamless switching between different views.\n\n[Live Demo](https://www.phasevue.org/tabs/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -69585,7 +69585,7 @@
         }
     },
     "tag": {
-        "description": "Tag component is used to categorize content.\n\n[Live Demo](https://www.primevue.org/tag)",
+        "description": "Tag component is used to categorize content.\n\n[Live Demo](https://www.phasevue.org/tag)",
         "components": {
             "default": {
                 "description": "Tag component is used to categorize content.",
@@ -69840,7 +69840,7 @@
         }
     },
     "tagstyle": {
-        "description": "Tag component is used to categorize content.\n\n[Live Demo](https://www.primevue.org/tag)",
+        "description": "Tag component is used to categorize content.\n\n[Live Demo](https://www.phasevue.org/tag)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -69894,7 +69894,7 @@
         }
     },
     "terminal": {
-        "description": "Terminal is a text based user interface.\n\n[Live Demo](https://www.primevue.org/terminal)",
+        "description": "Terminal is a text based user interface.\n\n[Live Demo](https://www.phasevue.org/terminal)",
         "components": {
             "default": {
                 "description": "Terminal is a text based user interface.",
@@ -70203,7 +70203,7 @@
         }
     },
     "terminalstyle": {
-        "description": "Terminal is a text based user interface.\n\n[Live Demo](https://www.primevue.org/terminal)",
+        "description": "Terminal is a text based user interface.\n\n[Live Demo](https://www.phasevue.org/terminal)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -70299,7 +70299,7 @@
         }
     },
     "terminalservice": {
-        "description": "[Live Demo](https://www.primevue.org/terminal/)",
+        "description": "[Live Demo](https://www.phasevue.org/terminal/)",
         "model": {
             "TerminalServiceOptions": {
                 "description": "Confirmation Service methods.",
@@ -70367,7 +70367,7 @@
         }
     },
     "textarea": {
-        "description": "Textarea is a multi-line text input element.\n\n[Live Demo](https://www.primevue.org/textarea/)",
+        "description": "Textarea is a multi-line text input element.\n\n[Live Demo](https://www.phasevue.org/textarea/)",
         "components": {
             "default": {
                 "description": "Textarea is a multi-line text input element.",
@@ -72147,7 +72147,7 @@
         }
     },
     "textareastyle": {
-        "description": "Textarea is a multi-line text input element.\n\n[Live Demo](https://www.primevue.org/textarea/)",
+        "description": "Textarea is a multi-line text input element.\n\n[Live Demo](https://www.phasevue.org/textarea/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -72187,7 +72187,7 @@
         }
     },
     "tieredmenu": {
-        "description": "TieredMenu displays submenus in nested overlays.\n\n[Live Demo](https://www.primevue.org/menu/)",
+        "description": "TieredMenu displays submenus in nested overlays.\n\n[Live Demo](https://www.phasevue.org/menu/)",
         "components": {
             "default": {
                 "description": "TieredMenu displays submenus in nested overlays.",
@@ -72873,7 +72873,7 @@
         }
     },
     "tieredmenustyle": {
-        "description": "TieredMenu displays submenus in nested overlays.\n\n[Live Demo](https://www.primevue.org/menu/)",
+        "description": "TieredMenu displays submenus in nested overlays.\n\n[Live Demo](https://www.phasevue.org/menu/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -72990,7 +72990,7 @@
         }
     },
     "timeline": {
-        "description": "Timeline visualizes a series of chained events.\n\n[Live Demo](https://primevue.org/timeline)",
+        "description": "Timeline visualizes a series of chained events.\n\n[Live Demo](https://phasevue.org/timeline)",
         "components": {
             "default": {
                 "description": "Timeline visualizes a series of chained events.",
@@ -73351,7 +73351,7 @@
         }
     },
     "timelinestyle": {
-        "description": "Timeline visualizes a series of chained events.\n\n[Live Demo](https://primevue.org/timeline)",
+        "description": "Timeline visualizes a series of chained events.\n\n[Live Demo](https://phasevue.org/timeline)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -73433,7 +73433,7 @@
         }
     },
     "toast": {
-        "description": "Toast is used to display messages in an overlay.\n\n[Live Demo](https://www.primevue.org/toast/)",
+        "description": "Toast is used to display messages in an overlay.\n\n[Live Demo](https://www.phasevue.org/toast/)",
         "components": {
             "default": {
                 "description": "Toast is used to display messages in an overlay.",
@@ -74062,7 +74062,7 @@
         }
     },
     "toaststyle": {
-        "description": "Toast is used to display messages in an overlay.\n\n[Live Demo](https://www.primevue.org/toast/)",
+        "description": "Toast is used to display messages in an overlay.\n\n[Live Demo](https://www.phasevue.org/toast/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -74158,7 +74158,7 @@
         }
     },
     "toastservice-usetoast": {
-        "description": "[Live Demo](https://www.primevue.org/toast/)",
+        "description": "[Live Demo](https://www.phasevue.org/toast/)",
         "model": {
             "ToastServiceMethods": {
                 "description": "Toast Service methods.",
@@ -74220,7 +74220,7 @@
         }
     },
     "togglebutton": {
-        "description": "ToggleButton is used to select a boolean value using a button.\n\n[Live Demo](https://www.primevue.org/togglebutton/)",
+        "description": "ToggleButton is used to select a boolean value using a button.\n\n[Live Demo](https://www.phasevue.org/togglebutton/)",
         "components": {
             "default": {
                 "description": "ToggleButton is used to select a boolean value using a button.",
@@ -74679,7 +74679,7 @@
         }
     },
     "togglebuttonstyle": {
-        "description": "ToggleButton is used to select a boolean value using a button.\n\n[Live Demo](https://www.primevue.org/togglebutton/)",
+        "description": "ToggleButton is used to select a boolean value using a button.\n\n[Live Demo](https://www.phasevue.org/togglebutton/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -74733,7 +74733,7 @@
         }
     },
     "toggleswitch": {
-        "description": "ToggleSwitch is used to select a boolean value.\n\n[Live Demo](https://www.primevue.org/toggleswitch/)",
+        "description": "ToggleSwitch is used to select a boolean value.\n\n[Live Demo](https://www.phasevue.org/toggleswitch/)",
         "components": {
             "default": {
                 "description": "ToggleSwitch is used to select a boolean value.",
@@ -75184,7 +75184,7 @@
         }
     },
     "toggleswitchstyle": {
-        "description": "ToggleSwitch is used to select a boolean value.\n\n[Live Demo](https://www.primevue.org/toggleswitch/)",
+        "description": "ToggleSwitch is used to select a boolean value.\n\n[Live Demo](https://www.phasevue.org/toggleswitch/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -75245,7 +75245,7 @@
         }
     },
     "toolbar": {
-        "description": "Toolbar is a grouping component for buttons and other content.\n\n[Live Demo](https://www.primevue.org/toolbar/)",
+        "description": "Toolbar is a grouping component for buttons and other content.\n\n[Live Demo](https://www.phasevue.org/toolbar/)",
         "components": {
             "default": {
                 "description": "Toolbar is a grouping component for buttons and other content.",
@@ -75490,7 +75490,7 @@
         }
     },
     "toolbarstyle": {
-        "description": "Toolbar is a grouping component for buttons and other content.\n\n[Live Demo](https://www.primevue.org/toolbar/)",
+        "description": "Toolbar is a grouping component for buttons and other content.\n\n[Live Demo](https://www.phasevue.org/toolbar/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -75551,7 +75551,7 @@
         }
     },
     "tooltip": {
-        "description": "Tooltip directive provides advisory information for a component.\n\n[Live Demo](https://primevue.org/tooltip)",
+        "description": "Tooltip directive provides advisory information for a component.\n\n[Live Demo](https://phasevue.org/tooltip)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -75942,7 +75942,7 @@
         }
     },
     "tooltipstyle": {
-        "description": "Tooltip directive provides advisory information for a component.\n\n[Live Demo](https://primevue.org/tooltip)",
+        "description": "Tooltip directive provides advisory information for a component.\n\n[Live Demo](https://phasevue.org/tooltip)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -75996,7 +75996,7 @@
         }
     },
     "tree": {
-        "description": "Tree is used to display hierarchical data.\n\n[Live Demo](https://www.primevue.org/tree/)",
+        "description": "Tree is used to display hierarchical data.\n\n[Live Demo](https://www.phasevue.org/tree/)",
         "components": {
             "default": {
                 "description": "Tree is used to display hierarchical data.",
@@ -77182,7 +77182,7 @@
         }
     },
     "treestyle": {
-        "description": "Tree is used to display hierarchical data.\n\n[Live Demo](https://www.primevue.org/tree/)",
+        "description": "Tree is used to display hierarchical data.\n\n[Live Demo](https://www.phasevue.org/tree/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -77313,7 +77313,7 @@
         }
     },
     "treenode": {
-        "description": "PrimeVue tree components share a common api to specify the node.",
+        "description": "PhaseVue tree components share a common api to specify the node.",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -77466,7 +77466,7 @@
         }
     },
     "treeselect": {
-        "description": "TreeSelect is a form component to choose from hierarchical data.\n\n[Live Demo](https://www.primevue.org/treeselect/)",
+        "description": "TreeSelect is a form component to choose from hierarchical data.\n\n[Live Demo](https://www.phasevue.org/treeselect/)",
         "components": {
             "default": {
                 "description": "TreeSelect is a form component to choose from hierarchical data.",
@@ -77941,7 +77941,7 @@
                             "readonly": false,
                             "type": "string",
                             "default": "No available options",
-                            "description": "Text to display when there are no options available. Defaults to value from PrimeVue locale configuration."
+                            "description": "Text to display when there are no options available. Defaults to value from PhaseVue locale configuration."
                         },
                         {
                             "name": "placeholder",
@@ -78461,7 +78461,7 @@
         }
     },
     "treeselectstyle": {
-        "description": "TreeSelect is a form component to choose from hierarchical data.\n\n[Live Demo](https://www.primevue.org/treeselect/)",
+        "description": "TreeSelect is a form component to choose from hierarchical data.\n\n[Live Demo](https://www.phasevue.org/treeselect/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -78571,7 +78571,7 @@
         }
     },
     "treetable": {
-        "description": "TreeTable is used to display hierarchical data in tabular format.\n\n[Live Demo](https://www.primevue.org/treetable/)",
+        "description": "TreeTable is used to display hierarchical data in tabular format.\n\n[Live Demo](https://www.phasevue.org/treetable/)",
         "components": {
             "default": {
                 "description": "TreeTable is used to display hierarchical data in tabular format.",
@@ -80262,7 +80262,7 @@
         }
     },
     "treetablestyle": {
-        "description": "TreeTable is used to display hierarchical data in tabular format.\n\n[Live Demo](https://www.primevue.org/treetable/)",
+        "description": "TreeTable is used to display hierarchical data in tabular format.\n\n[Live Demo](https://www.phasevue.org/treetable/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",
@@ -80441,7 +80441,7 @@
             }
         }
     },
-    "primevue/src/useconfirm/UseConfirm": {
+    "phasevue/src/useconfirm/UseConfirm": {
         "functions": {
             "description": "Defines the custom functions used by the module.",
             "values": {
@@ -80453,7 +80453,7 @@
             }
         }
     },
-    "primevue/src/usedialog/UseDialog": {
+    "phasevue/src/usedialog/UseDialog": {
         "functions": {
             "description": "Defines the custom functions used by the module.",
             "values": {
@@ -80465,8 +80465,8 @@
             }
         }
     },
-    "primevue/src/usestyle/UseStyle": {},
-    "primevue/src/usetoast/UseToast": {
+    "phasevue/src/usestyle/UseStyle": {},
+    "phasevue/src/usetoast/UseToast": {
         "functions": {
             "description": "Defines the custom functions used by the module.",
             "values": {
@@ -80497,7 +80497,7 @@
         }
     },
     "virtualscroller": {
-        "description": "VirtualScroller is a performant approach to handle huge data efficiently.\n\n[Live Demo](https://www.primevue.org/virtualscroller/)",
+        "description": "VirtualScroller is a performant approach to handle huge data efficiently.\n\n[Live Demo](https://www.phasevue.org/virtualscroller/)",
         "components": {
             "default": {
                 "description": "VirtualScroller is a performant approach to handle huge data efficiently.",
@@ -81435,7 +81435,7 @@
         }
     },
     "virtualscrollerstyle": {
-        "description": "VirtualScroller is a performant approach to handle huge data efficiently.\n\n[Live Demo](https://www.primevue.org/virtualscroller/)",
+        "description": "VirtualScroller is a performant approach to handle huge data efficiently.\n\n[Live Demo](https://www.phasevue.org/virtualscroller/)",
         "interfaces": {
             "description": "Defines the custom interfaces used by the module.",
             "eventDescription": "Defines the custom events used by the component's emit.",

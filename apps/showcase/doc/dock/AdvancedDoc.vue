@@ -28,7 +28,7 @@
             </Dock>
 
             <Dialog v-model:visible="displayTerminal" header="Terminal" :breakpoints="{ '960px': '50vw' }" :style="{ width: '40vw' }" :maximizable="true">
-                <Terminal welcomeMessage="Welcome to PrimeVue(cmd: 'date', 'greet {0}' and 'random')" prompt="primevue $" />
+                <Terminal welcomeMessage="Welcome to PhaseVue(cmd: 'date', 'greet {0}' and 'random')" prompt="phasevue $" />
             </Dialog>
 
             <Dialog v-model:visible="displayFinder" header="Finder" :breakpoints="{ '960px': '50vw' }" :style="{ width: '40vw' }" :maximizable="true">
@@ -48,7 +48,7 @@
 <script>
 import { NodeService } from '@/service/NodeService';
 import { PhotoService } from '@/service/PhotoService';
-import TerminalService from 'primevue/terminalservice';
+import TerminalService from 'phasevue/terminalservice';
 
 export default {
     data() {
@@ -61,45 +61,45 @@ export default {
             items: [
                 {
                     label: 'Finder',
-                    icon: 'https://primefaces.org/cdn/primevue/images/dock/finder.svg',
+                    icon: '/images/dock/finder.svg',
                     command: () => {
                         this.displayFinder = true;
                     }
                 },
                 {
                     label: 'Terminal',
-                    icon: 'https://primefaces.org/cdn/primevue/images/dock/terminal.svg',
+                    icon: '/images/dock/terminal.svg',
                     command: () => {
                         this.displayTerminal = true;
                     }
                 },
                 {
                     label: 'App Store',
-                    icon: 'https://primefaces.org/cdn/primevue/images/dock/appstore.svg',
+                    icon: '/images/dock/appstore.svg',
                     url: 'https://www.apple.com/app-store/'
                 },
                 {
                     label: 'Safari',
-                    icon: 'https://primefaces.org/cdn/primevue/images/dock/safari.svg',
+                    icon: '/images/dock/safari.svg',
                     command: () => {
                         this.$toast.add({ severity: 'warn', summary: 'Safari has stopped working', group: 'tc', life: 3000 });
                     }
                 },
                 {
                     label: 'Photos',
-                    icon: 'https://primefaces.org/cdn/primevue/images/dock/photos.svg',
+                    icon: '/images/dock/photos.svg',
                     command: () => {
                         this.displayPhotos = true;
                     }
                 },
                 {
                     label: 'GitHub',
-                    icon: 'https://primefaces.org/cdn/primevue/images/dock/github.svg',
-                    url: 'https://github.com/primefaces/primevue'
+                    icon: '/images/dock/github.svg',
+                    url: 'https://github.com/PhaseVueUI/phasevue'
                 },
                 {
                     label: 'Trash',
-                    icon: 'https://primefaces.org/cdn/primevue/images/dock/trash.png',
+                    icon: '/images/dock/trash.png',
                     command: () => {
                         this.$toast.add({ severity: 'info', summary: 'Trash is empty', life: 3000 });
                     }
@@ -279,7 +279,7 @@ export default {
             </Dock>
 
             <Dialog v-model:visible="displayTerminal" header="Terminal" :breakpoints="{ '960px': '50vw' }" :style="{ width: '40vw' }" :maximizable="true">
-                <Terminal welcomeMessage="Welcome to PrimeVue(cmd: 'date', 'greet {0}' and 'random')" prompt="primevue $" />
+                <Terminal welcomeMessage="Welcome to PhaseVue(cmd: 'date', 'greet {0}' and 'random')" prompt="phasevue $" />
             </Dialog>
 
             <Dialog v-model:visible="displayFinder" header="Finder" :breakpoints="{ '960px': '50vw' }" :style="{ width: '40vw' }" :maximizable="true">
@@ -296,7 +296,7 @@ export default {
 </template>
 
 <script>
-import TerminalService from 'primevue/terminalservice';
+import TerminalService from 'phasevue/terminalservice';
 import { NodeService } from '@/service/NodeService';
 import { PhotoService } from '@/service/PhotoService';
 
@@ -311,45 +311,45 @@ export default {
             items: [
                 {
                     label: 'Finder',
-                    icon: 'https://primefaces.org/cdn/primevue/images/dock/finder.svg',
+                    icon: '/images/dock/finder.svg',
                     command: () => {
                         this.displayFinder = true;
                     }
                 },
                 {
                     label: 'Terminal',
-                    icon: 'https://primefaces.org/cdn/primevue/images/dock/terminal.svg',
+                    icon: '/images/dock/terminal.svg',
                     command: () => {
                         this.displayTerminal = true;
                     }
                 },
                 {
                     label: 'App Store',
-                    icon: 'https://primefaces.org/cdn/primevue/images/dock/appstore.svg',
+                    icon: '/images/dock/appstore.svg',
                     url: 'https://www.apple.com/app-store/'
                 },
                 {
                     label: 'Safari',
-                    icon: 'https://primefaces.org/cdn/primevue/images/dock/safari.svg',
+                    icon: '/images/dock/safari.svg',
                     command: () => {
                         this.$toast.add({ severity: 'warn', summary: 'Safari has stopped working', group: 'tc', life: 3000 });
                     }
                 },
                 {
                     label: 'Photos',
-                    icon: 'https://primefaces.org/cdn/primevue/images/dock/photos.svg',
+                    icon: '/images/dock/photos.svg',
                     command: () => {
                         this.displayPhotos = true;
                     }
                 },
                 {
                     label: 'GitHub',
-                    icon: 'https://primefaces.org/cdn/primevue/images/dock/github.svg',
-                    url: 'https://github.com/primefaces/primevue'
+                    icon: '/images/dock/github.svg',
+                    url: 'https://github.com/PhaseVueUI/phasevue'
                 },
                 {
                     label: 'Trash',
-                    icon: 'https://primefaces.org/cdn/primevue/images/dock/trash.png',
+                    icon: '/images/dock/trash.png',
                     command: () => {
                         this.$toast.add({ severity: 'info', summary: 'Trash is empty', life: 3000 });
                     }
@@ -542,7 +542,7 @@ export default {
     width: 100%;
     height: 450px;
     position: relative;
-    background-image: url("https://primefaces.org/cdn/primevue/images/dock/window.jpg");
+    background-image: url("/images/dock/window.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -583,7 +583,7 @@ export default {
                 </Dock>
 
                 <Dialog v-model:visible="displayTerminal" header="Terminal" :breakpoints="{ '960px': '50vw' }" :style="{ width: '40vw' }" :maximizable="true">
-                    <Terminal welcomeMessage="Welcome to PrimeVue(cmd: 'date', 'greet {0}' and 'random')" prompt="primevue $" />
+                    <Terminal welcomeMessage="Welcome to PhaseVue(cmd: 'date', 'greet {0}' and 'random')" prompt="phasevue $" />
                 </Dialog>
 
                 <Dialog v-model:visible="displayFinder" header="Finder" :breakpoints="{ '960px': '50vw' }" :style="{ width: '40vw' }" :maximizable="true">
@@ -602,8 +602,8 @@ export default {
 
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue';
-import { useToast } from 'primevue/usetoast';
-import TerminalService from 'primevue/terminalservice';
+import { useToast } from 'phasevue/usetoast';
+import TerminalService from 'phasevue/terminalservice';
 import { NodeService } from '@/service/NodeService';
 import { PhotoService } from '@/service/PhotoService';
 
@@ -626,45 +626,45 @@ const toast = useToast();
 const items = ref([
     {
         label: 'Finder',
-        icon: 'https://primefaces.org/cdn/primevue/images/dock/finder.svg',
+        icon: '/images/dock/finder.svg',
         command: () => {
             this.displayFinder = true;
         }
     },
     {
         label: 'Terminal',
-        icon: 'https://primefaces.org/cdn/primevue/images/dock/terminal.svg',
+        icon: '/images/dock/terminal.svg',
         command: () => {
             this.displayTerminal = true;
         }
     },
     {
         label: 'App Store',
-        icon: 'https://primefaces.org/cdn/primevue/images/dock/appstore.svg',
+        icon: '/images/dock/appstore.svg',
         url: 'https://www.apple.com/app-store/'
     },
     {
         label: 'Safari',
-        icon: 'https://primefaces.org/cdn/primevue/images/dock/safari.svg',
+        icon: '/images/dock/safari.svg',
         command: () => {
             toast.add({ severity: 'warn', summary: 'Safari has stopped working', group: 'tc', life: 3000 });
         }
     },
     {
         label: 'Photos',
-        icon: 'https://primefaces.org/cdn/primevue/images/dock/photos.svg',
+        icon: '/images/dock/photos.svg',
         command: () => {
             this.displayPhotos = true;
         }
     },
     {
         label: 'GitHub',
-        icon: 'https://primefaces.org/cdn/primevue/images/dock/github.svg',
-        url: 'https://github.com/primefaces/primevue'
+        icon: '/images/dock/github.svg',
+        url: 'https://github.com/PhaseVueUI/phasevue'
     },
     {
         label: 'Trash',
-        icon: 'https://primefaces.org/cdn/primevue/images/dock/trash.png',
+        icon: '/images/dock/trash.png',
         command: () => {
             toast.add({ severity: 'info', summary: 'Trash is empty', life: 3000 });
         }
@@ -849,7 +849,7 @@ const commandHandler = (text) => {
     width: 100%;
     height: 450px;
     position: relative;
-    background-image: url("https://primefaces.org/cdn/primevue/images/dock/window.jpg");
+    background-image: url("/images/dock/window.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -913,7 +913,7 @@ const commandHandler = (text) => {
     width: 100%;
     height: 450px;
     position: relative;
-    background-image: url('https://primefaces.org/cdn/primevue/images/dock/window.jpg');
+    background-image: url('/images/dock/window.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }

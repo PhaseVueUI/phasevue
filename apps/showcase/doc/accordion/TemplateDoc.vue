@@ -10,7 +10,7 @@
             <AccordionPanel value="0">
                 <AccordionHeader>
                     <span class="flex items-center gap-2 w-full">
-                        <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
+                        <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
                         <span class="font-bold whitespace-nowrap">Amy Elsner</span>
                         <Badge value="3" class="ml-auto mr-2" />
                     </span>
@@ -25,7 +25,7 @@
             <AccordionPanel value="1">
                 <AccordionHeader>
                     <span class="flex items-center gap-2 w-full">
-                        <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/onyamalimba.png" shape="circle" />
+                        <Avatar image="/images/avatar/onyamalimba.png" shape="circle" />
                         <span class="font-bold whitespace-nowrap">Onyama Limba</span>
                         <Badge value="4" class="ml-auto mr-2" />
                     </span>
@@ -40,7 +40,7 @@
             <AccordionPanel value="2">
                 <AccordionHeader>
                     <span class="flex items-center gap-2 w-full">
-                        <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/ionibowcher.png" shape="circle" />
+                        <Avatar image="/images/avatar/ionibowcher.png" shape="circle" />
                         <span class="font-bold whitespace-nowrap">Ioni Bowcher</span>
                         <Badge value="2" class="ml-auto mr-2" />
                     </span>
@@ -67,7 +67,7 @@ export default {
     <AccordionPanel value="0">
         <AccordionHeader>
             <span class="flex items-center gap-2 w-full">
-                <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
+                <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
                 <span class="font-bold whitespace-nowrap">Amy Elsner</span>
                 <Badge value="3" class="ml-auto mr-2" />
             </span>
@@ -82,7 +82,7 @@ export default {
     <AccordionPanel value="1">
         <AccordionHeader>
             <span class="flex items-center gap-2 w-full">
-                <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/onyamalimba.png" shape="circle" />
+                <Avatar image="/images/avatar/onyamalimba.png" shape="circle" />
                 <span class="font-bold whitespace-nowrap">Onyama Limba</span>
                 <Badge value="4" class="ml-auto mr-2" />
             </span>
@@ -97,7 +97,7 @@ export default {
     <AccordionPanel value="2">
         <AccordionHeader>
             <span class="flex items-center gap-2 w-full">
-                <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/ionibowcher.png" shape="circle" />
+                <Avatar image="/images/avatar/ionibowcher.png" shape="circle" />
                 <span class="font-bold whitespace-nowrap">Ioni Bowcher</span>
                 <Badge value="2" class="ml-auto mr-2" />
             </span>
@@ -118,7 +118,7 @@ export default {
             <AccordionPanel value="0">
                 <AccordionHeader>
                     <span class="flex items-center gap-2 w-full">
-                        <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
+                        <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
                         <span class="font-bold whitespace-nowrap">Amy Elsner</span>
                         <Badge value="3" class="ml-auto mr-2" />
                     </span>
@@ -133,7 +133,7 @@ export default {
             <AccordionPanel value="1">
                 <AccordionHeader>
                     <span class="flex items-center gap-2 w-full">
-                        <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/onyamalimba.png" shape="circle" />
+                        <Avatar image="/images/avatar/onyamalimba.png" shape="circle" />
                         <span class="font-bold whitespace-nowrap">Onyama Limba</span>
                         <Badge value="4" class="ml-auto mr-2" />
                     </span>
@@ -148,7 +148,7 @@ export default {
             <AccordionPanel value="2">
                 <AccordionHeader>
                     <span class="flex items-center gap-2 w-full">
-                        <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/ionibowcher.png" shape="circle" />
+                        <Avatar image="/images/avatar/ionibowcher.png" shape="circle" />
                         <span class="font-bold whitespace-nowrap">Ioni Bowcher</span>
                         <Badge value="2" class="ml-auto mr-2" />
                     </span>
@@ -174,7 +174,7 @@ export default {
             <AccordionPanel value="0">
                 <AccordionHeader>
                     <span class="flex items-center gap-2 w-full">
-                        <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
+                        <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
                         <span class="font-bold whitespace-nowrap">Amy Elsner</span>
                         <Badge value="3" class="ml-auto mr-2" />
                     </span>
@@ -189,7 +189,7 @@ export default {
             <AccordionPanel value="1">
                 <AccordionHeader>
                     <span class="flex items-center gap-2 w-full">
-                        <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/onyamalimba.png" shape="circle" />
+                        <Avatar image="/images/avatar/onyamalimba.png" shape="circle" />
                         <span class="font-bold whitespace-nowrap">Onyama Limba</span>
                         <Badge value="4" class="ml-auto mr-2" />
                     </span>
@@ -204,7 +204,7 @@ export default {
             <AccordionPanel value="2">
                 <AccordionHeader>
                     <span class="flex items-center gap-2 w-full">
-                        <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/ionibowcher.png" shape="circle" />
+                        <Avatar image="/images/avatar/ionibowcher.png" shape="circle" />
                         <span class="font-bold whitespace-nowrap">Ioni Bowcher</span>
                         <Badge value="2" class="ml-auto mr-2" />
                     </span>

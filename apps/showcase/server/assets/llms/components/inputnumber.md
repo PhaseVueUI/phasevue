@@ -5,7 +5,7 @@ InputNumber is an input component to provide numerical input.
 ## Import
 
 ```javascript
-import InputNumber from 'primevue/inputnumber';
+import InputNumber from 'phasevue/inputnumber';
 ```
 
 ## Accessibility
@@ -292,7 +292,7 @@ const value = ref();
 
 ## Forms
 
-InputNumber integrates seamlessly with the PrimeVue Forms library.
+InputNumber integrates seamlessly with the PhaseVue Forms library.
 
 ```vue
 <Form v-slot="$form" :resolver="resolver" :initialValues="initialValues" @submit="onFormSubmit" class="flex flex-col gap-4 w-full sm:w-56">
@@ -322,8 +322,8 @@ InputNumber integrates seamlessly with the PrimeVue Forms library.
 
 <script setup>
 import { ref } from 'vue';
-import { zodResolver } from '@primevue/forms/resolvers/zod';
-import { useToast } from "primevue/usetoast";
+import { zodResolver } from '@phasevueui/forms/resolvers/zod';
+import { useToast } from "phasevue/usetoast";
 import { z } from 'zod';
 
 const toast = useToast();

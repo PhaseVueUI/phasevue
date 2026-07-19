@@ -1,6 +1,6 @@
 <template>
     <DocSectionText v-bind="$attrs">
-        <p>In <i>nuxt.config</i> file, add the <i>@primevue/nuxt-module</i> to the modules section and define <i>primevue</i> object for the configuration of the module.</p>
+        <p>In <i>nuxt.config</i> file, add the <i>@phasevueui/nuxt-module</i> to the modules section and define <i>phasevue</i> object for the configuration of the module.</p>
         <DocSectionCode :code="code1" importCode hideToggleCode hideStackBlitz />
     </DocSectionText>
 </template>
@@ -13,9 +13,9 @@ export default {
                 basic: `
 export default defineNuxtConfig({
     modules: [
-        '@primevue/nuxt-module'
+        '@phasevueui/nuxt-module'
     ],
-    primevue: {
+    phasevue: {
         /* Configuration */
     }
 })

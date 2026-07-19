@@ -5,7 +5,7 @@ Dialog is a container to display content in an overlay window.
 ## Import
 
 ```javascript
-import Dialog from 'primevue/dialog';
+import Dialog from 'phasevue/dialog';
 ```
 
 ## Accessibility
@@ -406,7 +406,7 @@ Header and Footer sections allow customization via templating.
 <Dialog v-model:visible="visible" modal header="Edit Profile" :style="{ width: '25rem' }">
     <template #header>
         <div class="inline-flex items-center justify-center gap-2">
-            <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
+            <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
             <span class="font-bold whitespace-nowrap">Amy Elsner</span>
         </div>
     </template>
@@ -436,7 +436,7 @@ Header and Footer sections allow customization via templating.
         <Dialog v-model:visible="visible" modal header="Edit Profile" :style="{ width: '25rem' }">
             <template #header>
                 <div class="inline-flex items-center justify-center gap-2">
-                    <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png" shape="circle" />
+                    <Avatar image="/images/avatar/amyelsner.png" shape="circle" />
                     <span class="font-bold whitespace-nowrap">Amy Elsner</span>
                 </div>
             </template>

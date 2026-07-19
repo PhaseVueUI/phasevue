@@ -15,10 +15,10 @@ export default {
             code: {
                 basic: `
 import { createApp } from "vue";
-import PrimeVue from "primevue/config";
+import PhaseVue from "phasevue/config";
 const app = createApp(App);
 
-app.use(PrimeVue, {
+app.use(PhaseVue, {
     pt: {
         global: {
             css: \`

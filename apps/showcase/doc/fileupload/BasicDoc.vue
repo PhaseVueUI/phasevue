@@ -51,7 +51,7 @@ export default {
 
 <script setup>
 import { ref } from 'vue';
-import { useToast } from "primevue/usetoast";
+import { useToast } from "phasevue/usetoast";
 const toast = useToast();
 const fileupload = ref();
 

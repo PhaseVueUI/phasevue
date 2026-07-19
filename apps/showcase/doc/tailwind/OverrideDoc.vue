@@ -14,13 +14,13 @@
         <p>CSS Layer provides control over the css specificity so that Tailwind utilities can safely override components.</p>
 
         <h5>Tailwind v4</h5>
-        <p>Ensure <i>primevue</i> layer is after <i>theme</i> and <i>base</i>, but before the other Tailwind layers such as <i>utilities</i>.</p>
+        <p>Ensure <i>phasevue</i> layer is after <i>theme</i> and <i>base</i>, but before the other Tailwind layers such as <i>utilities</i>.</p>
         <DocSectionCode :code="code3" importCode hideToggleCode hideStackBlitz />
         <p>No change in the CSS configuration is required.</p>
         <DocSectionCode :code="code4" importCode hideToggleCode hideStackBlitz />
 
         <h5>Tailwind v3</h5>
-        <p>The <i>primevue</i> layer should be between base and utilities.</p>
+        <p>The <i>phasevue</i> layer should be between base and utilities.</p>
         <DocSectionCode :code="code5" importCode hideToggleCode hideStackBlitz />
         <p>Tailwind v3 does not use native <i>layer</i> so needs to be defined with CSS.</p>
         <DocSectionCode :code="code6" importCode hideToggleCode hideStackBlitz />
@@ -43,18 +43,18 @@ export default {
             },
             code3: {
                 basic: `
-import PrimeVue from 'primevue/config';
+import PhaseVue from 'phasevue/config';
 import Aura from '@primeuix/themes/aura';
 
 const app = createApp(App);
 
-app.use(PrimeVue, {
+app.use(PhaseVue, {
     theme: {
         preset: Aura,
         options: {
             cssLayer: {
-                name: 'primevue',
-                order: 'theme, base, primevue'
+                name: 'phasevue',
+                order: 'theme, base, phasevue'
             }
         }
     }
@@ -69,18 +69,18 @@ app.use(PrimeVue, {
             },
             code5: {
                 basic: `
-import PrimeVue from 'primevue/config';
+import PhaseVue from 'phasevue/config';
 import Aura from '@primeuix/themes/aura';
 
 const app = createApp(App);
 
-app.use(PrimeVue, {
+app.use(PhaseVue, {
     theme: {
         preset: Aura,
         options: {
             cssLayer: {
-                name: 'primevue',
-                order: 'tailwind-base, primevue, tailwind-utilities'
+                name: 'phasevue',
+                order: 'tailwind-base, phasevue, tailwind-utilities'
             }
         }
     }
@@ -89,7 +89,7 @@ app.use(PrimeVue, {
             },
             code6: {
                 basic: `
-@layer tailwind-base, primevue, tailwind-utilities;
+@layer tailwind-base, phasevue, tailwind-utilities;
 
 @layer tailwind-base {
   @tailwind base;

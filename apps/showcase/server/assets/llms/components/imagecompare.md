@@ -5,7 +5,7 @@ Compare two images side by side with a slider.
 ## Import
 
 ```javascript
-import ImageCompare from 'primevue/imagecompare';
+import ImageCompare from 'phasevue/imagecompare';
 ```
 
 ## Accessibility
@@ -30,10 +30,10 @@ Images are defined using templating with left and right slots. Use the style or 
 ```vue
 <ImageCompare class="shadow-lg rounded-2xl">
     <template #left>
-        <img src="~/assets/images/island1.jpg" />
+        <img src="/images/compare/island1.jpg" />
     </template>
     <template #right>
-        <img src="~/assets/images/island2.jpg" />
+        <img src="/images/compare/island2.jpg" />
     </template>
 </ImageCompare>
 ```
@@ -45,10 +45,10 @@ Apply responsive styles to the container element to optimize display per screen 
 ```vue
 <ImageCompare class="sm:!w-96 shadow-lg rounded-2xl">
     <template #left>
-        <img src="~/assets/images/island1.jpg" />
+        <img src="/images/compare/island1.jpg" />
     </template>
     <template #right>
-        <img src="~/assets/images/island2.jpg" />
+        <img src="/images/compare/island2.jpg" />
     </template>
 </ImageCompare>
 ```
@@ -61,10 +61,10 @@ Apply responsive styles to the container element to optimize display per screen 
     <div class="card flex justify-center">
         <ImageCompare class="sm:!w-96 shadow-lg">
             <template #left>
-                <img src="https://primefaces.org/cdn/primevue/images/compare/island1.jpg" />
+                <img src="/images/compare/island1.jpg" />
             </template>
             <template #right>
-                <img src="https://primefaces.org/cdn/primevue/images/compare/island2.jpg" />
+                <img src="/images/compare/island2.jpg" />
             </template>
         </ImageCompare>
     </div>

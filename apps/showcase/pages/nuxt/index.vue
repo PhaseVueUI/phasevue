@@ -1,16 +1,16 @@
 <template>
     <div>
         <Head>
-            <Title>Install PrimeVue with Nuxt</Title>
-            <Meta name="description" content="Setting up PrimeVue in a Nuxt project" />
+            <Title>Install PhaseVue with Nuxt</Title>
+            <Meta name="description" content="Setting up PhaseVue in a Nuxt project" />
         </Head>
         <div class="doc">
             <div class="doc-main">
                 <div class="doc-intro">
                     <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-4">
                         <div class="flex-1">
-                            <h1>Install PrimeVue with Nuxt</h1>
-                            <p>Setting up PrimeVue in a Nuxt project.</p>
+                            <h1>Install PhaseVue with Nuxt</h1>
+                            <p>Setting up PhaseVue in a Nuxt project.</p>
                         </div>
                         <DocCopyMarkdown docType="page" class="flex-shrink-0" />
                     </div>
@@ -37,7 +37,7 @@ import DirectivesDoc from '@/doc/nuxt/configuration/DirectivesDoc.vue';
 import ImportPTDoc from '@/doc/nuxt/configuration/ImportPTDoc.vue';
 import ImportThemeDoc from '@/doc/nuxt/configuration/ImportThemeDoc.vue';
 import OptionsDoc from '@/doc/nuxt/configuration/OptionsDoc.vue';
-import UsePrimeVueDoc from '@/doc/nuxt/configuration/UsePrimeVueDoc.vue';
+import UsePhaseVueDoc from '@/doc/nuxt/configuration/UsePhaseVueDoc.vue';
 
 export default {
     components: { DocCopyMarkdown },
@@ -69,9 +69,9 @@ export default {
                     label: 'Configuration',
                     children: [
                         {
-                            id: 'useprimevue',
-                            label: 'usePrimeVue',
-                            component: UsePrimeVueDoc
+                            id: 'usephasevue',
+                            label: 'usePhaseVue',
+                            component: UsePhaseVueDoc
                         },
                         {
                             id: 'options',

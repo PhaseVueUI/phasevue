@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import BaseIcon from '@primevue/icons/baseicon';
+import BaseIcon from '@phasevueui/icons/baseicon';
 
 export default {
     name: 'FilterSlashIcon',

@@ -9027,6 +9027,6 @@ export const CustomerService = {
                   .join('&')
             : '';
 
-        return fetch('https://www.primefaces.org/data/customers?' + queryParams).then((res) => res.json());
+        return fetch('https://phasevue.org/data/customers?' + queryParams).then((res) => res.json());
     }
 };

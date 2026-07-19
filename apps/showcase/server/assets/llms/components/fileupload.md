@@ -5,7 +5,7 @@ FileUpload is an advanced uploader with dragdrop support, multi file uploads, au
 ## Import
 
 ```javascript
-import FileUpload from 'primevue/fileupload';
+import FileUpload from 'phasevue/fileupload';
 ```
 
 ## Accessibility
@@ -40,7 +40,7 @@ Advanced uploader provides dragdrop support, multi file uploads, auto uploading,
 </template>
 
 <script setup>
-import { useToast } from "primevue/usetoast";
+import { useToast } from "phasevue/usetoast";
 const toast = useToast();
 
 const onAdvancedUpload = () => {
@@ -71,7 +71,7 @@ When auto property is enabled, a file gets uploaded instantly after selection.
 </template>
 
 <script setup>
-import { useToast } from "primevue/usetoast";
+import { useToast } from "phasevue/usetoast";
 const toast = useToast();
 
 const onUpload = () => {
@@ -260,10 +260,10 @@ Uploader UI can be customized with templating.
 
 <script setup>
 import { ref } from 'vue';
-import { usePrimeVue } from 'primevue/config';
-import { useToast } from "primevue/usetoast";
+import { usePhaseVue } from 'phasevue/config';
+import { useToast } from "phasevue/usetoast";
 
-const $primevue = usePrimeVue();
+const $phasevue = usePhaseVue();
 const toast = useToast();
 
 const totalSize = ref(0);
@@ -301,7 +301,7 @@ const onTemplatedUpload = () => {
 const formatSize = (bytes) => {
     const k = 1024;
     const dm = 3;
-    const sizes = $primevue.config.locale.fileSizeTypes;
+    const sizes = $phasevue.config.locale.fileSizeTypes;
 
     if (bytes === 0) {
         return \`0 \${sizes[0]}\`;
@@ -337,10 +337,10 @@ const formatSize = (bytes) => {
 | fileLimit               | number                                    | -                                                          | Maximum number of files that can be uploaded.                                                                                              |
 | withCredentials         | boolean                                   | false                                                      | Cross-site Access-Control requests should be made using credentials such as cookies, authorization headers or TLS client certificates.     |
 | previewWidth            | number                                    | 50                                                         | Width of the image thumbnail in pixels.                                                                                                    |
-| chooseLabel             | string                                    | -                                                          | Label of the choose button. Defaults to PrimeVue Locale configuration.                                                                     |
-| uploadLabel             | string                                    | -                                                          | Label of the upload button. Defaults to PrimeVue Locale configuration.                                                                     |
-| cancelLabel             | string                                    | Cancel                                                     | Label of the cancel button. Defaults to PrimeVue Locale configuration.                                                                     |
-| customUpload            | boolean                                   | -                                                          | Whether to use the default upload or a manual implementation defined in uploadHandler callback. Defaults to PrimeVue Locale configuration. |
+| chooseLabel             | string                                    | -                                                          | Label of the choose button. Defaults to PhaseVue Locale configuration.                                                                     |
+| uploadLabel             | string                                    | -                                                          | Label of the upload button. Defaults to PhaseVue Locale configuration.                                                                     |
+| cancelLabel             | string                                    | Cancel                                                     | Label of the cancel button. Defaults to PhaseVue Locale configuration.                                                                     |
+| customUpload            | boolean                                   | -                                                          | Whether to use the default upload or a manual implementation defined in uploadHandler callback. Defaults to PhaseVue Locale configuration. |
 | showUploadButton        | boolean                                   | true                                                       | Whether to show the upload button.                                                                                                         |
 | showCancelButton        | boolean                                   | true                                                       | Whether to show the cancel button.                                                                                                         |
 | chooseIcon              | string                                    | -                                                          | Icon of the choose button.                                                                                                                 |
