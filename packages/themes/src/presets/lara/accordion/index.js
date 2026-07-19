@@ -1,1 +1,3 @@
-export { default } from '@primeuix/themes/lara/accordion';
+import preset from '../index.js';
+
+export default preset.components.accordion;

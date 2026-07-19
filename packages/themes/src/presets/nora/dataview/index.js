@@ -1,1 +1,3 @@
-export { default } from '@primeuix/themes/nora/dataview';
+import preset from '../index.js';
+
+export default preset.components.dataview;

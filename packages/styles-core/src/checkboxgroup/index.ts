@@ -1,1 +1,1 @@
-export * from '@primeuix/styles/checkboxgroup';
+var style="\n    .p-checkbox-group {\n        display: inline-flex;\n    }\n";export{style};//# sourceMappingURL=index.mjs.map

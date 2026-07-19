@@ -47,7 +47,7 @@ The options property defines the how the CSS would be generated from the design 
 The theme property is used to customize the initial theme.
 
 ```vue
-import PhaseVue from 'phasevue/config'; import Aura from '@primeuix/themes/aura'; const app = createApp(App); app.use(PhaseVue, { // Default theme configuration theme: { preset: Aura, options: { prefix: 'p', darkModeSelector: 'system', cssLayer:
+import PhaseVue from 'phasevue/config'; import Aura from '@phasevueui/themes/aura'; const app = createApp(App); app.use(PhaseVue, { // Default theme configuration theme: { preset: Aura, options: { prefix: 'p', darkModeSelector: 'system', cssLayer:
 false } } });
 ```
 
@@ -85,7 +85,7 @@ const MyPreset = definePreset(Aura, { components: { card: { colorScheme: { light
 The definePreset utility is used to customize an existing preset during the PhaseVue setup. The first parameter is the preset to customize and the second is the design tokens to override.
 
 ```vue
-import PhaseVue from 'phasevue/config'; import { definePreset } from '@primeuix/themes'; import Aura from '@primeuix/themes/aura'; const MyPreset = definePreset(Aura, { //Your customizations, see the following sections for examples });
+import PhaseVue from 'phasevue/config'; import { definePreset } from '@phasevueui/themes'; import Aura from '@phasevueui/themes/aura'; const MyPreset = definePreset(Aura, { //Your customizations, see the following sections for examples });
 app.use(PhaseVue, { theme: { preset: MyPreset } });
 ```
 
@@ -154,7 +154,7 @@ const MyPreset = definePreset(Aura, { semantic: { colorScheme: { light: { surfac
 The $dt function returns the information about a token like the full path and value. This would be useful if you need to access tokens programmatically.
 
 ```vue
-import { $dt } from '@primeuix/themes'; const duration = $dt('transition.duration'); /* duration: { name: '--transition-duration', variable: 'var(--p-transition-duration)', value: '0.2s' } */ const primaryColor = $dt('primary.color'); /*
+import { $dt } from '@phasevueui/themes'; const duration = $dt('transition.duration'); /* duration: { name: '--transition-duration', variable: 'var(--p-transition-duration)', value: '0.2s' } */ const primaryColor = $dt('primary.color'); /*
 primaryColor: { name: '--primary-color', variable: 'var(--p-primary-color)', value: { light: { value: '#10b981', paths: { name: 'semantic.primary.color', binding: { name: 'primitive.emerald.500' } } }, dark: { value: '#34d399', paths: { name:
 'semantic.primary.color', binding: { name: 'primitive.emerald.400' } } } } } */
 ```
@@ -164,7 +164,7 @@ primaryColor: { name: '--primary-color', variable: 'var(--p-primary-color)', val
 Returns shades and tints of a given color from 50 to 950 as an object.
 
 ```vue
-import { palette } from '@primeuix/themes'; // custom color const values1 = palette('#10b981'); // copy an existing token set const primaryColor = palette('{blue}');
+import { palette } from '@phasevueui/themes'; // custom color const values1 = palette('#10b981'); // copy an existing token set const primaryColor = palette('{blue}');
 ```
 
 ## Update Preset
@@ -172,7 +172,7 @@ import { palette } from '@primeuix/themes'; // custom color const values1 = pale
 Merges the provided tokens to the current preset, an example would be changing the primary color palette dynamically.
 
 ```vue
-import { updatePreset } from '@primeuix/themes'; const changePrimaryColor() { updatePreset({ semantic: { primary: { 50: '{indigo.50}', 100: '{indigo.100}', 200: '{indigo.200}', 300: '{indigo.300}', 400: '{indigo.400}', 500: '{indigo.500}', 600:
+import { updatePreset } from '@phasevueui/themes'; const changePrimaryColor() { updatePreset({ semantic: { primary: { 50: '{indigo.50}', 100: '{indigo.100}', 200: '{indigo.200}', 300: '{indigo.300}', 400: '{indigo.400}', 500: '{indigo.500}', 600:
 '{indigo.600}', 700: '{indigo.700}', 800: '{indigo.800}', 900: '{indigo.900}', 950: '{indigo.950}' } } }) }
 ```
 
@@ -181,7 +181,7 @@ import { updatePreset } from '@primeuix/themes'; const changePrimaryColor() { up
 Updates the primary colors, this is a shorthand to do the same update using updatePreset .
 
 ```vue
-import { updatePrimaryPalette } from '@primeuix/themes'; const changePrimaryColor() { updatePrimaryPalette({ 50: '{indigo.50}', 100: '{indigo.100}', 200: '{indigo.200}', 300: '{indigo.300}', 400: '{indigo.400}', 500: '{indigo.500}', 600:
+import { updatePrimaryPalette } from '@phasevueui/themes'; const changePrimaryColor() { updatePrimaryPalette({ 50: '{indigo.50}', 100: '{indigo.100}', 200: '{indigo.200}', 300: '{indigo.300}', 400: '{indigo.400}', 500: '{indigo.500}', 600:
 '{indigo.600}', 700: '{indigo.700}', 800: '{indigo.800}', 900: '{indigo.900}', 950: '{indigo.950}' }); }
 ```
 
@@ -190,7 +190,7 @@ import { updatePrimaryPalette } from '@primeuix/themes'; const changePrimaryColo
 Updates the surface colors, this is a shorthand to do the same update using updatePreset .
 
 ```vue
-import { updateSurfacePalette } from '@primeuix/themes'; const changeSurfaces() { //changes surfaces both in light and dark mode updateSurfacePalette({ 50: '{zinc.50}', // ... 950: '{zinc.950}' }); } const changeLightSurfaces() { //changes surfaces
+import { updateSurfacePalette } from '@phasevueui/themes'; const changeSurfaces() { //changes surfaces both in light and dark mode updateSurfacePalette({ 50: '{zinc.50}', // ... 950: '{zinc.950}' }); } const changeLightSurfaces() { //changes surfaces
 only in light updateSurfacePalette({ light: { 50: '{zinc.50}', // ... 950: '{zinc.950}' } }); } const changeDarkSurfaces() { //changes surfaces only in dark mode updateSurfacePalette({ dark: { 50: '{zinc.50}', // ... 950: '{zinc.950}' } }); }
 ```
 
@@ -199,5 +199,5 @@ only in light updateSurfacePalette({ light: { 50: '{zinc.50}', // ... 950: '{zin
 Replaces the current presets entirely, common use case is changing the preset dynamically at runtime.
 
 ```vue
-import { usePreset } from '@primeuix/themes'; const onButtonClick() { usePreset(MyPreset); }
+import { usePreset } from '@phasevueui/themes'; const onButtonClick() { usePreset(MyPreset); }
 ```

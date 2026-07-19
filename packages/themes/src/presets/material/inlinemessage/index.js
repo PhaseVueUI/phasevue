@@ -1,1 +1,3 @@
-export { default } from '@primeuix/themes/material/inlinemessage';
+import preset from '../index.js';
+
+export default preset.components.inlinemessage;

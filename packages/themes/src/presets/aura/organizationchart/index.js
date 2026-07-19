@@ -1,1 +1,3 @@
-export { default } from '@primeuix/themes/aura/organizationchart';
+import preset from '../index.js';
+
+export default preset.components.organizationchart;

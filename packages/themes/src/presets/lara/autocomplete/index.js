@@ -1,1 +1,3 @@
-export { default } from '@primeuix/themes/lara/autocomplete';
+import preset from '../index.js';
+
+export default preset.components.autocomplete;

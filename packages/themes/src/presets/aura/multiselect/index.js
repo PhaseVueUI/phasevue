@@ -1,1 +1,3 @@
-export { default } from '@primeuix/themes/aura/multiselect';
+import preset from '../index.js';
+
+export default preset.components.multiselect;

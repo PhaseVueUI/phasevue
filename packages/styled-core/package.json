@@ -51,7 +51,7 @@
         "build:postbuild": "node ./scripts/postbuild.mjs"
     },
     "dependencies": {
-        "@primeuix/styled": "catalog:"
+        "@phasevueui/utils": "workspace:*"
     },
     "devDependencies": {
         "tsup": "^8.1.0"

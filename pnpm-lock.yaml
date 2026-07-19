@@ -28,18 +28,6 @@ catalogs:
       specifier: 6.0.11
       version: 6.0.11
   default:
-    '@primeuix/mcp':
-      specifier: ^1.0.0
-      version: 1.0.1
-    '@primeuix/styled':
-      specifier: ^0.7.4
-      version: 0.7.4
-    '@primeuix/styles':
-      specifier: ^2.0.3
-      version: 2.0.3
-    '@primeuix/themes':
-      specifier: ^2.0.3
-      version: 2.0.3
     tailwindcss-primeui:
       specifier: ^0.6.1
       version: 0.6.1
@@ -258,9 +246,12 @@ importers:
 
   packages/mcp-core:
     dependencies:
-      '@primeuix/mcp':
-        specifier: 'catalog:'
-        version: 1.0.1
+      '@modelcontextprotocol/sdk':
+        specifier: ^1.25.2
+        version: 1.29.0(zod@3.25.76)
+      zod:
+        specifier: ^3.25.76
+        version: 3.25.76
     devDependencies:
       tsup:
         specifier: ^8.1.0
@@ -365,9 +356,9 @@ importers:
 
   packages/styled-core:
     dependencies:
-      '@primeuix/styled':
-        specifier: 'catalog:'
-        version: 0.7.4
+      '@phasevueui/utils':
+        specifier: workspace:*
+        version: link:../utils
     devDependencies:
       tsup:
         specifier: ^8.1.0
@@ -375,10 +366,6 @@ importers:
     publishDirectory: dist
 
   packages/styles-core:
-    dependencies:
-      '@primeuix/styles':
-        specifier: 'catalog:'
-        version: 2.0.3
     devDependencies:
       tsup:
         specifier: ^8.1.0
@@ -390,9 +377,6 @@ importers:
       '@phasevueui/styled-core':
         specifier: workspace:*
         version: link:../styled-core
-      '@primeuix/themes':
-        specifier: 'catalog:'
-        version: 2.0.3
     publishDirectory: dist
 
   packages/utils:
@@ -2075,24 +2059,6 @@ packages:
 
   '@poppinss/exception@1.2.3':
     resolution: {integrity: sha512-dCED+QRChTVatE9ibtoaxc+WkdzOSjYTKi/+uacHWIsfodVfpsueo3+DKpgU5Px8qXjgmXkSvhXvSCz3fnP9lw==}
-
-  '@primeuix/mcp@1.0.1':
-    resolution: {integrity: sha512-TSaakkktu2Yt5HnD2q9HucxpXt6LawodBntjsXlhgZlMSLK1vo647A7lgW1hztsZuzQl1zlk8A+6OMmGY8Xnfg==}
-    engines: {node: '>=12.11.0'}
-
-  '@primeuix/styled@0.7.4':
-    resolution: {integrity: sha512-QSO/NpOQg8e9BONWRBx9y8VGMCMYz0J/uKfNJEya/RGEu7ARx0oYW0ugI1N3/KB1AAvyGxzKBzGImbwg0KUiOQ==}
-    engines: {node: '>=12.11.0'}
-
-  '@primeuix/styles@2.0.3':
-    resolution: {integrity: sha512-2ykAB6BaHzR/6TwF8ShpJTsZrid6cVIEBVlookSdvOdmlWuevGu5vWOScgIwqWwlZcvkFYAGR/SUV3OHCTBMdw==}
-
-  '@primeuix/themes@2.0.3':
-    resolution: {integrity: sha512-3fS1883mtCWhgUgNf/feiaaDSOND4EBIOu9tZnzJlJ8QtYyL6eFLcA6V3ymCWqLVXQ1+lTVEZv1gl47FIdXReg==}
-
-  '@primeuix/utils@0.6.4':
-    resolution: {integrity: sha512-pZ5f+vj7wSzRhC7KoEQRU5fvYAe+RP9+m39CTscZ3UywCD1Y2o6Fe1rRgklMPSkzUcty2jzkA0zMYkiJBD1hgg==}
-    engines: {node: '>=12.11.0'}
 
   '@rolldown/pluginutils@1.0.0-rc.14':
     resolution: {integrity: sha512-ktoSqSpdex3xml4M3wV//KiF8MiQkMz8bz2e7SUJvCK9qyL/XjAnLLB+UO3+uE9RLxqUhuDzddc7Cf+EaZ169Q==}
@@ -9452,28 +9418,6 @@ snapshots:
       supports-color: 10.2.2
 
   '@poppinss/exception@1.2.3': {}
-
-  '@primeuix/mcp@1.0.1':
-    dependencies:
-      '@modelcontextprotocol/sdk': 1.29.0(zod@3.25.76)
-      zod: 3.25.76
-    transitivePeerDependencies:
-      - '@cfworker/json-schema'
-      - supports-color
-
-  '@primeuix/styled@0.7.4':
-    dependencies:
-      '@primeuix/utils': 0.6.4
-
-  '@primeuix/styles@2.0.3':
-    dependencies:
-      '@primeuix/styled': 0.7.4
-
-  '@primeuix/themes@2.0.3':
-    dependencies:
-      '@primeuix/styled': 0.7.4
-
-  '@primeuix/utils@0.6.4': {}
 
   '@rolldown/pluginutils@1.0.0-rc.14': {}
 

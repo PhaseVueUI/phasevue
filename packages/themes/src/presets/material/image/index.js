@@ -1,1 +1,3 @@
-export { default } from '@primeuix/themes/material/image';
+import preset from '../index.js';
+
+export default preset.components.image;

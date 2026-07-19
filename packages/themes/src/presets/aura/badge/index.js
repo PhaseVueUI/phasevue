@@ -1,1 +1,3 @@
-export { default } from '@primeuix/themes/aura/badge';
+import preset from '../index.js';
+
+export default preset.components.badge;

@@ -1,1 +1,3 @@
-export { default } from '@primeuix/themes/nora/togglebutton';
+import preset from '../index.js';
+
+export default preset.components.togglebutton;

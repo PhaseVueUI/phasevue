@@ -1,1 +1,3 @@
-export { default } from '@primeuix/themes/nora/stepper';
+import preset from '../index.js';
+
+export default preset.components.stepper;

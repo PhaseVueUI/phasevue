@@ -42,7 +42,7 @@ A complete example using a PhaseVue DatePicker. You can also view this sample li
     <body>
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"><\/script>
         <script src="https://unpkg.com/phasevue/umd/phasevue.min.js"><\/script>
-        <script src="https://unpkg.com/@primeuix/themes/umd/aura.js"><\/script>
+        <script src="https://unpkg.com/@phasevueui/themes/umd/aura.js"><\/script>
 
         <div id="app">
             <p-datepicker v-model="date"></p-datepicker>
@@ -90,7 +90,7 @@ app.use(PhaseVue.Config);
 You can use PhaseVue and Vue.js from a CDN with a script tag. This approach does not involve any build step, and is suitable for enhancing static HTML. This guide uses unpkg however other providers such as jsdeliver and cdnjs can also be used.
 
 ```vue
-https://unpkg.com/vue@3/dist/vue.global.js https://unpkg.com/phasevue/umd/phasevue.min.js https://unpkg.com/@primeuix/themes/umd/aura.js // see theming for alternatives
+https://unpkg.com/vue@3/dist/vue.global.js https://unpkg.com/phasevue/umd/phasevue.min.js https://unpkg.com/@phasevueui/themes/umd/aura.js // see theming for alternatives
 ```
 
 ## Theming
@@ -98,10 +98,10 @@ https://unpkg.com/vue@3/dist/vue.global.js https://unpkg.com/phasevue/umd/phasev
 Include the theme preset via a script element after adding PhaseVue, valid options are Aura, Lara, Nora and Material.
 
 ```vue
-<!-- <script src="https://unpkg.com/@primeuix/themes/umd/{preset}.js"><\/script> -->
+<!-- <script src="https://unpkg.com/@phasevueui/themes/umd/{preset}.js"><\/script> -->
 
-<script src="https://unpkg.com/@primeuix/themes/umd/aura.js"><\/script>
-<script src="https://unpkg.com/@primeuix/themes/umd/lara.js"><\/script>
-<script src="https://unpkg.com/@primeuix/themes/umd/nora.js"><\/script>
-<script src="https://unpkg.com/@primeuix/themes/umd/material.js"><\/script>
+<script src="https://unpkg.com/@phasevueui/themes/umd/aura.js"><\/script>
+<script src="https://unpkg.com/@phasevueui/themes/umd/lara.js"><\/script>
+<script src="https://unpkg.com/@phasevueui/themes/umd/nora.js"><\/script>
+<script src="https://unpkg.com/@phasevueui/themes/umd/material.js"><\/script>
 ```

@@ -47,7 +47,7 @@ import { createApp } from "vue"; import PhaseVue from "phasevue/config"; const a
 Style mode offers theming based on a design token based architecture. See the styled mode documentation for details such as building your own theme.
 
 ```vue
-import PhaseVue from 'phasevue/config'; import Aura from '@primeuix/themes/aura'; const app = createApp(App); app.use(PhaseVue, { theme: { preset: Aura, options: { prefix: 'p', darkModeSelector: 'system', cssLayer: false } } });
+import PhaseVue from 'phasevue/config'; import Aura from '@phasevueui/themes/aura'; const app = createApp(App); app.use(PhaseVue, { theme: { preset: Aura, options: { prefix: 'p', darkModeSelector: 'system', cssLayer: false } } });
 ```
 
 ## Unstyled

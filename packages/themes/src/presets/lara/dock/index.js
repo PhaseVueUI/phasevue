@@ -1,1 +1,3 @@
-export { default } from '@primeuix/themes/lara/dock';
+import preset from '../index.js';
+
+export default preset.components.dock;

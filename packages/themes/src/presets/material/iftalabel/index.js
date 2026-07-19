@@ -1,1 +1,3 @@
-export { default } from '@primeuix/themes/material/iftalabel';
+import preset from '../index.js';
+
+export default preset.components.iftalabel;

@@ -1,1 +1,1 @@
-export * from '@primeuix/styles/radiobuttongroup';
+var style="\n    .p-radiobutton-group {\n        display: inline-flex;\n    }\n";export{style};//# sourceMappingURL=index.mjs.map

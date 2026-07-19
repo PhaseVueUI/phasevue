@@ -1,1 +1,3 @@
-export { default } from '@primeuix/themes/aura/contextmenu';
+import preset from '../index.js';
+
+export default preset.components.contextmenu;

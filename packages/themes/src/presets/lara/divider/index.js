@@ -1,1 +1,3 @@
-export { default } from '@primeuix/themes/lara/divider';
+import preset from '../index.js';
+
+export default preset.components.divider;

@@ -1,1 +1,3 @@
-export { default } from '@primeuix/themes/lara/inplace';
+import preset from '../index.js';
+
+export default preset.components.inplace;

@@ -5,7 +5,7 @@
 PhaseVue is available for download on npm registry .
 
 ```vue
-# Using npm npm install phasevue @primeuix/themes # Using yarn yarn add phasevue @primeuix/themes # Using pnpm pnpm add phasevue @primeuix/themes
+# Using npm npm install phasevue @phasevueui/themes # Using yarn yarn add phasevue @phasevueui/themes # Using pnpm pnpm add phasevue @phasevueui/themes
 ```
 
 ## Examples

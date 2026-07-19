@@ -1,1 +1,3 @@
-export { default } from '@primeuix/themes/lara/popover';
+import preset from '../index.js';
+
+export default preset.components.popover;

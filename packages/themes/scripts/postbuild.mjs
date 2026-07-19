@@ -7,7 +7,10 @@ const { __dirname, __workspace, INPUT_DIR, OUTPUT_DIR } = resolvePath(import.met
 copyDependencies(INPUT_DIR + '/presets/', OUTPUT_DIR);
 renameDTSFile(OUTPUT_DIR, 'index');
 
-fs.copySync(path.resolve(__dirname, '../src/index.d.ts'), `${OUTPUT_DIR}/index.d.ts`);
+fs.copyFileSync(path.resolve(__dirname, '../src/index.d.ts'), `${OUTPUT_DIR}/index.d.ts`);
+fs.mkdirSync(path.resolve(__dirname, `../${OUTPUT_DIR}/tokens`), { recursive: true });
+fs.copyFileSync(path.resolve(__dirname, '../src/tokens/index.d.ts'), `${OUTPUT_DIR}/tokens/index.d.ts`);
+fs.writeFileSync(`${OUTPUT_DIR}/index.d.ts`, fs.readFileSync(`${OUTPUT_DIR}/index.d.ts`, 'utf8').replace("from '../types/index'", "from './types/index'"));
 fs.copySync(path.resolve(__dirname, '../types'), `${OUTPUT_DIR}/types`);
 fs.copySync(path.resolve(__dirname, '../package.json'), `${OUTPUT_DIR}/package.json`);
 fs.copySync(path.resolve(__dirname, '../README.md'), `${OUTPUT_DIR}/README.md`);

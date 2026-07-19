@@ -1,1 +1,3 @@
-export { default } from '@primeuix/themes/aura/dialog';
+import preset from '../index.js';
+
+export default preset.components.dialog;

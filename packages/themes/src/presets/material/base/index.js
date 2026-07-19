@@ -1,1 +1,3 @@
-export { default } from '@primeuix/themes/material/base';
+import preset from '../index.js';
+
+export default { primitive: preset.primitive, semantic: preset.semantic };

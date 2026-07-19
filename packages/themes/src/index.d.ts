@@ -1,1 +1,2 @@
-export * from '@primeuix/themes';
+export * from '@phasevueui/styled-core';
+export * from '../types/index';

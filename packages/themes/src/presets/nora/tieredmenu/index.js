@@ -1,1 +1,3 @@
-export { default } from '@primeuix/themes/nora/tieredmenu';
+import preset from '../index.js';
+
+export default preset.components.tieredmenu;

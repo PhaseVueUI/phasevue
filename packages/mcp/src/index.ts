@@ -90,7 +90,7 @@ runPrimeMcpServer({
                     required: true
                 }
             },
-            handler: async (_data, args) => {
+            handler: async (_data: ComponentsData, args: Record<string, unknown>) => {
                 const nameArg = args?.name as string | undefined;
 
                 if (!nameArg) {

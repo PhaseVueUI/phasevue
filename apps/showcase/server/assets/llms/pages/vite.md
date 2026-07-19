@@ -7,7 +7,7 @@ Setting up PhaseVue in a Vite project.
 PhaseVue is available for download on npm registry .
 
 ```vue
-# Using npm npm install phasevue @primeuix/themes # Using yarn yarn add phasevue @primeuix/themes # Using pnpm pnpm add phasevue @primeuix/themes
+# Using npm npm install phasevue @phasevueui/themes # Using yarn yarn add phasevue @phasevueui/themes # Using pnpm pnpm add phasevue @phasevueui/themes
 ```
 
 ## Examples
@@ -31,7 +31,7 @@ import { createApp } from 'vue'; import PhaseVue from 'phasevue/config'; const a
 Configure PhaseVue to use a theme like Aura.
 
 ```vue
-import { createApp } from 'vue'; import PhaseVue from 'phasevue/config'; import Aura from '@primeuix/themes/aura'; const app = createApp(App); app.use(PhaseVue, { theme: { preset: Aura } });
+import { createApp } from 'vue'; import PhaseVue from 'phasevue/config'; import Aura from '@phasevueui/themes/aura'; const app = createApp(App); app.use(PhaseVue, { theme: { preset: Aura } });
 ```
 
 ## Verify

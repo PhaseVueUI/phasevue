@@ -1,1 +1,3 @@
-export { default } from '@primeuix/themes/lara/image';
+import preset from '../index.js';
+
+export default preset.components.image;

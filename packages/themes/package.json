@@ -87,8 +87,7 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@phasevueui/styled-core": "workspace:*",
-        "@primeuix/themes": "catalog:"
+        "@phasevueui/styled-core": "workspace:*"
     },
     "engines": {
         "node": ">=12.11.0"

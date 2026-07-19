@@ -11,7 +11,7 @@ The auto import feature registers components automatically with tree shaking sup
 PhaseVue is available for download on npm registry along with the official @phasevueui/nuxt-module .
 
 ```vue
-# Using npm npm install phasevue @primeuix/themes npm install --save-dev @phasevueui/nuxt-module # Using yarn yarn add phasevue @primeuix/themes yarn add --dev @phasevueui/nuxt-module # Using pnpm pnpm add phasevue @primeuix/themes pnpm add -D
+# Using npm npm install phasevue @phasevueui/themes npm install --save-dev @phasevueui/nuxt-module # Using yarn yarn add phasevue @phasevueui/themes yarn add --dev @phasevueui/nuxt-module # Using pnpm pnpm add phasevue @phasevueui/themes pnpm add -D
 @phasevueui/nuxt-module
 ```
 
@@ -29,14 +29,14 @@ Welcome to the Prime UI Ecosystem! Once you have PhaseVue up and running, we rec
 
 ## Styled Mode
 
-Styled mode provides pre-skinned components, default theme is Aura with emerald as the primary color. See the styled mode documentation for details. Install the @primeuix/themes add-on package as the themes are not included in PhaseVue by default. Configure the module to use a theme like Aura.
+Styled mode provides pre-skinned components, default theme is Aura with emerald as the primary color. See the styled mode documentation for details. Install the @phasevueui/themes add-on package as the themes are not included in PhaseVue by default. Configure the module to use a theme like Aura.
 
 ## Theme
 
 Configure the module to use a theme like Aura.
 
 ```vue
-import Aura from '@primeuix/themes/aura'; export default defineNuxtConfig({ modules: [ '@phasevueui/nuxt-module' ], phasevue: { options: { theme: { preset: Aura } } } })
+import Aura from '@phasevueui/themes/aura'; export default defineNuxtConfig({ modules: [ '@phasevueui/nuxt-module' ], phasevue: { options: { theme: { preset: Aura } } } })
 ```
 
 ## Unstyled Mode
@@ -80,7 +80,7 @@ Configures the theme configuration path for the customizations of a theme in sty
 Main configuration settings of PhaseVue, refer to the configuration documentation for details.
 
 ```vue
-import Aura from '@primeuix/themes/aura'; export default defineNuxtConfig({ modules: [ '@phasevueui/nuxt-module' ], phasevue: { options: { ripple: true, inputVariant: 'filled', theme: { preset: Aura, options: { prefix: 'p', darkModeSelector: 'system',
+import Aura from '@phasevueui/themes/aura'; export default defineNuxtConfig({ modules: [ '@phasevueui/nuxt-module' ], phasevue: { options: { ripple: true, inputVariant: 'filled', theme: { preset: Aura, options: { prefix: 'p', darkModeSelector: 'system',
 cssLayer: false } } } } })
 ```
 

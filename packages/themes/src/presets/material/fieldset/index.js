@@ -1,1 +1,3 @@
-export { default } from '@primeuix/themes/material/fieldset';
+import preset from '../index.js';
+
+export default preset.components.fieldset;

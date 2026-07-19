@@ -38699,7 +38699,7 @@
                     "label": "Theme",
                     "description": "Style mode offers theming based on a design token based architecture. See the styled mode documentation for details such as building your own theme.",
                     "examples": {
-                        "basic": "import PhaseVue from 'phasevue/config';\nimport Aura from '@primeuix/themes/aura';\n\nconst app = createApp(App);\n\napp.use(PhaseVue, {\n    theme: {\n        preset: Aura,\n        options: {\n            prefix: 'p',\n            darkModeSelector: 'system',\n            cssLayer: false\n        }\n    }\n });"
+                        "basic": "import PhaseVue from 'phasevue/config';\nimport Aura from '@phasevueui/themes/aura';\n\nconst app = createApp(App);\n\napp.use(PhaseVue, {\n    theme: {\n        preset: Aura,\n        options: {\n            prefix: 'p',\n            darkModeSelector: 'system',\n            cssLayer: false\n        }\n    }\n });"
                     }
                 },
                 {
@@ -38819,7 +38819,7 @@
                     "label": "Theme",
                     "description": "The theme property is used to customize the initial theme.",
                     "examples": {
-                        "basic": "import PhaseVue from 'phasevue/config';\nimport Aura from '@primeuix/themes/aura';\n\nconst app = createApp(App);\n\napp.use(PhaseVue, {\n    // Default theme configuration\n    theme: {\n        preset: Aura,\n        options: {\n            prefix: 'p',\n            darkModeSelector: 'system',\n            cssLayer: false\n        }\n    }\n });"
+                        "basic": "import PhaseVue from 'phasevue/config';\nimport Aura from '@phasevueui/themes/aura';\n\nconst app = createApp(App);\n\napp.use(PhaseVue, {\n    // Default theme configuration\n    theme: {\n        preset: Aura,\n        options: {\n            prefix: 'p',\n            darkModeSelector: 'system',\n            cssLayer: false\n        }\n    }\n });"
                     }
                 },
                 {
@@ -38861,7 +38861,7 @@
                     "label": "Define Preset",
                     "description": "The definePreset utility is used to customize an existing preset during the PhaseVue setup. The first parameter is the preset to customize and the second is the design tokens to override.",
                     "examples": {
-                        "basic": "import PhaseVue from 'phasevue/config';\nimport { definePreset } from '@primeuix/themes';\nimport Aura from '@primeuix/themes/aura';\n\nconst MyPreset = definePreset(Aura, {\n    //Your customizations, see the following sections for examples\n});\n\napp.use(PhaseVue, {\n    theme: {\n        preset: MyPreset\n    }\n });"
+                        "basic": "import PhaseVue from 'phasevue/config';\nimport { definePreset } from '@phasevueui/themes';\nimport Aura from '@phasevueui/themes/aura';\n\nconst MyPreset = definePreset(Aura, {\n    //Your customizations, see the following sections for examples\n});\n\napp.use(PhaseVue, {\n    theme: {\n        preset: MyPreset\n    }\n });"
                     }
                 },
                 {
@@ -38923,7 +38923,7 @@
                     "label": "D T",
                     "description": "The $dt function returns the information about a token like the full path and value. This would be useful if you need to access tokens programmatically.",
                     "examples": {
-                        "basic": "import { $dt } from '@primeuix/themes';\n\nconst duration = $dt('transition.duration');\n/*\n    duration: {\n        name: '--transition-duration',\n        variable: 'var(--p-transition-duration)',\n        value: '0.2s'\n    }\n*/\n\nconst primaryColor = $dt('primary.color');\n/*\n    primaryColor: {\n        name: '--primary-color',\n        variable: 'var(--p-primary-color)',\n        value: {\n        light: {\n            value: '#10b981',\n            paths: {\n                name: 'semantic.primary.color',\n                binding: {\n                    name: 'primitive.emerald.500'\n                }\n            }\n        },\n        dark: {\n            value: '#34d399',\n            paths: {\n                name: 'semantic.primary.color',\n                binding: {\n                    name: 'primitive.emerald.400'\n                }\n            }\n        }\n    }\n}\n*/"
+                        "basic": "import { $dt } from '@phasevueui/themes';\n\nconst duration = $dt('transition.duration');\n/*\n    duration: {\n        name: '--transition-duration',\n        variable: 'var(--p-transition-duration)',\n        value: '0.2s'\n    }\n*/\n\nconst primaryColor = $dt('primary.color');\n/*\n    primaryColor: {\n        name: '--primary-color',\n        variable: 'var(--p-primary-color)',\n        value: {\n        light: {\n            value: '#10b981',\n            paths: {\n                name: 'semantic.primary.color',\n                binding: {\n                    name: 'primitive.emerald.500'\n                }\n            }\n        },\n        dark: {\n            value: '#34d399',\n            paths: {\n                name: 'semantic.primary.color',\n                binding: {\n                    name: 'primitive.emerald.400'\n                }\n            }\n        }\n    }\n}\n*/"
                     }
                 },
                 {
@@ -38931,7 +38931,7 @@
                     "label": "Palette",
                     "description": "Returns shades and tints of a given color from 50 to 950 as an object.",
                     "examples": {
-                        "basic": "import { palette } from '@primeuix/themes';\n\n// custom color\nconst values1 = palette('#10b981');\n\n// copy an existing token set\nconst primaryColor = palette('{blue}');"
+                        "basic": "import { palette } from '@phasevueui/themes';\n\n// custom color\nconst values1 = palette('#10b981');\n\n// copy an existing token set\nconst primaryColor = palette('{blue}');"
                     }
                 },
                 {
@@ -38939,7 +38939,7 @@
                     "label": "Update Preset",
                     "description": "Merges the provided tokens to the current preset, an example would be changing the primary color palette dynamically.",
                     "examples": {
-                        "basic": "import { updatePreset } from '@primeuix/themes';\n\nconst changePrimaryColor() {\n    updatePreset({\n        semantic: {\n            primary: {\n                50: '{indigo.50}',\n                100: '{indigo.100}',\n                200: '{indigo.200}',\n                300: '{indigo.300}',\n                400: '{indigo.400}',\n                500: '{indigo.500}',\n                600: '{indigo.600}',\n                700: '{indigo.700}',\n                800: '{indigo.800}',\n                900: '{indigo.900}',\n                950: '{indigo.950}'\n            }\n        }\n    })\n}"
+                        "basic": "import { updatePreset } from '@phasevueui/themes';\n\nconst changePrimaryColor() {\n    updatePreset({\n        semantic: {\n            primary: {\n                50: '{indigo.50}',\n                100: '{indigo.100}',\n                200: '{indigo.200}',\n                300: '{indigo.300}',\n                400: '{indigo.400}',\n                500: '{indigo.500}',\n                600: '{indigo.600}',\n                700: '{indigo.700}',\n                800: '{indigo.800}',\n                900: '{indigo.900}',\n                950: '{indigo.950}'\n            }\n        }\n    })\n}"
                     }
                 },
                 {
@@ -38947,7 +38947,7 @@
                     "label": "Update Primary Palette",
                     "description": "Updates the primary colors, this is a shorthand to do the same update using updatePreset .",
                     "examples": {
-                        "basic": "import { updatePrimaryPalette } from '@primeuix/themes';\n\nconst changePrimaryColor() {\n    updatePrimaryPalette({\n        50: '{indigo.50}',\n        100: '{indigo.100}',\n        200: '{indigo.200}',\n        300: '{indigo.300}',\n        400: '{indigo.400}',\n        500: '{indigo.500}',\n        600: '{indigo.600}',\n        700: '{indigo.700}',\n        800: '{indigo.800}',\n        900: '{indigo.900}',\n        950: '{indigo.950}'\n    });\n}"
+                        "basic": "import { updatePrimaryPalette } from '@phasevueui/themes';\n\nconst changePrimaryColor() {\n    updatePrimaryPalette({\n        50: '{indigo.50}',\n        100: '{indigo.100}',\n        200: '{indigo.200}',\n        300: '{indigo.300}',\n        400: '{indigo.400}',\n        500: '{indigo.500}',\n        600: '{indigo.600}',\n        700: '{indigo.700}',\n        800: '{indigo.800}',\n        900: '{indigo.900}',\n        950: '{indigo.950}'\n    });\n}"
                     }
                 },
                 {
@@ -38955,7 +38955,7 @@
                     "label": "Update Surface Palette",
                     "description": "Updates the surface colors, this is a shorthand to do the same update using updatePreset .",
                     "examples": {
-                        "basic": "import { updateSurfacePalette } from '@primeuix/themes';\n\nconst changeSurfaces() {\n    //changes surfaces both in light and dark mode\n    updateSurfacePalette({\n        50: '{zinc.50}',\n        // ...\n        950: '{zinc.950}'\n    });\n}\n\nconst changeLightSurfaces() {\n    //changes surfaces only in light\n    updateSurfacePalette({\n        light: {\n            50: '{zinc.50}',\n            // ...\n            950: '{zinc.950}'\n        }\n    });\n}\n\nconst changeDarkSurfaces() {\n    //changes surfaces only in dark mode\n    updateSurfacePalette({\n        dark: {\n            50: '{zinc.50}',\n            // ...\n            950: '{zinc.950}'\n        }\n    });\n}"
+                        "basic": "import { updateSurfacePalette } from '@phasevueui/themes';\n\nconst changeSurfaces() {\n    //changes surfaces both in light and dark mode\n    updateSurfacePalette({\n        50: '{zinc.50}',\n        // ...\n        950: '{zinc.950}'\n    });\n}\n\nconst changeLightSurfaces() {\n    //changes surfaces only in light\n    updateSurfacePalette({\n        light: {\n            50: '{zinc.50}',\n            // ...\n            950: '{zinc.950}'\n        }\n    });\n}\n\nconst changeDarkSurfaces() {\n    //changes surfaces only in dark mode\n    updateSurfacePalette({\n        dark: {\n            50: '{zinc.50}',\n            // ...\n            950: '{zinc.950}'\n        }\n    });\n}"
                     }
                 },
                 {
@@ -38963,7 +38963,7 @@
                     "label": "Use Preset",
                     "description": "Replaces the current presets entirely, common use case is changing the preset dynamically at runtime.",
                     "examples": {
-                        "basic": "import { usePreset } from '@primeuix/themes';\n\nconst onButtonClick() {\n    usePreset(MyPreset);\n}"
+                        "basic": "import { usePreset } from '@phasevueui/themes';\n\nconst onButtonClick() {\n    usePreset(MyPreset);\n}"
                     }
                 }
             ]
@@ -39393,7 +39393,7 @@
                     "label": "Example",
                     "description": "A complete example using a PhaseVue DatePicker. You can also view this sample live at Stackblitz .",
                     "examples": {
-                        "basic": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <title>PhaseVue + CDN</title>\n        <meta charset=\"UTF-8\" />\n        <meta name=\"viewport\" content=\"width=device-width\" />\n    </head>\n    <body>\n        <script src=\"https://unpkg.com/vue@3/dist/vue.global.js\"><\\/script>\n        <script src=\"https://unpkg.com/phasevue/umd/phasevue.min.js\"><\\/script>\n        <script src=\"https://unpkg.com/@primeuix/themes/umd/aura.js\"><\\/script>\n\n        <div id=\"app\">\n            <p-datepicker v-model=\"date\"></p-datepicker>\n            <br /><br />\n            {{ date }}\n        </div>\n\n        <script>\n            const { createApp, ref } = Vue;\n\n            const app = createApp({\n                setup() {\n                const date = ref();\n\n                return {\n                    date\n                };\n                },\n            });\n\n            app.use(PhaseVue.Config, {\n                theme: {\n                    preset: PrimeUIX.Themes.Aura\n                }\n            });\n\n            app.component('p-datepicker', PhaseVue.DatePicker);\n\n            app.mount('#app');\n        <\\/script>\n    </body>\n</html>"
+                        "basic": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <title>PhaseVue + CDN</title>\n        <meta charset=\"UTF-8\" />\n        <meta name=\"viewport\" content=\"width=device-width\" />\n    </head>\n    <body>\n        <script src=\"https://unpkg.com/vue@3/dist/vue.global.js\"><\\/script>\n        <script src=\"https://unpkg.com/phasevue/umd/phasevue.min.js\"><\\/script>\n        <script src=\"https://unpkg.com/@phasevueui/themes/umd/aura.js\"><\\/script>\n\n        <div id=\"app\">\n            <p-datepicker v-model=\"date\"></p-datepicker>\n            <br /><br />\n            {{ date }}\n        </div>\n\n        <script>\n            const { createApp, ref } = Vue;\n\n            const app = createApp({\n                setup() {\n                const date = ref();\n\n                return {\n                    date\n                };\n                },\n            });\n\n            app.use(PhaseVue.Config, {\n                theme: {\n                    preset: PrimeUIX.Themes.Aura\n                }\n            });\n\n            app.component('p-datepicker', PhaseVue.DatePicker);\n\n            app.mount('#app');\n        <\\/script>\n    </body>\n</html>"
                     }
                 },
                 {
@@ -39409,7 +39409,7 @@
                     "label": "Script",
                     "description": "You can use PhaseVue and Vue.js from a CDN with a script tag. This approach does not involve any build step, and is suitable for enhancing static HTML. This guide uses unpkg however other providers such as jsdeliver and cdnjs can also be used.",
                     "examples": {
-                        "basic": "https://unpkg.com/vue@3/dist/vue.global.js\nhttps://unpkg.com/phasevue/umd/phasevue.min.js\nhttps://unpkg.com/@primeuix/themes/umd/aura.js  // see theming for alternatives"
+                        "basic": "https://unpkg.com/vue@3/dist/vue.global.js\nhttps://unpkg.com/phasevue/umd/phasevue.min.js\nhttps://unpkg.com/@phasevueui/themes/umd/aura.js  // see theming for alternatives"
                     }
                 },
                 {
@@ -39417,7 +39417,7 @@
                     "label": "Theming",
                     "description": "Include the theme preset via a script element after adding PhaseVue, valid options are Aura, Lara, Nora and Material.",
                     "examples": {
-                        "basic": "<!-- <script src=\"https://unpkg.com/@primeuix/themes/umd/{preset}.js\"><\\/script> -->\n\n<script src=\"https://unpkg.com/@primeuix/themes/umd/aura.js\"><\\/script>\n<script src=\"https://unpkg.com/@primeuix/themes/umd/lara.js\"><\\/script>\n<script src=\"https://unpkg.com/@primeuix/themes/umd/nora.js\"><\\/script>\n<script src=\"https://unpkg.com/@primeuix/themes/umd/material.js\"><\\/script>"
+                        "basic": "<!-- <script src=\"https://unpkg.com/@phasevueui/themes/umd/{preset}.js\"><\\/script> -->\n\n<script src=\"https://unpkg.com/@phasevueui/themes/umd/aura.js\"><\\/script>\n<script src=\"https://unpkg.com/@phasevueui/themes/umd/lara.js\"><\\/script>\n<script src=\"https://unpkg.com/@phasevueui/themes/umd/nora.js\"><\\/script>\n<script src=\"https://unpkg.com/@phasevueui/themes/umd/material.js\"><\\/script>"
                     }
                 }
             ]
@@ -39433,7 +39433,7 @@
                     "label": "Download",
                     "description": "PhaseVue is available for download on npm registry .",
                     "examples": {
-                        "basic": "# Using npm\nnpm install phasevue @primeuix/themes\n\n# Using yarn\nyarn add phasevue @primeuix/themes\n\n# Using pnpm\npnpm add phasevue @primeuix/themes"
+                        "basic": "# Using npm\nnpm install phasevue @phasevueui/themes\n\n# Using yarn\nyarn add phasevue @phasevueui/themes\n\n# Using pnpm\npnpm add phasevue @phasevueui/themes"
                     }
                 },
                 {
@@ -39461,7 +39461,7 @@
                     "label": "Plugin",
                     "description": "Configure PhaseVue to use a theme like Aura.",
                     "examples": {
-                        "basic": "import { createApp } from 'vue';\nimport PhaseVue from 'phasevue/config';\nimport Aura from '@primeuix/themes/aura';\n\nconst app = createApp(App);\napp.use(PhaseVue, {\n    theme: {\n        preset: Aura\n    }\n});"
+                        "basic": "import { createApp } from 'vue';\nimport PhaseVue from 'phasevue/config';\nimport Aura from '@phasevueui/themes/aura';\n\nconst app = createApp(App);\napp.use(PhaseVue, {\n    theme: {\n        preset: Aura\n    }\n});"
                     }
                 },
                 {
@@ -39493,7 +39493,7 @@
                     "label": "Download",
                     "description": "PhaseVue is available for download on npm registry along with the official @phasevueui/nuxt-module .",
                     "examples": {
-                        "basic": "# Using npm\nnpm install phasevue @primeuix/themes\nnpm install --save-dev @phasevueui/nuxt-module\n\n# Using yarn\nyarn add phasevue @primeuix/themes\nyarn add --dev @phasevueui/nuxt-module\n\n# Using pnpm\npnpm add phasevue @primeuix/themes\npnpm add -D @phasevueui/nuxt-module"
+                        "basic": "# Using npm\nnpm install phasevue @phasevueui/themes\nnpm install --save-dev @phasevueui/nuxt-module\n\n# Using yarn\nyarn add phasevue @phasevueui/themes\nyarn add --dev @phasevueui/nuxt-module\n\n# Using pnpm\npnpm add phasevue @phasevueui/themes\npnpm add -D @phasevueui/nuxt-module"
                     }
                 },
                 {
@@ -39517,7 +39517,7 @@
                 {
                     "id": "styledmode",
                     "label": "Styled Mode",
-                    "description": "Styled mode provides pre-skinned components, default theme is Aura with emerald as the primary color. See the styled mode documentation for details. Install the @primeuix/themes add-on package as the themes are not included in PhaseVue by default. Configure the module to use a theme like Aura.",
+                    "description": "Styled mode provides pre-skinned components, default theme is Aura with emerald as the primary color. See the styled mode documentation for details. Install the @phasevueui/themes add-on package as the themes are not included in PhaseVue by default. Configure the module to use a theme like Aura.",
                     "examples": null
                 },
                 {
@@ -39525,7 +39525,7 @@
                     "label": "Theme",
                     "description": "Configure the module to use a theme like Aura.",
                     "examples": {
-                        "basic": "import Aura from '@primeuix/themes/aura';\n\nexport default defineNuxtConfig({\n    modules: [\n        '@phasevueui/nuxt-module'\n    ],\n    phasevue: {\n        options: {\n            theme: {\n                preset: Aura\n            }\n        }\n    }\n})"
+                        "basic": "import Aura from '@phasevueui/themes/aura';\n\nexport default defineNuxtConfig({\n    modules: [\n        '@phasevueui/nuxt-module'\n    ],\n    phasevue: {\n        options: {\n            theme: {\n                preset: Aura\n            }\n        }\n    }\n})"
                     }
                 },
                 {
@@ -39583,7 +39583,7 @@
                     "label": "options",
                     "description": "Main configuration settings of PhaseVue, refer to the configuration documentation for details.",
                     "examples": {
-                        "basic": "import Aura from '@primeuix/themes/aura';\n\nexport default defineNuxtConfig({\n    modules: [\n        '@phasevueui/nuxt-module'\n    ],\n    phasevue: {\n        options: {\n            ripple: true,\n            inputVariant: 'filled',\n            theme: {\n                preset: Aura,\n                options: {\n                    prefix: 'p',\n                    darkModeSelector: 'system',\n                    cssLayer: false\n                }\n            }\n        }\n    }\n})"
+                        "basic": "import Aura from '@phasevueui/themes/aura';\n\nexport default defineNuxtConfig({\n    modules: [\n        '@phasevueui/nuxt-module'\n    ],\n    phasevue: {\n        options: {\n            ripple: true,\n            inputVariant: 'filled',\n            theme: {\n                preset: Aura,\n                options: {\n                    prefix: 'p',\n                    darkModeSelector: 'system',\n                    cssLayer: false\n                }\n            }\n        }\n    }\n})"
                     }
                 },
                 {
@@ -39607,7 +39607,7 @@
                     "label": "Download",
                     "description": "PhaseVue is available for download on npm registry .",
                     "examples": {
-                        "basic": "# Using npm\nnpm install phasevue @primeuix/themes\n\n# Using yarn\nyarn add phasevue @primeuix/themes\n\n# Using pnpm\npnpm add phasevue @primeuix/themes"
+                        "basic": "# Using npm\nnpm install phasevue @phasevueui/themes\n\n# Using yarn\nyarn add phasevue @phasevueui/themes\n\n# Using pnpm\npnpm add phasevue @phasevueui/themes"
                     }
                 },
                 {
@@ -39635,7 +39635,7 @@
                     "label": "Plugin",
                     "description": "Configure PhaseVue to use a theme like Aura.",
                     "examples": {
-                        "basic": "import { createApp } from 'vue';\nimport PhaseVue from 'phasevue/config';\nimport Aura from '@primeuix/themes/aura';\n\nconst app = createApp(App);\napp.use(PhaseVue, {\n    theme: {\n        preset: Aura\n    }\n});"
+                        "basic": "import { createApp } from 'vue';\nimport PhaseVue from 'phasevue/config';\nimport Aura from '@phasevueui/themes/aura';\n\nconst app = createApp(App);\napp.use(PhaseVue, {\n    theme: {\n        preset: Aura\n    }\n});"
                     }
                 },
                 {
