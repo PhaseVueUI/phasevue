@@ -13,7 +13,6 @@
     "bugs": {
         "url": "https://github.com/phasevueui/phasevue/issues"
     },
-    "private": true,
     "main": "./src/index.js",
     "module": "./src/index.js",
     "types": "./src/index.d.ts",
@@ -83,7 +82,7 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/styled": "catalog:",
+        "@phasevueui/styled-core": "workspace:*",
         "@primeuix/themes": "catalog:"
     },
     "engines": {

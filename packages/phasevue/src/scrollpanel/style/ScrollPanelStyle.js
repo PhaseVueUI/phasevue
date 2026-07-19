@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/scrollpanel';
+import { style } from '@phasevueui/styles-core/scrollpanel';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

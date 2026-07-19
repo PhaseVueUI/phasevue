@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/iftalabel';
+import { style } from '@phasevueui/styles-core/iftalabel';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

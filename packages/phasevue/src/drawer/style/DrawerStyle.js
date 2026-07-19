@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/drawer';
+import { style } from '@phasevueui/styles-core/drawer';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const inlineStyles = {

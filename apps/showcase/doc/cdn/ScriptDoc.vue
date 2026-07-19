@@ -17,7 +17,7 @@ export default {
                 basic: `
 https://unpkg.com/vue@3/dist/vue.global.js
 https://unpkg.com/phasevue/umd/phasevue.min.js
-https://unpkg.com/@primeuix/themes/umd/aura.js  // see theming for alternatives
+https://unpkg.com/@phasevueui/themes/umd/aura.js  // see theming for alternatives
 `
             }
         };

@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/ripple';
+import { style } from '@phasevueui/styles-core/ripple';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

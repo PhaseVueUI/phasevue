@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/organizationchart';
+import { style } from '@phasevueui/styles-core/organizationchart';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

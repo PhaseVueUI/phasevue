@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/popover';
+import { style } from '@phasevueui/styles-core/popover';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

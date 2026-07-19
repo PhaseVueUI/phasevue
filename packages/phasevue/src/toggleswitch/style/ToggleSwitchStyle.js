@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/toggleswitch';
+import { style } from '@phasevueui/styles-core/toggleswitch';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const inlineStyles = {

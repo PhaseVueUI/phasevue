@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/knob';
+import { style } from '@phasevueui/styles-core/knob';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

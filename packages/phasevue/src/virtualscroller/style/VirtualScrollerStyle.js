@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/virtualscroller';
+import { style } from '@phasevueui/styles-core/virtualscroller';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const css = `

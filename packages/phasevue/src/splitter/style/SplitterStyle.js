@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/splitter';
+import { style } from '@phasevueui/styles-core/splitter';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

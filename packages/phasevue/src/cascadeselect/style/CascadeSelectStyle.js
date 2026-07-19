@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/cascadeselect';
+import { style } from '@phasevueui/styles-core/cascadeselect';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const inlineStyles = {

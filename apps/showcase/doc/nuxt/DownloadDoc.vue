@@ -15,15 +15,15 @@ export default {
             code: {
                 basic: `
 # Using npm
-npm install phasevue @primeuix/themes
+npm install phasevue @phasevueui/themes
 npm install --save-dev @phasevueui/nuxt-module
 
 # Using yarn
-yarn add phasevue @primeuix/themes
+yarn add phasevue @phasevueui/themes
 yarn add --dev @phasevueui/nuxt-module
 
 # Using pnpm
-pnpm add phasevue @primeuix/themes
+pnpm add phasevue @phasevueui/themes
 pnpm add -D @phasevueui/nuxt-module
 `
             }

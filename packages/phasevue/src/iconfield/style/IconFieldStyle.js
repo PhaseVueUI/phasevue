@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/iconfield';
+import { style } from '@phasevueui/styles-core/iconfield';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/select';
+import { style } from '@phasevueui/styles-core/select';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

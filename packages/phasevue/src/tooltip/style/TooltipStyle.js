@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/tooltip';
+import { style } from '@phasevueui/styles-core/tooltip';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

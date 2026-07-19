@@ -352,9 +352,9 @@
         "vitest": "^0.29.8"
     },
     "dependencies": {
-        "@primeuix/styled": "catalog:",
+        "@phasevueui/styled-core": "workspace:*",
         "@phasevueui/utils": "workspace:*",
-        "@primeuix/styles": "catalog:",
+        "@phasevueui/styles-core": "workspace:*",
         "@phasevueui/core": "workspace:*",
         "@phasevueui/icons": "workspace:*"
     },

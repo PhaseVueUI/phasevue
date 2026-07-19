@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/overlaybadge';
+import { style } from '@phasevueui/styles-core/overlaybadge';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

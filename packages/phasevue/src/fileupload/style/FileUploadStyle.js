@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/fileupload';
+import { style } from '@phasevueui/styles-core/fileupload';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

@@ -21,7 +21,7 @@ export default {
     <body>
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"><\/script>
         <script src="https://unpkg.com/phasevue/umd/phasevue.min.js"><\/script>
-        <script src="https://unpkg.com/@primeuix/themes/umd/aura.js"><\/script>
+        <script src="https://unpkg.com/@phasevueui/themes/umd/aura.js"><\/script>
 
         <div id="app">
             <p-datepicker v-model="date"></p-datepicker>

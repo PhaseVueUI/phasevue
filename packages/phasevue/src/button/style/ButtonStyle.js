@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/button';
+import { style } from '@phasevueui/styles-core/button';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

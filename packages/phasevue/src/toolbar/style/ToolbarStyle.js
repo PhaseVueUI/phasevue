@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/toolbar';
+import { style } from '@phasevueui/styles-core/toolbar';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

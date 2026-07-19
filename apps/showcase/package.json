@@ -41,7 +41,7 @@
     },
     "dependencies": {
         "@docsearch/js": "catalog:app",
-        "@primeuix/themes": "catalog:",
+        "@phasevueui/themes": "workspace:*",
         "@phasevueui/core": "workspace:*",
         "@phasevueui/forms": "workspace:*",
         "@phasevueui/nuxt-module": "workspace:*",

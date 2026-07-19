@@ -11,7 +11,7 @@ export default {
         return {
             code: {
                 basic: `
-import { palette } from '@primeuix/themes';
+import { palette } from '@phasevueui/themes';
 
 // custom color
 const values1 = palette('#10b981');

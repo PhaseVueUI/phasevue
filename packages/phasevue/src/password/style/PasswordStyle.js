@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/password';
+import { style } from '@phasevueui/styles-core/password';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const inlineStyles = {

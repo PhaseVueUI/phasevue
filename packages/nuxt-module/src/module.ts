@@ -60,7 +60,6 @@ export default defineNuxtModule<ModuleOptions>({
         //nuxt.options.build.transpile.push('nuxt');
         nuxt.options.build.transpile.push('phasevue');
         hasTheme && nuxt.options.build.transpile.push('@phasevueui/themes');
-        hasTheme && nuxt.options.build.transpile.push('@primeuix/themes');
 
         let registeredStyles: MetaType[] = registered.styles;
 
@@ -91,7 +90,7 @@ import { useRuntimeConfig } from '#imports';
 ${uniqueRegisteredStyles?.map((style: MetaType) => `import ${style.as} from '${style.from}';`).join('\n')}
 ${
     hasTheme
-        ? `import { Theme } from '@primeuix/styled';
+        ? `import { Theme } from '@phasevueui/styled-core';
 ${importTheme ? `import ${importTheme.as} from '${normalize(importTheme.from)}';\n` : ''}`
         : ''
 }

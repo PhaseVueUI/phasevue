@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/dialog';
+import { style } from '@phasevueui/styles-core/dialog';
 import BaseStyle from '@phasevueui/core/base/style';
 
 /* Position */

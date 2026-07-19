@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/datepicker';
+import { style } from '@phasevueui/styles-core/datepicker';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const inlineStyles = {

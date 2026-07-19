@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/splitbutton';
+import { style } from '@phasevueui/styles-core/splitbutton';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

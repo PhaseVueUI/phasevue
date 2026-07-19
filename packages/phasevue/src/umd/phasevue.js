@@ -8,7 +8,7 @@ export { default as BaseIcon } from '@phasevueui/icons/baseicon';
 export { default as BaseIconStyle } from '@phasevueui/icons/baseicon/style';
 
 // Themes
-export * from '@primeuix/styled';
+export * from '@phasevueui/styled-core';
 
 // Utils
 export * from '../utils/Utils.js';

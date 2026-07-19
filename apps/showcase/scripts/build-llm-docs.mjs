@@ -1,4 +1,4 @@
-import ComponentTokens from '@primeuix/themes/tokens';
+import ComponentTokens from '@phasevueui/themes/tokens';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -459,7 +459,7 @@ function getStyleOptionsFromApi(apiDocs, componentName) {
 }
 
 /**
- * Get Design Tokens from @primeuix/themes
+ * Get Design Tokens from @phasevueui/themes
  */
 function getTokenOptionsFromApi(componentName) {
     const tokens = [];

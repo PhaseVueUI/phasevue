@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/inputnumber';
+import { style } from '@phasevueui/styles-core/inputnumber';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

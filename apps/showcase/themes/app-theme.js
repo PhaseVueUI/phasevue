@@ -1,8 +1,8 @@
 // @ts-ignore
-import '@primeuix/styles'; // When styles change, the app will hot reload.
+import '@phasevueui/styles-core'; // When styles change, the app will hot reload.
 
-import { definePreset } from '@primeuix/themes';
-import Aura from '@primeuix/themes/aura';
+import { definePreset } from '@phasevueui/themes';
+import Aura from '@phasevueui/themes/aura';
 
 export const NoirPreset = definePreset(Aura, {
     semantic: {

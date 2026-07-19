@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/tabview';
+import { style } from '@phasevueui/styles-core/tabview';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

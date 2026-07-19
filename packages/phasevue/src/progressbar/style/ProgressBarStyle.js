@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/progressbar';
+import { style } from '@phasevueui/styles-core/progressbar';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

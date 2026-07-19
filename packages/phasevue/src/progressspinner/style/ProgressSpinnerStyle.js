@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/progressspinner';
+import { style } from '@phasevueui/styles-core/progressspinner';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

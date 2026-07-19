@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/divider';
+import { style } from '@phasevueui/styles-core/divider';
 import BaseStyle from '@phasevueui/core/base/style';
 
 /* Position */

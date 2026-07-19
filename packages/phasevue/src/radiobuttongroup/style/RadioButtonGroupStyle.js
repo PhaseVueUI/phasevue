@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/radiobuttongroup';
+import { style } from '@phasevueui/styles-core/radiobuttongroup';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

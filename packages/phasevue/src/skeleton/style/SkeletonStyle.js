@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/skeleton';
+import { style } from '@phasevueui/styles-core/skeleton';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const inlineStyles = {

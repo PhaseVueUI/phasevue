@@ -14,7 +14,7 @@ const core_dependencies = {
     '@vitejs/plugin-vue': '^4.0.0',
     vite: '^4.0.0',
     phasevue: pkg.version || PhaseVue.version || 'latest',
-    '@primeuix/themes': 'latest',
+    '@phasevueui/themes': 'latest',
     '@phasevueui/auto-import-resolver': pkg.version || PhaseVue.version || 'latest',
     '@phasevueui/forms': pkg.version || PhaseVue.version || 'latest',
     '@phasevueui/icons': app_dependencies['@phasevueui/icons'] || 'latest',
@@ -237,10 +237,10 @@ app.mount("#app");
 </template>
 
 <script>
-import { $t, updatePreset, updateSurfacePalette } from '@primeuix/themes';
-import Aura from '@primeuix/themes/aura';
-import Lara from '@primeuix/themes/lara';
-import Nora from '@primeuix/themes/nora';
+import { $t, updatePreset, updateSurfacePalette } from '@phasevueui/themes';
+import Aura from '@phasevueui/themes/aura';
+import Lara from '@phasevueui/themes/lara';
+import Nora from '@phasevueui/themes/nora';
 
 const presets = {
     Aura,
@@ -843,8 +843,8 @@ export default {
         `
         },
         [`${path}presets/Noir.js`]: {
-            content: `import { definePreset } from '@primeuix/themes';
-import Aura from '@primeuix/themes/aura';
+            content: `import { definePreset } from '@phasevueui/themes';
+import Aura from '@phasevueui/themes/aura';
 
 const Noir = definePreset(Aura, {
     semantic: {

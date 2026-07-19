@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/treeselect';
+import { style } from '@phasevueui/styles-core/treeselect';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const inlineStyles = {

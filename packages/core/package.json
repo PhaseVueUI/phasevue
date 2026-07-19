@@ -60,7 +60,7 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/styled": "catalog:",
+        "@phasevueui/styled-core": "workspace:*",
         "@phasevueui/utils": "workspace:*"
     },
     "peerDependencies": {

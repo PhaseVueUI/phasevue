@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/menubar';
+import { style } from '@phasevueui/styles-core/menubar';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const inlineStyles = {

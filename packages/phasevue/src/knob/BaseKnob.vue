@@ -1,5 +1,5 @@
 <script>
-import { $dt } from '@primeuix/styled';
+import { $dt } from '@phasevueui/styled-core';
 import BaseEditableHolder from '@phasevueui/core/baseeditableholder';
 import KnobStyle from 'phasevue/knob/style';
 

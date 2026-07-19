@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/timeline';
+import { style } from '@phasevueui/styles-core/timeline';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

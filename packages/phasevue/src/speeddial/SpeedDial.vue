@@ -67,7 +67,7 @@
 </template>
 
 <script>
-import { $dt } from '@primeuix/styled';
+import { $dt } from '@phasevueui/styled-core';
 import { find, findSingle, focus } from '@phasevueui/utils/dom';
 import PlusIcon from '@phasevueui/icons/plus';
 import Button from 'phasevue/button';

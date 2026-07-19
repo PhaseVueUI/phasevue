@@ -1,4 +1,4 @@
-import { Theme, ThemeService } from '@primeuix/styled';
+import { Theme, ThemeService } from '@phasevueui/styled-core';
 import { getKeyValue, isArray, isEmpty, isFunction, isObject, isString, resolve, toCapitalCase, toFlatCase } from '@phasevueui/utils/object';
 import { uuid } from '@phasevueui/utils/uuid';
 import Base from '@phasevueui/core/base';

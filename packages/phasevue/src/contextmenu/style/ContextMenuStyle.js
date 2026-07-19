@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/contextmenu';
+import { style } from '@phasevueui/styles-core/contextmenu';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/autocomplete';
+import { style } from '@phasevueui/styles-core/autocomplete';
 import { isNotEmpty } from '@phasevueui/utils/object';
 import BaseStyle from '@phasevueui/core/base/style';
 

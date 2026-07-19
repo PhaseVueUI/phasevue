@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/listbox';
+import { style } from '@phasevueui/styles-core/listbox';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

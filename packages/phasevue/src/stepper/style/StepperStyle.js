@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/stepper';
+import { style } from '@phasevueui/styles-core/stepper';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

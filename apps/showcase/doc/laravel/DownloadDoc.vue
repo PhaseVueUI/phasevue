@@ -12,13 +12,13 @@ export default {
             code: {
                 basic: `
 # Using npm
-npm install phasevue @primeuix/themes
+npm install phasevue @phasevueui/themes
 
 # Using yarn
-yarn add phasevue @primeuix/themes
+yarn add phasevue @phasevueui/themes
 
 # Using pnpm
-pnpm add phasevue @primeuix/themes
+pnpm add phasevue @phasevueui/themes
 `
             }
         };

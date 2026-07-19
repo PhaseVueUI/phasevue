@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/floatlabel';
+import { style } from '@phasevueui/styles-core/floatlabel';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import { $dt } from '@primeuix/styled';
+import { $dt } from '@phasevueui/styled-core';
 import { absolutePosition, addClass, addStyle, focus, getOffset, isClient, isTouchDevice, setAttribute } from '@phasevueui/utils/dom';
 import { ZIndex } from '@phasevueui/utils/zindex';
 import { ConnectedOverlayScrollHandler } from '@phasevueui/core/utils';

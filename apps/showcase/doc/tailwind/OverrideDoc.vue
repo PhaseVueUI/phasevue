@@ -44,7 +44,7 @@ export default {
             code3: {
                 basic: `
 import PhaseVue from 'phasevue/config';
-import Aura from '@primeuix/themes/aura';
+import Aura from '@phasevueui/themes/aura';
 
 const app = createApp(App);
 
@@ -70,7 +70,7 @@ app.use(PhaseVue, {
             code5: {
                 basic: `
 import PhaseVue from 'phasevue/config';
-import Aura from '@primeuix/themes/aura';
+import Aura from '@phasevueui/themes/aura';
 
 const app = createApp(App);
 

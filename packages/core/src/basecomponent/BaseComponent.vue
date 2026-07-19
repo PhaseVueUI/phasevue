@@ -1,5 +1,5 @@
 <script>
-import { Theme, ThemeService } from '@primeuix/styled';
+import { Theme, ThemeService } from '@phasevueui/styled-core';
 import { findSingle, isElement } from '@phasevueui/utils/dom';
 import { getKeyValue, isArray, isFunction, isNotEmpty, isString, resolve, toFlatCase } from '@phasevueui/utils/object';
 import Base from '@phasevueui/core/base';

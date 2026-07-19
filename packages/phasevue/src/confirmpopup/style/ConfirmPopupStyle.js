@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/confirmpopup';
+import { style } from '@phasevueui/styles-core/confirmpopup';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

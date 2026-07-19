@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import { $dt } from '@primeuix/styled';
+import { $dt } from '@phasevueui/styled-core';
 import { setCSSProperty } from '@phasevueui/utils/dom';
 import BaseImageCompare from './BaseImageCompare.vue';
 

@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/checkbox';
+import { style } from '@phasevueui/styles-core/checkbox';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

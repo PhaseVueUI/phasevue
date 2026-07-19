@@ -1,4 +1,4 @@
-import { Theme, ThemeService } from '@primeuix/styled';
+import { Theme, ThemeService } from '@phasevueui/styled-core';
 import { mergeKeys } from '@phasevueui/utils';
 import { FilterMatchMode } from '@phasevueui/core/api';
 import BaseStyle from '@phasevueui/core/base/style';

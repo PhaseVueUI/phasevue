@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/tieredmenu';
+import { style } from '@phasevueui/styles-core/tieredmenu';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const inlineStyles = {

@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/megamenu';
+import { style } from '@phasevueui/styles-core/megamenu';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const inlineStyles = {

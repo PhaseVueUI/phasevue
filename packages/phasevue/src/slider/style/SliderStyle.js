@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/slider';
+import { style } from '@phasevueui/styles-core/slider';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const inlineStyles = {

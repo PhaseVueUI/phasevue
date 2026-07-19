@@ -1,5 +1,5 @@
-import { css as Css, Theme, dt } from '@primeuix/styled';
-import { style } from '@primeuix/styles/base';
+import { css as Css, Theme, dt } from '@phasevueui/styled-core';
+import { style } from '@phasevueui/styles-core/base';
 import { isNotEmpty, minifyCSS, resolve } from '@phasevueui/utils/object';
 import { useStyle } from '@phasevueui/core/usestyle';
 

@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/toast';
+import { style } from '@phasevueui/styles-core/toast';
 import BaseStyle from '@phasevueui/core/base/style';
 
 // Position

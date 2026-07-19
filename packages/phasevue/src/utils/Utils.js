@@ -1,4 +1,4 @@
-import { $dt } from '@primeuix/styled';
+import { $dt } from '@phasevueui/styled-core';
 import * as utils from '@phasevueui/utils';
 
 export function blockBodyScroll() {

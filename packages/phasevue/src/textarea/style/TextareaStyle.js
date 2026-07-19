@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/textarea';
+import { style } from '@phasevueui/styles-core/textarea';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

@@ -27,8 +27,8 @@ export default {
             code1: {
                 basic: `
 import PhaseVue from 'phasevue/config';
-import { definePreset } from '@primeuix/themes';
-import Aura from '@primeuix/themes/aura';
+import { definePreset } from '@phasevueui/themes';
+import Aura from '@phasevueui/themes/aura';
 
 const MyPreset = definePreset(Aura, {
     semantic: {

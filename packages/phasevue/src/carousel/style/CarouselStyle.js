@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/carousel';
+import { style } from '@phasevueui/styles-core/carousel';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/accordion';
+import { style } from '@phasevueui/styles-core/accordion';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const classes = {

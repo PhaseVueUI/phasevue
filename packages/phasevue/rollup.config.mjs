@@ -19,11 +19,19 @@ const GLOBALS = {
 
 // externals
 const GLOBAL_EXTERNALS = ['vue', 'chart.js/auto', 'quill'];
-const INLINE_EXTERNALS = [/@phasevueui\/core\/.*/, /@phasevueui\/icons\/.*/, '@primeuix/styled', /@primeuix\/utils\/.*/];
+const INLINE_EXTERNALS = [/@phasevueui\/core\/.*/, /@phasevueui\/icons\/.*/, '@phasevueui/styled-core', /@primeuix\/utils\/.*/];
 const EXTERNALS = [...GLOBAL_EXTERNALS, ...INLINE_EXTERNALS];
 
 // alias
 const ALIAS_ENTRIES = [
+    {
+        find: /^@phasevueui\/utils\/(.*)$/,
+        replacement: path.resolve(__dirname, '../utils/dist/$1/index.mjs')
+    },
+    {
+        find: '@phasevueui/utils',
+        replacement: path.resolve(__dirname, '../utils/dist/index.mjs')
+    },
     {
         find: /^phasevue\/(.*)$/,
         replacement: path.resolve(__dirname, './src/$1'),

@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/multiselect';
+import { style } from '@phasevueui/styles-core/multiselect';
 import BaseStyle from '@phasevueui/core/base/style';
 
 const inlineStyles = {

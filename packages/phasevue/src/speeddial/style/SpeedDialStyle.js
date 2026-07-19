@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/speeddial';
+import { style } from '@phasevueui/styles-core/speeddial';
 import BaseStyle from '@phasevueui/core/base/style';
 
 /* Direction */

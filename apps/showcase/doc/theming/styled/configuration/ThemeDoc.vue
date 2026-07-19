@@ -12,7 +12,7 @@ export default {
             code: {
                 basic: `
 import PhaseVue from 'phasevue/config';
-import Aura from '@primeuix/themes/aura';
+import Aura from '@phasevueui/themes/aura';
 
 const app = createApp(App);
 

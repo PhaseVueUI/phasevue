@@ -1,4 +1,4 @@
-import { style } from '@primeuix/styles/badge';
+import { style } from '@phasevueui/styles-core/badge';
 import { isEmpty, isNotEmpty } from '@phasevueui/utils/object';
 import BaseStyle from '@phasevueui/core/base/style';
 

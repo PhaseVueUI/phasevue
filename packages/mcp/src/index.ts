@@ -1,4 +1,4 @@
-import { ComponentsData, runPrimeMcpServer } from '@primeuix/mcp';
+import { ComponentsData, runPrimeMcpServer } from '@phasevueui/mcp-core';
 import ComponentJson from '../data/components.json';
 import pkg from '../package.json';
 
