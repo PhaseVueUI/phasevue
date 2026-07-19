@@ -19,7 +19,7 @@ const GLOBALS = {
 
 // externals
 const GLOBAL_EXTERNALS = ['vue'];
-const INLINE_EXTERNALS = [/@phasevueui\/core\/.*/, /@primeuix\/.*/];
+const INLINE_EXTERNALS = [/@phasevueui\/(core|forms-core)\/.*/, /@primeuix\/.*/];
 const EXTERNALS = [...GLOBAL_EXTERNALS, ...INLINE_EXTERNALS];
 
 // alias

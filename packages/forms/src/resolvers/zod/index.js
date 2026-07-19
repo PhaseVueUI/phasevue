@@ -1,1 +1,1 @@
-export * from '@primeuix/forms/resolvers/zod';
+export * from '@phasevueui/forms-core/resolvers/zod';

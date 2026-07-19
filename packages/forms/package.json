@@ -53,7 +53,7 @@
     },
     "dependencies": {
         "@phasevueui/utils": "workspace:*",
-        "@primeuix/forms": "catalog:",
+        "@phasevueui/forms-core": "workspace:*",
         "@phasevueui/core": "workspace:*"
     },
     "engines": {

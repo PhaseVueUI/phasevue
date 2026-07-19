@@ -1,1 +1,1 @@
-export * from '@primeuix/forms/resolvers/yup';
+export * from '@phasevueui/forms-core/resolvers/yup';

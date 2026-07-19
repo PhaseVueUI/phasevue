@@ -1,1 +1,1 @@
-export * from '@primeuix/forms/resolvers/joi';
+export * from '@phasevueui/forms-core/resolvers/joi';

@@ -1,1 +1,1 @@
-export * from '@primeuix/forms/resolvers/valibot';
+export * from '@phasevueui/forms-core/resolvers/valibot';

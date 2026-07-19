@@ -1,1 +1,1 @@
-export * from '@primeuix/forms/resolvers/superstruct';
+export * from '@phasevueui/forms-core/resolvers/superstruct';
