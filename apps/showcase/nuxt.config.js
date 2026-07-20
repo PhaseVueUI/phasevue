@@ -7,7 +7,8 @@ const baseUrl = '/';
 const alias = {
     phasevue: path.resolve(__dirname, '../../packages/phasevue/src'),
     '@phasevueui/core': path.resolve(__dirname, '../../packages/core/src'),
-    '@phasevueui/icons': path.resolve(__dirname, '../../packages/icons/src')
+    '@phasevueui/icons': path.resolve(__dirname, '../../packages/icons/src'),
+    '@phasevueui/utils': path.resolve(__dirname, '../../packages/utils/dist')
 };
 
 let PROCESS_ENV = {};

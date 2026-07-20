@@ -26,8 +26,8 @@
     ],
     "type": "module",
     "sideEffects": false,
-    "main": "./src/module.ts",
-    "types": "./src/types.d.ts",
+    "main": "./dist/module.mjs",
+    "types": "./dist/types.d.ts",
     "files": [
         "dist"
     ],

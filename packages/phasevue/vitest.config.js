@@ -6,6 +6,11 @@ import { defineConfig } from 'vitest/config';
 export default mergeConfig(
     defineConfig({
         plugins: [vue()],
+        resolve: {
+            alias: {
+                '@phasevueui/utils': path.resolve(__dirname, '../utils/src')
+            }
+        },
         test: {
             globals: true,
             environment: 'jsdom',

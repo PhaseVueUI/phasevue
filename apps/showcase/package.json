@@ -30,6 +30,7 @@
         "passthrough"
     ],
     "scripts": {
+        "predev": "pnpm --filter metadata build && pnpm --filter auto-import-resolver build && pnpm --filter utils build && pnpm --filter nuxt-module build",
         "build": "pnpm run build:prebuild && pnpm run build:llmdocs && nuxt build",
         "dev": "nuxt dev",
         "generate": "nuxt generate",

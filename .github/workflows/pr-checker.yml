@@ -35,7 +35,7 @@ jobs:
 
             - name: Install packages
               run: |
-                  pnpm run setup
+                  pnpm install --frozen-lockfile
 
             - name: Code Format
               id: codeFormat
