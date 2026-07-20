@@ -2,9 +2,6 @@ packages:
     - 'packages/*'
     - 'apps/*'
 
-catalog:
-    'tailwindcss-primeui': ^0.6.1
-
 catalogs:
     app:
         'nuxt': 3.15.4

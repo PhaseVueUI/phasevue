@@ -19,9 +19,8 @@ const core_dependencies = {
     '@phasevueui/forms': pkg.version || PhaseVue.version || 'latest',
     '@phasevueui/icons': app_dependencies['@phasevueui/icons'] || 'latest',
     tailwindcss: app_dependencies['tailwindcss'] || 'latest',
-    autoprefixer: app_dependencies['autoprefixer'] || 'latest',
-    postcss: app_dependencies['postcss'] || 'latest',
-    'tailwindcss-primeui': 'latest',
+    '@tailwindcss/vite': app_dependencies['@tailwindcss/vite'] || 'latest',
+    'tailwind-phasevue': 'latest',
     'unplugin-vue-components': 'latest'
 };
 
@@ -72,6 +71,7 @@ const getVueApp = (props = {}, sourceType) => {
             content: `import { fileURLToPath, URL } from 'node:url';
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
+import tailwindcss from '@tailwindcss/vite';
 import Components from 'unplugin-vue-components/vite';
 import {PhaseVueResolver} from '@phasevueui/auto-import-resolver';
 
@@ -79,6 +79,7 @@ import {PhaseVueResolver} from '@phasevueui/auto-import-resolver';
 export default defineConfig({
     plugins: [
         vue(),
+        tailwindcss(),
         Components({
             resolvers: [
                 PhaseVueResolver()
@@ -109,25 +110,6 @@ export default defineConfig({
         <script type="module" src="/src/main.js"></script>
     </body>
 </html>`
-        },
-        'postcss.config.js': {
-            content: `module.exports = {
-    plugins: {
-        tailwindcss: {},
-        autoprefixer: {}
-    }
-};`
-        },
-        'tailwind.config.js': {
-            content: `/** @type {import('tailwindcss').Config} */
-import PrimeUI from 'tailwindcss-primeui';
-
-export default {
-    content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
-    darkMode: ['selector', '[class="p-dark"]'],
-    plugins: [PrimeUI]
-};
-`
         },
         [`${path}main.js`]: {
             content: `import "@phasevueui/icons/phasevueicons.css";
@@ -949,9 +931,9 @@ export default Noir;
 };
 
 const staticStyles = {
-    global: `@tailwind base;
-@tailwind components;
-@tailwind utilities;
+    global: `@import "tailwindcss";
+@import "tailwind-phasevue";
+@custom-variant dark (&:where(.p-dark, .p-dark *));
 
 :root {
     --body-bg: var(--p-surface-50);

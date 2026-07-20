@@ -64,7 +64,7 @@ app.use(PhaseVue, {
             code4: {
                 basic: `
 @import "tailwindcss";
-@import "tailwindcss-primeui";
+@import "tailwind-phasevue";
 `
             },
             code5: {

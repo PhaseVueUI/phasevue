@@ -1,0 +1,57 @@
+{
+    "name": "tailwind-phasevue",
+    "version": "0.0.1-alpha.1",
+    "author": "PhaseVue UI",
+    "description": "Tailwind CSS utilities for PhaseVue",
+    "license": "MIT",
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/PhaseVueUI/phasevue.git",
+        "directory": "packages/tailwind-phasevue"
+    },
+    "bugs": {
+        "url": "https://github.com/PhaseVueUI/phasevue/issues"
+    },
+    "keywords": [
+        "tailwindcss",
+        "tailwind",
+        "plugin"
+    ],
+    "style": "./src/index.css",
+    "exports": {
+        ".": {
+            "style": "./src/index.css",
+            "default": "./src/index.css"
+        }
+    },
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE.md"
+    ],
+    "scripts": {
+        "build": "NODE_ENV=production INPUT_DIR=src/ OUTPUT_DIR=dist/ pnpm run build:package",
+        "build:package": "pnpm run build:prebuild && pnpm run build:postbuild",
+        "build:prebuild": "node ./scripts/prebuild.mjs",
+        "build:postbuild": "node ./scripts/postbuild.mjs"
+    },
+    "publishConfig": {
+        "exports": {
+            ".": {
+                "style": "./index.css",
+                "default": "./index.css"
+            }
+        },
+        "directory": "dist",
+        "linkDirectory": false,
+        "access": "public"
+    },
+    "peerDependencies": {
+        "tailwindcss": ">=4.0.0"
+    },
+    "homepage": "https://phasevue.org/",
+    "engines": {
+        "node": ">=12.11.0"
+    }
+}

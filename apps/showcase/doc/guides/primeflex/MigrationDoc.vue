@@ -2,7 +2,7 @@
     <DocSectionText v-bind="$attrs">
         <p>
             The <a href="https://www.npmjs.com/package/primeclt" target="_blank" rel="noopener noreferrer">primeclt</a> is a command line utility by PrimeTek to assist project setup and migration. The <i>pf2tw</i> command is created for smooth
-            migration between PrimeFlex to Tailwind CSS. As a prequisite, the <i>tailwindcss-primeui</i> is required to provide the matching classes that do not exist in core Tailwind CSS such as semantic colors and animations. For flawless
+            migration between PrimeFlex to Tailwind CSS. As a prequisite, the <i>tailwind-phasevue</i> is required to provide the matching classes that do not exist in core Tailwind CSS such as semantic colors and animations. For flawless
             migration, it is highly suggested to use PhaseVue v4 as the requirement of the tailwindcss plugin.
         </p>
         <p>Install PrimeCLT.</p>

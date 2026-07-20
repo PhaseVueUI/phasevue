@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import tailwindcss from '@tailwindcss/vite';
 
 const baseUrl = '/';
 
@@ -75,7 +76,8 @@ export default defineNuxtConfig({
         resolve: {
             dedupe: ['vue', '@phasevueui/styles-core', '@phasevueui/themes', '@phasevueui/utils'],
             alias
-        }
+        },
+        plugins: [tailwindcss()]
     },
     nitro: {
         alias
@@ -120,12 +122,6 @@ export default defineNuxtConfig({
                     'data-manual': true
                 }
             ]
-        }
-    },
-    postcss: {
-        plugins: {
-            tailwindcss: {},
-            autoprefixer: {}
         }
     },
     runtimeConfig: {

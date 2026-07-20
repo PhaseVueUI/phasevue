@@ -16,7 +16,7 @@ Screen Reader AnimateOnScroll does not require any roles and attributes. Keyboar
 
 ## Basic
 
-Animation classes are defined with the enterClass and leaveClass properties. This example utilizes tailwindcss-primeui plugin animations however any valid CSS animation is supported.
+Animation classes are defined with the enterClass and leaveClass properties. This example utilizes tailwind-phasevue plugin animations however any valid CSS animation is supported.
 
 ```vue
 <div class="flex flex-wrap justify-center gap-8">

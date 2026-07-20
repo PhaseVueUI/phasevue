@@ -56,14 +56,13 @@
     },
     "devDependencies": {
         "@stackblitz/sdk": "^1.8.2",
-        "autoprefixer": "^10",
         "jsdom": "^19.0.0",
         "nuxt": "catalog:app",
-        "postcss": "^8.4.31",
         "sass": "catalog:app",
         "sass-loader": "catalog:app",
-        "tailwindcss": "^3",
-        "tailwindcss-primeui": "catalog:",
+        "tailwindcss": "^4",
+        "tailwind-phasevue": "workspace:*",
+        "@tailwindcss/vite": "^4",
         "typedoc": "0.23.23",
         "vite": "catalog:app"
     },
