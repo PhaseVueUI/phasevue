@@ -1,8 +1,7 @@
 <template>
     <div class="layout-footer">
         <div>
-            <span>PhaseVue {{ version }} on Vue 3 by </span>
-            <a href="https://www.primetek.com.tr" target="_blank" rel="noopener noreferrer">PrimeTek</a>
+            <span>PhaseVue {{ version }} on Vue 3</span>
         </div>
     </div>
 </template>
